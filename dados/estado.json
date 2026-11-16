@@ -1,5 +1,5 @@
 {
- "cursor": 148,
+ "cursor": 178,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -36,6 +36,30 @@
   ],
   "CNF-MSY": [
    6076,
+   "2026-11-16"
+  ],
+  "CNF-GRU": [
+   359,
+   "2026-11-16"
+  ],
+  "CNF-USH": [
+   2917,
+   "2026-11-16"
+  ],
+  "CNF-FTE": [
+   2994,
+   "2026-11-16"
+  ],
+  "CNF-JFK": [
+   3783,
+   "2026-11-16"
+  ],
+  "CNF-JNB": [
+   4308,
+   "2026-11-16"
+  ],
+  "CNF-ORD": [
+   4361,
    "2026-11-16"
   ]
  },
@@ -134,9 +158,41 @@
   "https://www.fly4free.com/flight-deals/europe/%e2%9a%a1%e2%9a%a1-wizz-air-plans-loyalty-programme-with-points-and-miles/",
   "https://www.fly4free.com/flight-deals/europe/open-jaw-flights-from-prague-to-vietnam-462/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-south-korea-e475/",
-  "https://www.fly4free.com/flight-deals/europe/holiday-in-phuket-from-vienna-e673/"
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-phuket-from-vienna-e673/",
+  "https://passageirodeprimeira.com/acumular-pontos-esfera-restaurantes/",
+  "https://passageirodeprimeira.com/conheca-os-indicados-ao-premio-de-melhor-influenciador-revelacao-de-milhas-e-pontos-do-brasil-2/",
+  "https://passageirodeprimeira.com/transfira-pontos-livelo-dinheiro-para-a-azul-milheiro-a-partir-de-r-1271/",
+  "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-do-c6-bank-4/",
+  "https://passageirodeprimeira.com/receba-ate-102-000-pontos-ao-assinar-o-clube-livelo-essencial-ou-especial-milheiro-a-partir-de-r-2223/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
+  "https://passageirodeprimeira.com/latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
+  "https://passageirodeprimeira.com/dolarize-seu-patrimonio-como-dar-o-primeiro-passo-nos-investimentos-internacionais-com-o-arq/",
+  "https://passageirodeprimeira.com/wyndham-rewards-oferece-ate-100-bonus-compra-pontos/",
+  "https://passageirodeprimeira.com/lufthansa-tera-primeira-classe-em-voos-entre-sao-paulo-e-munique-em-datas-selecionadas/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-madrid-to-bolivia-e502/",
+  "https://www.fly4free.com/flight-deals/europe/9-day-cruise-from-portugal-to-germany-e399/",
+  "https://www.fly4free.com/flight-deals/europe/qatar-airways-flights-from-warsaw-to-the-philippines-e590/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-prague-e44-with-sauna/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos do C6 Bank",
+   "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-do-c6-bank-4/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
+   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Wyndham Rewards oferece até 100% de bônus na compra de pontos",
+   "link": "https://passageirodeprimeira.com/wyndham-rewards-oferece-ate-100-bonus-compra-pontos/",
+   "visto_em": "2026-11-16"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Boa notícia! Voos da Azul para Corumbá, acesso ao Pantanal, passam a ser regulares",
@@ -199,8 +255,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-GRU-1": [
-   412,
-   "2026-11-16 00:12"
+   359,
+   "2026-11-16 13:15"
   ],
   "CNF-LIS-1": [
    5019,
@@ -255,8 +311,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-ORD-1": [
-   5953,
-   "2026-11-16 00:12"
+   4361,
+   "2026-11-16 13:15"
   ],
   "CNF-IAD-1": [
    4558,
@@ -367,8 +423,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-BOM-1": [
-   19073,
-   "2026-11-16 00:12"
+   9850,
+   "2026-11-16 13:15"
   ],
   "CNF-AEP-1": [
    2669,
@@ -515,8 +571,8 @@
    "2026-11-16 07:02"
   ],
   "CNF-SAN-2": [
-   6495,
-   "2026-11-16 07:02"
+   5342,
+   "2026-11-16 13:15"
   ],
   "CNF-SEA-2": [
    6810,
@@ -593,8 +649,192 @@
   "CNF-ZQN-2": [
    21847,
    "2026-11-16 07:02"
+  ],
+  "CNF-YTZ-1": [
+   5701,
+   "2026-11-16 13:15"
+  ],
+  "CNF-CPH-1": [
+   5849,
+   "2026-11-16 13:15"
+  ],
+  "CNF-JNB-1": [
+   6021,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LIH-1": [
+   21650,
+   "2026-11-16 13:15"
+  ],
+  "CNF-ANC-1": [
+   9923,
+   "2026-11-16 13:15"
+  ],
+  "CNF-BOB-1": [
+   33708,
+   "2026-11-16 13:15"
+  ],
+  "CNF-CGK-1": [
+   12972,
+   "2026-11-16 13:15"
+  ],
+  "CNF-PPT-1": [
+   25085,
+   "2026-11-16 13:15"
+  ],
+  "CNF-FAI-1": [
+   13110,
+   "2026-11-16 13:15"
+  ],
+  "CNF-DUD-1": [
+   21211,
+   "2026-11-16 13:15"
+  ],
+  "CNF-SSA-1": [
+   1101,
+   "2026-11-16 13:15"
+  ],
+  "CNF-USH-1": [
+   4179,
+   "2026-11-16 13:15"
+  ],
+  "CNF-FTE-1": [
+   7850,
+   "2026-11-16 13:15"
+  ],
+  "CNF-SEZ-1": [
+   9810,
+   "2026-11-16 13:15"
+  ],
+  "CNF-NQZ-1": [
+   10779,
+   "2026-11-16 13:15"
+  ],
+  "CNF-KZN-1": [
+   28265,
+   "2026-11-16 13:15"
+  ],
+  "CNF-GPS-1": [
+   14964,
+   "2026-11-16 13:15"
+  ],
+  "CNF-WKJ-1": [
+   11543,
+   "2026-11-16 13:15"
+  ],
+  "CNF-HND-2": [
+   9180,
+   "2026-11-16 13:15"
+  ],
+  "CNF-HNL-2": [
+   6851,
+   "2026-11-16 13:15"
+  ],
+  "CNF-JNB-2": [
+   4308,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LIH-2": [
+   21780,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LIM-2": [
+   3294,
+   "2026-11-16 13:15"
+  ],
+  "CNF-ANC-2": [
+   9058,
+   "2026-11-16 13:15"
+  ],
+  "CNF-BOB-2": [
+   36438,
+   "2026-11-16 13:15"
+  ],
+  "CNF-CGK-2": [
+   11344,
+   "2026-11-16 13:15"
+  ],
+  "CNF-FAI-2": [
+   12511,
+   "2026-11-16 13:15"
+  ],
+  "CNF-SSA-2": [
+   1101,
+   "2026-11-16 13:15"
+  ],
+  "CNF-USH-2": [
+   2917,
+   "2026-11-16 13:15"
+  ],
+  "CNF-FTE-2": [
+   2994,
+   "2026-11-16 13:15"
+  ],
+  "CNF-SEZ-2": [
+   16960,
+   "2026-11-16 13:15"
+  ],
+  "CNF-UBN-2": [
+   64792,
+   "2026-11-16 13:15"
+  ],
+  "CNF-HRB-2": [
+   40937,
+   "2026-11-16 13:15"
+  ],
+  "CNF-NQZ-2": [
+   16028,
+   "2026-11-16 13:15"
+  ],
+  "CNF-KZN-2": [
+   32334,
+   "2026-11-16 13:15"
+  ],
+  "CNF-GPS-2": [
+   7539,
+   "2026-11-16 13:15"
+  ],
+  "CNF-WKJ-2": [
+   41082,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LIS-3": [
+   4230,
+   "2026-11-16 13:15"
+  ],
+  "CNF-BOS-3": [
+   4977,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LAX-3": [
+   4272,
+   "2026-11-16 13:15"
+  ],
+  "CNF-CDG-3": [
+   5420,
+   "2026-11-16 13:15"
+  ],
+  "CNF-LHR-3": [
+   5611,
+   "2026-11-16 13:15"
+  ],
+  "CNF-JFK-3": [
+   3783,
+   "2026-11-16 13:15"
+  ],
+  "CNF-SIN-3": [
+   14548,
+   "2026-11-16 13:15"
+  ],
+  "CNF-FCO-3": [
+   4981,
+   "2026-11-16 13:15"
+  ],
+  "CNF-BCN-3": [
+   5417,
+   "2026-11-16 13:15"
   ]
  },
  "promos_fila": [],
- "rodadas": 3
+ "rodadas": 4
 }
