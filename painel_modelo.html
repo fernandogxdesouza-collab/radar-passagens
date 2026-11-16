@@ -24,25 +24,33 @@
   .sub { color: var(--suave); font-size: 0.9rem; margin: 4px 0 18px; }
   .filtros { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;
     background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; padding: 14px; }
+  .filtros + .filtros { margin-top: 10px; }
+  .filtros h2 { grid-column: 1 / -1; margin: 0; font-size: 0.8rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--suave); font-weight: 600; }
   label { display: grid; gap: 4px; font-size: 0.78rem; color: var(--suave); }
   select, input { font: inherit; color: var(--tinta); background: var(--fundo);
     border: 1px solid var(--linha); border-radius: 8px; padding: 7px 8px; width: 100%; min-width: 0; }
   .marcar { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--tinta); align-self: end; padding-bottom: 8px; }
   .marcar input { width: auto; }
   #contagem { color: var(--suave); font-size: 0.9rem; margin: 16px 0 10px; }
-  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 12px; align-items: start; }
   .oferta { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; padding: 14px;
-    display: grid; gap: 6px; text-decoration: none; color: inherit; }
-  .oferta:hover, .oferta:focus-visible { border-color: var(--destaque); outline: none; }
+    display: grid; gap: 6px; }
   .topo { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
   .rota { font-weight: 600; }
-  .regiao { font-size: 0.78rem; color: var(--suave); }
+  .regiao { font-size: 0.78rem; color: var(--suave); text-align: right; }
   .preco { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
   .selo { font-size: 0.8rem; font-weight: 600; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
   .selo.bom { background: var(--bom-fundo); color: var(--destaque); }
   .selo.quente { background: var(--quente-fundo); color: var(--quente); }
   .selo.neutro { color: var(--suave); border: 1px solid var(--linha); font-weight: 400; }
   .detalhe { font-size: 0.86rem; color: var(--suave); }
+  .abrir { justify-self: start; margin-top: 4px; font-size: 0.9rem; font-weight: 600; color: var(--destaque);
+    text-decoration: none; border: 1px solid var(--destaque); border-radius: 8px; padding: 5px 12px; }
+  .abrir:hover, .abrir:focus-visible { background: var(--bom-fundo); outline: none; }
+  details { margin-top: 4px; border-top: 1px solid var(--linha); padding-top: 8px; }
+  summary { cursor: pointer; font-size: 0.88rem; font-weight: 600; color: var(--destaque); }
+  details ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; font-size: 0.86rem; }
   .promos { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
   .promos a { color: var(--destaque); }
   .promos span { color: var(--suave); font-size: 0.82rem; }
@@ -54,7 +62,25 @@
   <h1>Radar de Passagens</h1>
   <p class="sub" id="atualizado"></p>
 
+  <section class="filtros" aria-label="Viagem">
+    <h2>Viagem</h2>
+    <label>Tipo <select id="f-tipo">
+      <option value="iv">Ida e volta</option>
+      <option value="ida">Só ida</option>
+    </select></label>
+    <label>Classe <select id="f-classe">
+      <option value="economica">Econômica</option>
+      <option value="premium">Econômica premium</option>
+      <option value="executiva">Executiva</option>
+      <option value="primeira">Primeira</option>
+    </select></label>
+    <label>Adultos <input type="number" id="f-adultos" min="1" max="9" value="1"></label>
+    <label>Crianças de 2 a 11 anos <input type="number" id="f-criancas" min="0" max="8" value="0"></label>
+    <label>Crianças de colo <input type="number" id="f-colo" min="0" max="4" value="0"></label>
+  </section>
+
   <section class="filtros" aria-label="Filtros">
+    <h2>Filtros</h2>
     <label>Região <select id="f-regiao"><option value="">Todas</option></select></label>
     <label>Saindo de <select id="f-origem"><option value="">Qualquer</option></select></label>
     <label>Duração <select id="f-dias">
@@ -84,76 +110,114 @@
 <script>
 const D = /*DADOS*/null;
 const $ = id => document.getElementById(id);
+const CLASSES = ["economica", "premium", "executiva", "primeira"];
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
 const dataBr = iso => iso.split("-").reverse().join("/");
-const dias = o => Math.round((new Date(o.volta) - new Date(o.ida)) / 864e5);
+const dias = o => o.volta ? Math.round((new Date(o.volta) - new Date(o.ida)) / 864e5) : 0;
 const texto = (tag, classe, conteudo) => {
   const el = document.createElement(tag);
   if (classe) el.className = classe;
   el.textContent = conteudo;
   return el;
 };
+const numero = (id, minimo) => Math.max(minimo, Math.floor(Number($(id).value) || 0));
+
+// Link exato do Google Flights (campo tfs), já com classe, tipo de viagem e passageiros.
+function linkGoogle(o, adultos, criancas, colo) {
+  const bytes = [];
+  const txt = s => [...s].map(c => c.charCodeAt(0));
+  const perna = (dia, de, para) => {
+    const corpo = [0x12, 10, ...txt(dia), 0x6a, 5, 0x12, 3, ...txt(de), 0x72, 5, 0x12, 3, ...txt(para)];
+    bytes.push(0x1a, corpo.length, ...corpo);
+  };
+  const soIda = o.tipo === "ida" || !o.volta;
+  perna(o.ida, o.origem, o.destino);
+  if (!soIda) perna(o.volta, o.destino, o.origem);
+  const pax = [...Array(adultos).fill(1), ...Array(criancas).fill(2), ...Array(colo).fill(4)];
+  bytes.push(0x42, pax.length, ...pax, 0x48, CLASSES.indexOf(o.classe) + 1, 0x98, 0x01, soIda ? 2 : 1);
+  const tfs = btoa(String.fromCharCode(...bytes));
+  return "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&tfs=" + encodeURIComponent(tfs);
+}
 
 function preencher(select, valores) {
   [...new Set(valores)].sort().forEach(v => select.append(new Option(v, v)));
 }
 
 function desenhar() {
+  const tipo = $("f-tipo").value, classe = $("f-classe").value;
+  const adultos = numero("f-adultos", 1), criancas = numero("f-criancas", 0), colo = numero("f-colo", 0);
+  const pagantes = adultos + criancas;
   const regiao = $("f-regiao").value, origem = $("f-origem").value;
   const de = $("f-de").value, ate = $("f-ate").value;
   const teto = Number($("f-preco").value) || Infinity;
   const so = $("f-so").checked, ordem = $("f-ordem").value;
   const [dMin, dMax] = ($("f-dias").value || "0-999").split("-").map(Number);
+  $("f-dias").disabled = tipo === "ida";
 
-  let lista = D.ofertas.filter(o =>
+  const doTipo = D.ofertas.filter(o => o.tipo === tipo && o.classe === classe);
+  let lista = doTipo.filter(o =>
     (!regiao || o.regiao === regiao) && (!origem || o.origem === origem) &&
-    (!de || o.ida >= de) && (!ate || o.ida <= ate) && o.total_casa <= teto &&
-    dias(o) >= dMin && dias(o) <= dMax && (!so || o.oportunidade));
+    (!de || o.ida >= de) && (!ate || o.ida <= ate) && o.total_casa * pagantes <= teto &&
+    (tipo === "ida" || (dias(o) >= dMin && dias(o) <= dMax)) && (!so || o.oportunidade));
 
   const chaves = {
-    desconto: (a, b) => (b.folga ?? -9) - (a.folga ?? -9),
+    desconto: (a, b) => (b.folga ?? -9) - (a.folga ?? -9) || a.total_casa - b.total_casa,
     preco: (a, b) => a.total_casa - b.total_casa,
     ida: (a, b) => a.ida.localeCompare(b.ida),
   };
   lista.sort(chaves[ordem]);
 
-  $("contagem").textContent = lista.length + " de " + D.ofertas.length + " preços monitorados";
+  $("contagem").textContent = lista.length + " de " + doTipo.length + " preços nesta classe e tipo de viagem" +
+    (pagantes > 1 ? " · valores estimados para " + pagantes + " pagantes (preço de 1 adulto × " + pagantes + ")" : "");
   const grade = $("grade");
   grade.replaceChildren();
   if (!lista.length) {
-    grade.append(texto("p", "vazio", D.ofertas.length
+    grade.append(texto("p", "vazio", doTipo.length
       ? "Nenhum preço com esses filtros."
-      : "Ainda sem dados. O painel se enche depois das primeiras execuções do robô."));
+      : "Ainda sem dados para esta combinação. Classes além da econômica e só ida são coletadas aos poucos, uma origem por rodada."));
     return;
   }
-  for (const o of lista.slice(0, 300)) {
-    const cartao = document.createElement("a");
-    cartao.className = "oferta";
-    cartao.href = o.link; cartao.target = "_blank"; cartao.rel = "noopener";
+  for (const o of lista.slice(0, 240)) {
+    const cartao = texto("article", "oferta", "");
 
     const topo = texto("div", "topo", "");
     topo.append(texto("span", "rota", o.origem + " → " + o.cidade + " (" + o.destino + ")"),
                 texto("span", "regiao", o.regiao));
 
     const linhaPreco = texto("div", "topo", "");
-    linhaPreco.append(texto("span", "preco", brl(o.preco)));
+    linhaPreco.append(texto("span", "preco", brl(o.preco * pagantes)));
     if (o.folga === null) linhaPreco.append(texto("span", "selo neutro", "sem referência ainda"));
     else if (o.imperdivel) linhaPreco.append(texto("span", "selo quente", "imperdível"));
     else if (o.oportunidade) linhaPreco.append(texto("span", "selo bom", o.base === "termometro" ? "faixa verde" : "preço baixo"));
     else if (o.faixa_alta && o.preco > o.faixa_alta) linhaPreco.append(texto("span", "selo neutro", "preço alto"));
     else linhaPreco.append(texto("span", "selo neutro", "preço normal"));
 
+    const quando = o.volta ? dataBr(o.ida) + " a " + dataBr(o.volta) + " (" + dias(o) + " dias)" : "Ida em " + dataBr(o.ida);
     cartao.append(topo, linhaPreco,
-      texto("div", "detalhe", dataBr(o.ida) + " a " + dataBr(o.volta) + " (" + dias(o) + " dias) · " + (o.cia || "cia não informada") + " · " + o.paradas + " parada(s)"));
-    if (o.faixa_baixa) cartao.append(texto("div", "detalhe", "Faixa normal do Google: " + brl(o.faixa_baixa) + " a " + brl(o.faixa_alta)));
+      texto("div", "detalhe", quando + " · " + (o.cia || "cia não informada") + " · " + o.paradas + " parada(s)"));
+    if (pagantes > 1) cartao.append(texto("div", "detalhe", brl(o.preco) + " por adulto; crianças podem pagar menos"));
+    if (o.faixa_baixa) cartao.append(texto("div", "detalhe", "Faixa normal do Google, por adulto: " + brl(o.faixa_baixa) + " a " + brl(o.faixa_alta)));
     else if (o.mediana) cartao.append(texto("div", "detalhe", "Mediana da rota: " + brl(o.mediana)));
     if (o.posicionamento) cartao.append(texto("div", "detalhe",
-      "Com posicionamento de " + D.casa + " (cerca de " + brl(o.posicionamento) + "): " + brl(o.total_casa)));
+      "Com posicionamento de " + D.casa + " (cerca de " + brl(o.posicionamento * pagantes) + "): " + brl(o.total_casa * pagantes)));
+
+    const abrir = texto("a", "abrir", "Abrir no Google Flights");
+    abrir.href = linkGoogle(o, adultos, criancas, colo); abrir.target = "_blank"; abrir.rel = "noopener";
+    cartao.append(abrir);
+
+    if (o.dicas && o.dicas.length) {
+      const caixa = document.createElement("details");
+      caixa.append(texto("summary", "", "Como economizar mais (" + o.dicas.length + ")"));
+      const ul = document.createElement("ul");
+      o.dicas.forEach(d => ul.append(texto("li", "", d)));
+      caixa.append(ul);
+      cartao.append(caixa);
+    }
     grade.append(cartao);
   }
 }
 
-$("atualizado").textContent = "Atualizado em " + D.atualizado_em + " · ida e volta, 1 adulto, econômica · clique no cartão para abrir no Google Flights";
+$("atualizado").textContent = "Atualizado em " + D.atualizado_em + " · preços por adulto coletados no Google Flights";
 preencher($("f-regiao"), D.ofertas.map(o => o.regiao));
 preencher($("f-origem"), D.ofertas.map(o => o.origem));
 document.querySelectorAll(".filtros select, .filtros input").forEach(el => el.addEventListener("input", desenhar));

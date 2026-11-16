@@ -5,6 +5,7 @@ Uso:  python radar.py            (execução normal)
 Variáveis de ambiente: TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, TRAVELPAYOUTS_TOKEN (opcional),
 RADAR_CONSULTAS (opcional, sobrepõe consultas_por_execucao).
 """
+import base64
 import csv
 import html
 import json
@@ -27,7 +28,9 @@ ESTADO = DADOS / "estado.json"
 PAINEL_MODELO = RAIZ / "painel_modelo.html"
 PAINEL = RAIZ / "docs" / "index.html"
 CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "paradas", "fonte",
-          "faixa_baixa", "faixa_alta", "cidade", "regiao"]
+          "faixa_baixa", "faixa_alta", "cidade", "regiao",
+          "classe", "tipo"]
+CLASSES = ["economica", "premium", "executiva", "primeira"]  # mesma ordem do Google
 EXPLORAR_URL = ("https://www.google.com/_/FlightsFrontendUi/data/travel.frontend.flights."
                 "FlightsFrontendService/GetExploreDestinations?hl=pt-BR&gl=BR&curr=BRL")
 DURACOES = {1: "fim de semana", 2: "1 semana", 3: "2 semanas"}  # opções de "datas flexíveis" do Google
@@ -177,7 +180,7 @@ def regiao_por_coordenada(pais, lat, lon):
     return "Ásia"
 
 
-def explorar(origem, duracao):
+def explorar(origem, duracao, classe=1, so_ida=False):
     """Busca "Explorar" do Google com datas flexíveis nos próximos seis meses.
 
     Devolve, para cada destino do mundo que o Google sugere, a data mais barata do período.
@@ -186,8 +189,9 @@ def explorar(origem, duracao):
 
     local = [[[origem, 0]]]
     pedido = [[], None, None,
-              [None, None, 1, None, [0, duracao], 1, [1, 0, 0, 0], None, None, None, None, None, None,
-               [[local, [], None, 0], [[], local, None, 0]],
+              [None, None, 2 if so_ida else 1, None, [0, duracao], classe, [1, 0, 0, 0],
+               None, None, None, None, None, None,
+               [[local, [], None, 0]] if so_ida else [[local, [], None, 0], [[], local, None, 0]],
                None, None, None, 0, None, None, None, None, None, None, None, 1],
               None, 1, None, 0, None, 0, [1164, 595], 2]
     corpo = "f.req=" + urllib.parse.quote(json.dumps([None, json.dumps(pedido, separators=(",", ":"))],
@@ -224,13 +228,14 @@ def explorar(origem, duracao):
     for chave, lugar in lugares.items():
         try:
             voo = precos[chave][6]
-            achados.append({"origem": origem, "destino": voo[5], "ida": lugar[11], "volta": lugar[12],
+            achados.append({"origem": origem, "destino": voo[5], "ida": lugar[11], "volta": lugar[12] or "",
+                            "classe": CLASSES[classe - 1], "tipo": "ida" if so_ida else "iv",
                             "preco": int(precos[chave][1][0][1]), "cia": voo[1], "paradas": voo[2],
                             "cidade": lugar[2], "duracao": duracao,
                             "regiao": regiao_por_coordenada(lugar[4], lugar[1][0], lugar[1][1])})
         except (KeyError, IndexError, TypeError):
             continue
-    return [a for a in achados if a["destino"] and a["ida"] and a["volta"]]
+    return [a for a in achados if a["destino"] and a["ida"] and (a["volta"] or so_ida)]
 
 
 def coletar_explorar(estado, agora):
@@ -250,8 +255,24 @@ def coletar_explorar(estado, agora):
                 falhas += 1
                 print(f"  explorar {origem} {DURACOES.get(duracao)}: {type(erro).__name__}: {str(erro)[:100]}")
             time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
+    # Outras classes e "só ida": uma origem por rodada, em rodízio, só para o painel (sem alerta).
+    extras = []
+    if CFG.get("explorar_extras", True):
+        origens = [CFG["casa"], *CFG["hubs"]]
+        origem = origens[estado.get("rodadas", 0) % len(origens)]
+        estado["rodadas"] = estado.get("rodadas", 0) + 1
+        for classe, so_ida in [(3, False), (2, False), (4, False), (1, True)]:
+            try:
+                achados = explorar(origem, 2, classe, so_ida)
+                if not achados:
+                    time.sleep(6)
+                    achados = explorar(origem, 2, classe, so_ida)
+                extras += achados
+            except Exception as erro:
+                print(f"  explorar {origem} {CLASSES[classe - 1]}: {type(erro).__name__}: {str(erro)[:100]}")
+            time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
     linhas = [{"coletado_em": agora, "fonte": "explorar", "faixa_baixa": "", "faixa_alta": "", **c}
-              for c in candidatos]
+              for c in candidatos + extras]
 
     # Prioridade da conferência: quem caiu 10% desde a última vez, depois quem está há mais tempo sem conferir.
     memoria = estado.setdefault("explorar", {})
@@ -317,6 +338,8 @@ def ler_historico():
         l["preco"] = int(l["preco"])
         for campo in ("faixa_baixa", "faixa_alta"):
             l[campo] = int(l[campo]) if l.get(campo) else ""
+        l["classe"] = l.get("classe") or "economica"
+        l["tipo"] = l.get("tipo") or "iv"
     return linhas
 
 
@@ -328,17 +351,21 @@ def gravar_historico(linhas):
         escritor.writerows(linhas)
 
 
+def chave_rota(l):
+    return (l["origem"], l["destino"], l["fonte"], l.get("classe") or "economica", l.get("tipo") or "iv")
+
+
 def medianas(historico):
     grupos = {}
     for l in historico:
-        grupos.setdefault((l["origem"], l["destino"], l["fonte"]), []).append(l["preco"])
+        grupos.setdefault(chave_rota(l), []).append(l["preco"])
     minimo = CFG["min_observacoes"]
     return {k: statistics.median(v) for k, v in grupos.items() if len(v) >= minimo}
 
 
 def posicionamento(hub, meds):
     """Custo estimado de ida e volta da casa até o hub: mediana observada ou valor padrão."""
-    return meds.get((CFG["casa"], hub, "google"), CFG["posicionamento_padrao_reais"])
+    return meds.get((CFG["casa"], hub, "google", "economica", "iv"), CFG["posicionamento_padrao_reais"])
 
 
 def avaliar(linha, meds):
@@ -347,8 +374,10 @@ def avaliar(linha, meds):
     Referência = piso da faixa normal do termômetro do Google (abaixo dele é a faixa verde).
     Sem termômetro, usa a mediana da rota menos desconto_alerta. folga >= 0 é oportunidade.
     """
-    med = meds.get((linha["origem"], linha["destino"], linha["fonte"]))
+    med = meds.get(chave_rota(linha))
     extra = 0 if linha["origem"] == CFG["casa"] else round(posicionamento(linha["origem"], meds))
+    if linha.get("tipo") == "ida":
+        extra = round(extra / 2)
     if linha.get("faixa_baixa"):
         base, ref = "termometro", linha["faixa_baixa"]
     elif med:
@@ -366,17 +395,19 @@ def avaliar(linha, meds):
 
 # ---------------------------------------------------------------- milhas e links
 
-def nota_milhas(regiao, preco):
+def nota_milhas(regiao, preco, classe="economica", trechos=2):
     tabela = MILHAS["latam_tabela_fixa"]
     faixa = tabela["regioes"].get(regiao)
+    coluna = classe if classe in ("economica", "executiva") else None
     notas = []
-    if faixa and faixa["economica"]:
-        custo = faixa["economica"] * 2 / 1000 * MILHAS["valor_milheiro_reais"]
+    if faixa and coluna and faixa[coluna]:
+        custo = faixa[coluna] * trechos / 1000 * MILHAS["valor_milheiro_reais"]
         veredito = "milhas saem mais baratas" if custo < preco else "dinheiro sai mais barato"
-        pontos = f"{faixa['economica']:,}".replace(",", ".")
-        notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): {pontos} pts por trecho"
-                     + f", cerca de {brl(custo)} ida e volta com milheiro a {brl(MILHAS['valor_milheiro_reais'])}, mais taxas. Aqui {veredito}.")
-    elif faixa:
+        pontos = f"{faixa[coluna]:,}".replace(",", ".")
+        percurso = "ida e volta" if trechos == 2 else "só ida"
+        notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): {pontos} pts por trecho em {coluna}"
+                     + f", cerca de {brl(custo)} {percurso} com milheiro a {brl(MILHAS['valor_milheiro_reais'])}, mais taxas. Aqui {veredito}.")
+    elif faixa and coluna:
         notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): valor vigente não conferido, veja {tabela['link_oficial']}")
     parceiras_azul = MILHAS["azul_award"].get(regiao)
     if parceiras_azul:
@@ -384,9 +415,93 @@ def nota_milhas(regiao, preco):
     return notas
 
 
+def link_google(o):
+    """Link exato da busca no Google Flights (mesmo formato do campo tfs que o site usa)."""
+    def perna(dia, de, para):
+        corpo = b"\x12\x0a" + dia.encode() + b"\x6a\x05\x12\x03" + de.encode() + b"\x72\x05\x12\x03" + para.encode()
+        return b"\x1a" + bytes([len(corpo)]) + corpo
+
+    so_ida = o.get("tipo") == "ida" or not o.get("volta")
+    dados = perna(o["ida"], o["origem"], o["destino"])
+    if not so_ida:
+        dados += perna(o["volta"], o["destino"], o["origem"])
+    classe = CLASSES.index(o.get("classe") or "economica") + 1
+    dados += b"\x42\x01\x01" + bytes([0x48, classe]) + b"\x98\x01" + bytes([2 if so_ida else 1])
+    return ("https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&tfs="
+            + urllib.parse.quote(base64.b64encode(dados).decode()))
+
+
+DIAS_CAROS = {0: "segunda", 4: "sexta", 6: "domingo"}
+STOPOVER = {
+    "Europa": "A TAP permite parada sem custo em Lisboa ou Porto (stopover) e a Iberia em Madri: dá para conhecer duas cidades com uma passagem.",
+    "Oriente Médio": "Voos via Doha, Dubai ou Istambul costumam aceitar stopover; confira no site da companhia antes de comprar.",
+    "Ásia": "Voos via Doha, Dubai ou Istambul costumam aceitar stopover; confira no site da companhia antes de comprar.",
+    "África": "Voos via Doha, Dubai ou Istambul costumam aceitar stopover; confira no site da companhia antes de comprar.",
+    "Oceania": "A rota por Santiago ou pelo Oriente Médio pode render um stopover; confira as regras da companhia.",
+    "América do Norte": "A Copa permite parada na Cidade do Panamá sem custo na tarifa; vale simular a rota por lá.",
+    "América Central e Caribe": "A Copa permite parada na Cidade do Panamá sem custo na tarifa; vale simular a rota por lá.",
+}
+
+
+def dicas(o, melhores):
+    """Recomendações para baratear este destino, cruzando os preços coletados com as estratégias conhecidas."""
+    d, casa = [], CFG["casa"]
+    internacional = o["regiao"] != "Brasil"
+    if o["fonte"] == "explorar":
+        d.append("Preço do Explorar, ainda não conferido na data exata: confirme no link antes de decidir.")
+
+    # Outra origem (voo de posicionamento ou direto de casa)
+    outras = {k: r for k, r in melhores.get((o["destino"], o["classe"], o["tipo"]), {}).items() if k != o["origem"]}
+    if outras:
+        origem, r = min(outras.items(), key=lambda par: par[1]["total_casa"])
+        economia = o["total_casa"] - r["total_casa"]
+        if economia > 0.05 * o["total_casa"]:
+            if origem == casa:
+                d.append(f"Direto de {casa} em {r['ida']} sai por {brl(r['preco'])}, {brl(economia)} a menos que este "
+                         "já somando o posicionamento.")
+            else:
+                d.append(f"Voo de posicionamento: saindo de {origem} em {r['ida']} sai por {brl(r['preco'])}; somando cerca de "
+                         f"{brl(r['posicionamento'])} de {casa} até {origem}, total {brl(r['total_casa'])}, {brl(economia)} a menos. "
+                         "Compre os dois bilhetes separados e deixe horas de folga entre eles.")
+
+    # Só ida x ida e volta
+    outro_tipo = "ida" if o["tipo"] == "iv" else "iv"
+    par = melhores.get((o["destino"], o["classe"], outro_tipo), {}).get(o["origem"])
+    if par and o["tipo"] == "iv" and par["preco"] * 2 < o["preco"] * 0.9:
+        d.append(f"Duas passagens só de ida podem sair mais barato: a ida avulsa mais barata está por {brl(par['preco'])} "
+                 f"({par['ida']}). Simule ida e volta separadas, inclusive com milhas em um dos trechos.")
+    if par and o["tipo"] == "ida" and par["preco"] < o["preco"] * 1.15:
+        d.append(f"A ida e volta mais barata para cá custa {brl(par['preco'])}, quase o mesmo que só a ida. "
+                 "Compare antes de fechar.")
+
+    d += nota_milhas(o["regiao"], o["preco"], o["classe"], 1 if o["tipo"] == "ida" else 2)
+    if o["classe"] in ("executiva", "primeira"):
+        d.append("Em executiva a tabela fixa costuma render mais que o dinheiro: ache a vaga Award no Seats.aero, "
+                 "anote voo e data e emita pelo atendimento do LATAM Pass.")
+
+    dia = date.fromisoformat(o["ida"]).weekday()
+    if dia in DIAS_CAROS:
+        d.append(f"A ida cai em {DIAS_CAROS[dia]}, dia de tarifa mais alta. Terça, quarta e sábado costumam ser mais "
+                 "baratos: teste as datas vizinhas no gráfico de preços do Google Flights.")
+    if o["regiao"] in STOPOVER:
+        d.append(STOPOVER[o["regiao"]])
+    if o["regiao"] == "Europa":
+        d.append("Compare aeroportos vizinhos somados a trem ou low cost (Rome2Rio, Kiwi): chegar pelo hub mais barato "
+                 "e seguir por terra pode custar menos que o voo direto ao destino final.")
+    if o["regiao"] == "América do Sul":
+        d.append("Para voos internos no país de destino, simule a compra no site local da companhia, em moeda local, "
+                 "com cartão internacional de spread baixo.")
+    if internacional and o["tipo"] == "iv" and o["paradas"] not in ("", 0, "0"):
+        d.append("Com conexão: veja no Skiplagged se algum voo mais barato tem este destino como escala (só bagagem "
+                 "de mão, só ida e sem número de fidelidade).")
+    if o["imperdivel"]:
+        d.append("Preço muito abaixo do normal: compre direto com a companhia e espere de 7 a 15 dias antes de "
+                 "reservar hotel não reembolsável.")
+    return d[:8]
+
+
 def links(o):
-    busca = f"Flights from {o['origem']} to {o['destino']} on {o['ida']} through {o['volta']}"
-    google = "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=" + urllib.parse.quote(busca)
+    google = link_google(o)
     seats = f"https://seats.aero/search?origin={o['origem']}&destination={o['destino']}&date={o['ida']}"
     return google, seats
 
@@ -538,12 +653,15 @@ def gerar_painel(historico, meds, estado, agora):
     ultimas = {}
     for l in sorted(historico, key=lambda l: (l["fonte"] == "google", l["coletado_em"])):
         if l["ida"] > hoje and l["coletado_em"][:10] >= recente:  # preço conferido prevalece sobre o do "explorar"
-            ultimas[(l["origem"], l["destino"], l["ida"], l["volta"])] = l
-    ofertas = []
-    for l in ultimas.values():
-        o = avaliar(l, meds)
-        o["link"] = links(o)[0]
-        ofertas.append(o)
+            ultimas[(l["origem"], l["destino"], l["ida"], l["volta"], l["classe"], l["tipo"])] = l
+    ofertas = [avaliar(l, meds) for l in ultimas.values()]
+    melhores = {}  # (destino, classe, tipo) -> origem -> oferta de menor custo total
+    for o in ofertas:
+        por_origem = melhores.setdefault((o["destino"], o["classe"], o["tipo"]), {})
+        if o["origem"] not in por_origem or o["total_casa"] < por_origem[o["origem"]]["total_casa"]:
+            por_origem[o["origem"]] = o
+    for o in ofertas:
+        o["dicas"] = dicas(o, melhores)
     dados = {"atualizado_em": agora, "casa": CFG["casa"], "ofertas": ofertas, "promos": estado["promos"]}
     pagina = PAINEL_MODELO.read_text(encoding="utf-8").replace(
         "/*DADOS*/null", json.dumps(dados, ensure_ascii=False).replace("</", "<\\/"))
@@ -567,6 +685,9 @@ def main():
     novas += exploradas
     falhas += falhas_explorar
     novas += coletar_aviasales(agora)
+    for l in novas:
+        l.setdefault("classe", "economica")
+        l.setdefault("tipo", "iv")
     historico = ler_historico() + novas
     gravar_historico(historico)
     meds = medianas(historico)
