@@ -26,6 +26,8 @@ jobs:
       - name: Coletar e avisar
         env:
           NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
+          CALLMEBOT_TELEFONE: ${{ secrets.CALLMEBOT_TELEFONE }}
+          CALLMEBOT_CHAVE: ${{ secrets.CALLMEBOT_CHAVE }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}

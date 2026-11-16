@@ -17,7 +17,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).parent
@@ -242,13 +242,36 @@ def ntfy(texto, topico):
         return False
 
 
+def whatsapp(texto, telefone, chave):
+    """Envia ao próprio WhatsApp pelo CallMeBot (serviço gratuito de terceiros, uso pessoal).
+
+    Ainda não testado com uma chave real. O telefone e a chave vão na URL, como a API exige.
+    """
+    corpo = re.sub(r'<a href="([^"]+)">(.*?)</a>', r"\2: \1", texto)
+    corpo = html.unescape(re.sub(r"</?b>", "*", corpo))
+    params = urllib.parse.urlencode({"phone": telefone, "text": corpo[:3500], "apikey": chave})
+    try:
+        baixar("https://api.callmebot.com/whatsapp.php?" + params)
+        return True
+    except Exception as erro:
+        print(f"  WhatsApp falhou: {type(erro).__name__}: {str(erro)[:80]}")
+        return False
+
+
+def telefone_whatsapp():
+    return os.environ.get("CALLMEBOT_TELEFONE"), os.environ.get("CALLMEBOT_CHAVE")
+
+
 def telegram(texto):
-    """Avisa pelo canal configurado: ntfy (NTFY_TOPICO) e/ou Telegram."""
+    """Avisa por todos os canais configurados: ntfy, WhatsApp (CallMeBot) e Telegram."""
     topico = os.environ.get("NTFY_TOPICO")
     enviado = ntfy(texto, topico) if topico else False
+    fone, chave = telefone_whatsapp()
+    if fone and chave:
+        enviado = whatsapp(texto, fone, chave) or enviado
     token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (token and chat):
-        if not topico:
+        if not (topico or (fone and chave)):
             print("[Nenhum canal de alerta configurado] " + re.sub(r"<[^>]+>", "", texto))
         return enviado
     corpo = urllib.parse.urlencode({"chat_id": chat, "text": texto[:4000], "parse_mode": "HTML",
@@ -354,7 +377,7 @@ def main():
         ok = telegram("✅ Radar de passagens conectado. Os alertas vão chegar aqui.")
         sys.exit(0 if ok else 1)
 
-    agora = datetime.now().strftime("%Y-%m-%d %H:%M")
+    agora = datetime.now(timezone(timedelta(hours=-3))).strftime("%Y-%m-%d %H:%M")  # horário de Brasília
     estado = {"cursor": 0, "ciclo": 0, "alertados": {}, "feeds_vistos": [], "promos": [],
               **(ler_json(ESTADO) or {})}
 

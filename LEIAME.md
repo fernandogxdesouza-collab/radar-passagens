@@ -32,6 +32,8 @@ São 98 rotas e 8 meses à frente. Com 80 consultas por execução, o ciclo comp
 
 **Alternativa sem bot (ntfy):** se o BotFather recusar a criação do bot, instale o app **ntfy** no celular, toque em "+" e assine um tópico com nome longo e difícil de adivinhar (quem souber o nome consegue ler os alertas). Cadastre esse nome no GitHub como secret `NTFY_TOPICO`. O robô usa ntfy, Telegram ou os dois, conforme os secrets existentes.
 
+**WhatsApp (CallMeBot):** serviço gratuito de terceiros que manda texto para o seu próprio número. Em 16/11/2026 o cadastro estava fechado ("bot is full"); o número do bot aparece em callmebot.com/blog/free-api-whatsapp-messages quando abrir vaga. Passos: salvar o número do bot nos contatos, enviar a ele pelo WhatsApp a frase `I allow callmebot to send me messages`, receber a chave e cadastrar os secrets `CALLMEBOT_TELEFONE` (com +55 e DDD) e `CALLMEBOT_CHAVE`. Seu telefone fica conhecido por esse serviço. Envio ainda não testado com chave real.
+
 ### 2. Repositório no GitHub
 1. Crie uma conta gratuita em github.com e um repositório **público** chamado `radar-passagens`, vazio. Público porque o GitHub só dá execução ilimitada e página gratuita para repositório público. Ele guarda apenas preços de passagens; os tokens ficam em Secrets, fora do código.
 2. Nesta pasta, rode um comando por vez:
