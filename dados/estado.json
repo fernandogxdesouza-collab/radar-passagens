@@ -1,5 +1,5 @@
 {
- "cursor": 178,
+ "cursor": 208,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -60,6 +60,30 @@
   ],
   "CNF-ORD": [
    4361,
+   "2026-11-16"
+  ],
+  "CNF-CGH": [
+   414,
+   "2026-11-16"
+  ],
+  "CNF-BSB": [
+   514,
+   "2026-11-16"
+  ],
+  "CNF-MCZ": [
+   1357,
+   "2026-11-16"
+  ],
+  "CNF-VIE": [
+   6250,
+   "2026-11-16"
+  ],
+  "CNF-SAW": [
+   6757,
+   "2026-11-16"
+  ],
+  "CNF-BOB": [
+   15432,
    "2026-11-16"
   ]
  },
@@ -172,9 +196,56 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-madrid-to-bolivia-e502/",
   "https://www.fly4free.com/flight-deals/europe/9-day-cruise-from-portugal-to-germany-e399/",
   "https://www.fly4free.com/flight-deals/europe/qatar-airways-flights-from-warsaw-to-the-philippines-e590/",
-  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-prague-e44-with-sauna/"
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-prague-e44-with-sauna/",
+  "https://passageirodeprimeira.com/como-emitir-voos-nacionais-a-partir-de-7-500-milhas-aadvantage/",
+  "https://passageirodeprimeira.com/prorrogado-cadastre-se-no-azul-fidelidade-e-ganhe-5-000-pontos-por-cada-nova-conta/",
+  "https://passageirodeprimeira.com/executiva-da-aeromexico-de-sao-paulo-para-toquio-a-partir-de-r-6-783-ou-285-mil-milhas-latam-pass-taxas/",
+  "https://passageirodeprimeira.com/azul-passagens-nacionais-a-partir-r-50-ou-3-120-pontos-taxas/",
+  "https://passageirodeprimeira.com/dia-do-shopping-livelo-ganhe-ate-10-pontos-por-real-gasto-em-produtos-na-natura-decathlon-e-mais/",
+  "https://passageirodeprimeira.com/ultimo-dia-garantir-10-off-proxima-reserva-nosso-cupom-exclusivo-hoteis-com/",
+  "https://passageirodeprimeira.com/conheca-os-indicados-ao-premio-de-melhor-influenciador-de-milhas-e-pontos-do-brasil-com-ate-100k-seguidores/",
+  "https://passageirodeprimeira.com/latam-tem-passagens-internacionais-na-america-do-sul-a-partir-de-r-380-ou-15-mil-milhas-taxas/",
+  "https://passageirodeprimeira.com/quantas-garrafas-de-vinho-posso-trazer-da-viagem-internacional/",
+  "https://passageirodeprimeira.com/voe-de-porto-alegre-para-punta-del-este-a-partir-de-r-177-ou-13-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
+  "https://passageirodeprimeira.com/latam-tem-passagens-nacionais-a-partir-de-r-100-ou-3-887-milhas-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/iconic-hotel-bangkok-baiyoke/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-puerto-rico-e570/",
+  "https://www.fly4free.com/flight-deals/europe/canada-hawaii-usa-vietnam-from-italy/",
+  "https://www.fly4free.com/news/a-schengen-for-southeast-asia-vietnam-cambodia-and-laos-discuss-a-single-visa/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-2/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Executiva da Aeromexico de São Paulo para Tóquio a partir de R$ 6.783 ou 285 mil milhas LATAM Pass + taxas",
+   "link": "https://passageirodeprimeira.com/executiva-da-aeromexico-de-sao-paulo-para-toquio-a-partir-de-r-6-783-ou-285-mil-milhas-latam-pass-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul tem passagens nacionais a partir de R$ 50 ou 3.120 pontos + taxas",
+   "link": "https://passageirodeprimeira.com/azul-passagens-nacionais-a-partir-r-50-ou-3-120-pontos-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens internacionais na América do Sul a partir de R$ 380 ou 15 mil milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-tem-passagens-internacionais-na-america-do-sul-a-partir-de-r-380-ou-15-mil-milhas-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Nubank Croma oferece 10% de bônus em transferências para a Livelo",
+   "link": "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens nacionais a partir de R$ 92 ou 3.887 milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-tem-passagens-nacionais-a-partir-de-r-100-ou-3-887-milhas-taxas/",
+   "visto_em": "2026-11-16"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos do C6 Bank",
@@ -575,8 +646,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SEA-2": [
-   6810,
-   "2026-11-16 07:02"
+   5494,
+   "2026-11-16 18:00"
   ],
   "CNF-CPT-2": [
    5094,
@@ -671,8 +742,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-BOB-1": [
-   33708,
-   "2026-11-16 13:15"
+   15432,
+   "2026-11-16 18:00"
   ],
   "CNF-CGK-1": [
    12972,
@@ -699,8 +770,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-FTE-1": [
-   7850,
-   "2026-11-16 13:15"
+   6468,
+   "2026-11-16 18:00"
   ],
   "CNF-SEZ-1": [
    9810,
@@ -833,8 +904,227 @@
   "CNF-BCN-3": [
    5417,
    "2026-11-16 13:15"
+  ],
+  "CNF-CGH-1": [
+   414,
+   "2026-11-16 18:00"
+  ],
+  "CNF-SFO-3": [
+   5969,
+   "2026-11-16 18:00"
+  ],
+  "CNF-AMS-3": [
+   5279,
+   "2026-11-16 18:00"
+  ],
+  "CNF-DXB-3": [
+   5434,
+   "2026-11-16 18:00"
+  ],
+  "CNF-VCE-3": [
+   6847,
+   "2026-11-16 18:00"
+  ],
+  "CNF-ORD-3": [
+   4219,
+   "2026-11-16 18:00"
+  ],
+  "CNF-IAD-3": [
+   4558,
+   "2026-11-16 18:00"
+  ],
+  "CNF-HKG-3": [
+   13861,
+   "2026-11-16 18:00"
+  ],
+  "CNF-NRT-3": [
+   8283,
+   "2026-11-16 18:00"
+  ],
+  "CNF-BKK-3": [
+   8576,
+   "2026-11-16 18:00"
+  ],
+  "CNF-BER-3": [
+   5931,
+   "2026-11-16 18:00"
+  ],
+  "CNF-LAS-3": [
+   5402,
+   "2026-11-16 18:00"
+  ],
+  "CNF-FLR-3": [
+   6311,
+   "2026-11-16 18:00"
+  ],
+  "CNF-EDI-3": [
+   6372,
+   "2026-11-16 18:00"
+  ],
+  "CNF-SYD-3": [
+   9345,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MIA-3": [
+   3745,
+   "2026-11-16 18:00"
+  ],
+  "CNF-PRG-3": [
+   10356,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MAD-3": [
+   5340,
+   "2026-11-16 18:00"
+  ],
+  "CNF-ATH-3": [
+   6318,
+   "2026-11-16 18:00"
+  ],
+  "CNF-SAW-3": [
+   6757,
+   "2026-11-16 18:00"
+  ],
+  "CNF-VIE-3": [
+   6250,
+   "2026-11-16 18:00"
+  ],
+  "CNF-BUD-3": [
+   7214,
+   "2026-11-16 18:00"
+  ],
+  "CNF-SAN-3": [
+   6492,
+   "2026-11-16 18:00"
+  ],
+  "CNF-SEA-3": [
+   5494,
+   "2026-11-16 18:00"
+  ],
+  "CNF-CPT-3": [
+   5094,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MLA-3": [
+   5591,
+   "2026-11-16 18:00"
+  ],
+  "CNF-DUB-3": [
+   5705,
+   "2026-11-16 18:00"
+  ],
+  "CNF-JTR-3": [
+   42390,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MEL-3": [
+   11950,
+   "2026-11-16 18:00"
+  ],
+  "CNF-YYZ-3": [
+   5007,
+   "2026-11-16 18:00"
+  ],
+  "CNF-YVR-3": [
+   5256,
+   "2026-11-16 18:00"
+  ],
+  "CNF-CPH-3": [
+   5853,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MSY-3": [
+   14106,
+   "2026-11-16 18:00"
+  ],
+  "CNF-MRU-3": [
+   12878,
+   "2026-11-16 18:00"
+  ],
+  "CNF-YUL-3": [
+   4920,
+   "2026-11-16 18:00"
+  ],
+  "CNF-BOM-3": [
+   17565,
+   "2026-11-16 18:00"
+  ],
+  "CNF-GIG-3": [
+   651,
+   "2026-11-16 18:00"
+  ],
+  "CNF-EZE-3": [
+   2724,
+   "2026-11-16 18:00"
+  ],
+  "CNF-PER-3": [
+   18851,
+   "2026-11-16 18:00"
+  ],
+  "CNF-KIX-3": [
+   13014,
+   "2026-11-16 18:00"
+  ],
+  "CNF-YQB-3": [
+   19514,
+   "2026-11-16 18:00"
+  ],
+  "CNF-ZQN-3": [
+   17489,
+   "2026-11-16 18:00"
+  ],
+  "CNF-HNL-3": [
+   14094,
+   "2026-11-16 18:00"
+  ],
+  "CNF-JNB-3": [
+   4308,
+   "2026-11-16 18:00"
+  ],
+  "CNF-LIH-3": [
+   23792,
+   "2026-11-16 18:00"
+  ],
+  "CNF-LIM-3": [
+   3295,
+   "2026-11-16 18:00"
+  ],
+  "CNF-ANC-3": [
+   17349,
+   "2026-11-16 18:00"
   ]
  },
- "promos_fila": [],
- "rodadas": 4
+ "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Executiva da Aeromexico de São Paulo para Tóquio a partir de R$ 6.783 ou 285 mil milhas LATAM Pass + taxas",
+   "link": "https://passageirodeprimeira.com/executiva-da-aeromexico-de-sao-paulo-para-toquio-a-partir-de-r-6-783-ou-285-mil-milhas-latam-pass-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul tem passagens nacionais a partir de R$ 50 ou 3.120 pontos + taxas",
+   "link": "https://passageirodeprimeira.com/azul-passagens-nacionais-a-partir-r-50-ou-3-120-pontos-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens internacionais na América do Sul a partir de R$ 380 ou 15 mil milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-tem-passagens-internacionais-na-america-do-sul-a-partir-de-r-380-ou-15-mil-milhas-taxas/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Nubank Croma oferece 10% de bônus em transferências para a Livelo",
+   "link": "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
+   "visto_em": "2026-11-16"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens nacionais a partir de R$ 92 ou 3.887 milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-tem-passagens-nacionais-a-partir-de-r-100-ou-3-887-milhas-taxas/",
+   "visto_em": "2026-11-16"
+  }
+ ],
+ "rodadas": 5
 }
