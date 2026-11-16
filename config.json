@@ -4,6 +4,7 @@
   "hubs": ["GRU", "GIG"],
   "horizonte_dias": 180,
   "datas_por_rota": 6,
+  "tempo_maximo_min": 13,
   "consultas_por_execucao": 30,
   "explorar_duracoes": [1, 2, 3],
   "explorar_conferencias": 50,

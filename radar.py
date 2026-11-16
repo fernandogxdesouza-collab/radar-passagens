@@ -40,6 +40,14 @@ TERMOMETRO = re.compile(r"\[(\d),\[null,(\d+)\],(?:\[null,-?\d+\]|null),(?:\[nul
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) radar-passagens"
 
 
+INICIO = time.monotonic()
+
+
+def sem_tempo():
+    """A rodada tem tempo máximo; passou dele, para de coletar e grava o que já tem."""
+    return time.monotonic() - INICIO > CFG.get("tempo_maximo_min", 13) * 60
+
+
 def ler_json(caminho, padrao=None):
     if not caminho.exists():
         return padrao
@@ -142,6 +150,8 @@ def coletar_google(estado, agora):
     limite = int(os.environ.get("RADAR_CONSULTAS", CFG["consultas_por_execucao"]))
     linhas, falhas = [], 0
     for _ in range(min(limite, len(tarefas))):
+        if sem_tempo():
+            break
         if estado["cursor"] >= len(tarefas):
             estado["cursor"], estado["ciclo"] = 0, estado["ciclo"] + 1
         i, (origem, destino), fatia = tarefas[estado["cursor"]]
@@ -202,7 +212,7 @@ def explorar(origem, duracao, classe=1, so_ida=False):
     corpo = "f.req=" + urllib.parse.quote(json.dumps([None, json.dumps(pedido, separators=(",", ":"))],
                                                      separators=(",", ":")))
     resposta = _build_default_client(proxy=None).post(
-        EXPLORAR_URL, content=corpo.encode(), timeout=90,
+        EXPLORAR_URL, content=corpo.encode(), timeout=45,
         headers={"content-type": "application/x-www-form-urlencoded;charset=UTF-8", "x-same-domain": "1"})
     if resposta.status_code != 200:
         raise RuntimeError(f"Explorar devolveu HTTP {resposta.status_code}")
@@ -246,6 +256,8 @@ def explorar(origem, duracao, classe=1, so_ida=False):
 def explorar_insistindo(origem, duracao, classe=1, so_ida=False, tentativas=6):
     """O Explorar recusa mais da metade das chamadas com um erro passageiro; insiste até vir resposta."""
     for tentativa in range(tentativas):
+        if sem_tempo():
+            break
         achados = explorar(origem, duracao, classe, so_ida)
         if achados:
             return achados
@@ -258,27 +270,16 @@ def coletar_explorar(estado, agora):
     candidatos, falhas = [], 0
     for origem in [CFG["casa"], *CFG["hubs"]]:
         for duracao in CFG["explorar_duracoes"]:
+            if sem_tempo():
+                continue
             try:
                 candidatos += explorar_insistindo(origem, duracao)
             except Exception as erro:
                 falhas += 1
                 print(f"  explorar {origem} {DURACOES.get(duracao)}: {type(erro).__name__}: {str(erro)[:100]}")
             time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
-    # Outras classes e "só ida": uma origem por rodada, em rodízio, só para o painel (sem alerta).
-    extras = []
-    if CFG.get("explorar_extras", True):
-        origens = [CFG["casa"], *CFG["hubs"]]
-        origem = origens[estado.get("rodadas", 0) % len(origens)]
-        estado["rodadas"] = estado.get("rodadas", 0) + 1
-        for classe, so_ida in [(3, False), (2, False), (4, False), (1, True)]:
-            try:
-                extras += explorar_insistindo(origem, 2, classe, so_ida)
-            except Exception as erro:
-                falhas += 1
-                print(f"  explorar {origem} {CLASSES[classe - 1]}{' só ida' if so_ida else ''}: {type(erro).__name__}: {str(erro)[:100]}")
-            time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
     linhas = [{"coletado_em": agora, "fonte": "explorar", "faixa_baixa": "", "faixa_alta": "", **c}
-              for c in candidatos + extras]
+              for c in candidatos]
 
     # Prioridade da conferência: quem caiu 10% desde a última vez, depois quem está há mais tempo sem conferir.
     memoria = estado.setdefault("explorar", {})
@@ -289,6 +290,8 @@ def coletar_explorar(estado, agora):
         return (not caiu, conferido_em)
 
     for c in sorted(candidatos, key=prioridade)[: CFG["explorar_conferencias"]]:
+        if sem_tempo():
+            break
         chave = f"{c['origem']}-{c['destino']}-{c['duracao']}"
         memoria[chave] = [c["preco"], agora]
         try:
@@ -301,6 +304,23 @@ def coletar_explorar(estado, agora):
                            "volta": c["volta"], "fonte": "google", "cidade": c["cidade"], "regiao": c["regiao"],
                            **achado})
         time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
+
+    # Outras classes e "só ida": uma origem por rodada, em rodízio, só para o painel (sem alerta).
+    extras = []
+    if CFG.get("explorar_extras", True):
+        origens = [CFG["casa"], *CFG["hubs"]]
+        origem = origens[estado.get("rodadas", 0) % len(origens)]
+        estado["rodadas"] = estado.get("rodadas", 0) + 1
+        for classe, so_ida in [(3, False), (1, True), (2, False), (4, False)]:
+            if sem_tempo():
+                continue
+            try:
+                extras += explorar_insistindo(origem, 2, classe, so_ida)
+            except Exception as erro:
+                falhas += 1
+                print(f"  explorar {origem} {CLASSES[classe - 1]}{' só ida' if so_ida else ''}: {type(erro).__name__}: {str(erro)[:100]}")
+            time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
+    linhas += [{"coletado_em": agora, "fonte": "explorar", "faixa_baixa": "", "faixa_alta": "", **c} for c in extras]
     return linhas, falhas, len(candidatos)
 
 
