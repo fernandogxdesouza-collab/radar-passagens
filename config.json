@@ -1,9 +1,12 @@
 {
   "casa": "CNF",
+  "cidade_casa": "Belo Horizonte",
   "hubs": ["GRU", "GIG"],
-  "horizonte_dias": 90,
+  "horizonte_dias": 180,
   "datas_por_rota": 6,
-  "consultas_por_execucao": 80,
+  "consultas_por_execucao": 30,
+  "explorar_duracoes": [1, 2, 3],
+  "explorar_conferencias": 50,
   "pausa_entre_consultas_seg": [1.5, 3.5],
   "desconto_alerta": 0.35,
   "folga_imperdivel": 0.20,
@@ -12,7 +15,7 @@
   "janela_historico_dias": 90,
   "posicionamento_padrao_reais": 500,
   "max_alertas_por_execucao": 8,
-  "estadia_dias": { "Brasil": 4, "América do Sul": 7, "padrao": 12 },
+  "estadias_grade_dias": [3, 4, 5, 10],
   "destinos": {
     "GRU": ["São Paulo", "Brasil"],
     "GIG": ["Rio de Janeiro", "Brasil"],

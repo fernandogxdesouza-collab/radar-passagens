@@ -22,7 +22,13 @@ O que ele **não** faz: ver disponibilidade de assento Award. Isso só existe em
 - A mesma rota fica 3 dias em silêncio depois de um alerta, salvo se cair mais 5%.
 - **Promoções dos blogs** saem uma vez por dia, na rodada das 11h, sem som.
 
-São 98 rotas com 6 datas de ida cada, espalhadas pelos próximos 90 dias (`horizonte_dias`, `datas_por_rota`). Com 80 consultas por execução, o ciclo completo leva cerca de 2 dias, e a cada ciclo os dias consultados mudam.
+## Onde ele procura
+
+1. **Explorar do Google, datas flexíveis.** A cada rodada, para CNF, GRU e GIG, pede ao Google os destinos mais baratos do mundo nos próximos seis meses, em três durações: fim de semana, 1 semana e 2 semanas (são as únicas que o filtro de datas flexíveis oferece). Vêm cerca de 70 a 90 destinos por consulta, cada um com a data mais barata do período.
+2. **Conferência no termômetro.** Os 50 candidatos mais promissores da rodada (quem caiu 10% desde a última vez, depois quem está há mais tempo sem conferir) são consultados na data exata para ler a faixa verde. Só preço conferido gera alerta.
+3. **Grade complementar.** As rotas do `config.json` são consultadas em datas espalhadas pelos próximos 180 dias com estadias de 3, 4, 5 e 10 dias (`estadias_grade_dias`), que o Explorar não cobre.
+
+O painel mostra tudo, inclusive os preços do Explorar ainda não conferidos.
 
 ## Instalação (uns 20 minutos, uma vez só)
 

@@ -57,6 +57,13 @@
   <section class="filtros" aria-label="Filtros">
     <label>Região <select id="f-regiao"><option value="">Todas</option></select></label>
     <label>Saindo de <select id="f-origem"><option value="">Qualquer</option></select></label>
+    <label>Duração <select id="f-dias">
+      <option value="">Qualquer</option>
+      <option value="1-4">Até 4 dias</option>
+      <option value="5-8">5 a 8 dias</option>
+      <option value="9-11">9 a 11 dias</option>
+      <option value="12-99">12 dias ou mais</option>
+    </select></label>
     <label>Ida a partir de <input type="date" id="f-de"></label>
     <label>Ida até <input type="date" id="f-ate"></label>
     <label>Preço total máximo (R$) <input type="number" id="f-preco" min="0" step="100" placeholder="sem limite"></label>
@@ -79,6 +86,7 @@ const D = /*DADOS*/null;
 const $ = id => document.getElementById(id);
 const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
 const dataBr = iso => iso.split("-").reverse().join("/");
+const dias = o => Math.round((new Date(o.volta) - new Date(o.ida)) / 864e5);
 const texto = (tag, classe, conteudo) => {
   const el = document.createElement(tag);
   if (classe) el.className = classe;
@@ -95,11 +103,12 @@ function desenhar() {
   const de = $("f-de").value, ate = $("f-ate").value;
   const teto = Number($("f-preco").value) || Infinity;
   const so = $("f-so").checked, ordem = $("f-ordem").value;
+  const [dMin, dMax] = ($("f-dias").value || "0-999").split("-").map(Number);
 
   let lista = D.ofertas.filter(o =>
     (!regiao || o.regiao === regiao) && (!origem || o.origem === origem) &&
     (!de || o.ida >= de) && (!ate || o.ida <= ate) && o.total_casa <= teto &&
-    (!so || o.oportunidade));
+    dias(o) >= dMin && dias(o) <= dMax && (!so || o.oportunidade));
 
   const chaves = {
     desconto: (a, b) => (b.folga ?? -9) - (a.folga ?? -9),
@@ -135,7 +144,7 @@ function desenhar() {
     else linhaPreco.append(texto("span", "selo neutro", "preço normal"));
 
     cartao.append(topo, linhaPreco,
-      texto("div", "detalhe", dataBr(o.ida) + " a " + dataBr(o.volta) + " · " + (o.cia || "cia não informada") + " · " + o.paradas + " parada(s)"));
+      texto("div", "detalhe", dataBr(o.ida) + " a " + dataBr(o.volta) + " (" + dias(o) + " dias) · " + (o.cia || "cia não informada") + " · " + o.paradas + " parada(s)"));
     if (o.faixa_baixa) cartao.append(texto("div", "detalhe", "Faixa normal do Google: " + brl(o.faixa_baixa) + " a " + brl(o.faixa_alta)));
     else if (o.mediana) cartao.append(texto("div", "detalhe", "Mediana da rota: " + brl(o.mediana)));
     if (o.posicionamento) cartao.append(texto("div", "detalhe",

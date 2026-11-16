@@ -27,7 +27,10 @@ ESTADO = DADOS / "estado.json"
 PAINEL_MODELO = RAIZ / "painel_modelo.html"
 PAINEL = RAIZ / "docs" / "index.html"
 CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "paradas", "fonte",
-          "faixa_baixa", "faixa_alta"]
+          "faixa_baixa", "faixa_alta", "cidade", "regiao"]
+EXPLORAR_URL = ("https://www.google.com/_/FlightsFrontendUi/data/travel.frontend.flights."
+                "FlightsFrontendService/GetExploreDestinations?hl=pt-BR&gl=BR&curr=BRL")
+DURACOES = {1: "fim de semana", 2: "1 semana", 3: "2 semanas"}  # opções de "datas flexíveis" do Google
 # Termômetro de preços do Google: [nível, [preço atual], [..], [..], [piso da faixa normal], [teto]
 TERMOMETRO = re.compile(r"\[(\d),\[null,(\d+)\],(?:\[null,-?\d+\]|null),(?:\[null,-?\d+\]|null),"
                         r"\[null,(\d+)\],\[null,(\d+)\],")
@@ -61,6 +64,8 @@ def regiao_de(destino):
 
 
 def cidade_de(codigo):
+    if codigo == CFG["casa"]:
+        return CFG.get("cidade_casa", codigo)
     return CFG["destinos"].get(codigo, [codigo])[0]
 
 
@@ -74,7 +79,8 @@ def montar_rotas():
 
 def datas_da_tarefa(indice_rota, fatia, ciclo, regiao):
     """Espalha as datas de ida pelo horizonte; a cada ciclo o dia muda, para cobrir datas diferentes."""
-    estadia = CFG["estadia_dias"].get(regiao, CFG["estadia_dias"]["padrao"])
+    opcoes = CFG["estadias_grade_dias"]  # durações que o "Explorar" do Google não oferece
+    estadia = opcoes[(ciclo + indice_rota + fatia) % len(opcoes)]
     passo = CFG["horizonte_dias"] // CFG["datas_por_rota"]
     dias = 7 + passo * fatia + (ciclo * 3 + indice_rota) % passo
     ida = date.today() + timedelta(days=min(dias, CFG["horizonte_dias"]))
@@ -141,6 +147,129 @@ def coletar_google(estado, agora):
             break
         time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
     return linhas, falhas
+
+
+def regiao_por_coordenada(pais, lat, lon):
+    """Região aproximada de um destino qualquer do mundo, pela posição no mapa."""
+    if pais == "Brasil":
+        return "Brasil"
+    if lon < -30:
+        if lon < -120 and lat < 15:
+            return "Oceania"
+        if pais in ("Colômbia", "Venezuela"):
+            return "América do Sul"
+        if 7 <= lat <= 23.5 and -93 <= lon <= -59:
+            return "América Central e Caribe"
+        return "América do Norte" if lat > 13 else "América do Sul"
+    if lat > 35 and lon < 45:
+        return "Europa"
+    if 12 <= lat <= 42 and 34 <= lon <= 60:
+        return "Oriente Médio"
+    if (lon <= 52 and lat <= 37) or (lon <= 60 and lat <= 12):
+        return "África"
+    if lat < -8 and lon > 110:
+        return "Oceania"
+    return "Ásia"
+
+
+def explorar(origem, duracao):
+    """Busca "Explorar" do Google com datas flexíveis nos próximos seis meses.
+
+    Devolve, para cada destino do mundo que o Google sugere, a data mais barata do período.
+    """
+    from fast_flights.fetcher import _build_default_client
+
+    local = [[[origem, 0]]]
+    pedido = [[], None, None,
+              [None, None, 1, None, [0, duracao], 1, [1, 0, 0, 0], None, None, None, None, None, None,
+               [[local, [], None, 0], [[], local, None, 0]],
+               None, None, None, 0, None, None, None, None, None, None, None, 1],
+              None, 1, None, 0, None, 0, [1164, 595], 2]
+    corpo = "f.req=" + urllib.parse.quote(json.dumps([None, json.dumps(pedido, separators=(",", ":"))],
+                                                     separators=(",", ":")))
+    resposta = _build_default_client(proxy=None).post(
+        EXPLORAR_URL, content=corpo.encode(), timeout=90,
+        headers={"content-type": "application/x-www-form-urlencoded;charset=UTF-8", "x-same-domain": "1"})
+    if resposta.status_code != 200:
+        raise RuntimeError(f"Explorar devolveu HTTP {resposta.status_code}")
+
+    lugares, precos = {}, {}
+
+    def varrer(no):
+        if not isinstance(no, list):
+            return
+        try:
+            if isinstance(no[0], str) and no[0].startswith("/") and len(no) > 12:
+                if isinstance(no[1], list) and len(no[1]) == 2 and isinstance(no[1][0], float) and isinstance(no[2], str):
+                    lugares[no[0]] = no
+                elif isinstance(no[1], list) and isinstance(no[1][0], list) and isinstance(no[1][0][1], int):
+                    precos[no[0]] = no
+        except (IndexError, TypeError):
+            pass
+        for filho in no:
+            varrer(filho)
+
+    for linha in resposta.text.split("\n"):
+        if "wrb.fr" in linha:
+            for item in json.loads(linha):
+                if item and item[0] == "wrb.fr" and item[2]:
+                    varrer(json.loads(item[2]))
+
+    achados = []
+    for chave, lugar in lugares.items():
+        try:
+            voo = precos[chave][6]
+            achados.append({"origem": origem, "destino": voo[5], "ida": lugar[11], "volta": lugar[12],
+                            "preco": int(precos[chave][1][0][1]), "cia": voo[1], "paradas": voo[2],
+                            "cidade": lugar[2], "duracao": duracao,
+                            "regiao": regiao_por_coordenada(lugar[4], lugar[1][0], lugar[1][1])})
+        except (KeyError, IndexError, TypeError):
+            continue
+    return [a for a in achados if a["destino"] and a["ida"] and a["volta"]]
+
+
+def coletar_explorar(estado, agora):
+    """Varre o mundo pelo "Explorar" e confere no termômetro os candidatos mais promissores."""
+    candidatos, falhas = [], 0
+    for origem in [CFG["casa"], *CFG["hubs"]]:
+        for duracao in CFG["explorar_duracoes"]:
+            try:
+                achados = explorar(origem, duracao)
+                if not achados:  # o Google às vezes devolve erro passageiro; tenta mais uma vez
+                    time.sleep(6)
+                    achados = explorar(origem, duracao)
+                if not achados:
+                    raise RuntimeError("resposta vazia")
+                candidatos += achados
+            except Exception as erro:
+                falhas += 1
+                print(f"  explorar {origem} {DURACOES.get(duracao)}: {type(erro).__name__}: {str(erro)[:100]}")
+            time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
+    linhas = [{"coletado_em": agora, "fonte": "explorar", "faixa_baixa": "", "faixa_alta": "", **c}
+              for c in candidatos]
+
+    # Prioridade da conferência: quem caiu 10% desde a última vez, depois quem está há mais tempo sem conferir.
+    memoria = estado.setdefault("explorar", {})
+
+    def prioridade(c):
+        ultimo_preco, conferido_em = memoria.get(f"{c['origem']}-{c['destino']}-{c['duracao']}", [None, ""])
+        caiu = bool(ultimo_preco) and c["preco"] <= ultimo_preco * 0.9
+        return (not caiu, conferido_em)
+
+    for c in sorted(candidatos, key=prioridade)[: CFG["explorar_conferencias"]]:
+        chave = f"{c['origem']}-{c['destino']}-{c['duracao']}"
+        memoria[chave] = [c["preco"], agora]
+        try:
+            achado = consultar_google(c["origem"], c["destino"], c["ida"], c["volta"])
+        except Exception as erro:
+            achado, falhas = None, falhas + 1
+            print(f"  falha {chave} {c['ida']}: {type(erro).__name__}: {str(erro)[:100]}")
+        if achado:
+            linhas.append({"coletado_em": agora, "origem": c["origem"], "destino": c["destino"], "ida": c["ida"],
+                           "volta": c["volta"], "fonte": "google", "cidade": c["cidade"], "regiao": c["regiao"],
+                           **achado})
+        time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
+    return linhas, falhas, len(candidatos)
 
 
 def coletar_aviasales(agora):
@@ -226,7 +355,8 @@ def avaliar(linha, meds):
             "oportunidade": folga is not None and folga >= 0,
             "imperdivel": folga is not None and folga >= CFG["folga_imperdivel"],
             "posicionamento": extra, "total_casa": linha["preco"] + extra,
-            "cidade": cidade_de(linha["destino"]), "regiao": regiao_de(linha["destino"])}
+            "cidade": linha.get("cidade") or cidade_de(linha["destino"]),
+            "regiao": linha.get("regiao") or regiao_de(linha["destino"])}
 
 
 # ---------------------------------------------------------------- milhas e links
@@ -334,7 +464,7 @@ def texto_oportunidade(o):
     if o["posicionamento"]:
         partes.append(f"Saindo de {CFG['casa']}: some cerca de {brl(o['posicionamento'])} de posicionamento, total {brl(o['total_casa'])}")
     partes += nota_milhas(o["regiao"], o["preco"])
-    if imperdivel:
+    if o["folga"] >= 0.4:
         partes.append("Pode ser tarifa erro: compre logo e espere de 7 a 15 dias antes de reservar hotel não reembolsável.")
     partes.append(f'<a href="{google}">Ver no Google Flights</a> · <a href="{seats}">Vagas Award (Seats.aero)</a>')
     return "\n".join(partes)
@@ -348,7 +478,7 @@ def detectar(novas, meds, estado):
     achadas = []
     for linha in sorted(novas, key=lambda l: l["preco"]):
         o = avaliar(linha, meds)
-        if not o["oportunidade"]:
+        if not o["oportunidade"] or linha["fonte"] == "explorar":  # "explorar" só vale depois de conferido
             continue
         chave = f"{o['origem']}-{o['destino']}"
         anterior = estado["alertados"].get(chave)
@@ -392,9 +522,9 @@ def gerar_painel(historico, meds, estado, agora):
     hoje = date.today().isoformat()
     recente = (date.today() - timedelta(days=10)).isoformat()
     ultimas = {}
-    for l in historico:
-        if l["ida"] > hoje and l["coletado_em"][:10] >= recente:
-            ultimas[(l["origem"], l["destino"], l["ida"], l["fonte"])] = l
+    for l in sorted(historico, key=lambda l: (l["fonte"] == "google", l["coletado_em"])):
+        if l["ida"] > hoje and l["coletado_em"][:10] >= recente:  # preço conferido prevalece sobre o do "explorar"
+            ultimas[(l["origem"], l["destino"], l["ida"], l["volta"])] = l
     ofertas = []
     for l in ultimas.values():
         o = avaliar(l, meds)
@@ -419,6 +549,9 @@ def main():
               **(ler_json(ESTADO) or {})}
 
     novas, falhas = coletar_google(estado, agora)
+    exploradas, falhas_explorar, candidatos = coletar_explorar(estado, agora)
+    novas += exploradas
+    falhas += falhas_explorar
     novas += coletar_aviasales(agora)
     historico = ler_historico() + novas
     gravar_historico(historico)
@@ -448,7 +581,7 @@ def main():
 
     gerar_painel(historico, meds, estado, agora)
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{agora}: {len(novas)} preços novos, {falhas} falhas, {len(oportunidades)} oportunidades, "
+    print(f"{agora}: {candidatos} destinos no explorar, {len(novas)} preços novos, {falhas} falhas, {len(oportunidades)} oportunidades, "
           f"{len(promos)} promoções, {len(meds)} rotas com histórico suficiente.")
 
 
