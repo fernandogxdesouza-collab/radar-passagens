@@ -1,0 +1,38 @@
+name: Radar de passagens
+
+on:
+  schedule:
+    - cron: "17 2,8,14,20 * * *"   # 4 vezes ao dia (horário UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Coletar e avisar
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: python radar.py
+      - name: Guardar histórico e painel
+        run: |
+          git config user.name "radar-passagens"
+          git config user.email "radar@users.noreply.github.com"
+          git add dados docs
+          git diff --cached --quiet || git commit -q -m "Atualiza preços"
+          git push -q

@@ -1,0 +1,23 @@
+{
+  "_leia": "Valores em pontos POR TRECHO, saindo do Brasil, vigentes a partir de 23/11/2026 (reajuste de 20%). Conferidos em 15/11/2026 em duas publicações que batem entre si; o comunicado oficial da LATAM não foi localizado, então confirme no site antes de emitir. Ajuste valor_milheiro_reais ao que você realmente paga pelos pontos.",
+  "valor_milheiro_reais": 25.0,
+  "latam_tabela_fixa": {
+    "vigencia": "2026-11-23",
+    "fonte": "https://www.melhoresdestinos.com.br/milhas/aumento-tabela-fixa-latam-nov26",
+    "link_oficial": "https://latampass.latam.com/pt_br/resgate/passagens-aereas",
+    "regioes": {
+      "América Central e Caribe": { "economica": 50400, "executiva": 108000, "parceira": "Aeroméxico, Delta" },
+      "América do Norte": { "economica": 68400, "executiva": 162000, "parceira": "Delta" },
+      "Europa": { "economica": 96840, "executiva": 241920, "parceira": "Iberia, British Airways" },
+      "África": { "economica": 74400, "executiva": 189000, "parceira": "Qatar Airways" },
+      "Oriente Médio": { "economica": 145800, "executiva": 350400, "parceira": "Qatar Airways" },
+      "Ásia": { "economica": 150600, "executiva": 297600, "parceira": "Qatar Airways, Cathay Pacific; faixa Ásia Oriental" },
+      "Oceania": { "economica": 114000, "executiva": 237600, "parceira": "conferir parceiras na tabela" }
+    }
+  },
+  "azul_award": {
+    "América do Norte": "United, Copa",
+    "Europa": "TAP, Turkish",
+    "América Central e Caribe": "Copa"
+  }
+}

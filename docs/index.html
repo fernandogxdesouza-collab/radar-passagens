@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Passagens</title>
+<style>
+  :root {
+    --fundo: #f4f1ea; --cartao: #fffdf8; --tinta: #1d2a35; --suave: #5d6b76; --linha: #ddd6c8;
+    --destaque: #0b6e6e; --quente: #c2410c; --quente-fundo: #fdebd8; --bom-fundo: #dff1ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #12181d; --cartao: #1b242b; --tinta: #e9eef1; --suave: #9aa8b2; --linha: #2c3943;
+      --destaque: #4fc3b8; --quente: #ff9a5c; --quente-fundo: #40230f; --bom-fundo: #173832;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--tinta);
+    font: 16px/1.45 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.02em; }
+  h2 { font-size: 1.1rem; margin: 32px 0 10px; }
+  .sub { color: var(--suave); font-size: 0.9rem; margin: 4px 0 18px; }
+  .filtros { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;
+    background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; padding: 14px; }
+  label { display: grid; gap: 4px; font-size: 0.78rem; color: var(--suave); }
+  select, input { font: inherit; color: var(--tinta); background: var(--fundo);
+    border: 1px solid var(--linha); border-radius: 8px; padding: 7px 8px; width: 100%; min-width: 0; }
+  .marcar { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--tinta); align-self: end; padding-bottom: 8px; }
+  .marcar input { width: auto; }
+  #contagem { color: var(--suave); font-size: 0.9rem; margin: 16px 0 10px; }
+  .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .oferta { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; padding: 14px;
+    display: grid; gap: 6px; text-decoration: none; color: inherit; }
+  .oferta:hover, .oferta:focus-visible { border-color: var(--destaque); outline: none; }
+  .topo { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .rota { font-weight: 600; }
+  .regiao { font-size: 0.78rem; color: var(--suave); }
+  .preco { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .selo { font-size: 0.8rem; font-weight: 600; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+  .selo.bom { background: var(--bom-fundo); color: var(--destaque); }
+  .selo.quente { background: var(--quente-fundo); color: var(--quente); }
+  .selo.neutro { color: var(--suave); border: 1px solid var(--linha); font-weight: 400; }
+  .detalhe { font-size: 0.86rem; color: var(--suave); }
+  .promos { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .promos a { color: var(--destaque); }
+  .promos span { color: var(--suave); font-size: 0.82rem; }
+  .vazio { color: var(--suave); padding: 24px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Radar de Passagens</h1>
+  <p class="sub" id="atualizado"></p>
+
+  <section class="filtros" aria-label="Filtros">
+    <label>Região <select id="f-regiao"><option value="">Todas</option></select></label>
+    <label>Saindo de <select id="f-origem"><option value="">Qualquer</option></select></label>
+    <label>Ida a partir de <input type="date" id="f-de"></label>
+    <label>Ida até <input type="date" id="f-ate"></label>
+    <label>Preço total máximo (R$) <input type="number" id="f-preco" min="0" step="100" placeholder="sem limite"></label>
+    <label>Ordenar por <select id="f-ordem">
+      <option value="desconto">Maior desconto</option>
+      <option value="preco">Menor preço total</option>
+      <option value="ida">Data de ida</option>
+    </select></label>
+    <label class="marcar"><input type="checkbox" id="f-so"> Só oportunidades</label>
+  </section>
+
+  <p id="contagem"></p>
+  <div class="grade" id="grade"></div>
+
+  <h2>Promoções publicadas</h2>
+  <ul class="promos" id="promos"></ul>
+</main>
+<script>
+const D = {"atualizado_em": "2026-11-15 23:03", "casa": "CNF", "ofertas": [{"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "GRU", "ida": "2026-12-06", "volta": "2026-12-10", "fonte": "google", "preco": 1011, "cia": "LATAM", "paradas": 0, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 1011, "cidade": "São Paulo", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20GRU%20on%202026-12-06%20through%202026-12-10"}, {"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "GIG", "ida": "2026-12-07", "volta": "2026-12-11", "fonte": "google", "preco": 1167, "cia": "Gol", "paradas": 1, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 1167, "cidade": "Rio de Janeiro", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20GIG%20on%202026-12-07%20through%202026-12-11"}, {"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "SSA", "ida": "2026-12-08", "volta": "2026-12-12", "fonte": "google", "preco": 1334, "cia": "Gol", "paradas": 1, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 1334, "cidade": "Salvador", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20SSA%20on%202026-12-08%20through%202026-12-12"}, {"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "REC", "ida": "2026-12-09", "volta": "2026-12-13", "fonte": "google", "preco": 1906, "cia": "LATAM", "paradas": 1, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 1906, "cidade": "Recife", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20REC%20on%202026-12-09%20through%202026-12-13"}, {"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "FOR", "ida": "2026-12-10", "volta": "2026-12-14", "fonte": "google", "preco": 1796, "cia": "Azul", "paradas": 0, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 1796, "cidade": "Fortaleza", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20FOR%20on%202026-12-10%20through%202026-12-14"}, {"coletado_em": "2026-11-15 23:03", "origem": "CNF", "destino": "NAT", "ida": "2026-12-11", "volta": "2026-12-15", "fonte": "google", "preco": 2025, "cia": "Gol", "paradas": 2, "mediana": null, "desconto": null, "posicionamento": 0, "total_casa": 2025, "cidade": "Natal", "regiao": "Brasil", "link": "https://www.google.com/travel/flights?hl=pt-BR&curr=BRL&q=Flights%20from%20CNF%20to%20NAT%20on%202026-12-11%20through%202026-12-15"}], "promos": [{"fonte": "Melhores Destinos", "titulo": "Boa notícia! Voos da Azul para Corumbá, acesso ao Pantanal, passam a ser regulares", "link": "https://www.melhoresdestinos.com.br/voos-corumba-pantanal-azul.html", "visto_em": "2026-11-15"}, {"fonte": "Melhores Destinos", "titulo": "Europa 2×1! Passagens aéreas para Portugal mais outro país europeu a partir de R$ 4.370", "link": "https://www.melhoresdestinos.com.br/promocao/europa-2x1-passagens-para-portugal-mais-outro-pais-europeu-12nov26", "visto_em": "2026-11-15"}, {"fonte": "Melhores Destinos", "titulo": "Diversão na Flórida! Passagens para Orlando a partir de R$ 2.604 com boas opções em janeiro, Carnaval e julho", "link": "https://www.melhoresdestinos.com.br/promocao/diversao-na-florida-passagens-para-orlando-12nov26", "visto_em": "2026-11-15"}, {"fonte": "Melhores Destinos", "titulo": "São Paulo e Rio voltam a ter voos para Buenos Aires com companhias de outros continentes", "link": "https://www.melhoresdestinos.com.br/voos-sao-paulo-rio-buenos-aires.html", "visto_em": "2026-11-15"}, {"fonte": "Melhores Destinos", "titulo": "Argentina! Passagens para Buenos Aires a partir de R$ 1.405 com bons preços em janeiro", "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-12nov26", "visto_em": "2026-11-15"}, {"fonte": "Melhores Destinos", "titulo": "Bom demais! Voos em classe executiva para Lisboa a partir de R$ 9.124 com datas no final do ano", "link": "https://www.melhoresdestinos.com.br/promocao/portugal-passagens-em-classe-executiva-12nov26", "visto_em": "2026-11-15"}, {"fonte": "Passageiro de Primeira", "titulo": "Qatar Airways amplia pré-seleção de refeições para Primeira Classe e Executiva", "link": "https://passageirodeprimeira.com/qatar-airways-amplia-pre-selecao-de-refeicoes-para-primeira-classe-e-executiva/", "visto_em": "2026-11-15"}, {"fonte": "Passageiro de Primeira", "titulo": "Brussels Airlines apresenta novos amenity kits da Classe Executiva", "link": "https://passageirodeprimeira.com/brussels-airlines-apresenta-novos-amenity-kits-classe-executiva/", "visto_em": "2026-11-15"}, {"fonte": "Fly4free", "titulo": "Air France flights from Italian cities to Fortaleza, Brazil 😎 🍹 from €506", "link": "https://www.fly4free.com/flight-deals/europe/air-france-flights-from-italy-to-fortaleza-e506/", "visto_em": "2026-11-15"}], "limiar": 0.35};
+const $ = id => document.getElementById(id);
+const brl = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
+const dataBr = iso => iso.split("-").reverse().join("/");
+const texto = (tag, classe, conteudo) => {
+  const el = document.createElement(tag);
+  if (classe) el.className = classe;
+  el.textContent = conteudo;
+  return el;
+};
+
+function preencher(select, valores) {
+  [...new Set(valores)].sort().forEach(v => select.append(new Option(v, v)));
+}
+
+function desenhar() {
+  const regiao = $("f-regiao").value, origem = $("f-origem").value;
+  const de = $("f-de").value, ate = $("f-ate").value;
+  const teto = Number($("f-preco").value) || Infinity;
+  const so = $("f-so").checked, ordem = $("f-ordem").value;
+
+  let lista = D.ofertas.filter(o =>
+    (!regiao || o.regiao === regiao) && (!origem || o.origem === origem) &&
+    (!de || o.ida >= de) && (!ate || o.ida <= ate) && o.total_casa <= teto &&
+    (!so || (o.desconto ?? -1) >= D.limiar));
+
+  const chaves = {
+    desconto: (a, b) => (b.desconto ?? -9) - (a.desconto ?? -9),
+    preco: (a, b) => a.total_casa - b.total_casa,
+    ida: (a, b) => a.ida.localeCompare(b.ida),
+  };
+  lista.sort(chaves[ordem]);
+
+  $("contagem").textContent = lista.length + " de " + D.ofertas.length + " preços monitorados";
+  const grade = $("grade");
+  grade.replaceChildren();
+  if (!lista.length) {
+    grade.append(texto("p", "vazio", D.ofertas.length
+      ? "Nenhum preço com esses filtros."
+      : "Ainda sem dados. O painel se enche depois das primeiras execuções do robô."));
+    return;
+  }
+  for (const o of lista.slice(0, 300)) {
+    const cartao = document.createElement("a");
+    cartao.className = "oferta";
+    cartao.href = o.link; cartao.target = "_blank"; cartao.rel = "noopener";
+
+    const topo = texto("div", "topo", "");
+    topo.append(texto("span", "rota", o.origem + " → " + o.cidade + " (" + o.destino + ")"),
+                texto("span", "regiao", o.regiao));
+
+    const linhaPreco = texto("div", "topo", "");
+    linhaPreco.append(texto("span", "preco", brl(o.preco)));
+    if (o.desconto === null) linhaPreco.append(texto("span", "selo neutro", "histórico em formação"));
+    else if (o.desconto >= D.limiar) linhaPreco.append(texto("span", "selo quente", Math.round(o.desconto * 100) + "% abaixo"));
+    else if (o.desconto > 0.05) linhaPreco.append(texto("span", "selo bom", Math.round(o.desconto * 100) + "% abaixo"));
+    else linhaPreco.append(texto("span", "selo neutro", "preço habitual"));
+
+    cartao.append(topo, linhaPreco,
+      texto("div", "detalhe", dataBr(o.ida) + " a " + dataBr(o.volta) + " · " + (o.cia || "cia não informada") + " · " + o.paradas + " parada(s)"));
+    if (o.mediana) cartao.append(texto("div", "detalhe", "Mediana da rota: " + brl(o.mediana)));
+    if (o.posicionamento) cartao.append(texto("div", "detalhe",
+      "Com posicionamento de " + D.casa + " (cerca de " + brl(o.posicionamento) + "): " + brl(o.total_casa)));
+    grade.append(cartao);
+  }
+}
+
+$("atualizado").textContent = "Atualizado em " + D.atualizado_em + " · ida e volta, 1 adulto, econômica · clique no cartão para abrir no Google Flights";
+preencher($("f-regiao"), D.ofertas.map(o => o.regiao));
+preencher($("f-origem"), D.ofertas.map(o => o.origem));
+document.querySelectorAll(".filtros select, .filtros input").forEach(el => el.addEventListener("input", desenhar));
+
+const promos = $("promos");
+if (!D.promos.length) promos.append(texto("li", "vazio", "Nenhuma promoção registrada ainda."));
+for (const p of D.promos) {
+  const li = document.createElement("li"), a = texto("a", "", p.titulo);
+  a.href = p.link; a.target = "_blank"; a.rel = "noopener";
+  li.append(a, texto("span", "", "  " + p.fonte + " · " + dataBr(p.visto_em)));
+  promos.append(li);
+}
+desenhar();
+</script>
+</body>
+</html>
