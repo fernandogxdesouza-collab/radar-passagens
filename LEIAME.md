@@ -28,7 +28,16 @@ O que ele **não** faz: ver disponibilidade de assento Award. Isso só existe em
 2. **Conferência no termômetro.** Os 50 candidatos mais promissores da rodada (quem caiu 10% desde a última vez, depois quem está há mais tempo sem conferir) são consultados na data exata para ler a faixa verde. Só preço conferido gera alerta.
 3. **Grade complementar.** As rotas do `config.json` são consultadas em datas espalhadas pelos próximos 180 dias com estadias de 3, 4, 5 e 10 dias (`estadias_grade_dias`), que o Explorar não cobre.
 
-O painel mostra tudo, inclusive os preços do Explorar ainda não conferidos.
+4. **Outras classes e só ida.** A cada rodada, para uma origem em rodízio (CNF, GRU, GIG), o Explorar também é consultado em econômica premium, executiva, primeira e só ida (1 semana). Esses preços aparecem no painel, sem alerta.
+
+O Explorar recusa mais da metade das chamadas com um erro passageiro; o robô insiste até 6 vezes em cada uma.
+
+## Painel
+
+- **Viagem:** tipo (ida e volta ou só ida), classe e passageiros. O preço mostrado é o de 1 adulto multiplicado pelos pagantes (adultos e crianças de 2 a 11), portanto estimado; o botão "Abrir no Google Flights" leva a busca com classe, tipo e passageiros exatos.
+- **Filtros:** região, origem, duração, datas, preço total máximo e "só oportunidades".
+- **Como economizar mais:** em cada cartão, dicas montadas a partir dos preços coletados (voo de posicionamento com a conta feita, só ida contra ida e volta, milhas contra dinheiro pela tabela fixa) e das estratégias gerais (dia da semana, stopover, aeroportos vizinhos, moeda local, Skiplagged, tarifa erro).
+- Preços vindos só do Explorar ainda não foram conferidos na data exata e aparecem "sem referência".
 
 ## Instalação (uns 20 minutos, uma vez só)
 

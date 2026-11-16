@@ -108,10 +108,15 @@ def consultar_google(origem, destino, ida, volta):
     try:
         pagina = fetch_flights_html(consulta)
         resultado = parse(pagina)
-    except Exception:  # o Google às vezes devolve uma página de erro passageira; tenta mais uma vez
+    except Exception:  # o Google às vezes devolve uma página de erro passageira; insiste mais duas vezes
         time.sleep(5)
-        pagina = fetch_flights_html(consulta)
-        resultado = parse(pagina)
+        try:
+            pagina = fetch_flights_html(consulta)
+            resultado = parse(pagina)
+        except Exception:
+            time.sleep(9)
+            pagina = fetch_flights_html(consulta)
+            resultado = parse(pagina)
     voos = [v for v in resultado if getattr(v, "price", 0)]
     if not voos:
         return None
@@ -238,19 +243,23 @@ def explorar(origem, duracao, classe=1, so_ida=False):
     return [a for a in achados if a["destino"] and a["ida"] and (a["volta"] or so_ida)]
 
 
+def explorar_insistindo(origem, duracao, classe=1, so_ida=False, tentativas=6):
+    """O Explorar recusa mais da metade das chamadas com um erro passageiro; insiste até vir resposta."""
+    for tentativa in range(tentativas):
+        achados = explorar(origem, duracao, classe, so_ida)
+        if achados:
+            return achados
+        time.sleep(4 + 2 * tentativa)
+    raise RuntimeError(f"sem resposta em {tentativas} tentativas")
+
+
 def coletar_explorar(estado, agora):
     """Varre o mundo pelo "Explorar" e confere no termômetro os candidatos mais promissores."""
     candidatos, falhas = [], 0
     for origem in [CFG["casa"], *CFG["hubs"]]:
         for duracao in CFG["explorar_duracoes"]:
             try:
-                achados = explorar(origem, duracao)
-                if not achados:  # o Google às vezes devolve erro passageiro; tenta mais uma vez
-                    time.sleep(6)
-                    achados = explorar(origem, duracao)
-                if not achados:
-                    raise RuntimeError("resposta vazia")
-                candidatos += achados
+                candidatos += explorar_insistindo(origem, duracao)
             except Exception as erro:
                 falhas += 1
                 print(f"  explorar {origem} {DURACOES.get(duracao)}: {type(erro).__name__}: {str(erro)[:100]}")
@@ -263,13 +272,10 @@ def coletar_explorar(estado, agora):
         estado["rodadas"] = estado.get("rodadas", 0) + 1
         for classe, so_ida in [(3, False), (2, False), (4, False), (1, True)]:
             try:
-                achados = explorar(origem, 2, classe, so_ida)
-                if not achados:
-                    time.sleep(6)
-                    achados = explorar(origem, 2, classe, so_ida)
-                extras += achados
+                extras += explorar_insistindo(origem, 2, classe, so_ida)
             except Exception as erro:
-                print(f"  explorar {origem} {CLASSES[classe - 1]}: {type(erro).__name__}: {str(erro)[:100]}")
+                falhas += 1
+                print(f"  explorar {origem} {CLASSES[classe - 1]}{' só ida' if so_ida else ''}: {type(erro).__name__}: {str(erro)[:100]}")
             time.sleep(random.uniform(*CFG["pausa_entre_consultas_seg"]))
     linhas = [{"coletado_em": agora, "fonte": "explorar", "faixa_baixa": "", "faixa_alta": "", **c}
               for c in candidatos + extras]
@@ -405,7 +411,7 @@ def nota_milhas(regiao, preco, classe="economica", trechos=2):
         veredito = "milhas saem mais baratas" if custo < preco else "dinheiro sai mais barato"
         pontos = f"{faixa[coluna]:,}".replace(",", ".")
         percurso = "ida e volta" if trechos == 2 else "só ida"
-        notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): {pontos} pts por trecho em {coluna}"
+        notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): {pontos} pts por trecho em {'econômica' if coluna == 'economica' else coluna}"
                      + f", cerca de {brl(custo)} {percurso} com milheiro a {brl(MILHAS['valor_milheiro_reais'])}, mais taxas. Aqui {veredito}.")
     elif faixa and coluna:
         notas.append(f"Tabela fixa LATAM ({faixa['parceira']}): valor vigente não conferido, veja {tabela['link_oficial']}")
@@ -476,8 +482,8 @@ def dicas(o, melhores):
 
     d += nota_milhas(o["regiao"], o["preco"], o["classe"], 1 if o["tipo"] == "ida" else 2)
     if o["classe"] in ("executiva", "primeira"):
-        d.append("Em executiva a tabela fixa costuma render mais que o dinheiro: ache a vaga Award no Seats.aero, "
-                 "anote voo e data e emita pelo atendimento do LATAM Pass.")
+        d.append("Para emitir com milhas nesta classe: ache a vaga Award no Seats.aero, anote voo e data e peça a "
+                 "emissão pelo atendimento do LATAM Pass. Em alta temporada a tabela fixa costuma ganhar do dinheiro.")
 
     dia = date.fromisoformat(o["ida"]).weekday()
     if dia in DIAS_CAROS:

@@ -1,5 +1,5 @@
 {
- "cursor": 116,
+ "cursor": 118,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -374,5 +374,6 @@
    "2026-11-16 00:12"
   ]
  },
- "promos_fila": []
+ "promos_fila": [],
+ "rodadas": 2
 }
