@@ -102,8 +102,13 @@ def consultar_google(origem, destino, ida, volta):
         trip="round-trip", seat="economy", passengers=Passengers(adults=1),
         language="pt-BR", currency="BRL",
     )
-    pagina = fetch_flights_html(consulta)
-    resultado = parse(pagina)
+    try:
+        pagina = fetch_flights_html(consulta)
+        resultado = parse(pagina)
+    except Exception:  # o Google às vezes devolve uma página de erro passageira; tenta mais uma vez
+        time.sleep(5)
+        pagina = fetch_flights_html(consulta)
+        resultado = parse(pagina)
     voos = [v for v in resultado if getattr(v, "price", 0)]
     if not voos:
         return None
@@ -390,12 +395,21 @@ def links(o):
 
 def ntfy(texto, topico, prioridade=3):
     """Envia pelo ntfy.sh (app gratuito, sem conta). O nome do tópico funciona como senha."""
-    corpo = re.sub(r'<a href="([^"]+)">(.*?)</a>', r"[\2](\1)", texto)
+    # Mensagem curta chega inteira pelo push do celular; a longa depende de o app buscá-la depois.
+    elos = re.findall(r'<a href="([^"]+)">(.*?)</a>', texto)
+    acoes = []
+    if 0 < len(elos) <= 3:  # poucos links viram botões da notificação
+        acoes = [{"action": "view", "label": rotulo[:30], "url": html.unescape(url)} for url, rotulo in elos]
+        corpo = "\n".join(l for l in texto.split("\n") if "<a href" not in l)
+    else:
+        corpo = re.sub(r'<a href="([^"]+)">(.*?)</a>', r"[\2](\1)", texto)
     corpo = html.unescape(re.sub(r"</?b>", "**", corpo))
     titulo, _, resto = corpo.partition("\n")
-    dados = json.dumps({"topic": topico, "title": titulo.replace("**", "")[:200],
-                        "message": (resto or titulo)[:3800], "markdown": True,
-                        "priority": prioridade}).encode()
+    pacote = {"topic": topico, "title": titulo.replace("**", "")[:200],
+              "message": (resto or titulo)[:2500], "markdown": True, "priority": prioridade}
+    if acoes:
+        pacote.update(actions=acoes, click=acoes[0]["url"])
+    dados = json.dumps(pacote).encode()
     try:
         baixar("https://ntfy.sh/", dados)
         return True
@@ -559,8 +573,9 @@ def main():
 
     oportunidades = detectar(novas, meds, estado)
     if oportunidades:  # com som; "imperdível" sai com prioridade alta
-        telegram("\n\n".join(texto_oportunidade(o) for o in oportunidades),
-                 prioridade=4 if any(o["imperdivel"] for o in oportunidades) else 3)
+        for o in oportunidades:  # uma notificação por oportunidade
+            telegram(texto_oportunidade(o), prioridade=4 if o["imperdivel"] else 3)
+            time.sleep(1)
 
     # Promoções dos blogs: acumulam e saem uma vez por dia, em silêncio.
     promos = ler_feeds(estado)
@@ -568,7 +583,7 @@ def main():
     inicio, fim = CFG["promos_janela_horas"]
     if estado["promos_fila"] and inicio <= int(agora[11:13]) < fim:
         linhas = [f'• <a href="{p["link"]}">{html.escape(p["titulo"])}</a> ({p["fonte"]})'
-                  for p in estado["promos_fila"][:15]]
+                  for p in estado["promos_fila"][:8]]
         telegram("<b>📰 Promoções do dia</b>\n" + "\n".join(linhas), prioridade=2)
         estado["promos_fila"] = []
 
