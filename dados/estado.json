@@ -1,5 +1,5 @@
 {
- "cursor": 118,
+ "cursor": 148,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -20,6 +20,22 @@
   ],
   "CNF-SYD": [
    9283,
+   "2026-11-16"
+  ],
+  "CNF-CPT": [
+   5094,
+   "2026-11-16"
+  ],
+  "CNF-YVR": [
+   5256,
+   "2026-11-16"
+  ],
+  "CNF-DXB": [
+   5434,
+   "2026-11-16"
+  ],
+  "CNF-MSY": [
+   6076,
    "2026-11-16"
   ]
  },
@@ -113,7 +129,12 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-kuala-lumpur-e493/",
   "https://www.fly4free.com/news/chinese-airlines-cut-flights-to-europe-with-cancellations-affecting-major-hubs/",
   "https://www.fly4free.com/flight-deals/europe/direct-flights-from-prague-to-beijing-e585/",
-  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-athens-e47/"
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-athens-e47/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-paris-to-the-dominican-republic-e620/",
+  "https://www.fly4free.com/flight-deals/europe/%e2%9a%a1%e2%9a%a1-wizz-air-plans-loyalty-programme-with-points-and-miles/",
+  "https://www.fly4free.com/flight-deals/europe/open-jaw-flights-from-prague-to-vietnam-462/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-south-korea-e475/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-phuket-from-vienna-e673/"
  ],
  "promos": [
   {
@@ -372,8 +393,208 @@
   "CNF-HNL-1": [
    6008,
    "2026-11-16 00:12"
+  ],
+  "CNF-LIS-2": [
+   4247,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BOS-2": [
+   4977,
+   "2026-11-16 07:02"
+  ],
+  "CNF-LAX-2": [
+   4240,
+   "2026-11-16 07:02"
+  ],
+  "CNF-CDG-2": [
+   5188,
+   "2026-11-16 07:02"
+  ],
+  "CNF-LHR-2": [
+   5272,
+   "2026-11-16 07:02"
+  ],
+  "CNF-JFK-2": [
+   4270,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SIN-2": [
+   9399,
+   "2026-11-16 07:02"
+  ],
+  "CNF-FCO-2": [
+   4754,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BCN-2": [
+   5084,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SFO-2": [
+   5881,
+   "2026-11-16 07:02"
+  ],
+  "CNF-AMS-2": [
+   5098,
+   "2026-11-16 07:02"
+  ],
+  "CNF-DXB-2": [
+   5434,
+   "2026-11-16 07:02"
+  ],
+  "CNF-VCE-2": [
+   5353,
+   "2026-11-16 07:02"
+  ],
+  "CNF-ORD-2": [
+   4219,
+   "2026-11-16 07:02"
+  ],
+  "CNF-IAD-2": [
+   4558,
+   "2026-11-16 07:02"
+  ],
+  "CNF-HKG-2": [
+   9154,
+   "2026-11-16 07:02"
+  ],
+  "CNF-NRT-2": [
+   8137,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BKK-2": [
+   8576,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BER-2": [
+   5996,
+   "2026-11-16 07:02"
+  ],
+  "CNF-LAS-2": [
+   5402,
+   "2026-11-16 07:02"
+  ],
+  "CNF-FLR-2": [
+   5862,
+   "2026-11-16 07:02"
+  ],
+  "CNF-EDI-2": [
+   5800,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SYD-2": [
+   9345,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MIA-2": [
+   3745,
+   "2026-11-16 07:02"
+  ],
+  "CNF-PRG-2": [
+   6305,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MAD-2": [
+   5198,
+   "2026-11-16 07:02"
+  ],
+  "CNF-ATH-2": [
+   6318,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SAW-2": [
+   6757,
+   "2026-11-16 07:02"
+  ],
+  "CNF-VIE-2": [
+   6570,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BUD-2": [
+   7335,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SAN-2": [
+   6495,
+   "2026-11-16 07:02"
+  ],
+  "CNF-SEA-2": [
+   6810,
+   "2026-11-16 07:02"
+  ],
+  "CNF-CPT-2": [
+   5094,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MLA-2": [
+   5456,
+   "2026-11-16 07:02"
+  ],
+  "CNF-DUB-2": [
+   5627,
+   "2026-11-16 07:02"
+  ],
+  "CNF-JTR-2": [
+   9560,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MEL-2": [
+   11116,
+   "2026-11-16 07:02"
+  ],
+  "CNF-YYZ-2": [
+   4966,
+   "2026-11-16 07:02"
+  ],
+  "CNF-YVR-2": [
+   5256,
+   "2026-11-16 07:02"
+  ],
+  "CNF-CPH-2": [
+   5868,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MSY-2": [
+   6076,
+   "2026-11-16 07:02"
+  ],
+  "CNF-MRU-2": [
+   14358,
+   "2026-11-16 07:02"
+  ],
+  "CNF-YUL-2": [
+   4920,
+   "2026-11-16 07:02"
+  ],
+  "CNF-BOM-2": [
+   19091,
+   "2026-11-16 07:02"
+  ],
+  "CNF-GIG-2": [
+   586,
+   "2026-11-16 07:02"
+  ],
+  "CNF-EZE-2": [
+   2724,
+   "2026-11-16 07:02"
+  ],
+  "CNF-PER-2": [
+   14736,
+   "2026-11-16 07:02"
+  ],
+  "CNF-KIX-2": [
+   11533,
+   "2026-11-16 07:02"
+  ],
+  "CNF-YQB-2": [
+   15592,
+   "2026-11-16 07:02"
+  ],
+  "CNF-ZQN-2": [
+   21847,
+   "2026-11-16 07:02"
   ]
  },
  "promos_fila": [],
- "rodadas": 2
+ "rodadas": 3
 }
