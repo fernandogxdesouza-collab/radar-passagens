@@ -1,0 +1,44 @@
+name: Vigília da madrugada
+
+on:
+  schedule:
+    # 22h, 0h, 1h30, 3h, 4h30, 6h e 8h de Brasília (o GitHub pode atrasar)
+    - cron: "47 0 * * *"
+    - cron: "47 2 * * *"
+    - cron: "17 4 * * *"
+    - cron: "47 5 * * *"
+    - cron: "17 7 * * *"
+    - cron: "47 8 * * *"
+    - cron: "47 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  vigilia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - name: Medir os voos vigiados
+        env:
+          NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
+        run: python vigilia.py
+      - name: Guardar medições
+        run: |
+          git config user.name "radar-passagens"
+          git config user.email "radar@users.noreply.github.com"
+          git add dados docs
+          git diff --cached --quiet || git commit -q -m "Vigília da madrugada"
+          git pull -q --rebase origin main
+          git push -q

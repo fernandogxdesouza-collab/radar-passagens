@@ -39,6 +39,16 @@ O Explorar recusa mais da metade das chamadas com um erro passageiro; o robô in
 - **Como economizar mais:** em cada cartão, dicas montadas a partir dos preços coletados (voo de posicionamento com a conta feita, só ida contra ida e volta, milhas contra dinheiro pela tabela fixa) e das estratégias gerais (dia da semana, stopover, aeroportos vizinhos, moeda local, Skiplagged, tarifa erro).
 - Preços vindos só do Explorar ainda não foram conferidos na data exata e aparecem "sem referência".
 
+## Vigília da madrugada
+
+Robô à parte ([vigilia.py](vigilia.py), workflow `vigilia.yml`) para flagrar promoção relâmpago e achar padrão.
+
+- **O que mede:** uma cesta fixa de 38 voos (19 rotas nacionais e Buenos Aires e Santiago, sexta a segunda, a 4 e a 8 semanas de distância). As datas só mudam na virada da semana, para que o mesmo voo seja medido muitas vezes.
+- **Quando:** por volta de 22h, 0h, 1h30, 3h, 4h30, 6h e 8h. O GitHub atrasa e às vezes pula agendamentos, então a hora registrada é a da medição real.
+- **Resumo da manhã:** na primeira medição depois das 7h, compara cada voo com o preço do começo da noite. Queda de 12% ou mais (`queda_minima`) entra no resumo do ntfy, com a hora do menor preço e se ainda valia de manhã.
+- **Padrão:** cada queda fica em `dados/quedas.csv` (noite, dia da semana, hora, rota, companhia, tamanho da queda, se persistiu). O painel mostra a tabela e as contagens por hora, dia e companhia. Só dá para falar em padrão depois de 2 a 4 semanas de noites medidas.
+- **Ajuste:** a cesta e os limites ficam em `config.json`, bloco `vigilia`.
+
 ## Instalação (uns 20 minutos, uma vez só)
 
 ### 1. Bot do Telegram

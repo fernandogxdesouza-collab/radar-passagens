@@ -55,6 +55,13 @@
   .promos a { color: var(--destaque); }
   .promos span { color: var(--suave); font-size: 0.82rem; }
   .vazio { color: var(--suave); padding: 24px 0; }
+  .contagens { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 12px; }
+  .contagens > div { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; padding: 12px 14px; font-size: 0.88rem; }
+  .contagens strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--suave); margin-bottom: 6px; }
+  .rolagem { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--linha); white-space: nowrap; }
+  th { color: var(--suave); font-weight: 600; font-size: 0.78rem; }
 </style>
 </head>
 <body>
@@ -103,6 +110,11 @@
 
   <p id="contagem"></p>
   <div class="grade" id="grade"></div>
+
+  <h2>Madrugada</h2>
+  <p class="sub" id="mad-resumo"></p>
+  <div class="contagens" id="mad-contagens"></div>
+  <div class="rolagem"><table id="mad-tabela"></table></div>
 
   <h2>Promoções publicadas</h2>
   <ul class="promos" id="promos"></ul>
@@ -221,6 +233,34 @@ $("atualizado").textContent = "Atualizado em " + D.atualizado_em + " · preços 
 preencher($("f-regiao"), D.ofertas.map(o => o.regiao));
 preencher($("f-origem"), D.ofertas.map(o => o.origem));
 document.querySelectorAll(".filtros select, .filtros input").forEach(el => el.addEventListener("input", desenhar));
+
+// Madrugada: quedas flagradas pela vigília e contagens para enxergar padrão
+const M = D.madrugada || {quedas: [], noites: 0, por_hora: {}, por_dia: {}, por_cia: {}};
+$("mad-resumo").textContent = M.quedas.length
+  ? M.quedas.length + " queda(s) registradas em " + M.noites + " dia(s) de vigília. Com poucas noites, as contagens ainda não indicam padrão."
+  : "Nenhuma queda registrada ainda. A vigília mede os mesmos voos várias vezes por noite; o primeiro resumo sai na manhã seguinte à primeira noite completa" + (M.noites ? " (" + M.noites + " dia(s) medidos)." : ".");
+const grupos = [["Hora do menor preço", M.por_hora, v => v + "h"], ["Noite de", M.por_dia, v => v], ["Companhia", M.por_cia, v => v]];
+for (const [titulo, mapa, rotulo] of grupos) {
+  const itens = Object.entries(mapa);
+  if (!itens.length) continue;
+  const caixa = document.createElement("div");
+  caixa.append(texto("strong", "", titulo));
+  itens.slice(0, 6).forEach(([k, n]) => caixa.append(texto("div", "", rotulo(k) + ": " + n)));
+  $("mad-contagens").append(caixa);
+}
+if (M.quedas.length) {
+  const tabela = $("mad-tabela"), cab = document.createElement("tr");
+  ["Noite", "Rota", "Voo", "Antes", "Menor", "Queda", "Hora", "Companhia", "De manhã"].forEach(t => cab.append(texto("th", "", t)));
+  tabela.append(cab);
+  for (const q of M.quedas) {
+    const tr = document.createElement("tr");
+    [dataBr(q.noite) + " (" + q.dia_semana + ")", q.origem + " → " + q.cidade, dataBr(q.ida) + " a " + dataBr(q.volta),
+     brl(q.referencia), brl(q.minimo) + (q.faixa_verde === "sim" ? " · verde" : ""), "-" + Math.round(q.queda * 100) + "%",
+     q.hora_minimo + "h", q.cia, q.persistiu === "sim" ? "ainda valia" : "voltou a " + brl(q.manha)]
+      .forEach(t => tr.append(texto("td", "", t)));
+    tabela.append(tr);
+  }
+}
 
 const promos = $("promos");
 if (!D.promos.length) promos.append(texto("li", "vazio", "Nenhuma promoção registrada ainda."));

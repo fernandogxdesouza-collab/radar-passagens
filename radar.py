@@ -673,6 +673,27 @@ def ler_feeds(estado):
 
 # ---------------------------------------------------------------- painel
 
+def resumo_madrugada():
+    """Quedas flagradas pela vigília (dados/quedas.csv) e contagens para enxergar padrão."""
+    caminho = DADOS / "quedas.csv"
+    if not caminho.exists():
+        return {"quedas": [], "noites": 0, "por_hora": {}, "por_dia": {}, "por_cia": {}}
+    with caminho.open(encoding="utf-8", newline="") as f:
+        quedas = list(csv.DictReader(f))
+    contar = lambda campo: dict(sorted(  # noqa: E731
+        {v: sum(1 for q in quedas if q[campo] == v) for v in {q[campo] for q in quedas}}.items(),
+        key=lambda par: -par[1]))
+    for q in quedas:
+        q["cidade"] = cidade_de(q["destino"])
+    medidas = DADOS / "vigilia.csv"
+    noites = 0
+    if medidas.exists():
+        with medidas.open(encoding="utf-8", newline="") as f:
+            noites = len({l["coletado_em"][:10] for l in csv.DictReader(f)})
+    return {"quedas": quedas[::-1][:60], "noites": noites, "por_hora": contar("hora_minimo"),
+            "por_dia": contar("dia_semana"), "por_cia": contar("cia")}
+
+
 def gerar_painel(historico, meds, estado, agora):
     hoje = date.today().isoformat()
     recente = (date.today() - timedelta(days=10)).isoformat()
@@ -688,7 +709,8 @@ def gerar_painel(historico, meds, estado, agora):
             por_origem[o["origem"]] = o
     for o in ofertas:
         o["dicas"] = dicas(o, melhores)
-    dados = {"atualizado_em": agora, "casa": CFG["casa"], "ofertas": ofertas, "promos": estado["promos"]}
+    dados = {"atualizado_em": agora, "casa": CFG["casa"], "ofertas": ofertas, "promos": estado["promos"],
+             "madrugada": resumo_madrugada()}
     pagina = PAINEL_MODELO.read_text(encoding="utf-8").replace(
         "/*DADOS*/null", json.dumps(dados, ensure_ascii=False).replace("</", "<\\/"))
     PAINEL.parent.mkdir(exist_ok=True)

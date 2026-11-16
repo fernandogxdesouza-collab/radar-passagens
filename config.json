@@ -17,6 +17,21 @@
   "posicionamento_padrao_reais": 500,
   "max_alertas_por_execucao": 8,
   "estadias_grade_dias": [3, 4, 5, 10],
+  "vigilia": {
+    "_leia": "Voos medidos várias vezes por noite para flagrar promoção relâmpago. Sexta a segunda, a N semanas de distância.",
+    "semanas_a_frente": [4, 8],
+    "estadia_dias": 3,
+    "queda_minima": 0.12,
+    "noite_comeca_hora": 21,
+    "resumo_apos_hora": 7,
+    "guardar_dias": 45,
+    "rotas": [
+      ["CNF", "GRU"], ["CNF", "GIG"], ["CNF", "SSA"], ["CNF", "REC"], ["CNF", "FOR"], ["CNF", "NAT"],
+      ["CNF", "MCZ"], ["CNF", "FLN"], ["CNF", "POA"], ["CNF", "CWB"], ["CNF", "IGU"], ["CNF", "BSB"],
+      ["GRU", "SSA"], ["GRU", "REC"], ["GRU", "FOR"], ["GRU", "FLN"], ["GRU", "POA"],
+      ["GRU", "EZE"], ["GRU", "SCL"]
+    ]
+  },
   "destinos": {
     "GRU": ["São Paulo", "Brasil"],
     "GIG": ["Rio de Janeiro", "Brasil"],
