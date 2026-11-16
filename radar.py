@@ -227,11 +227,30 @@ def links(o):
 
 # ---------------------------------------------------------------- alertas
 
+def ntfy(texto, topico):
+    """Envia pelo ntfy.sh (app gratuito, sem conta). O nome do tópico funciona como senha."""
+    corpo = re.sub(r'<a href="([^"]+)">(.*?)</a>', r"[\2](\1)", texto)
+    corpo = html.unescape(re.sub(r"</?b>", "**", corpo))
+    titulo, _, resto = corpo.partition("\n")
+    dados = json.dumps({"topic": topico, "title": titulo.replace("**", "")[:200],
+                        "message": (resto or titulo)[:3800], "markdown": True}).encode()
+    try:
+        baixar("https://ntfy.sh/", dados)
+        return True
+    except Exception as erro:
+        print(f"  ntfy falhou: {type(erro).__name__}: {str(erro)[:120]}")
+        return False
+
+
 def telegram(texto):
+    """Avisa pelo canal configurado: ntfy (NTFY_TOPICO) e/ou Telegram."""
+    topico = os.environ.get("NTFY_TOPICO")
+    enviado = ntfy(texto, topico) if topico else False
     token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if not (token and chat):
-        print("[Telegram não configurado] " + re.sub(r"<[^>]+>", "", texto))
-        return False
+        if not topico:
+            print("[Nenhum canal de alerta configurado] " + re.sub(r"<[^>]+>", "", texto))
+        return enviado
     corpo = urllib.parse.urlencode({"chat_id": chat, "text": texto[:4000], "parse_mode": "HTML",
                                     "disable_web_page_preview": "true"}).encode()
     try:

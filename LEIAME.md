@@ -30,6 +30,8 @@ São 98 rotas e 8 meses à frente. Com 80 consultas por execução, o ciclo comp
 2. Abra a conversa com o seu bot novo e envie qualquer mensagem.
 3. No navegador, abra `https://api.telegram.org/botSEU_TOKEN/getUpdates` e copie o número em `"chat":{"id": ...}`.
 
+**Alternativa sem bot (ntfy):** se o BotFather recusar a criação do bot, instale o app **ntfy** no celular, toque em "+" e assine um tópico com nome longo e difícil de adivinhar (quem souber o nome consegue ler os alertas). Cadastre esse nome no GitHub como secret `NTFY_TOPICO`. O robô usa ntfy, Telegram ou os dois, conforme os secrets existentes.
+
 ### 2. Repositório no GitHub
 1. Crie uma conta gratuita em github.com e um repositório **público** chamado `radar-passagens`, vazio. Público porque o GitHub só dá execução ilimitada e página gratuita para repositório público. Ele guarda apenas preços de passagens; os tokens ficam em Secrets, fora do código.
 2. Nesta pasta, rode um comando por vez:

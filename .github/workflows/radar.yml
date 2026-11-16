@@ -25,6 +25,7 @@ jobs:
       - run: pip install -q -r requirements.txt
       - name: Coletar e avisar
         env:
+          NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
