@@ -26,7 +26,11 @@ PRECOS = DADOS / "precos.csv"
 ESTADO = DADOS / "estado.json"
 PAINEL_MODELO = RAIZ / "painel_modelo.html"
 PAINEL = RAIZ / "docs" / "index.html"
-CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "paradas", "fonte"]
+CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "paradas", "fonte",
+          "faixa_baixa", "faixa_alta"]
+# Termômetro de preços do Google: [nível, [preço atual], [..], [..], [piso da faixa normal], [teto]
+TERMOMETRO = re.compile(r"\[(\d),\[null,(\d+)\],(?:\[null,-?\d+\]|null),(?:\[null,-?\d+\]|null),"
+                        r"\[null,(\d+)\],\[null,(\d+)\],")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) radar-passagens"
 
 
@@ -68,9 +72,12 @@ def montar_rotas():
     return rotas
 
 
-def datas_da_tarefa(indice_rota, mes, ciclo, regiao):
+def datas_da_tarefa(indice_rota, fatia, ciclo, regiao):
+    """Espalha as datas de ida pelo horizonte; a cada ciclo o dia muda, para cobrir datas diferentes."""
     estadia = CFG["estadia_dias"].get(regiao, CFG["estadia_dias"]["padrao"])
-    ida = date.today() + timedelta(days=21 + 30 * mes + (ciclo * 3 + indice_rota) % 7)
+    passo = CFG["horizonte_dias"] // CFG["datas_por_rota"]
+    dias = 7 + passo * fatia + (ciclo * 3 + indice_rota) % passo
+    ida = date.today() + timedelta(days=min(dias, CFG["horizonte_dias"]))
     return ida.isoformat(), (ida + timedelta(days=estadia)).isoformat()
 
 
@@ -78,7 +85,8 @@ def datas_da_tarefa(indice_rota, mes, ciclo, regiao):
 
 def consultar_google(origem, destino, ida, volta):
     """Menor preço ida e volta em reais no Google Flights, ou None."""
-    from fast_flights import FlightQuery, Passengers, create_query, get_flights
+    from fast_flights import FlightQuery, Passengers, create_query, fetch_flights_html
+    from fast_flights.parser import parse
 
     consulta = create_query(
         flights=[
@@ -88,29 +96,38 @@ def consultar_google(origem, destino, ida, volta):
         trip="round-trip", seat="economy", passengers=Passengers(adults=1),
         language="pt-BR", currency="BRL",
     )
-    voos = [v for v in get_flights(consulta) if getattr(v, "price", 0)]
+    pagina = fetch_flights_html(consulta)
+    resultado = parse(pagina)
+    voos = [v for v in resultado if getattr(v, "price", 0)]
     if not voos:
         return None
     melhor = min(voos, key=lambda v: v.price)
-    return {
-        "preco": int(melhor.price),
-        "cia": " + ".join(melhor.airlines or []),
-        "paradas": max(len(melhor.flights or []) - 1, 0),
-    }
+    preco = int(melhor.price)
+    try:  # o Google informa o menor preço da busca, às vezes abaixo dos voos listados
+        menor = resultado.metadata.shopping.cheapest_price
+        if menor and 0 < menor < preco:
+            preco = int(menor)
+    except AttributeError:
+        pass
+    achado = {"preco": preco, "cia": " + ".join(melhor.airlines or []),
+              "paradas": max(len(melhor.flights or []) - 1, 0), "faixa_baixa": "", "faixa_alta": ""}
+    termometro = TERMOMETRO.search(pagina)
+    if termometro and 0 < int(termometro[3]) < int(termometro[4]):
+        achado.update(faixa_baixa=int(termometro[3]), faixa_alta=int(termometro[4]))
+    return achado
 
 
 def coletar_google(estado, agora):
     rotas = montar_rotas()
-    meses = CFG["meses_a_frente"]
-    tarefas = [(i, r, m) for m in range(meses) for i, r in enumerate(rotas)]
+    tarefas = [(i, r, f) for f in range(CFG["datas_por_rota"]) for i, r in enumerate(rotas)]
     limite = int(os.environ.get("RADAR_CONSULTAS", CFG["consultas_por_execucao"]))
     linhas, falhas = [], 0
     for _ in range(min(limite, len(tarefas))):
         if estado["cursor"] >= len(tarefas):
             estado["cursor"], estado["ciclo"] = 0, estado["ciclo"] + 1
-        i, (origem, destino), mes = tarefas[estado["cursor"]]
+        i, (origem, destino), fatia = tarefas[estado["cursor"]]
         estado["cursor"] += 1
-        ida, volta = datas_da_tarefa(i, mes, estado["ciclo"], regiao_de(destino))
+        ida, volta = datas_da_tarefa(i, fatia, estado["ciclo"], regiao_de(destino))
         try:
             achado = consultar_google(origem, destino, ida, volta)
         except Exception as erro:  # bloqueio, mudança de formato, rede
@@ -164,13 +181,15 @@ def ler_historico():
         linhas = [l for l in csv.DictReader(f) if l["coletado_em"][:10] >= corte]
     for l in linhas:
         l["preco"] = int(l["preco"])
+        for campo in ("faixa_baixa", "faixa_alta"):
+            l[campo] = int(l[campo]) if l.get(campo) else ""
     return linhas
 
 
 def gravar_historico(linhas):
     DADOS.mkdir(exist_ok=True)
     with PRECOS.open("w", encoding="utf-8", newline="") as f:
-        escritor = csv.DictWriter(f, fieldnames=CAMPOS)
+        escritor = csv.DictWriter(f, fieldnames=CAMPOS, restval="", extrasaction="ignore")
         escritor.writeheader()
         escritor.writerows(linhas)
 
@@ -189,11 +208,23 @@ def posicionamento(hub, meds):
 
 
 def avaliar(linha, meds):
-    """Acrescenta à observação a mediana da rota, o desconto e o custo total saindo de casa."""
+    """Classifica a observação e calcula o custo total saindo de casa.
+
+    Referência = piso da faixa normal do termômetro do Google (abaixo dele é a faixa verde).
+    Sem termômetro, usa a mediana da rota menos desconto_alerta. folga >= 0 é oportunidade.
+    """
     med = meds.get((linha["origem"], linha["destino"], linha["fonte"]))
     extra = 0 if linha["origem"] == CFG["casa"] else round(posicionamento(linha["origem"], meds))
-    return {**linha, "mediana": round(med) if med else None,
-            "desconto": round(1 - linha["preco"] / med, 3) if med else None,
+    if linha.get("faixa_baixa"):
+        base, ref = "termometro", linha["faixa_baixa"]
+    elif med:
+        base, ref = "mediana", med * (1 - CFG["desconto_alerta"])
+    else:
+        base, ref = None, None
+    folga = round(1 - linha["preco"] / ref, 3) if ref else None
+    return {**linha, "mediana": round(med) if med else None, "base": base, "folga": folga,
+            "oportunidade": folga is not None and folga >= 0,
+            "imperdivel": folga is not None and folga >= CFG["folga_imperdivel"],
             "posicionamento": extra, "total_casa": linha["preco"] + extra,
             "cidade": cidade_de(linha["destino"]), "regiao": regiao_de(linha["destino"])}
 
@@ -227,13 +258,14 @@ def links(o):
 
 # ---------------------------------------------------------------- alertas
 
-def ntfy(texto, topico):
+def ntfy(texto, topico, prioridade=3):
     """Envia pelo ntfy.sh (app gratuito, sem conta). O nome do tópico funciona como senha."""
     corpo = re.sub(r'<a href="([^"]+)">(.*?)</a>', r"[\2](\1)", texto)
     corpo = html.unescape(re.sub(r"</?b>", "**", corpo))
     titulo, _, resto = corpo.partition("\n")
     dados = json.dumps({"topic": topico, "title": titulo.replace("**", "")[:200],
-                        "message": (resto or titulo)[:3800], "markdown": True}).encode()
+                        "message": (resto or titulo)[:3800], "markdown": True,
+                        "priority": prioridade}).encode()
     try:
         baixar("https://ntfy.sh/", dados)
         return True
@@ -262,10 +294,10 @@ def telefone_whatsapp():
     return os.environ.get("CALLMEBOT_TELEFONE"), os.environ.get("CALLMEBOT_CHAVE")
 
 
-def telegram(texto):
+def telegram(texto, prioridade=3):
     """Avisa por todos os canais configurados: ntfy, WhatsApp (CallMeBot) e Telegram."""
     topico = os.environ.get("NTFY_TOPICO")
-    enviado = ntfy(texto, topico) if topico else False
+    enviado = ntfy(texto, topico, prioridade) if topico else False
     fone, chave = telefone_whatsapp()
     if fone and chave:
         enviado = whatsapp(texto, fone, chave) or enviado
@@ -285,12 +317,18 @@ def telegram(texto):
 
 
 def texto_oportunidade(o):
-    imperdivel = o["desconto"] >= CFG["desconto_imperdivel"]
-    titulo = "🔥 IMPERDÍVEL" if imperdivel else "✈️ Oportunidade"
+    imperdivel = o["imperdivel"]
+    titulo = "🔥 IMPERDÍVEL" if imperdivel else "🟢 Preço baixo"
+    if o["base"] == "termometro":
+        motivo = (f"faixa verde do Google, {o['folga']:.0%} abaixo do piso normal "
+                  f"(normal: {brl(o['faixa_baixa'])} a {brl(o['faixa_alta'])})")
+    else:
+        motivo = (f"{1 - o['preco'] / o['mediana']:.0%} abaixo da mediana da rota ({brl(o['mediana'])}); "
+                  "sem termômetro do Google")
     google, seats = links(o)
     partes = [
         f"<b>{titulo}: {cidade_de(o['origem'])} ({o['origem']}) → {o['cidade']} ({o['destino']})</b>",
-        f"{brl(o['preco'])} ida e volta, {o['desconto']:.0%} abaixo da mediana da rota ({brl(o['mediana'])})",
+        f"{brl(o['preco'])} ida e volta: {motivo}",
         f"{o['ida']} a {o['volta']} · {o['cia'] or 'cia não informada'} · {o['paradas']} parada(s)",
     ]
     if o["posicionamento"]:
@@ -310,7 +348,7 @@ def detectar(novas, meds, estado):
     achadas = []
     for linha in sorted(novas, key=lambda l: l["preco"]):
         o = avaliar(linha, meds)
-        if o["desconto"] is None or o["desconto"] < CFG["desconto_alerta"]:
+        if not o["oportunidade"]:
             continue
         chave = f"{o['origem']}-{o['destino']}"
         anterior = estado["alertados"].get(chave)
@@ -318,7 +356,7 @@ def detectar(novas, meds, estado):
             continue
         estado["alertados"][chave] = [o["preco"], hoje]
         achadas.append(o)
-    achadas.sort(key=lambda o: -o["desconto"])
+    achadas.sort(key=lambda o: -o["folga"])
     return achadas[: CFG["max_alertas_por_execucao"]]
 
 
@@ -362,8 +400,7 @@ def gerar_painel(historico, meds, estado, agora):
         o = avaliar(l, meds)
         o["link"] = links(o)[0]
         ofertas.append(o)
-    dados = {"atualizado_em": agora, "casa": CFG["casa"], "ofertas": ofertas, "promos": estado["promos"],
-             "limiar": CFG["desconto_alerta"]}
+    dados = {"atualizado_em": agora, "casa": CFG["casa"], "ofertas": ofertas, "promos": estado["promos"]}
     pagina = PAINEL_MODELO.read_text(encoding="utf-8").replace(
         "/*DADOS*/null", json.dumps(dados, ensure_ascii=False).replace("</", "<\\/"))
     PAINEL.parent.mkdir(exist_ok=True)
@@ -388,13 +425,19 @@ def main():
     meds = medianas(historico)
 
     oportunidades = detectar(novas, meds, estado)
-    if oportunidades:
-        telegram("\n\n".join(texto_oportunidade(o) for o in oportunidades))
+    if oportunidades:  # com som; "imperdível" sai com prioridade alta
+        telegram("\n\n".join(texto_oportunidade(o) for o in oportunidades),
+                 prioridade=4 if any(o["imperdivel"] for o in oportunidades) else 3)
 
+    # Promoções dos blogs: acumulam e saem uma vez por dia, em silêncio.
     promos = ler_feeds(estado)
-    if promos:
-        linhas = [f'• <a href="{p["link"]}">{html.escape(p["titulo"])}</a> ({p["fonte"]})' for p in promos[:12]]
-        telegram("<b>📰 Promoções publicadas</b>\n" + "\n".join(linhas))
+    estado["promos_fila"] = promos + estado.get("promos_fila", [])
+    inicio, fim = CFG["promos_janela_horas"]
+    if estado["promos_fila"] and inicio <= int(agora[11:13]) < fim:
+        linhas = [f'• <a href="{p["link"]}">{html.escape(p["titulo"])}</a> ({p["fonte"]})'
+                  for p in estado["promos_fila"][:15]]
+        telegram("<b>📰 Promoções do dia</b>\n" + "\n".join(linhas), prioridade=2)
+        estado["promos_fila"] = []
 
     if falhas and not novas:
         estado["falhas_seguidas"] = estado.get("falhas_seguidas", 0) + 1

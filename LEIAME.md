@@ -16,12 +16,13 @@ O que ele **não** faz: ver disponibilidade de assento Award. Isso só existe em
 
 ## Como decide o que é oportunidade
 
-- Cada rota acumula os preços dos últimos 90 dias. Com 6 observações ou mais, calcula a mediana.
-- Preço 35% abaixo da mediana vira alerta. 50% abaixo vira "imperdível", com aviso de possível tarifa erro.
+- **Faixa verde do Google.** Cada busca traz o termômetro de preços do Google Flights (piso e teto da faixa normal para aquela rota e data). O alerta sai quando o preço fica abaixo do piso, que é a faixa verde.
+- **Imperdível** é 20% ou mais abaixo do piso (`folga_imperdivel`). Sai com prioridade alta e aviso de possível tarifa erro.
+- **Sem termômetro** (o Google não mostra para toda rota): vale a regra antiga, preço 35% abaixo da mediana da própria rota, com 6 observações ou mais.
 - A mesma rota fica 3 dias em silêncio depois de um alerta, salvo se cair mais 5%.
-- Nos primeiros 2 a 3 dias não sai alerta de preço: o robô ainda está formando o histórico. As promoções dos blogs chegam desde a segunda execução.
+- **Promoções dos blogs** saem uma vez por dia, na rodada das 11h, sem som.
 
-São 98 rotas e 8 meses à frente. Com 80 consultas por execução, o ciclo completo leva cerca de 2 dias e meio.
+São 98 rotas com 6 datas de ida cada, espalhadas pelos próximos 90 dias (`horizonte_dias`, `datas_por_rota`). Com 80 consultas por execução, o ciclo completo leva cerca de 2 dias, e a cada ciclo os dias consultados mudam.
 
 ## Instalação (uns 20 minutos, uma vez só)
 
@@ -69,7 +70,8 @@ $env:TELEGRAM_TOKEN="..."; $env:TELEGRAM_CHAT_ID="..."; python radar.py --teste
 
 Tudo em [config.json](config.json):
 - `destinos`: acrescente ou remova aeroportos no formato `"IATA": ["Cidade", "Região"]`.
-- `desconto_alerta` e `desconto_imperdivel`: suba se chegar alerta demais, desça se chegar de menos.
+- `folga_imperdivel`: quanto abaixo do piso verde vira "imperdível". `desconto_alerta` só vale para rotas sem termômetro.
+- `horizonte_dias` e `datas_por_rota`: até quando olhar e quantas datas por rota.
 - `estadia_dias`: duração da viagem simulada por região.
 - `feeds`: `filtro` é a lista de palavras que o título precisa conter.
 
