@@ -1,5 +1,5 @@
 {
- "cursor": 268,
+ "cursor": 298,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -153,6 +153,38 @@
   "GRU-KIX": [
    7484,
    "2026-11-17"
+  ],
+  "GIG-BOS": [
+   2936,
+   "2026-11-17"
+  ],
+  "GIG-LGW": [
+   4596,
+   "2026-11-17"
+  ],
+  "GIG-MAD": [
+   4690,
+   "2026-11-17"
+  ],
+  "GIG-AMS": [
+   4918,
+   "2026-11-17"
+  ],
+  "GRU-IPC": [
+   5452,
+   "2026-11-17"
+  ],
+  "GIG-PRG": [
+   6186,
+   "2026-11-17"
+  ],
+  "GRU-NQZ": [
+   8847,
+   "2026-11-17"
+  ],
+  "GRU-PPT": [
+   13004,
+   "2026-11-17"
   ]
  },
  "feeds_vistos": [
@@ -298,9 +330,29 @@
   "https://www.melhoresdestinos.com.br/promocao/porto-de-galinhas-voos-hospedagem-all-inclusive-no-enotel-13nov26",
   "https://www.fly4free.com/flight-deals/europe/flights-from-the-uk-to-boa-vista/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-thailand-malaysia-e427/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-cancun-e569/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-cancun-e569/",
+  "https://passageirodeprimeira.com/ganhe-ate-600-mil-pontos-no-ano-ao-fazer-upgrade-do-clube-azul-milheiro-a-partir-de-r-1281/",
+  "https://passageirodeprimeira.com/assine-o-clube-smiles-1-000-e-ganhe-14-mil-milhas-na-hora/",
+  "https://passageirodeprimeira.com/latam-atualiza-criterios-politica-alteracoes-involuntarias-voos/",
+  "https://passageirodeprimeira.com/como-emitir-voos-tabela-fixa-latam/",
+  "https://passageirodeprimeira.com/voe-para-madri-a-partir-de-r-801-ou-63-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-70-desconto-tarifa-congelada/",
+  "https://passageirodeprimeira.com/prorrogado-garanta-10-off-proxima-reserva-nosso-cupom-exclusivo-hoteis-com/",
+  "https://passageirodeprimeira.com/aeroporto-de-vitoria-recebera-investimento-de-r-17-bilhao-com-quatro-novos-empreendimentos/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-south-africa-and-zanzibar-e383/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-poland-to-cape-verde-e293/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-rome-e74/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mauritius-e375/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-the-uk-to-peru-p578/",
+  "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-warsaw-to-the-philippines-e572/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Como emitir passagens através da tabela fixa do LATAM Pass?",
+   "link": "https://passageirodeprimeira.com/como-emitir-voos-tabela-fixa-latam/",
+   "visto_em": "2026-11-17"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Caribe! Passagens para Cancún ou Punta Cana a partir de R$ 2.624 saindo do Rio, BH e mais cidades",
@@ -625,8 +677,8 @@
    "2026-11-17 06:17"
   ],
   "CNF-YQB-1": [
-   9871,
-   "2026-11-17 06:17"
+   6292,
+   "2026-11-17 12:05"
   ],
   "CNF-ZQN-1": [
    13040,
@@ -853,16 +905,16 @@
    "2026-11-17 06:17"
   ],
   "CNF-ANC-1": [
-   9923,
-   "2026-11-16 13:15"
+   8467,
+   "2026-11-17 12:05"
   ],
   "CNF-BOB-1": [
    15432,
    "2026-11-16 18:00"
   ],
   "CNF-CGK-1": [
-   12972,
-   "2026-11-16 13:15"
+   10802,
+   "2026-11-17 12:05"
   ],
   "CNF-PPT-1": [
    25085,
@@ -885,8 +937,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-FTE-1": [
-   6468,
-   "2026-11-16 18:00"
+   4122,
+   "2026-11-17 12:05"
   ],
   "CNF-SEZ-1": [
    9810,
@@ -901,8 +953,8 @@
    "2026-11-17 06:17"
   ],
   "CNF-GPS-1": [
-   14964,
-   "2026-11-16 13:15"
+   12665,
+   "2026-11-17 12:05"
   ],
   "CNF-WKJ-1": [
    11543,
@@ -1181,8 +1233,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-YQB-3": [
-   19514,
-   "2026-11-16 18:00"
+   15838,
+   "2026-11-17 12:05"
   ],
   "CNF-ZQN-3": [
    17489,
@@ -1487,70 +1539,185 @@
   "GRU-BOB-1": [
    15962,
    "2026-11-17 06:17"
+  ],
+  "CNF-MSY-1": [
+   6682,
+   "2026-11-17 12:05"
+  ],
+  "CNF-HND-3": [
+   9440,
+   "2026-11-17 12:05"
+  ],
+  "GRU-LHR-1": [
+   4711,
+   "2026-11-17 12:05"
+  ],
+  "GRU-CGK-1": [
+   8775,
+   "2026-11-17 12:05"
+  ],
+  "GRU-PPT-1": [
+   13004,
+   "2026-11-17 12:05"
+  ],
+  "GRU-IPC-1": [
+   5452,
+   "2026-11-17 12:05"
+  ],
+  "GRU-FAI-1": [
+   10325,
+   "2026-11-17 12:05"
+  ],
+  "GRU-DUD-1": [
+   17849,
+   "2026-11-17 12:05"
+  ],
+  "GRU-SSA-1": [
+   884,
+   "2026-11-17 12:05"
+  ],
+  "GRU-USH-1": [
+   2830,
+   "2026-11-17 12:05"
+  ],
+  "GRU-FTE-1": [
+   2830,
+   "2026-11-17 12:05"
+  ],
+  "GRU-SEZ-1": [
+   8536,
+   "2026-11-17 12:05"
+  ],
+  "GRU-UBN-1": [
+   15638,
+   "2026-11-17 12:05"
+  ],
+  "GRU-HRB-1": [
+   12244,
+   "2026-11-17 12:05"
+  ],
+  "GRU-NQZ-1": [
+   8847,
+   "2026-11-17 12:05"
+  ],
+  "GRU-KZN-1": [
+   12780,
+   "2026-11-17 12:05"
+  ],
+  "GRU-GPS-1": [
+   5417,
+   "2026-11-17 12:05"
+  ],
+  "GRU-WKJ-1": [
+   11767,
+   "2026-11-17 12:05"
+  ],
+  "GIG-JFK-2": [
+   2784,
+   "2026-11-17 12:05"
+  ],
+  "GIG-LIS-2": [
+   4134,
+   "2026-11-17 12:05"
+  ],
+  "GIG-CDG-2": [
+   5283,
+   "2026-11-17 12:05"
+  ],
+  "GIG-LGW-2": [
+   4596,
+   "2026-11-17 12:05"
+  ],
+  "GIG-SIN-2": [
+   7990,
+   "2026-11-17 12:05"
+  ],
+  "GIG-FCO-2": [
+   4894,
+   "2026-11-17 12:05"
+  ],
+  "GIG-BCN-2": [
+   4819,
+   "2026-11-17 12:05"
+  ],
+  "GIG-SFO-2": [
+   4449,
+   "2026-11-17 12:05"
+  ],
+  "GIG-LAX-2": [
+   3650,
+   "2026-11-17 12:05"
+  ],
+  "GIG-AMS-2": [
+   4918,
+   "2026-11-17 12:05"
+  ],
+  "GIG-DXB-2": [
+   6969,
+   "2026-11-17 12:05"
+  ],
+  "GIG-VCE-2": [
+   5253,
+   "2026-11-17 12:05"
+  ],
+  "GIG-ORD-2": [
+   3011,
+   "2026-11-17 12:05"
+  ],
+  "GIG-DCA-2": [
+   4210,
+   "2026-11-17 12:05"
+  ],
+  "GIG-HKG-2": [
+   7443,
+   "2026-11-17 12:05"
+  ],
+  "GIG-HND-2": [
+   7656,
+   "2026-11-17 12:05"
+  ],
+  "GIG-BKK-2": [
+   9475,
+   "2026-11-17 12:05"
+  ],
+  "GIG-BER-2": [
+   5493,
+   "2026-11-17 12:05"
+  ],
+  "GIG-LAS-2": [
+   5042,
+   "2026-11-17 12:05"
+  ],
+  "GIG-FLR-2": [
+   4982,
+   "2026-11-17 12:05"
+  ],
+  "GIG-EDI-2": [
+   6205,
+   "2026-11-17 12:05"
+  ],
+  "GIG-SYD-2": [
+   9509,
+   "2026-11-17 12:05"
+  ],
+  "GIG-BOS-2": [
+   2936,
+   "2026-11-17 12:05"
+  ],
+  "GIG-MIA-2": [
+   4852,
+   "2026-11-17 12:05"
+  ],
+  "GIG-PRG-2": [
+   6186,
+   "2026-11-17 12:05"
+  ],
+  "GIG-MAD-2": [
+   4384,
+   "2026-11-17 12:05"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Caribe! Passagens para Cancún ou Punta Cana a partir de R$ 2.624 saindo do Rio, BH e mais cidades",
-   "link": "https://www.melhoresdestinos.com.br/promocao/caribe-passagens-para-cancun-ou-punta-cana-13nov26",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Muito bom! Voos diretos da Delta/Latam para Nova York a partir de R$ 2.733 saindo do Rio de Janeiro",
-   "link": "https://www.melhoresdestinos.com.br/promocao/muito-bom-voos-diretos-nova-york-rio-13nov26",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Porto de Galinhas! Voos + hospedagem all inclusive no Enotel a partir de R$ 3.699 por pessoa em até 10x sem juros",
-   "link": "https://www.melhoresdestinos.com.br/promocao/porto-de-galinhas-voos-hospedagem-all-inclusive-no-enotel-13nov26",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul oferece 10% de desconto na emissão de passagens para a Europa com pontos",
-   "link": "https://passageirodeprimeira.com/azul-oferece-10-desconto-emissao-passagens-para-europa-com-pontos/",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade disponibiliza cupom de 20% OFF em passagens nacionais",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-disponibiliza-cupom-ate-20-off-passagens-nacionais/",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Executiva da Aeromexico de São Paulo para Tóquio a partir de R$ 6.783 ou 285 mil milhas LATAM Pass + taxas",
-   "link": "https://passageirodeprimeira.com/executiva-da-aeromexico-de-sao-paulo-para-toquio-a-partir-de-r-6-783-ou-285-mil-milhas-latam-pass-taxas/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul tem passagens nacionais a partir de R$ 50 ou 3.120 pontos + taxas",
-   "link": "https://passageirodeprimeira.com/azul-passagens-nacionais-a-partir-r-50-ou-3-120-pontos-taxas/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM tem passagens internacionais na América do Sul a partir de R$ 380 ou 15 mil milhas + taxas",
-   "link": "https://passageirodeprimeira.com/latam-tem-passagens-internacionais-na-america-do-sul-a-partir-de-r-380-ou-15-mil-milhas-taxas/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Nubank Croma oferece 10% de bônus em transferências para a Livelo",
-   "link": "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM tem passagens nacionais a partir de R$ 92 ou 3.887 milhas + taxas",
-   "link": "https://passageirodeprimeira.com/latam-tem-passagens-nacionais-a-partir-de-r-100-ou-3-887-milhas-taxas/",
-   "visto_em": "2026-11-16"
-  }
- ],
- "rodadas": 7,
+ "promos_fila": [],
+ "rodadas": 8,
  "vigilia_resumo": "2026-11-17"
 }
