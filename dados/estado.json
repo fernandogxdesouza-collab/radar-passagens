@@ -1,5 +1,5 @@
 {
- "cursor": 298,
+ "cursor": 328,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -185,6 +185,10 @@
   "GRU-PPT": [
    13004,
    "2026-11-17"
+  ],
+  "CNF-MAD": [
+   5469,
+   "2026-11-17"
   ]
  },
  "feeds_vistos": [
@@ -344,9 +348,39 @@
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-rome-e74/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mauritius-e375/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-the-uk-to-peru-p578/",
-  "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-warsaw-to-the-philippines-e572/"
+  "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-warsaw-to-the-philippines-e572/",
+  "https://passageirodeprimeira.com/conheca-as-flexibilidades-do-aadvantage/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-gasto-na-natura/",
+  "https://passageirodeprimeira.com/ganhe-ate-3-000-milhas-bonus-em-compras-com-cartao-latam-pass-itau/",
+  "https://passageirodeprimeira.com/hospede-se-com-ate-50-desconto-10-off-hoteis-com/",
+  "https://passageirodeprimeira.com/latam-passagens-nacionais-a-partir-r-104-ou-4-403-milhas-taxas/",
+  "https://passageirodeprimeira.com/voltou-assine-o-clube-livelo-mini-por-apenas-r-2490-por-mes/",
+  "https://passageirodeprimeira.com/meu-resgate-favorito-mouse-vertical-kindle-paperwhite-pacote-canoa-quebrada-e-mais-a-partir-de-6-mil-pontos-azul/",
+  "https://passageirodeprimeira.com/topcashback-apresenta-bloqueio-para-usuarios-no-brasil/",
+  "https://passageirodeprimeira.com/voe-de-recife-para-noronha-a-partir-de-r-198-ou-15-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/boeing-caixa-proteger-cadeiras-de-rodas-737/",
+  "https://passageirodeprimeira.com/voe-de-sao-paulo-para-miami-a-partir-de-r-1-190-ou-49-mil-milhas-latam-pass-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-london-to-macau-p329/",
+  "https://www.fly4free.com/flight-deals/europe/qatar-airways-flights-from-europe-to-malaysia-e567/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-australia-e652/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-the-hawaii-e606/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-budapest-e45/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-milan-to-malaysia-e458/",
+  "https://www.fly4free.com/flight-deals/europe/skis-and-snowboards-on-planes-how-much-does-it-cost/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Ganhe até 3.000 milhas bônus em compras com cartão LATAM Pass Itaú",
+   "link": "https://passageirodeprimeira.com/ganhe-ate-3-000-milhas-bonus-em-compras-com-cartao-latam-pass-itau/",
+   "visto_em": "2026-11-17"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens nacionais a partir de R$ 104 ou 4.403 milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-passagens-nacionais-a-partir-r-104-ou-4-403-milhas-taxas/",
+   "visto_em": "2026-11-17"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Como emitir passagens através da tabela fixa do LATAM Pass?",
@@ -1717,7 +1751,20 @@
    "2026-11-17 12:05"
   ]
  },
- "promos_fila": [],
- "rodadas": 8,
+ "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Ganhe até 3.000 milhas bônus em compras com cartão LATAM Pass Itaú",
+   "link": "https://passageirodeprimeira.com/ganhe-ate-3-000-milhas-bonus-em-compras-com-cartao-latam-pass-itau/",
+   "visto_em": "2026-11-17"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM tem passagens nacionais a partir de R$ 104 ou 4.403 milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-passagens-nacionais-a-partir-r-104-ou-4-403-milhas-taxas/",
+   "visto_em": "2026-11-17"
+  }
+ ],
+ "rodadas": 9,
  "vigilia_resumo": "2026-11-17"
 }
