@@ -1,5 +1,5 @@
 {
- "cursor": 208,
+ "cursor": 238,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -85,6 +85,26 @@
   "CNF-BOB": [
    15432,
    "2026-11-16"
+  ],
+  "GRU-BCN": [
+   4050,
+   "2026-11-17"
+  ],
+  "GRU-LIS": [
+   4138,
+   "2026-11-17"
+  ],
+  "GRU-LGW": [
+   4495,
+   "2026-11-17"
+  ],
+  "GRU-CDG": [
+   4511,
+   "2026-11-17"
+  ],
+  "CNF-FCO": [
+   5516,
+   "2026-11-17"
   ]
  },
  "feeds_vistos": [
@@ -213,9 +233,25 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-puerto-rico-e570/",
   "https://www.fly4free.com/flight-deals/europe/canada-hawaii-usa-vietnam-from-italy/",
   "https://www.fly4free.com/news/a-schengen-for-southeast-asia-vietnam-cambodia-and-laos-discuss-a-single-visa/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-2/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-2/",
+  "https://passageirodeprimeira.com/azul-oferece-10-desconto-emissao-passagens-para-europa-com-pontos/",
+  "https://passageirodeprimeira.com/conheca-os-indicados-ao-premio-de-melhor-influenciador-de-milhas-e-pontos-do-brasil-com-mais-de-100k-seguidores/",
+  "https://passageirodeprimeira.com/como-acumular-pontos-no-aeroplan/",
+  "https://passageirodeprimeira.com/azul-fidelidade-disponibiliza-cupom-ate-20-off-passagens-nacionais/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul oferece 10% de desconto na emissão de passagens para a Europa com pontos",
+   "link": "https://passageirodeprimeira.com/azul-oferece-10-desconto-emissao-passagens-para-europa-com-pontos/",
+   "visto_em": "2026-11-17"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul Fidelidade disponibiliza cupom de 20% OFF em passagens nacionais",
+   "link": "https://passageirodeprimeira.com/azul-fidelidade-disponibiliza-cupom-ate-20-off-passagens-nacionais/",
+   "visto_em": "2026-11-17"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Executiva da Aeromexico de São Paulo para Tóquio a partir de R$ 6.783 ou 285 mil milhas LATAM Pass + taxas",
@@ -818,8 +854,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-BOB-2": [
-   36438,
-   "2026-11-16 13:15"
+   18383,
+   "2026-11-17 00:00"
   ],
   "CNF-CGK-2": [
    11344,
@@ -894,8 +930,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SIN-3": [
-   14548,
-   "2026-11-16 13:15"
+   12791,
+   "2026-11-17 00:00"
   ],
   "CNF-FCO-3": [
    4981,
@@ -934,8 +970,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-HKG-3": [
-   13861,
-   "2026-11-16 18:00"
+   10214,
+   "2026-11-17 00:00"
   ],
   "CNF-NRT-3": [
    8283,
@@ -1092,9 +1128,141 @@
   "CNF-ANC-3": [
    17349,
    "2026-11-16 18:00"
+  ],
+  "CNF-CGK-3": [
+   14046,
+   "2026-11-17 00:00"
+  ],
+  "CNF-IPC-3": [
+   18106,
+   "2026-11-17 00:00"
+  ],
+  "CNF-FAI-3": [
+   10791,
+   "2026-11-17 00:00"
+  ],
+  "CNF-DUD-3": [
+   29940,
+   "2026-11-17 00:00"
+  ],
+  "CNF-SSA-3": [
+   968,
+   "2026-11-17 00:00"
+  ],
+  "CNF-USH-3": [
+   7974,
+   "2026-11-17 00:00"
+  ],
+  "CNF-SEZ-3": [
+   16549,
+   "2026-11-17 00:00"
+  ],
+  "CNF-UBN-3": [
+   65529,
+   "2026-11-17 00:00"
+  ],
+  "CNF-HRB-3": [
+   48827,
+   "2026-11-17 00:00"
+  ],
+  "CNF-NQZ-3": [
+   17423,
+   "2026-11-17 00:00"
+  ],
+  "CNF-KZN-3": [
+   31411,
+   "2026-11-17 00:00"
+  ],
+  "CNF-GPS-3": [
+   7460,
+   "2026-11-17 00:00"
+  ],
+  "CNF-WKJ-3": [
+   41661,
+   "2026-11-17 00:00"
+  ],
+  "GRU-GIG-1": [
+   548,
+   "2026-11-17 00:00"
+  ],
+  "GRU-LIS-1": [
+   4138,
+   "2026-11-17 00:00"
+  ],
+  "GRU-LAX-1": [
+   3912,
+   "2026-11-17 00:00"
+  ],
+  "GRU-MIA-1": [
+   3366,
+   "2026-11-17 00:00"
+  ],
+  "GRU-LGA-1": [
+   5710,
+   "2026-11-17 00:00"
+  ],
+  "GRU-CDG-1": [
+   4511,
+   "2026-11-17 00:00"
+  ],
+  "GRU-BOS-1": [
+   5028,
+   "2026-11-17 00:00"
+  ],
+  "GRU-AMS-1": [
+   4953,
+   "2026-11-17 00:00"
+  ],
+  "GRU-LGW-1": [
+   4465,
+   "2026-11-17 00:00"
+  ],
+  "GRU-MAD-1": [
+   3868,
+   "2026-11-17 00:00"
+  ],
+  "GRU-CPT-1": [
+   5718,
+   "2026-11-17 00:00"
+  ],
+  "GRU-FCO-1": [
+   4463,
+   "2026-11-17 00:00"
+  ],
+  "GRU-SIN-1": [
+   8465,
+   "2026-11-17 00:00"
+  ],
+  "GRU-BCN-1": [
+   4050,
+   "2026-11-17 00:00"
+  ],
+  "GRU-SFO-1": [
+   5066,
+   "2026-11-17 00:00"
+  ],
+  "GRU-DXB-1": [
+   6619,
+   "2026-11-17 00:00"
+  ],
+  "GRU-VCE-1": [
+   4861,
+   "2026-11-17 00:00"
   ]
  },
  "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul oferece 10% de desconto na emissão de passagens para a Europa com pontos",
+   "link": "https://passageirodeprimeira.com/azul-oferece-10-desconto-emissao-passagens-para-europa-com-pontos/",
+   "visto_em": "2026-11-17"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul Fidelidade disponibiliza cupom de 20% OFF em passagens nacionais",
+   "link": "https://passageirodeprimeira.com/azul-fidelidade-disponibiliza-cupom-ate-20-off-passagens-nacionais/",
+   "visto_em": "2026-11-17"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Executiva da Aeromexico de São Paulo para Tóquio a partir de R$ 6.783 ou 285 mil milhas LATAM Pass + taxas",
@@ -1126,6 +1294,6 @@
    "visto_em": "2026-11-16"
   }
  ],
- "rodadas": 5,
+ "rodadas": 6,
  "vigilia_resumo": "2026-11-16"
 }
