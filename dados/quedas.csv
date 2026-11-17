@@ -1,0 +1,5 @@
+noite,dia_semana,hora_minimo,origem,destino,ida,volta,cia,referencia,minimo,queda,manha,persistiu,faixa_verde
+2026-11-15,domingo,22,GRU,REC,2027-01-15,2027-01-18,Gol,1745,1288,0.262,1288,sim,não
+2026-11-15,domingo,22,CNF,POA,2027-01-15,2027-01-18,Gol,789,628,0.204,628,sim,não
+2026-11-15,domingo,22,GRU,EZE,2027-01-15,2027-01-18,LATAM,3139,2633,0.161,2633,sim,não
+2026-11-15,domingo,22,GRU,FOR,2027-01-15,2027-01-18,Azul,1619,1424,0.12,1424,sim,não
