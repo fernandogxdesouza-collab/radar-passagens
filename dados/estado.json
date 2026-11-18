@@ -1,5 +1,5 @@
 {
- "cursor": 388,
+ "cursor": 418,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -67,8 +67,8 @@
    "2026-11-16"
   ],
   "CNF-BSB": [
-   514,
-   "2026-11-16"
+   446,
+   "2026-11-18"
   ],
   "CNF-MCZ": [
    1357,
@@ -216,6 +216,34 @@
   ],
   "GIG-NRT": [
    7587,
+   "2026-11-18"
+  ],
+  "CNF-FOR": [
+   1050,
+   "2026-11-18"
+  ],
+  "CNF-BOG": [
+   2073,
+   "2026-11-18"
+  ],
+  "GRU-CUN": [
+   2414,
+   "2026-11-18"
+  ],
+  "GRU-IAD": [
+   3540,
+   "2026-11-18"
+  ],
+  "GRU-LGA": [
+   3720,
+   "2026-11-18"
+  ],
+  "GRU-ITM": [
+   7431,
+   "2026-11-18"
+  ],
+  "CNF-HND": [
+   8073,
    "2026-11-18"
   ]
  },
@@ -400,9 +428,67 @@
   "https://passageirodeprimeira.com/parceria-entre-livelo-avenue-oferece-ate-10-mil-pontos-novos-clientes/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-bucharest-to-taiwan-e550/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-the-uk-to-barbados-p401/",
-  "https://www.fly4free.com/flight-deals/europe/holiday-in-dominican-republic-from-warsaw-e835/"
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-dominican-republic-from-warsaw-e835/",
+  "https://guia.melhoresdestinos.com.br/zurique-suica.html",
+  "https://www.melhoresdestinos.com.br/natal-luz-gramado-2026.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+  "https://www.melhoresdestinos.com.br/parceria-gol-alaska-airlines.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/black-friday-hoteis-com-2026-cupom",
+  "https://www.melhoresdestinos.com.br/valle-nevado-temporada-1-dezembro.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+  "https://www.melhoresdestinos.com.br/arvore-natal-villa-lobos-2026.html",
+  "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+  "https://passageirodeprimeira.com/pink-friday-como-acumular-pontos-livelo/",
+  "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1580-transferindo-pontos-livelo-dinheiro/",
+  "https://passageirodeprimeira.com/latam-pass-oferece-35-de-desconto-no-resgate-de-vale-combustivel-do-premmia/",
+  "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+  "https://passageirodeprimeira.com/voe-campinas-para-lisboa-a-partir-r-991-ou-77-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/premio-passageiro-de-primeira-2026-ajude-a-transformar-milhas-em-solidariedade/",
+  "https://passageirodeprimeira.com/gru-airport-realizara-acao-especial-apoio-novembro-azul/",
+  "https://www.fly4free.com/flight-deals/europe/7-day-cruise-msc-euribia-e499-2/",
+  "https://www.fly4free.com/flight-deals/europe/winter-deal-in-kuusamo-hotel-direct-flights-from-berlin/",
+  "https://www.fly4free.com/news/india-simplifies-visa-rules-for-tourists/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-amsterdam-e77/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-milan-to-australia-e582/"
  ],
  "promos": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-2-em-1-estados-unidos-17-11-26",
+   "visto_em": "2026-11-18"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Novidade! Gol fecha parceria para vender voos de companhia aérea do Alasca",
+   "link": "https://www.melhoresdestinos.com.br/parceria-gol-alaska-airlines.html",
+   "visto_em": "2026-11-18"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Peru 🇵🇪 Passagens aéreas para Lima ou Cusco a partir de R$ 2.297 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
+   "visto_em": "2026-11-18"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
+   "visto_em": "2026-11-18"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Marrocos mais Europa! Passagens 2 em 1 para Casablanca mais Lisboa, Porto ou Madri a partir de R$ 4.802",
+   "link": "https://www.melhoresdestinos.com.br/promocao/marrocos-mais-europa-passagens-17nov26",
+   "visto_em": "2026-11-18"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Prorrogado! Smiles oferece até 80% de bônus nas transferências de pontos dos cartões de crédito",
+   "link": "https://passageirodeprimeira.com/prorrogado-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+   "visto_em": "2026-11-18"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Ganhe até 3.000 milhas bônus em compras com cartão LATAM Pass Itaú",
@@ -693,8 +779,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-CPT-1": [
-   7229,
-   "2026-11-16 00:12"
+   5780,
+   "2026-11-18 12:10"
   ],
   "CNF-MLA-1": [
    5456,
@@ -997,8 +1083,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SSA-1": [
-   1101,
-   "2026-11-16 13:15"
+   961,
+   "2026-11-18 12:10"
   ],
   "CNF-USH-1": [
    4179,
@@ -1029,8 +1115,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-HND-2": [
-   9180,
-   "2026-11-16 13:15"
+   8082,
+   "2026-11-18 12:10"
   ],
   "CNF-HNL-2": [
    6091,
@@ -1053,8 +1139,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-BOB-2": [
-   18383,
-   "2026-11-17 00:00"
+   16295,
+   "2026-11-18 12:10"
   ],
   "CNF-CGK-2": [
    10148,
@@ -1297,8 +1383,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-KIX-3": [
-   13014,
-   "2026-11-16 18:00"
+   11383,
+   "2026-11-18 12:10"
   ],
   "CNF-YQB-3": [
    15838,
@@ -1393,12 +1479,12 @@
    "2026-11-17 00:00"
   ],
   "GRU-MIA-1": [
-   3366,
-   "2026-11-17 00:00"
+   2969,
+   "2026-11-18 12:10"
   ],
   "GRU-LGA-1": [
-   5710,
-   "2026-11-17 00:00"
+   3720,
+   "2026-11-18 12:10"
   ],
   "GRU-CDG-1": [
    4511,
@@ -1613,8 +1699,8 @@
    "2026-11-17 12:05"
   ],
   "CNF-HND-3": [
-   9440,
-   "2026-11-17 12:05"
+   8073,
+   "2026-11-18 12:10"
   ],
   "GRU-LHR-1": [
    4711,
@@ -1721,8 +1807,8 @@
    "2026-11-17 12:05"
   ],
   "GIG-DXB-2": [
-   6969,
-   "2026-11-17 12:05"
+   5715,
+   "2026-11-18 12:10"
   ],
   "GIG-VCE-2": [
    5253,
@@ -1793,8 +1879,8 @@
    "2026-11-18 00:03"
   ],
   "GIG-LIS-1": [
-   5119,
-   "2026-11-18 00:03"
+   4409,
+   "2026-11-18 12:10"
   ],
   "GIG-CDG-1": [
    5334,
@@ -1805,8 +1891,8 @@
    "2026-11-18 00:03"
   ],
   "GIG-SIN-1": [
-   10469,
-   "2026-11-18 00:03"
+   8291,
+   "2026-11-18 12:10"
   ],
   "GIG-FCO-1": [
    4939,
@@ -1867,22 +1953,125 @@
   "GIG-FLR-1": [
    6659,
    "2026-11-18 00:03"
+  ],
+  "CNF-SAW-1": [
+   7755,
+   "2026-11-18 12:10"
+  ],
+  "CNF-ITM-1": [
+   9401,
+   "2026-11-18 12:10"
+  ],
+  "CNF-YTZ-2": [
+   5267,
+   "2026-11-18 12:10"
+  ],
+  "CNF-LGW-3": [
+   5644,
+   "2026-11-18 12:10"
+  ],
+  "GRU-ITM-1": [
+   7442,
+   "2026-11-18 12:10"
+  ],
+  "GRU-EZE-2": [
+   1668,
+   "2026-11-18 12:10"
+  ],
+  "GRU-LIS-2": [
+   4184,
+   "2026-11-18 12:10"
+  ],
+  "GRU-EWR-2": [
+   4045,
+   "2026-11-18 12:10"
+  ],
+  "GRU-CDG-2": [
+   4554,
+   "2026-11-18 12:10"
+  ],
+  "GRU-CUN-2": [
+   2414,
+   "2026-11-18 12:10"
+  ],
+  "GRU-MAD-2": [
+   4088,
+   "2026-11-18 12:10"
+  ],
+  "GRU-LAX-2": [
+   3714,
+   "2026-11-18 12:10"
+  ],
+  "GRU-MIA-2": [
+   3114,
+   "2026-11-18 12:10"
+  ],
+  "GRU-BOS-2": [
+   3870,
+   "2026-11-18 12:10"
+  ],
+  "GRU-AMS-2": [
+   4622,
+   "2026-11-18 12:10"
+  ],
+  "GRU-LGW-2": [
+   4538,
+   "2026-11-18 12:10"
+  ],
+  "GRU-CPT-2": [
+   4341,
+   "2026-11-18 12:10"
+  ],
+  "GRU-FCO-2": [
+   4421,
+   "2026-11-18 12:10"
+  ],
+  "GRU-SIN-2": [
+   8123,
+   "2026-11-18 12:10"
+  ],
+  "GRU-BCN-2": [
+   4312,
+   "2026-11-18 12:10"
+  ],
+  "GRU-SFO-2": [
+   5094,
+   "2026-11-18 12:10"
+  ],
+  "GRU-DXB-2": [
+   4966,
+   "2026-11-18 12:10"
+  ],
+  "GRU-VCE-2": [
+   4179,
+   "2026-11-18 12:10"
+  ],
+  "GRU-ORD-2": [
+   3543,
+   "2026-11-18 12:10"
+  ],
+  "GRU-IAD-2": [
+   3540,
+   "2026-11-18 12:10"
+  ],
+  "GRU-HKG-2": [
+   7338,
+   "2026-11-18 12:10"
+  ],
+  "GRU-SYD-2": [
+   8898,
+   "2026-11-18 12:10"
+  ],
+  "GRU-HND-2": [
+   7341,
+   "2026-11-18 12:10"
+  ],
+  "GRU-BKK-2": [
+   8300,
+   "2026-11-18 12:10"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Ganhe até 3.000 milhas bônus em compras com cartão LATAM Pass Itaú",
-   "link": "https://passageirodeprimeira.com/ganhe-ate-3-000-milhas-bonus-em-compras-com-cartao-latam-pass-itau/",
-   "visto_em": "2026-11-17"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM tem passagens nacionais a partir de R$ 104 ou 4.403 milhas + taxas",
-   "link": "https://passageirodeprimeira.com/latam-passagens-nacionais-a-partir-r-104-ou-4-403-milhas-taxas/",
-   "visto_em": "2026-11-17"
-  }
- ],
- "rodadas": 11,
+ "promos_fila": [],
+ "rodadas": 12,
  "vigilia_resumo": "2026-11-18"
 }
