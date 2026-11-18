@@ -1,5 +1,5 @@
 {
- "cursor": 418,
+ "cursor": 448,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -245,6 +245,14 @@
   "CNF-HND": [
    8073,
    "2026-11-18"
+  ],
+  "GRU-EWR": [
+   3256,
+   "2026-11-18"
+  ],
+  "GRU-JTR": [
+   6060,
+   "2026-11-18"
   ]
  },
  "feeds_vistos": [
@@ -450,9 +458,30 @@
   "https://www.fly4free.com/flight-deals/europe/winter-deal-in-kuusamo-hotel-direct-flights-from-berlin/",
   "https://www.fly4free.com/news/india-simplifies-visa-rules-for-tourists/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-amsterdam-e77/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-milan-to-australia-e582/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-milan-to-australia-e582/",
+  "https://passageirodeprimeira.com/hoteis-curtir-feriadao-rio-de-janeiro-com-ate-41-desconto/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-24-pontos-por-real-na-assist-card-e-renner/",
+  "https://passageirodeprimeira.com/latam-tera-mais-de-10-airbus-a321xlr-suites-privativas-novo-sistema-entretenimento/",
+  "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
+  "https://passageirodeprimeira.com/ate-quantos-trechos-voce-pode-incluir-em-uma-emissao-aadvantage/",
+  "https://passageirodeprimeira.com/voos-com-destino-ao-nordeste-a-partir-de-r-95-ou-3-mil-milhas-latam-taxas/",
+  "https://passageirodeprimeira.com/gol-e-alaska-airlines-firmam-acordo-e-ampliam-conexoes-entre-brasil-e-estados-unidos/",
+  "https://passageirodeprimeira.com/finnair-plus-passa-a-exigir-saldo-de-avios-para-consultar-disponibilidade-de-voos-via-chat/",
+  "https://passageirodeprimeira.com/compre-marcas-favoritas-acumule-pontos-blackissima/",
+  "https://passageirodeprimeira.com/trecho-belo-horizonte-para-maceio-a-partir-16-mil-pontos-azul-ou-205-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-lisbon-to-sao-tome/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-rome-to-thailand-3-2/",
+  "https://www.fly4free.com/flight-deals/europe/hainan-airlines-flights-from-brussels-to-thailand-e425/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-barbados-condor-2/",
+  "https://www.fly4free.com/flight-deals/europe/toronto-tokyo-in-one-trip/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
+   "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
+   "visto_em": "2026-11-18"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "EUA 2×1 🇺🇸 Voos para Miami mais Orlando, Los Angeles e outras cidades a partir de R$ 4.184, com bagagem despachada",
@@ -827,8 +856,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-KIX-1": [
-   15129,
-   "2026-11-17 06:17"
+   10190,
+   "2026-11-18 18:06"
   ],
   "CNF-YQB-1": [
    6292,
@@ -1983,8 +2012,8 @@
    "2026-11-18 12:10"
   ],
   "GRU-EWR-2": [
-   4045,
-   "2026-11-18 12:10"
+   3256,
+   "2026-11-18 18:06"
   ],
   "GRU-CDG-2": [
    4554,
@@ -2069,9 +2098,124 @@
   "GRU-BKK-2": [
    8300,
    "2026-11-18 12:10"
+  ],
+  "GRU-FLL-1": [
+   3595,
+   "2026-11-18 18:06"
+  ],
+  "GRU-FLL-2": [
+   3595,
+   "2026-11-18 18:06"
+  ],
+  "GRU-BER-2": [
+   5582,
+   "2026-11-18 18:06"
+  ],
+  "GRU-LAS-2": [
+   5537,
+   "2026-11-18 18:06"
+  ],
+  "GRU-FLR-2": [
+   4866,
+   "2026-11-18 18:06"
+  ],
+  "GRU-EDI-2": [
+   6168,
+   "2026-11-18 18:06"
+  ],
+  "GRU-PRG-2": [
+   5706,
+   "2026-11-18 18:06"
+  ],
+  "GRU-ATH-2": [
+   5190,
+   "2026-11-18 18:06"
+  ],
+  "GRU-IST-2": [
+   5757,
+   "2026-11-18 18:06"
+  ],
+  "GRU-VIE-2": [
+   5051,
+   "2026-11-18 18:06"
+  ],
+  "GRU-BUD-2": [
+   6519,
+   "2026-11-18 18:06"
+  ],
+  "GRU-SAN-2": [
+   5554,
+   "2026-11-18 18:06"
+  ],
+  "GRU-SEA-2": [
+   5698,
+   "2026-11-18 18:06"
+  ],
+  "GRU-SFB-2": [
+   3004,
+   "2026-11-18 18:06"
+  ],
+  "GRU-MLA-2": [
+   5480,
+   "2026-11-18 18:06"
+  ],
+  "GRU-JTR-2": [
+   6060,
+   "2026-11-18 18:06"
+  ],
+  "GRU-DUB-2": [
+   5200,
+   "2026-11-18 18:06"
+  ],
+  "GRU-MEL-2": [
+   9294,
+   "2026-11-18 18:06"
+  ],
+  "GRU-YYZ-2": [
+   3435,
+   "2026-11-18 18:06"
+  ],
+  "GRU-YVR-2": [
+   4147,
+   "2026-11-18 18:06"
+  ],
+  "GRU-MRU-2": [
+   10100,
+   "2026-11-18 18:06"
+  ],
+  "GRU-YUL-2": [
+   3403,
+   "2026-11-18 18:06"
+  ],
+  "GRU-BOM-2": [
+   7877,
+   "2026-11-18 18:06"
+  ],
+  "GRU-GIG-2": [
+   504,
+   "2026-11-18 18:06"
+  ],
+  "GRU-JNB-2": [
+   4072,
+   "2026-11-18 18:06"
+  ],
+  "GRU-PER-2": [
+   11539,
+   "2026-11-18 18:06"
+  ],
+  "GRU-KIX-2": [
+   7465,
+   "2026-11-18 18:06"
   ]
  },
- "promos_fila": [],
- "rodadas": 12,
+ "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
+   "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
+   "visto_em": "2026-11-18"
+  }
+ ],
+ "rodadas": 13,
  "vigilia_resumo": "2026-11-18"
 }
