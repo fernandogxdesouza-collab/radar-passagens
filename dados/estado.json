@@ -1,5 +1,5 @@
 {
- "cursor": 358,
+ "cursor": 388,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -397,7 +397,10 @@
   "https://www.fly4free.com/flight-deals/europe/skis-and-snowboards-on-planes-how-much-does-it-cost/",
   "https://passageirodeprimeira.com/seguro-viagem-mastercard/",
   "https://passageirodeprimeira.com/ultimas-horas-garantir-10-off-proxima-reserva-cupom-exclusivo-hoteis-com/",
-  "https://passageirodeprimeira.com/parceria-entre-livelo-avenue-oferece-ate-10-mil-pontos-novos-clientes/"
+  "https://passageirodeprimeira.com/parceria-entre-livelo-avenue-oferece-ate-10-mil-pontos-novos-clientes/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-bucharest-to-taiwan-e550/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-the-uk-to-barbados-p401/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-dominican-republic-from-warsaw-e835/"
  ],
  "promos": [
   {
@@ -1880,6 +1883,6 @@
    "visto_em": "2026-11-17"
   }
  ],
- "rodadas": 10,
+ "rodadas": 11,
  "vigilia_resumo": "2026-11-17"
 }

@@ -6005,3 +6005,16 @@ coletado_em,origem,destino,ida,volta,preco,cia,paradas,fonte,faixa_baixa,faixa_a
 2026-11-18 00:03,GIG,BKK,2027-02-19,2027-02-21,9028,LATAM + Qatar Airways,2,google,7900,13500,Bangkok,Ásia,economica,iv
 2026-11-18 00:03,GIG,BER,2027-03-05,2027-03-07,6291,LATAM + Tap Air Portugal,2,google,5500,7400,Berlim,Europa,economica,iv
 2026-11-18 00:03,GIG,LAS,2027-01-22,2027-01-25,5116,American,2,google,4350,8100,Las Vegas,América do Norte,economica,iv
+2026-11-18 06:18,GRU,DXB,2027-02-28,2027-03-03,6892,LATAM + Emirates,1,google,5300,6500,,,economica,iv
+2026-11-18 06:18,GRU,NRT,2027-03-01,2027-03-05,9913,Air France + Korean Air,2,google,6400,11000,,,economica,iv
+2026-11-18 06:18,GRU,BKK,2027-03-02,2027-03-07,8840,Qatar Airways,1,google,6200,7900,,,economica,iv
+2026-11-18 06:18,GRU,JNB,2027-03-03,2027-03-13,4703,Ethiopian,1,google,3100,7300,,,economica,iv
+2026-11-18 06:18,GRU,SYD,2027-03-04,2027-03-07,9129,Qatar Airways + Virgin Australia,1,google,7500,10500,,,economica,iv
+2026-11-18 06:18,GIG,EZE,2027-03-05,2027-03-09,1900,LATAM,1,google,1450,1950,,,economica,iv
+2026-11-18 06:18,GIG,SCL,2027-03-06,2027-03-11,1910,Gol + Aerolineas Argentinas,2,google,1300,1850,,,economica,iv
+2026-11-18 06:18,GIG,MCO,2027-03-12,2027-03-15,2988,Avianca,1,google,2500,3350,,,economica,iv
+2026-11-18 06:18,GIG,JFK,2027-03-13,2027-03-17,3304,Avianca,1,google,2700,4250,,,economica,iv
+2026-11-18 06:18,GIG,LAX,2027-03-14,2027-03-19,4566,American,2,google,2550,4200,,,economica,iv
+2026-11-18 06:18,GIG,PUJ,2027-03-18,2027-03-23,3873,Avianca,1,google,3000,3650,,,economica,iv
+2026-11-18 06:18,GIG,LIS,2027-03-19,2027-03-29,5308,Azul,1,google,4300,5100,,,economica,iv
+2026-11-18 06:18,GIG,BCN,2027-03-22,2027-03-27,4957,Iberia,1,google,4950,6300,,,economica,iv
