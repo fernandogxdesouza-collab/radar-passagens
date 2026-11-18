@@ -1,5 +1,5 @@
 {
- "cursor": 328,
+ "cursor": 358,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -183,12 +183,40 @@
    "2026-11-17"
   ],
   "GRU-PPT": [
-   13004,
-   "2026-11-17"
+   10066,
+   "2026-11-18"
   ],
   "CNF-MAD": [
    5469,
    "2026-11-17"
+  ],
+  "GIG-BCN": [
+   4678,
+   "2026-11-18"
+  ],
+  "GIG-LHR": [
+   4788,
+   "2026-11-18"
+  ],
+  "GIG-CDG": [
+   5334,
+   "2026-11-18"
+  ],
+  "CNF-AMS": [
+   5863,
+   "2026-11-18"
+  ],
+  "GIG-DXB": [
+   5917,
+   "2026-11-18"
+  ],
+  "GIG-HKG": [
+   7466,
+   "2026-11-18"
+  ],
+  "GIG-NRT": [
+   7587,
+   "2026-11-18"
   ]
  },
  "feeds_vistos": [
@@ -366,7 +394,10 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-the-hawaii-e606/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-budapest-e45/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-milan-to-malaysia-e458/",
-  "https://www.fly4free.com/flight-deals/europe/skis-and-snowboards-on-planes-how-much-does-it-cost/"
+  "https://www.fly4free.com/flight-deals/europe/skis-and-snowboards-on-planes-how-much-does-it-cost/",
+  "https://passageirodeprimeira.com/seguro-viagem-mastercard/",
+  "https://passageirodeprimeira.com/ultimas-horas-garantir-10-off-proxima-reserva-cupom-exclusivo-hoteis-com/",
+  "https://passageirodeprimeira.com/parceria-entre-livelo-avenue-oferece-ate-10-mil-pontos-novos-clientes/"
  ],
  "promos": [
   {
@@ -919,8 +950,8 @@
    "2026-11-16 07:02"
   ],
   "CNF-ZQN-2": [
-   21847,
-   "2026-11-16 07:02"
+   19653,
+   "2026-11-18 00:03"
   ],
   "CNF-YTZ-1": [
    5701,
@@ -1023,8 +1054,8 @@
    "2026-11-17 00:00"
   ],
   "CNF-CGK-2": [
-   11344,
-   "2026-11-16 13:15"
+   10148,
+   "2026-11-18 00:03"
   ],
   "CNF-FAI-2": [
    12511,
@@ -1515,8 +1546,8 @@
    "2026-11-17 06:17"
   ],
   "GRU-YVR-1": [
-   5084,
-   "2026-11-17 06:17"
+   4147,
+   "2026-11-18 00:03"
   ],
   "GRU-MRU-1": [
    9435,
@@ -1591,8 +1622,8 @@
    "2026-11-17 12:05"
   ],
   "GRU-PPT-1": [
-   13004,
-   "2026-11-17 12:05"
+   10066,
+   "2026-11-18 00:03"
   ],
   "GRU-IPC-1": [
    5452,
@@ -1749,6 +1780,90 @@
   "GIG-MAD-2": [
    4384,
    "2026-11-17 12:05"
+  ],
+  "CNF-IST-2": [
+   8598,
+   "2026-11-18 00:03"
+  ],
+  "GIG-JFK-1": [
+   2815,
+   "2026-11-18 00:03"
+  ],
+  "GIG-LIS-1": [
+   5119,
+   "2026-11-18 00:03"
+  ],
+  "GIG-CDG-1": [
+   5334,
+   "2026-11-18 00:03"
+  ],
+  "GIG-LHR-1": [
+   4788,
+   "2026-11-18 00:03"
+  ],
+  "GIG-SIN-1": [
+   10469,
+   "2026-11-18 00:03"
+  ],
+  "GIG-FCO-1": [
+   4939,
+   "2026-11-18 00:03"
+  ],
+  "GIG-BCN-1": [
+   4678,
+   "2026-11-18 00:03"
+  ],
+  "GIG-SFO-1": [
+   4467,
+   "2026-11-18 00:03"
+  ],
+  "GIG-LAX-1": [
+   2815,
+   "2026-11-18 00:03"
+  ],
+  "GIG-AMS-1": [
+   4965,
+   "2026-11-18 00:03"
+  ],
+  "GIG-DXB-1": [
+   5861,
+   "2026-11-18 00:03"
+  ],
+  "GIG-VCE-1": [
+   5747,
+   "2026-11-18 00:03"
+  ],
+  "GIG-ORD-1": [
+   2822,
+   "2026-11-18 00:03"
+  ],
+  "GIG-DCA-1": [
+   4488,
+   "2026-11-18 00:03"
+  ],
+  "GIG-HKG-1": [
+   7466,
+   "2026-11-18 00:03"
+  ],
+  "GIG-NRT-1": [
+   7587,
+   "2026-11-18 00:03"
+  ],
+  "GIG-BKK-1": [
+   9028,
+   "2026-11-18 00:03"
+  ],
+  "GIG-BER-1": [
+   6291,
+   "2026-11-18 00:03"
+  ],
+  "GIG-LAS-1": [
+   5116,
+   "2026-11-18 00:03"
+  ],
+  "GIG-FLR-1": [
+   6659,
+   "2026-11-18 00:03"
   ]
  },
  "promos_fila": [
@@ -1765,6 +1880,6 @@
    "visto_em": "2026-11-17"
   }
  ],
- "rodadas": 9,
+ "rodadas": 10,
  "vigilia_resumo": "2026-11-17"
 }
