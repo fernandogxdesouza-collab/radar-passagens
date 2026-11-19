@@ -1,5 +1,5 @@
 {
- "cursor": 538,
+ "cursor": 568,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -269,6 +269,10 @@
   "CNF-FLN": [
    666,
    "2026-11-19"
+  ],
+  "GRU-CPT": [
+   4361,
+   "2026-11-19"
   ]
  },
  "feeds_vistos": [
@@ -518,9 +522,83 @@
   "https://www.fly4free.com/flight-deals/europe/romantic-trip-mumbai-maldives-from-vienna/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-paris-london-edinburgh-copenhagen-to-the-faroe-islands/",
   "https://www.fly4free.com/flight-deals/europe/5-star-hotel-in-kuala-lumpur-e81/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mauritius-e345/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mauritius-e345/",
+  "https://www.melhoresdestinos.com.br/gol-sorteio-passagens-milhas.html",
+  "https://www.melhoresdestinos.com.br/promocao/black-friday-airalo-promocao-25-off-19nov26",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+  "https://www.melhoresdestinos.com.br/busch-gardens-montanha-russa-aquatica.html",
+  "https://www.melhoresdestinos.com.br/promocao/black-friday-ingressos-hopi-hari-19-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+  "https://www.melhoresdestinos.com.br/como-saber-passagem-aerea-black-friday-barata.html",
+  "https://www.melhoresdestinos.com.br/reducao-taxa-conexao-aeroporto-lima.html",
+  "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+  "https://www.melhoresdestinos.com.br/comunidade-melhores-destinos-2-mil-participantes.html",
+  "https://passageirodeprimeira.com/qual-terminal-companhia-aeroporto-de-guarulhos/",
+  "https://passageirodeprimeira.com/azul-viagens-oferece-cupom-ate-25-desconto-reservas-hoteis-carros-pacotes/",
+  "https://passageirodeprimeira.com/confira-a-oportunidade-de-gerar-o-milheiro-smiles-a-partir-de-r-1591/",
+  "https://passageirodeprimeira.com/azul-oferece-ate-15-de-desconto-em-passagens-no-azul-pelo-mundo/",
+  "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
+  "https://passageirodeprimeira.com/como-acumular-milhas-e-pontos-na-compra-do-gta-vi/",
+  "https://passageirodeprimeira.com/cartoes-sem-anuidade-salas-vip/",
+  "https://passageirodeprimeira.com/onde-ficar-em-lisboa-2/",
+  "https://passageirodeprimeira.com/trecho-para-nova-york-a-partir-de-r-1-436-ou-112-mil-pontos-azul-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-resort-on-koh-samui-e75/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-lanzarote-from-bratislava-2/",
+  "https://www.fly4free.com/flight-deals/europe/holland-america-cruise-through-norway-from-amsterdam/",
+  "https://www.fly4free.com/flight-deals/europe/ryanair-launches-four-new-routes-for-summer-2027/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mombasa-e340/",
+  "https://www.fly4free.com/flight-deals/europe/pullman-hotel-brussels/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-bali-e447/"
  ],
  "promos": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Gol vai sortear viagens e 300 mil milhas Smiles em nova promoção – veja como participar!",
+   "link": "https://www.melhoresdestinos.com.br/gol-sorteio-passagens-milhas.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Black Friday Airalo! Promoção inédita tem chip virtual de internet com cupom de 25% OFF exclusivo",
+   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-airalo-promocao-25-off-19nov26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Como saber se uma passagem aérea na Black Friday está realmente barata?",
+   "link": "https://www.melhoresdestinos.com.br/como-saber-passagem-aerea-black-friday-barata.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
+   "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul oferece até 15% de desconto em passagens no Azul Pelo Mundo",
+   "link": "https://passageirodeprimeira.com/azul-oferece-ate-15-de-desconto-em-passagens-no-azul-pelo-mundo/",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
+   "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
+   "visto_em": "2026-11-19"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
@@ -712,54 +790,6 @@
    "titulo": "Wyndham Rewards oferece até 100% de bônus na compra de pontos",
    "link": "https://passageirodeprimeira.com/wyndham-rewards-oferece-ate-100-bonus-compra-pontos/",
    "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Boa notícia! Voos da Azul para Corumbá, acesso ao Pantanal, passam a ser regulares",
-   "link": "https://www.melhoresdestinos.com.br/voos-corumba-pantanal-azul.html",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Europa 2×1! Passagens aéreas para Portugal mais outro país europeu a partir de R$ 4.370",
-   "link": "https://www.melhoresdestinos.com.br/promocao/europa-2x1-passagens-para-portugal-mais-outro-pais-europeu-12nov26",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Diversão na Flórida! Passagens para Orlando a partir de R$ 2.604 com boas opções em janeiro, Carnaval e julho",
-   "link": "https://www.melhoresdestinos.com.br/promocao/diversao-na-florida-passagens-para-orlando-12nov26",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "São Paulo e Rio voltam a ter voos para Buenos Aires com companhias de outros continentes",
-   "link": "https://www.melhoresdestinos.com.br/voos-sao-paulo-rio-buenos-aires.html",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Argentina! Passagens para Buenos Aires a partir de R$ 1.405 com bons preços em janeiro",
-   "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-12nov26",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Bom demais! Voos em classe executiva para Lisboa a partir de R$ 9.124 com datas no final do ano",
-   "link": "https://www.melhoresdestinos.com.br/promocao/portugal-passagens-em-classe-executiva-12nov26",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Qatar Airways amplia pré-seleção de refeições para Primeira Classe e Executiva",
-   "link": "https://passageirodeprimeira.com/qatar-airways-amplia-pre-selecao-de-refeicoes-para-primeira-classe-e-executiva/",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Brussels Airlines apresenta novos amenity kits da Classe Executiva",
-   "link": "https://passageirodeprimeira.com/brussels-airlines-apresenta-novos-amenity-kits-classe-executiva/",
-   "visto_em": "2026-11-15"
   }
  ],
  "falhas_seguidas": 0,
@@ -1413,8 +1443,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-PRG-3": [
-   10356,
-   "2026-11-16 18:00"
+   7713,
+   "2026-11-19 18:03"
   ],
   "CNF-MAD-3": [
    5340,
@@ -1457,8 +1487,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-JTR-3": [
-   12176,
-   "2026-11-19 12:12"
+   10956,
+   "2026-11-19 18:03"
   ],
   "CNF-MEL-3": [
    11950,
@@ -1513,8 +1543,8 @@
    "2026-11-19 12:12"
   ],
   "CNF-ZQN-3": [
-   17489,
-   "2026-11-16 18:00"
+   15468,
+   "2026-11-19 18:03"
   ],
   "CNF-HNL-3": [
    11523,
@@ -2411,9 +2441,130 @@
   "GRU-WKJ-2": [
    40439,
    "2026-11-19 12:12"
+  ],
+  "CNF-DMK-2": [
+   10670,
+   "2026-11-19 18:03"
+  ],
+  "CNF-ORY-3": [
+   6234,
+   "2026-11-19 18:03"
+  ],
+  "GRU-HND-3": [
+   8330,
+   "2026-11-19 18:03"
+  ],
+  "GRU-LIS-3": [
+   4208,
+   "2026-11-19 18:03"
+  ],
+  "GRU-CPT-3": [
+   4361,
+   "2026-11-19 18:03"
+  ],
+  "GRU-MAD-3": [
+   3705,
+   "2026-11-19 18:03"
+  ],
+  "GRU-LAX-3": [
+   3730,
+   "2026-11-19 18:03"
+  ],
+  "GRU-MIA-3": [
+   2897,
+   "2026-11-19 18:03"
+  ],
+  "GRU-EWR-3": [
+   3468,
+   "2026-11-19 18:03"
+  ],
+  "GRU-CDG-3": [
+   4576,
+   "2026-11-19 18:03"
+  ],
+  "GRU-BOS-3": [
+   4168,
+   "2026-11-19 18:03"
+  ],
+  "GRU-AMS-3": [
+   4834,
+   "2026-11-19 18:03"
+  ],
+  "GRU-LGW-3": [
+   4619,
+   "2026-11-19 18:03"
+  ],
+  "GRU-FCO-3": [
+   4441,
+   "2026-11-19 18:03"
+  ],
+  "GRU-SIN-3": [
+   8162,
+   "2026-11-19 18:03"
+  ],
+  "GRU-BCN-3": [
+   4332,
+   "2026-11-19 18:03"
+  ],
+  "GRU-SFO-3": [
+   5208,
+   "2026-11-19 18:03"
+  ],
+  "GRU-DXB-3": [
+   4991,
+   "2026-11-19 18:03"
   ]
  },
- "promos_fila": [],
- "rodadas": 16,
+ "promos_fila": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Gol vai sortear viagens e 300 mil milhas Smiles em nova promoção – veja como participar!",
+   "link": "https://www.melhoresdestinos.com.br/gol-sorteio-passagens-milhas.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Black Friday Airalo! Promoção inédita tem chip virtual de internet com cupom de 25% OFF exclusivo",
+   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-airalo-promocao-25-off-19nov26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Como saber se uma passagem aérea na Black Friday está realmente barata?",
+   "link": "https://www.melhoresdestinos.com.br/como-saber-passagem-aerea-black-friday-barata.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
+   "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul oferece até 15% de desconto em passagens no Azul Pelo Mundo",
+   "link": "https://passageirodeprimeira.com/azul-oferece-ate-15-de-desconto-em-passagens-no-azul-pelo-mundo/",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
+   "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
+   "visto_em": "2026-11-19"
+  }
+ ],
+ "rodadas": 17,
  "vigilia_resumo": "2026-11-19"
 }
