@@ -1,5 +1,5 @@
 {
- "cursor": 508,
+ "cursor": 538,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -171,8 +171,8 @@
    "2026-11-17"
   ],
   "GRU-IPC": [
-   5452,
-   "2026-11-17"
+   4343,
+   "2026-11-19"
   ],
   "GIG-PRG": [
    6186,
@@ -506,9 +506,45 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-vietnam-e388-3/",
   "https://www.fly4free.com/flight-deals/europe/direct-flights-from-poland-to-vietnam-thailand/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-trinidad-and-tobago-e386/",
-  "https://www.fly4free.com/flight-deals/europe/travel-insurance-sale-black-friday-3/"
+  "https://www.fly4free.com/flight-deals/europe/travel-insurance-sale-black-friday-3/",
+  "https://passageirodeprimeira.com/receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+  "https://passageirodeprimeira.com/abra-sua-conta-global-revolut-e-ganhe-ate-3-000-pontos-que-podem-virar-avios/",
+  "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
+  "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
+  "https://passageirodeprimeira.com/so-hoje-gere-o-euro-a-partir-de-r-356-ao-transferir-pontos-azul-para-o-all-accor/",
+  "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
+  "https://passageirodeprimeira.com/categorias-elite-latam-pass/",
+  "https://passageirodeprimeira.com/so-hoje-ganhe-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
+  "https://www.fly4free.com/flight-deals/europe/romantic-trip-mumbai-maldives-from-vienna/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-paris-london-edinburgh-copenhagen-to-the-faroe-islands/",
+  "https://www.fly4free.com/flight-deals/europe/5-star-hotel-in-kuala-lumpur-e81/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mauritius-e345/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
+   "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
+   "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos bancos, inclusive Livelo",
+   "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Só hoje! Ganhe até 30% de bônus ao transferir pontos Azul para ALL Accor",
+   "link": "https://passageirodeprimeira.com/so-hoje-ganhe-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
+   "visto_em": "2026-11-19"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
@@ -723,12 +759,6 @@
    "fonte": "Passageiro de Primeira",
    "titulo": "Brussels Airlines apresenta novos amenity kits da Classe Executiva",
    "link": "https://passageirodeprimeira.com/brussels-airlines-apresenta-novos-amenity-kits-classe-executiva/",
-   "visto_em": "2026-11-15"
-  },
-  {
-   "fonte": "Fly4free",
-   "titulo": "Air France flights from Italian cities to Fortaleza, Brazil 😎 🍹 from €506",
-   "link": "https://www.fly4free.com/flight-deals/europe/air-france-flights-from-italy-to-fortaleza-e506/",
    "visto_em": "2026-11-15"
   }
  ],
@@ -1107,8 +1137,8 @@
    "2026-11-16 07:02"
   ],
   "CNF-BOM-2": [
-   19091,
-   "2026-11-16 07:02"
+   14820,
+   "2026-11-19 12:12"
   ],
   "CNF-GIG-2": [
    586,
@@ -1127,12 +1157,12 @@
    "2026-11-16 07:02"
   ],
   "CNF-YQB-2": [
-   15592,
-   "2026-11-16 07:02"
+   9162,
+   "2026-11-19 12:12"
   ],
   "CNF-ZQN-2": [
-   19653,
-   "2026-11-18 00:03"
+   14277,
+   "2026-11-19 12:12"
   ],
   "CNF-YTZ-1": [
    5701,
@@ -1199,8 +1229,8 @@
    "2026-11-17 06:17"
   ],
   "CNF-GPS-1": [
-   12665,
-   "2026-11-17 12:05"
+   5979,
+   "2026-11-19 12:12"
   ],
   "CNF-WKJ-1": [
    11543,
@@ -1255,8 +1285,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SEZ-2": [
-   16960,
-   "2026-11-16 13:15"
+   10081,
+   "2026-11-19 12:12"
   ],
   "CNF-UBN-2": [
    64792,
@@ -1271,12 +1301,12 @@
    "2026-11-16 13:15"
   ],
   "CNF-KZN-2": [
-   26345,
-   "2026-11-19 00:04"
+   19007,
+   "2026-11-19 12:12"
   ],
   "CNF-GPS-2": [
-   7539,
-   "2026-11-16 13:15"
+   5177,
+   "2026-11-19 12:12"
   ],
   "CNF-WKJ-2": [
    41082,
@@ -1307,8 +1337,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SIN-3": [
-   11467,
-   "2026-11-17 06:17"
+   10139,
+   "2026-11-19 12:12"
   ],
   "CNF-FCO-3": [
    4981,
@@ -1427,8 +1457,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-JTR-3": [
-   42390,
-   "2026-11-16 18:00"
+   12176,
+   "2026-11-19 12:12"
   ],
   "CNF-MEL-3": [
    11950,
@@ -1447,8 +1477,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-MSY-3": [
-   14106,
-   "2026-11-16 18:00"
+   8734,
+   "2026-11-19 12:12"
   ],
   "CNF-MRU-3": [
    12878,
@@ -1459,8 +1489,8 @@
    "2026-11-16 18:00"
   ],
   "CNF-BOM-3": [
-   17565,
-   "2026-11-16 18:00"
+   13197,
+   "2026-11-19 12:12"
   ],
   "CNF-GIG-3": [
    651,
@@ -1479,40 +1509,40 @@
    "2026-11-18 12:10"
   ],
   "CNF-YQB-3": [
-   15838,
-   "2026-11-17 12:05"
+   9801,
+   "2026-11-19 12:12"
   ],
   "CNF-ZQN-3": [
    17489,
    "2026-11-16 18:00"
   ],
   "CNF-HNL-3": [
-   14094,
-   "2026-11-16 18:00"
+   11523,
+   "2026-11-19 12:12"
   ],
   "CNF-JNB-3": [
    4308,
    "2026-11-16 18:00"
   ],
   "CNF-LIH-3": [
-   23792,
-   "2026-11-16 18:00"
+   19024,
+   "2026-11-19 12:12"
   ],
   "CNF-LIM-3": [
    3295,
    "2026-11-16 18:00"
   ],
   "CNF-ANC-3": [
-   17349,
-   "2026-11-16 18:00"
+   11581,
+   "2026-11-19 12:12"
   ],
   "CNF-CGK-3": [
-   14046,
-   "2026-11-17 00:00"
+   9626,
+   "2026-11-19 12:12"
   ],
   "CNF-IPC-3": [
-   18106,
-   "2026-11-17 00:00"
+   15352,
+   "2026-11-19 12:12"
   ],
   "CNF-FAI-3": [
    10791,
@@ -1531,28 +1561,28 @@
    "2026-11-17 00:00"
   ],
   "CNF-SEZ-3": [
-   16549,
-   "2026-11-17 00:00"
+   10081,
+   "2026-11-19 12:12"
   ],
   "CNF-UBN-3": [
    65529,
    "2026-11-17 00:00"
   ],
   "CNF-HRB-3": [
-   48827,
-   "2026-11-17 00:00"
+   40702,
+   "2026-11-19 12:12"
   ],
   "CNF-NQZ-3": [
-   17423,
-   "2026-11-17 00:00"
+   12243,
+   "2026-11-19 12:12"
   ],
   "CNF-KZN-3": [
-   23324,
-   "2026-11-19 00:04"
+   14190,
+   "2026-11-19 12:12"
   ],
   "CNF-GPS-3": [
-   7460,
-   "2026-11-17 00:00"
+   5178,
+   "2026-11-19 12:12"
   ],
   "CNF-WKJ-3": [
    41661,
@@ -2207,8 +2237,8 @@
    "2026-11-18 18:06"
   ],
   "GRU-SAN-2": [
-   5554,
-   "2026-11-18 18:06"
+   4317,
+   "2026-11-19 12:12"
   ],
   "GRU-SEA-2": [
    5698,
@@ -2273,46 +2303,117 @@
   "CNF-FLL-2": [
    4011,
    "2026-11-19 00:04"
+  ],
+  "CNF-LGW-1": [
+   5327,
+   "2026-11-19 12:12"
+  ],
+  "CNF-SDU-2": [
+   577,
+   "2026-11-19 12:12"
+  ],
+  "CNF-DUD-2": [
+   22075,
+   "2026-11-19 12:12"
+  ],
+  "CNF-SDU-3": [
+   577,
+   "2026-11-19 12:12"
+  ],
+  "GRU-EZE-1": [
+   1675,
+   "2026-11-19 12:12"
+  ],
+  "GRU-EWR-1": [
+   3453,
+   "2026-11-19 12:12"
+  ],
+  "GRU-YQB-2": [
+   4013,
+   "2026-11-19 12:12"
+  ],
+  "GRU-ZQN-2": [
+   11171,
+   "2026-11-19 12:12"
+  ],
+  "GRU-HNL-2": [
+   6057,
+   "2026-11-19 12:12"
+  ],
+  "GRU-LIH-2": [
+   9581,
+   "2026-11-19 12:12"
+  ],
+  "GRU-LIM-2": [
+   2763,
+   "2026-11-19 12:12"
+  ],
+  "GRU-ANC-2": [
+   7443,
+   "2026-11-19 12:12"
+  ],
+  "GRU-BOB-2": [
+   21986,
+   "2026-11-19 12:12"
+  ],
+  "GRU-CGK-2": [
+   8436,
+   "2026-11-19 12:12"
+  ],
+  "GRU-PPT-2": [
+   12143,
+   "2026-11-19 12:12"
+  ],
+  "GRU-IPC-2": [
+   4343,
+   "2026-11-19 12:12"
+  ],
+  "GRU-FAI-2": [
+   9895,
+   "2026-11-19 12:12"
+  ],
+  "GRU-DUD-2": [
+   19555,
+   "2026-11-19 12:12"
+  ],
+  "GRU-SSA-2": [
+   884,
+   "2026-11-19 12:12"
+  ],
+  "GRU-USH-2": [
+   2565,
+   "2026-11-19 12:12"
+  ],
+  "GRU-FTE-2": [
+   2565,
+   "2026-11-19 12:12"
+  ],
+  "GRU-SEZ-2": [
+   8651,
+   "2026-11-19 12:12"
+  ],
+  "GRU-UBN-2": [
+   16835,
+   "2026-11-19 12:12"
+  ],
+  "GRU-HRB-2": [
+   12414,
+   "2026-11-19 12:12"
+  ],
+  "GRU-NQZ-2": [
+   9407,
+   "2026-11-19 12:12"
+  ],
+  "GRU-KZN-2": [
+   11592,
+   "2026-11-19 12:12"
+  ],
+  "GRU-WKJ-2": [
+   40439,
+   "2026-11-19 12:12"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Vale a pena comprar passagem na Black Friday 2026? Confira nossas dicas para fazer uma boa escolha!",
-   "link": "https://www.melhoresdestinos.com.br/black-friday-passagem-aerea-vale-a-pena.html",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
-   "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
-   "link": "https://passageirodeprimeira.com/5-sugestoes-de-voos-em-classe-executiva-a-partir-de-44-mil-milhas-smiles/",
-   "visto_em": "2026-11-18"
-  }
- ],
- "rodadas": 15,
+ "promos_fila": [],
+ "rodadas": 16,
  "vigilia_resumo": "2026-11-19"
 }
