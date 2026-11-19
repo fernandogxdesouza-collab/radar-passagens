@@ -1,5 +1,5 @@
 {
- "cursor": 448,
+ "cursor": 478,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -253,6 +253,18 @@
   "GRU-JTR": [
    6060,
    "2026-11-18"
+  ],
+  "GIG-BOG": [
+   2137,
+   "2026-11-19"
+  ],
+  "GIG-CUN": [
+   2883,
+   "2026-11-19"
+  ],
+  "GIG-JFK": [
+   3318,
+   "2026-11-19"
   ]
  },
  "feeds_vistos": [
@@ -473,9 +485,52 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-rome-to-thailand-3-2/",
   "https://www.fly4free.com/flight-deals/europe/hainan-airlines-flights-from-brussels-to-thailand-e425/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-barbados-condor-2/",
-  "https://www.fly4free.com/flight-deals/europe/toronto-tokyo-in-one-trip/"
+  "https://www.fly4free.com/flight-deals/europe/toronto-tokyo-in-one-trip/",
+  "https://www.melhoresdestinos.com.br/o-que-e-proibido-levar-cruzeiro.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/diarias-promocionais-hoteis-zarpo-18-11-26",
+  "https://www.melhoresdestinos.com.br/latam-executiva-economica-a321-xlr.html",
+  "https://www.melhoresdestinos.com.br/cirque-du-soleil-curitiba-2026.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/nomad-oferta-bf-nov26",
+  "https://www.melhoresdestinos.com.br/beto-carrero-nova-area-tematica-anuncio-2027.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+  "https://www.melhoresdestinos.com.br/black-friday-passagem-aerea-vale-a-pena.html",
+  "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/nomad-oferece-ate-30-mil-pontos-azul-e-acesso-ao-nomad-lounge-na-primeira-conversao/",
+  "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/"
  ],
  "promos": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Vale a pena comprar passagem na Black Friday 2026? Confira nossas dicas para fazer uma boa escolha!",
+   "link": "https://www.melhoresdestinos.com.br/black-friday-passagem-aerea-vale-a-pena.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+   "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+   "visto_em": "2026-11-19"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
@@ -872,16 +927,16 @@
    "2026-11-16 00:12"
   ],
   "CNF-LIS-2": [
-   4247,
-   "2026-11-16 07:02"
+   4732,
+   "2026-11-19 00:04"
   ],
   "CNF-BOS-2": [
-   4977,
-   "2026-11-16 07:02"
+   5092,
+   "2026-11-19 00:04"
   ],
   "CNF-LAX-2": [
-   4240,
-   "2026-11-16 07:02"
+   4355,
+   "2026-11-19 00:04"
   ],
   "CNF-CDG-2": [
    5188,
@@ -1180,8 +1235,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SSA-2": [
-   1101,
-   "2026-11-16 13:15"
+   916,
+   "2026-11-19 00:04"
   ],
   "CNF-USH-2": [
    2917,
@@ -1208,8 +1263,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-KZN-2": [
-   32334,
-   "2026-11-16 13:15"
+   26345,
+   "2026-11-19 00:04"
   ],
   "CNF-GPS-2": [
    7539,
@@ -1456,8 +1511,8 @@
    "2026-11-17 00:00"
   ],
   "CNF-DUD-3": [
-   29940,
-   "2026-11-17 00:00"
+   22075,
+   "2026-11-19 00:04"
   ],
   "CNF-SSA-3": [
    968,
@@ -1484,8 +1539,8 @@
    "2026-11-17 00:00"
   ],
   "CNF-KZN-3": [
-   31411,
-   "2026-11-17 00:00"
+   23324,
+   "2026-11-19 00:04"
   ],
   "CNF-GPS-3": [
    7460,
@@ -2206,9 +2261,43 @@
   "GRU-KIX-2": [
    7465,
    "2026-11-18 18:06"
+  ],
+  "CNF-FLL-2": [
+   4011,
+   "2026-11-19 00:04"
   ]
  },
  "promos_fila": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Ásia com bagagem 🧳 Voos para Seul, Tokyo e outras cidades a partir de R$ 6.059 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-asia-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.541 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-18-11-26",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Vale a pena comprar passagem na Black Friday 2026? Confira nossas dicas para fazer uma boa escolha!",
+   "link": "https://www.melhoresdestinos.com.br/black-friday-passagem-aerea-vale-a-pena.html",
+   "visto_em": "2026-11-19"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Black Friday! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+   "link": "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+   "visto_em": "2026-11-19"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "5 sugestões de voos em Classe Executiva a partir de 44 mil milhas Smiles",
@@ -2216,6 +2305,6 @@
    "visto_em": "2026-11-18"
   }
  ],
- "rodadas": 13,
+ "rodadas": 14,
  "vigilia_resumo": "2026-11-18"
 }
