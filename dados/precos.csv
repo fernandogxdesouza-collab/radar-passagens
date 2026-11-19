@@ -7447,3 +7447,15 @@ coletado_em,origem,destino,ida,volta,preco,cia,paradas,fonte,faixa_baixa,faixa_a
 2026-11-19 00:04,CNF,GPS,2026-11-19,2026-12-02,10377,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,iv
 2026-11-19 00:04,CNF,WKJ,2026-11-19,2026-12-02,42230,"Air Canada, Gol, LATAM, Lufthansa e ANA",3,explorar,,,Wakkanai,Ásia,economica,iv
 2026-11-19 00:04,CNF,BOS,2027-02-08,2027-02-17,5092,Gol + American,2,google,3950,5500,Boston,América do Norte,economica,iv
+2026-11-19 06:21,GIG,MAD,2027-04-21,2027-04-26,5759,Avianca,1,google,4100,6800,,,economica,iv
+2026-11-19 06:21,GIG,BCN,2027-04-22,2027-05-02,5096,Lufthansa,1,google,4900,7700,,,economica,iv
+2026-11-19 06:21,GIG,AMS,2027-03-27,2027-04-06,5208,LATAM,1,google,4700,6500,,,economica,iv
+2026-11-19 06:21,GIG,JNB,2027-04-01,2027-04-04,6387,LATAM,1,google,4450,7500,,,economica,iv
+2026-11-19 06:21,CNF,GRU,2027-04-25,2027-04-29,403,Azul,0,google,500,1150,,,economica,iv
+2026-11-19 06:21,CNF,FLN,2027-05-02,2027-05-05,666,Gol,2,google,820,2050,,,economica,iv
+2026-11-19 06:21,CNF,POA,2027-05-03,2027-05-07,560,Gol,1,google,550,860,,,economica,iv
+2026-11-19 06:21,CNF,CWB,2027-05-04,2027-05-09,678,Gol,1,google,590,1400,,,economica,iv
+2026-11-19 06:21,CNF,IGU,2027-05-05,2027-05-15,1663,Gol,1,google,980,2400,,,economica,iv
+2026-11-19 06:21,CNF,BSB,2027-05-06,2027-05-09,446,Gol,1,google,590,1100,,,economica,iv
+2026-11-19 06:21,CNF,BEL,2027-05-08,2027-05-13,1492,LATAM,1,google,1400,2350,,,economica,iv
+2026-11-19 06:21,CNF,MVD,2027-05-11,2027-05-15,2746,LATAM,1,google,2100,2500,,,economica,iv

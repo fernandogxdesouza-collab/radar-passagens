@@ -1,5 +1,5 @@
 {
- "cursor": 478,
+ "cursor": 508,
  "ciclo": 0,
  "alertados": {
   "CNF-IAD": [
@@ -265,6 +265,10 @@
   "GIG-JFK": [
    3318,
    "2026-11-19"
+  ],
+  "CNF-FLN": [
+   666,
+   "2026-11-19"
   ]
  },
  "feeds_vistos": [
@@ -498,7 +502,11 @@
   "https://www.melhoresdestinos.com.br/black-friday-passagem-aerea-vale-a-pena.html",
   "https://passageirodeprimeira.com/barato-voe-para-buenos-aires-a-partir-de-r-235-ou-18-mil-pontos-azul-taxas/",
   "https://passageirodeprimeira.com/nomad-oferece-ate-30-mil-pontos-azul-e-acesso-ao-nomad-lounge-na-primeira-conversao/",
-  "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/"
+  "https://passageirodeprimeira.com/black-friday-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-vietnam-e388-3/",
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-poland-to-vietnam-thailand/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-trinidad-and-tobago-e386/",
+  "https://www.fly4free.com/flight-deals/europe/travel-insurance-sale-black-friday-3/"
  ],
  "promos": [
   {
@@ -2305,6 +2313,6 @@
    "visto_em": "2026-11-18"
   }
  ],
- "rodadas": 14,
+ "rodadas": 15,
  "vigilia_resumo": "2026-11-18"
 }
