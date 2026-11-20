@@ -1,5 +1,5 @@
 {
- "cursor": 70,
+ "cursor": 100,
  "ciclo": 1,
  "alertados": {
   "CNF-BSB": [
@@ -196,6 +196,18 @@
   ],
   "CNF-SSA": [
    968,
+   "2026-11-20"
+  ],
+  "GRU-SDU": [
+   507,
+   "2026-11-20"
+  ],
+  "GIG-FRA": [
+   5295,
+   "2026-11-20"
+  ],
+  "CNF-ITM": [
+   8139,
    "2026-11-20"
   ]
  },
@@ -490,9 +502,36 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-barcelona-to-vietnam-thailand-e453/",
   "https://www.fly4free.com/flight-deals/europe/5-star-hotel-in-prague-e61/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-laos-cambodia-e565/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-taiwan-e428/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-taiwan-e428/",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+  "https://www.melhoresdestinos.com.br/melhores-aeroportos-do-mundo-time.html",
+  "https://www.melhoresdestinos.com.br/ruas-mais-descoladas-mundo-2026.html",
+  "https://passageirodeprimeira.com/lufthansa-anuncia-nova-classe-executiva-para-rotas-de-curta-e-media-distancia/",
+  "https://passageirodeprimeira.com/gol-apresenta-novo-menu-da-business-insignia-by-gol-em-voos-para-lisboa/",
+  "https://passageirodeprimeira.com/como-emitir-passagem-azul-pelo-mundo/",
+  "https://passageirodeprimeira.com/voar-propria-cadeira-de-rodas-estudo/",
+  "https://passageirodeprimeira.com/garanta-10-desconto-estacionar-com-estapar/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-paris-to-bali-e486/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-mauritius-e469-2/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-london-to-cape-town-p373/",
+  "https://www.fly4free.com/news/barbie-hotel-planned-for-the-us-with-themed-rooms-and-an-amusement-park/",
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-warsaw-to-phuket-e547/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-berlin-e52/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-milan-madrid-to-thailand-e422/"
  ],
  "promos": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm  passagens nacionais a partir de R$ 276 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+   "visto_em": "2026-11-20"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Lufthansa anuncia nova Classe Executiva para rotas de curta e média distância",
+   "link": "https://passageirodeprimeira.com/lufthansa-anuncia-nova-classe-executiva-para-rotas-de-curta-e-media-distancia/",
+   "visto_em": "2026-11-20"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Gol vai sortear viagens e 300 mil milhas Smiles em nova promoção – veja como participar!",
@@ -720,18 +759,6 @@
    "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos do C6 Bank",
    "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-do-c6-bank-4/",
    "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos cartões de crédito, inclusive Livelo",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Wyndham Rewards oferece até 100% de bônus na compra de pontos",
-   "link": "https://passageirodeprimeira.com/wyndham-rewards-oferece-ate-100-bonus-compra-pontos/",
-   "visto_em": "2026-11-16"
   }
  ],
  "falhas_seguidas": 0,
@@ -749,8 +776,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-BOS-1": [
-   5033,
-   "2026-11-16 00:12"
+   4393,
+   "2026-11-20 18:02"
   ],
   "CNF-LAX-1": [
    4185,
@@ -781,8 +808,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-SFO-1": [
-   5881,
-   "2026-11-16 00:12"
+   5006,
+   "2026-11-20 18:02"
   ],
   "CNF-AMS-1": [
    5098,
@@ -809,8 +836,8 @@
    "2026-11-16 00:12"
   ],
   "CNF-NRT-1": [
-   9111,
-   "2026-11-16 00:12"
+   7964,
+   "2026-11-20 18:02"
   ],
   "CNF-BKK-1": [
    9173,
@@ -1177,8 +1204,8 @@
    "2026-11-16 13:15"
   ],
   "CNF-SSA-1": [
-   961,
-   "2026-11-18 12:10"
+   858,
+   "2026-11-20 18:02"
   ],
   "CNF-USH-1": [
    4179,
@@ -2053,8 +2080,8 @@
    "2026-11-18 12:10"
   ],
   "CNF-ITM-1": [
-   9401,
-   "2026-11-18 12:10"
+   8139,
+   "2026-11-20 18:02"
   ],
   "CNF-YTZ-2": [
    5267,
@@ -2221,8 +2248,8 @@
    "2026-11-18 18:06"
   ],
   "GRU-MLA-2": [
-   5480,
-   "2026-11-18 18:06"
+   4829,
+   "2026-11-20 18:02"
   ],
   "GRU-JTR-2": [
    6060,
@@ -2469,8 +2496,8 @@
    "2026-11-20 06:17"
   ],
   "GRU-NRT-2": [
-   9150,
-   "2026-11-20 06:17"
+   7731,
+   "2026-11-20 18:02"
   ],
   "GRU-VCE-3": [
    4840,
@@ -2485,8 +2512,8 @@
    "2026-11-20 06:17"
   ],
   "GRU-HKG-3": [
-   8310,
-   "2026-11-20 06:17"
+   7478,
+   "2026-11-20 18:02"
   ],
   "GRU-SYD-3": [
    9049,
@@ -2527,9 +2554,46 @@
   "GRU-VIE-3": [
    5090,
    "2026-11-20 06:17"
+  ],
+  "CNF-DMK-1": [
+   10808,
+   "2026-11-20 18:02"
+  ],
+  "GRU-SDU-2": [
+   507,
+   "2026-11-20 18:02"
+  ],
+  "GRU-BUD-3": [
+   6641,
+   "2026-11-20 18:02"
+  ],
+  "GRU-SAN-3": [
+   4356,
+   "2026-11-20 18:02"
+  ],
+  "GRU-SEA-3": [
+   5514,
+   "2026-11-20 18:02"
+  ],
+  "GRU-SFB-3": [
+   3171,
+   "2026-11-20 18:02"
   ]
  },
- "promos_fila": [],
- "rodadas": 20,
+ "promos_fila": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm  passagens nacionais a partir de R$ 276 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
+   "visto_em": "2026-11-20"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Lufthansa anuncia nova Classe Executiva para rotas de curta e média distância",
+   "link": "https://passageirodeprimeira.com/lufthansa-anuncia-nova-classe-executiva-para-rotas-de-curta-e-media-distancia/",
+   "visto_em": "2026-11-20"
+  }
+ ],
+ "rodadas": 21,
  "vigilia_resumo": "2026-11-20"
 }
