@@ -1,5 +1,5 @@
 {
- "cursor": 40,
+ "cursor": 70,
  "ciclo": 1,
  "alertados": {
   "CNF-BSB": [
@@ -479,7 +479,18 @@
   "https://passageirodeprimeira.com/hotel-e-milhas-aadvantage-uma-combinacao-que-voce-precisa-conhecer/",
   "https://www.fly4free.com/flight-deals/europe/holiday-in-egypt-from-bucharest-e387/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-poland-to-sri-lanka-e509/",
-  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-frankfurt-to-seattle-e361/"
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-frankfurt-to-seattle-e361/",
+  "https://passageirodeprimeira.com/ultimo-dia-latam-pass-oferece-ate-66-de-desconto-na-compra-de-milhas/",
+  "https://passageirodeprimeira.com/hoteis-mendoza-com-ate-41-desconto-6-off-usando-cupom-pp/",
+  "https://passageirodeprimeira.com/livelo-oferece-ate-25-off-voos-nordeste-america-do-sul/",
+  "https://passageirodeprimeira.com/ultimo-dia-para-votar-no-premio-passageiro-de-primeira-2026/",
+  "https://passageirodeprimeira.com/prepare-se-os-alertas-do-pp-vao-ter-o-maior-desconto-da-historia/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-zanzibar-e54-4/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-feurope-to-bali-e505/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-barcelona-to-vietnam-thailand-e453/",
+  "https://www.fly4free.com/flight-deals/europe/5-star-hotel-in-prague-e61/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-laos-cambodia-e565/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-taiwan-e428/"
  ],
  "promos": [
   {
@@ -2518,56 +2529,7 @@
    "2026-11-20 06:17"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Gol vai sortear viagens e 300 mil milhas Smiles em nova promoção – veja como participar!",
-   "link": "https://www.melhoresdestinos.com.br/gol-sorteio-passagens-milhas.html",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday Airalo! Promoção inédita tem chip virtual de internet com cupom de 25% OFF exclusivo",
-   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-airalo-promocao-25-off-19nov26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Itália 🇮🇹 Passagens aéreas para Milão, Roma e outras cidades a partir de R$ 4.099 ida e volta",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-italia-19-11-26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Chile 🇨🇱 Passagens aéreas para Santiago a partir de R$ 1.141 ida e volta",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-chile-santiago-19-11-26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Como saber se uma passagem aérea na Black Friday está realmente barata?",
-   "link": "https://www.melhoresdestinos.com.br/como-saber-passagem-aerea-black-friday-barata.html",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Verão na Bahia! Passagens para Porto Seguro, Salvador e Ilhéus a partir de R$ 573 saindo de Sampa, Rio e mais cidades",
-   "link": "https://www.melhoresdestinos.com.br/promocao/verao-na-bahia-passagens-porto-seguro-salvador-19nov26",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul oferece até 15% de desconto em passagens no Azul Pelo Mundo",
-   "link": "https://passageirodeprimeira.com/azul-oferece-ate-15-de-desconto-em-passagens-no-azul-pelo-mundo/",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Últimas horas para ganhar até 30% de bônus ao transferir pontos Azul para ALL Accor",
-   "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor-2/",
-   "visto_em": "2026-11-19"
-  }
- ],
- "rodadas": 19,
+ "promos_fila": [],
+ "rodadas": 20,
  "vigilia_resumo": "2026-11-20"
 }

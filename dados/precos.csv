@@ -9734,3 +9734,27 @@ coletado_em,origem,destino,ida,volta,preco,cia,paradas,fonte,faixa_baixa,faixa_a
 2026-11-20 06:17,GRU,ATH,2026-12-11,2026-12-27,5911,ITA,1,google,5900,8500,Atenas,Europa,economica,iv
 2026-11-20 06:17,GRU,IST,2027-02-04,2027-02-17,5855,ITA + Turkish Airlines,1,google,4750,5900,Istambul,Europa,economica,iv
 2026-11-20 06:17,GRU,VIE,2027-03-08,2027-03-22,5090,LATAM + Iberia,1,google,4350,6100,Viena,Europa,economica,iv
+2026-11-20 12:10,CNF,JNB,2026-12-10,2026-12-14,6664,Gol + Ethiopian,2,google,6100,9600,,,economica,iv
+2026-11-20 12:10,CNF,SYD,2026-12-11,2026-12-16,18393,LATAM + Qatar Airways,2,google,12000,17000,,,economica,iv
+2026-11-20 12:10,GRU,EZE,2026-12-12,2026-12-22,2109,LATAM,1,google,1600,2800,,,economica,iv
+2026-11-20 12:10,GRU,MVD,2026-12-14,2026-12-18,2356,Aerolineas Argentinas,1,google,1750,3600,,,economica,iv
+2026-11-20 12:10,GRU,LIM,2026-12-15,2026-12-20,3086,LATAM,1,google,2200,3300,,,economica,iv
+2026-11-20 12:10,GRU,CTG,2026-12-17,2026-12-20,3981,Avianca,1,google,2600,4650,,,economica,iv
+2026-11-20 12:10,GRU,MIA,2026-12-18,2026-12-22,5990,Avianca,1,google,3750,5800,,,economica,iv
+2026-11-20 12:10,GRU,MCO,2026-12-19,2026-12-24,5858,United,1,google,3350,5600,,,economica,iv
+2026-11-20 12:10,GRU,JFK,2026-12-20,2026-12-30,5902,American,1,google,4650,6500,,,economica,iv
+2026-11-20 12:10,GRU,LAX,2026-12-21,2026-12-24,5081,American,1,google,3800,6100,,,economica,iv
+2026-11-20 12:10,GRU,YYZ,2026-12-22,2026-12-26,6858,United,2,google,4050,6100,,,economica,iv
+2026-11-20 12:10,GRU,MEX,2026-12-23,2026-12-28,4026,COPA,1,google,3250,4800,,,economica,iv
+2026-11-20 12:10,GRU,CUN,2026-12-24,2027-01-03,7829,COPA,1,google,3100,5600,,,economica,iv
+2026-11-20 12:10,GRU,PUJ,2026-12-25,2026-12-28,3725,Avianca,1,google,2900,4550,,,economica,iv
+2026-11-20 12:10,GRU,LIS,2026-12-26,2026-12-30,6620,Tap Air Portugal,1,google,4500,6800,,,economica,iv
+2026-11-20 12:10,GRU,OPO,2026-11-27,2026-12-02,5077,Air France + KLM,2,google,4000,5700,,,economica,iv
+2026-11-20 12:10,GRU,CDG,2026-11-30,2026-12-04,5856,Avianca,1,google,4550,5600,,,economica,iv
+2026-11-20 12:10,GRU,FCO,2026-12-01,2026-12-06,5417,LATAM + Vueling,1,google,4600,6900,,,economica,iv
+2026-11-20 12:10,GRU,LHR,2026-12-02,2026-12-12,6850,Air Canada,1,google,5000,7200,,,economica,iv
+2026-11-20 12:10,GRU,FRA,2026-12-04,2026-12-08,5608,Tap Air Portugal,1,google,5400,7300,,,economica,iv
+2026-11-20 12:10,GRU,NRT,2026-12-06,2026-12-16,8970,LATAM + JAL,1,google,7800,11000,,,economica,iv
+2026-11-20 12:10,GRU,BKK,2026-12-07,2026-12-10,11131,Qatar Airways,1,google,7300,11500,,,economica,iv
+2026-11-20 12:10,GRU,JNB,2026-12-08,2026-12-12,6443,Ethiopian,1,google,4450,9300,,,economica,iv
+2026-11-20 12:10,GRU,SYD,2026-12-09,2026-12-14,13395,Qatar Airways + Virgin Australia,1,google,10500,14500,,,economica,iv
