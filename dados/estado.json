@@ -1,90 +1,10 @@
 {
- "cursor": 568,
- "ciclo": 0,
+ "cursor": 10,
+ "ciclo": 1,
  "alertados": {
-  "CNF-IAD": [
-   4558,
-   "2026-11-16"
-  ],
-  "CNF-CDG": [
-   5188,
-   "2026-11-16"
-  ],
-  "CNF-LHR": [
-   5272,
-   "2026-11-16"
-  ],
-  "CNF-MLA": [
-   5456,
-   "2026-11-16"
-  ],
-  "CNF-SYD": [
-   9283,
-   "2026-11-16"
-  ],
-  "CNF-CPT": [
-   5094,
-   "2026-11-16"
-  ],
-  "CNF-YVR": [
-   5256,
-   "2026-11-16"
-  ],
-  "CNF-DXB": [
-   5434,
-   "2026-11-16"
-  ],
-  "CNF-MSY": [
-   6076,
-   "2026-11-16"
-  ],
-  "CNF-GRU": [
-   359,
-   "2026-11-16"
-  ],
-  "CNF-USH": [
-   2917,
-   "2026-11-16"
-  ],
-  "CNF-FTE": [
-   2994,
-   "2026-11-16"
-  ],
-  "CNF-JFK": [
-   3783,
-   "2026-11-16"
-  ],
-  "CNF-JNB": [
-   4308,
-   "2026-11-16"
-  ],
-  "CNF-ORD": [
-   4361,
-   "2026-11-16"
-  ],
-  "CNF-CGH": [
-   414,
-   "2026-11-16"
-  ],
   "CNF-BSB": [
    446,
    "2026-11-18"
-  ],
-  "CNF-MCZ": [
-   1357,
-   "2026-11-16"
-  ],
-  "CNF-VIE": [
-   6250,
-   "2026-11-16"
-  ],
-  "CNF-SAW": [
-   6757,
-   "2026-11-16"
-  ],
-  "CNF-BOB": [
-   15432,
-   "2026-11-16"
   ],
   "GRU-BCN": [
    4050,
@@ -273,6 +193,10 @@
   "GRU-CPT": [
    4361,
    "2026-11-19"
+  ],
+  "CNF-SSA": [
+   968,
+   "2026-11-20"
   ]
  },
  "feeds_vistos": [
@@ -548,7 +472,11 @@
   "https://www.fly4free.com/flight-deals/europe/ryanair-launches-four-new-routes-for-summer-2027/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-mombasa-e340/",
   "https://www.fly4free.com/flight-deals/europe/pullman-hotel-brussels/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-bali-e447/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-bali-e447/",
+  "https://passageirodeprimeira.com/dolar-a-r-590-veja-como-reduzir-o-custo-para-r-550-com-cashback-da-nomad/",
+  "https://passageirodeprimeira.com/smiles-tem-voos-a-partir-de-5-mil-milhas-ou-r-92-taxas/",
+  "https://passageirodeprimeira.com/banco-do-brasil-lanca-cartao-altus-world-legend-com-ate-7-pontos-por-dolar/",
+  "https://passageirodeprimeira.com/hotel-e-milhas-aadvantage-uma-combinacao-que-voce-precisa-conhecer/"
  ],
  "promos": [
   {
@@ -2565,6 +2493,6 @@
    "visto_em": "2026-11-19"
   }
  ],
- "rodadas": 17,
+ "rodadas": 18,
  "vigilia_resumo": "2026-11-19"
 }
