@@ -12,3 +12,4 @@ noite,dia_semana,hora_minimo,origem,destino,ida,volta,cia,referencia,minimo,qued
 2026-11-18,quarta,05,GRU,FOR,2027-01-15,2027-01-18,Gol,1818,1466,0.194,1825,não,não
 2026-11-19,quinta,08,GRU,FOR,2027-01-15,2027-01-18,Azul,1763,1399,0.206,1399,sim,não
 2026-11-19,quinta,00,GRU,FLN,2027-01-15,2027-01-18,LATAM,950,835,0.121,835,sim,não
+2026-11-20,sexta,03,CNF,FOR,2026-12-18,2026-12-21,Gol,2389,2053,0.141,2095,sim,não
