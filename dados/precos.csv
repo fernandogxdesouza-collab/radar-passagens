@@ -11875,3 +11875,930 @@ coletado_em,origem,destino,ida,volta,preco,cia,paradas,fonte,faixa_baixa,faixa_a
 2026-11-21 12:00,GIG,MEL,2027-02-05,2027-02-13,10726,LATAM + Qatar Airways,2,google,8900,10500,Melbourne,Oceania,economica,iv
 2026-11-21 12:00,GIG,YYZ,2027-02-25,2027-03-03,3336,Delta,2,google,3300,4800,Toronto,América do Norte,economica,iv
 2026-11-21 12:00,GIG,DUB,2027-04-22,2027-04-28,5252,Tap Air Portugal,1,google,5700,8400,Dublin,Europa,economica,iv
+2026-11-21 17:54,GIG,FRA,2027-01-02,2027-01-07,9035,LATAM,2,google,5800,9400,,,economica,iv
+2026-11-21 17:54,GIG,DXB,2027-01-03,2027-01-13,13026,LATAM + Qatar Airways,2,google,6600,11500,,,economica,iv
+2026-11-21 17:54,GIG,NRT,2027-01-04,2027-01-07,15778,Gol + Ethiopian,3,google,8600,16000,,,economica,iv
+2026-11-21 17:54,GIG,BKK,2027-01-05,2027-01-09,16491,Gol + Air France,2,google,8800,16000,,,economica,iv
+2026-11-21 17:54,GIG,JNB,2027-01-06,2027-01-11,8576,LATAM,2,google,6200,11000,,,economica,iv
+2026-11-21 17:54,GIG,SYD,2027-01-07,2027-01-17,16045,American + Qantas,1,google,10500,15500,,,economica,iv
+2026-11-21 17:54,CNF,GRU,2027-01-30,2027-02-09,455,Gol,0,google,470,1200,,,economica,iv
+2026-11-21 17:54,CNF,GIG,2027-01-31,2027-02-03,669,Gol,1,google,365,1150,,,economica,iv
+2026-11-21 17:54,CNF,SSA,2027-02-01,2027-02-05,1401,LATAM,1,google,880,1850,,,economica,iv
+2026-11-21 17:54,CNF,REC,2027-02-02,2027-02-07,1233,LATAM,1,google,1100,1950,,,economica,iv
+2026-11-21 17:54,CNF,FOR,2027-02-03,2027-02-13,1196,LATAM,1,google,1050,2000,,,economica,iv
+2026-11-21 17:54,CNF,NAT,2027-02-04,2027-02-07,1364,LATAM,1,google,1100,2350,,,economica,iv
+2026-11-21 17:54,CNF,MCZ,2027-02-05,2027-02-09,1634,Azul,1,google,1450,2500,,,economica,iv
+2026-11-21 17:54,CNF,FLN,2027-02-06,2027-02-11,785,Gol,1,google,395,1150,,,economica,iv
+2026-11-21 17:54,CNF,POA,2027-02-07,2027-02-17,532,LATAM,1,google,385,920,,,economica,iv
+2026-11-21 17:54,CNF,CWB,2027-02-08,2027-02-11,674,Gol,1,google,560,1200,,,economica,iv
+2026-11-21 17:54,CNF,IGU,2027-02-09,2027-02-13,1352,LATAM,1,google,580,1750,,,economica,iv
+2026-11-21 17:54,CNF,BSB,2027-02-10,2027-02-15,502,Gol,1,google,540,1150,,,economica,iv
+2026-11-21 17:54,CNF,MAO,2027-02-11,2027-02-21,1436,LATAM,1,google,1150,2500,,,economica,iv
+2026-11-21 17:54,CNF,BEL,2027-02-12,2027-02-15,1562,LATAM,1,google,960,1700,,,economica,iv
+2026-11-21 17:54,CNF,EZE,2027-02-13,2027-02-17,2786,LATAM,1,google,2000,2950,,,economica,iv
+2026-11-21 17:54,CNF,SCL,2027-02-14,2027-02-19,2288,LATAM,1,google,1550,2300,,,economica,iv
+2026-11-21 17:54,CNF,MVD,2027-02-15,2027-02-25,2755,LATAM,1,google,1950,3000,,,economica,iv
+2026-11-21 17:54,CNF,LIM,2027-02-16,2027-02-19,3268,LATAM,1,google,2800,3300,,,economica,iv
+2026-11-21 17:54,CNF,BOG,2027-02-17,2027-02-21,2502,Gol + Avianca,1,google,1900,3050,,,economica,iv
+2026-11-21 17:54,CNF,CTG,2027-02-18,2027-02-23,3548,LATAM,2,google,2350,4200,,,economica,iv
+2026-11-21 17:54,CNF,MIA,2027-02-19,2027-03-01,4653,LATAM,1,google,2250,3700,,,economica,iv
+2026-11-21 17:54,CNF,MCO,2027-02-20,2027-02-23,5257,LATAM,1,google,2800,4250,,,economica,iv
+2026-11-21 17:54,CNF,JFK,2027-02-21,2027-02-25,5296,Gol + Avianca,2,google,3750,4900,,,economica,iv
+2026-11-21 17:54,CNF,LAX,2027-02-22,2027-02-27,5001,Azul + United,2,google,3150,4350,,,economica,iv
+2026-11-21 17:54,CNF,GIG,2027-04-01,2027-04-05,599,Gol,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,CNF,LIS,2027-03-19,2027-03-21,4659,Gol e LATAM,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,CNF,BOS,2027-02-25,2027-03-01,4393,COPA,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,CNF,LAX,2027-02-26,2027-03-01,4412,Delta e LATAM,2,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CDG,2026-12-03,2026-12-06,5546,LATAM,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,CNF,LGW,2026-11-28,2026-11-30,5397,Air France e Gol,2,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,CNF,JFK,2027-02-25,2027-03-01,4058,COPA,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SIN,2027-04-08,2027-04-12,9788,LATAM e Lufthansa,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,CNF,FCO,2027-02-25,2027-03-01,5184,LATAM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,CNF,BCN,2027-02-18,2027-02-21,5273,"Air France, Gol e KLM",2,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,CNF,SFO,2027-02-18,2027-02-22,5006,COPA,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,CNF,AMS,2026-12-03,2026-12-06,5547,LATAM,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,CNF,DXB,2027-03-18,2027-03-22,5661,LATAM e Qatar Airways,2,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,CNF,VCE,2027-03-11,2027-03-15,6538,"Azul, Gol e Air Europa",2,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,CNF,ORD,2027-02-11,2027-02-15,4541,COPA,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,CNF,IAD,2027-02-18,2027-02-21,4240,COPA,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,CNF,HKG,2027-02-11,2027-02-15,10977,Azul e Ethiopian,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,CNF,NRT,2027-01-22,2027-01-25,7964,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,CNF,BKK,2027-02-25,2027-03-01,9621,LATAM e Qatar Airways,2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,CNF,BER,2027-03-11,2027-03-15,6653,Tap Air Portugal,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,CNF,LAS,2027-04-08,2027-04-11,5889,COPA,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,CNF,FLR,2026-12-03,2026-12-07,6677,"British Airways, LATAM e Tap Air Portugal",2,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,CNF,EDI,2027-03-11,2027-03-15,7572,"Gol, KLM e LATAM",2,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,CNF,SYD,2027-02-18,2027-02-22,9725,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,CNF,MIA,2026-12-03,2026-12-07,3953,LATAM,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,CNF,PRG,2026-12-03,2026-12-07,8006,"Air France, Gol e KLM",2,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,CNF,MAD,2027-02-04,2027-02-07,5616,LATAM,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,CNF,ATH,2027-02-18,2027-02-21,6579,Tap Air Portugal,1,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,CNF,IST,2027-02-25,2027-03-01,8194,LATAM e Qatar Airways,2,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,CNF,VIE,2027-04-01,2027-04-05,6607,Tap Air Portugal,1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,CNF,BUD,2026-12-03,2026-12-07,8305,Air France e Gol,2,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,CNF,SAN,2026-12-03,2026-12-07,5952,"COPA, Delta e Gol",2,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SEA,2027-02-18,2027-02-22,6501,"Delta, Gol e LATAM",2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPT,2027-04-15,2027-04-19,6349,LATAM,2,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,CNF,MLA,2027-03-25,2027-03-29,6107,"Gol, KLM e KM Malta Airlines",2,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,CNF,DUB,2026-11-27,2026-11-30,6143,Tap Air Portugal,1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,CNF,JTR,2026-12-10,2026-12-14,11518,"Aegean, Gol e Lufthansa",3,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,CNF,MEL,2027-02-04,2027-02-08,11636,LATAM e Qatar Airways,2,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,CNF,YYZ,2027-02-18,2027-02-21,5176,"Avianca, Gol e United",2,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,CNF,YVR,2027-02-18,2027-02-22,5471,"Air Canada, Gol, LATAM e United",2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPH,2026-12-03,2026-12-07,6086,"Air France, Gol e KLM",2,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,CNF,MRU,2026-11-26,2026-11-29,16517,"Air France, Gol e Air Mauritius",2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,CNF,YUL,2027-05-20,2027-05-23,5242,"Air Canada, Azul, Avianca e Gol",2,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,CNF,BOM,2026-11-26,2026-11-29,18248,Azul e Ethiopian,2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,CNF,AEP,2027-02-18,2027-02-22,2675,Gol,1,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,CNF,PER,2027-02-04,2027-02-08,14176,LATAM e Qantas,3,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,CNF,ITM,2027-01-21,2027-01-25,8132,JAL e LATAM,3,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,CNF,YQB,2026-11-26,2026-11-29,10288,Air Canada e Azul,2,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,CNF,ZQN,2026-11-26,2026-11-29,20981,"Jetstar, LATAM e Qantas",3,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,CNF,HNL,2027-02-18,2027-02-22,6254,"Delta, Gol e LATAM",2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,CNF,GRU,2027-02-18,2027-02-22,365,Gol,0,explorar,,,São Paulo,Brasil,economica,iv
+2026-11-21 17:54,CNF,JNB,2027-02-25,2027-03-01,6973,LATAM e South African,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,CNF,LIH,2026-11-26,2026-11-29,19045,American e Gol,3,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,CNF,ANC,2026-12-03,2026-12-07,8628,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,CNF,BOB,2026-11-26,2026-11-30,42811,"COPA, Gol, Air Moana, Air Tahiti Nui, United e Air Tahiti",4,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,CNF,CGK,2027-01-14,2027-01-18,12562,"Gol, LATAM e Qatar Airways",2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,CNF,FAI,2026-11-26,2026-11-29,16520,Alaska e COPA,3,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,CNF,DUD,2026-11-26,2026-11-29,28180,"Jetstar, LATAM e Air New Zealand",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,CNF,SSA,2026-12-11,2026-12-14,1239,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,CNF,USH,2027-04-22,2027-04-25,4154,Aerolineas Argentinas e Gol,2,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,CNF,FTE,2027-02-26,2027-02-28,4495,"Aerolineas Argentinas, Gol e LATAM",2,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-11-29,17518,Emirates e Gol,2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-11-29,11224,"Air Astana, LATAM e Lufthansa",2,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,CNF,KZN,2026-11-26,2026-11-29,19987,LATAM e Turkish Airlines,2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,CNF,GPS,2026-11-26,2026-11-29,6170,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,CNF,WKJ,2026-11-26,2026-11-29,41058,"Air Canada, LATAM, Lufthansa e ANA",3,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,CNF,LIS,2027-03-01,2027-03-10,4418,Gol,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,CNF,BOS,2027-02-11,2027-02-18,4393,COPA,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,CNF,LAX,2027-02-08,2027-02-17,4412,Delta e LATAM,2,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CDG,2026-11-27,2026-12-06,5546,LATAM,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,CNF,LHR,2027-02-11,2027-02-17,5489,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,CNF,JFK,2027-02-01,2027-02-08,4058,COPA,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SIN,2027-04-08,2027-04-14,9788,LATAM e Lufthansa,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,CNF,FCO,2026-11-27,2026-12-03,5182,LATAM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,CNF,BCN,2027-02-18,2027-02-24,5061,"Air France, Gol, Transavia e KLM",2,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,CNF,SFO,2027-02-13,2027-02-22,5006,COPA,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,CNF,AMS,2026-11-28,2026-12-05,5518,"Air France, Gol e KLM",2,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,CNF,DXB,2027-03-25,2027-04-01,5661,LATAM e Qatar Airways,2,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,CNF,VCE,2027-03-22,2027-03-29,5982,Gol e KLM,2,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,CNF,ORD,2027-01-30,2027-02-08,4393,COPA,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,CNF,IAD,2027-02-08,2027-02-17,4240,COPA,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,CNF,HKG,2026-11-29,2026-12-08,9239,Azul e Ethiopian,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,CNF,NRT,2027-01-21,2027-01-27,8076,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,CNF,BKK,2027-01-29,2027-02-07,10402,Azul e ITA,2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,CNF,BER,2027-02-07,2027-02-16,6175,Tap Air Portugal,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,CNF,LAS,2027-04-05,2027-04-11,5618,American e Gol,2,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,CNF,FLR,2026-11-30,2026-12-07,5969,"Air France, Gol e KLM",2,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,CNF,EDI,2027-03-08,2027-03-15,6582,"Gol, KLM e LATAM",2,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,CNF,SYD,2027-02-18,2027-02-26,9466,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,CNF,MIA,2026-12-05,2026-12-14,3899,COPA,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,CNF,PRG,2026-11-30,2026-12-07,7052,"Air France, Gol e KLM",2,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,CNF,MAD,2026-11-28,2026-12-07,5334,Air France e Gol,2,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,CNF,ATH,2027-02-18,2027-02-25,5931,"Air France, Gol e KLM",2,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,CNF,IST,2027-02-08,2027-02-15,7584,LATAM e Lufthansa,2,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,CNF,VIE,2026-11-30,2026-12-07,6039,"Air France, Gol e KLM",2,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,CNF,BUD,2026-11-30,2026-12-07,7675,Air France e Gol,2,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,CNF,SAN,2026-11-27,2026-12-04,5545,COPA,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SEA,2027-04-12,2027-04-18,5718,Delta e Gol,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPT,2027-01-31,2027-02-06,5295,LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,CNF,MLA,2027-02-15,2027-02-24,5200,"Air France, Gol, KLM e KM Malta Airlines",2,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,CNF,DUB,2026-11-30,2026-12-07,5943,"Air France, Gol e KLM",2,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,CNF,JTR,2026-11-29,2026-12-06,9653,"Aegean, Gol, Lufthansa e SWISS",3,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,CNF,MEL,2027-02-14,2027-02-22,10037,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,CNF,YYZ,2027-01-28,2027-02-03,5639,"Azul, Avianca, Gol e United",2,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,CNF,YVR,2027-03-11,2027-03-18,5466,"Air Canada, Gol e United",2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPH,2026-11-30,2026-12-06,6086,"Air France, Gol e KLM",2,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,CNF,MSY,2026-12-07,2026-12-14,7991,American e Gol,2,explorar,,,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,CNF,MRU,2026-11-26,2026-12-02,14903,"Air France, Gol e Air Mauritius",2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,CNF,YUL,2027-02-26,2027-03-04,5124,"Air Canada, Azul, Avianca, Gol e United",2,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,CNF,BOM,2026-11-26,2026-12-02,14972,"IndiGo, LATAM e Qatar Airways",2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,CNF,GIG,2027-02-22,2027-03-02,599,Gol,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,CNF,EZE,2026-12-05,2026-12-13,2650,Gol,1,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,CNF,PER,2027-02-15,2027-02-21,12668,LATAM e South African,2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,CNF,ITM,2027-01-18,2027-01-25,11243,JAL e LATAM,3,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,CNF,YQB,2026-11-26,2026-12-02,8932,Gol e United,2,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,CNF,ZQN,2026-11-26,2026-12-02,22480,"LATAM, Air New Zealand e Qantas",3,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,CNF,HNL,2027-02-07,2027-02-15,6254,"Delta, Gol e LATAM",2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,CNF,JNB,2027-02-13,2027-02-19,4477,LATAM,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,CNF,LIH,2026-11-26,2026-12-02,19045,American e Gol,3,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,CNF,LIM,2026-12-05,2026-12-13,3426,LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,CNF,ANC,2026-12-25,2026-12-31,9435,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,CNF,BOB,2026-12-28,2027-01-04,24354,"COPA, Air Tahiti Nui e Air Tahiti",4,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,CNF,CGK,2026-11-27,2026-12-04,12622,LATAM e Qatar Airways,2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,CNF,FAI,2026-11-26,2026-12-02,12527,Alaska e COPA,3,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,CNF,DUD,2026-11-26,2026-12-02,21308,"LATAM, Air New Zealand e Qantas",4,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,CNF,SSA,2027-01-25,2027-02-02,1026,Gol e LATAM,1,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,CNF,USH,2027-04-26,2027-05-03,4071,"Aerolineas Argentinas, Gol e LATAM",2,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,CNF,FTE,2027-02-12,2027-02-18,3120,Gol,2,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-12-02,10216,Azul e Ethiopian,2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,CNF,UBN,2026-11-26,2026-12-02,66882,"Gol, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,CNF,HRB,2026-11-26,2026-12-02,47606,"British Airways, China Southern e LATAM",3,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-12-02,15211,"Emirates, flydubai e Gol",2,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,CNF,KZN,2026-11-26,2026-12-02,18515,LATAM e Turkish Airlines,2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,CNF,GPS,2026-11-26,2026-12-02,5357,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,CNF,WKJ,2026-11-26,2026-12-02,41058,"Air Canada, LATAM, Lufthansa e ANA",3,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,CNF,LIS,2027-03-01,2027-03-16,4418,Gol,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,CNF,BOS,2027-02-08,2027-02-22,4393,COPA,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,CNF,LAX,2027-02-07,2027-02-20,4412,Delta e LATAM,2,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CDG,2027-03-21,2027-04-04,6199,LATAM,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,CNF,LHR,2027-03-08,2027-03-22,5738,"Air France, Gol, KLM e LATAM",2,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,CNF,JFK,2027-02-01,2027-02-17,4058,COPA,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SIN,2026-11-26,2026-12-09,10276,Air France e Gol,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,CNF,FCO,2027-02-07,2027-02-23,4937,Gol e KLM,2,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,CNF,BCN,2027-02-04,2027-02-20,5061,"Air France, Gol e KLM",2,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,CNF,SFO,2027-02-08,2027-02-22,5006,COPA,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,CNF,AMS,2027-03-22,2027-04-05,5549,LATAM,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,CNF,DXB,2027-03-08,2027-03-22,5661,LATAM e Qatar Airways,2,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,CNF,VCE,2027-01-25,2027-02-08,7422,LATAM e Lufthansa,2,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,CNF,ORD,2027-01-25,2027-02-08,4393,COPA,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,CNF,IAD,2027-02-01,2027-02-17,4240,COPA,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,CNF,HKG,2026-11-26,2026-12-09,9239,"Azul, Ethiopian e Gol",2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,CNF,HND,2026-12-10,2026-12-24,8219,Azul e ITA,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,CNF,DMK,2027-01-24,2027-02-07,10814,"Azul, Emirates e flydubai",2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,CNF,BER,2027-02-07,2027-02-20,6175,Tap Air Portugal,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,CNF,LAS,2027-04-05,2027-04-19,5747,American e Gol,2,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,CNF,FLR,2026-11-26,2026-12-09,6204,"Air France, Gol e KLM",2,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,CNF,EDI,2027-02-06,2027-02-19,6582,Gol e KLM,2,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,CNF,SYD,2027-02-01,2027-02-17,10866,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,CNF,MIA,2026-12-14,2026-12-29,4276,COPA,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,CNF,PRG,2027-01-18,2027-02-01,9699,"Air Dolomiti, LATAM e Lufthansa",2,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,CNF,MAD,2027-03-22,2027-04-07,5303,Gol e KLM,2,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,CNF,ATH,2027-04-05,2027-04-20,5930,"Air France, Gol e KLM",2,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,CNF,IST,2026-12-10,2026-12-24,7573,LATAM e Lufthansa,2,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,CNF,VIE,2027-02-14,2027-02-28,6543,"LATAM, Lufthansa e Austrian",2,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,CNF,BUD,2026-11-26,2026-12-09,8421,"Air France, Gol e KLM",2,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,CNF,SAN,2026-11-26,2026-12-09,6760,Azul e United,2,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,CNF,SEA,2027-04-12,2027-04-25,7090,Delta e Gol,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPT,2027-01-22,2027-02-06,5295,LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,CNF,MLA,2027-02-11,2027-02-24,5194,"Gol, KLM e KM Malta Airlines",2,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,CNF,DUB,2027-02-07,2027-02-20,5944,"Gol, KLM e LATAM",2,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,CNF,JTR,2026-11-26,2026-12-09,11545,"Aegean, LATAM, Lufthansa e SWISS",3,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,CNF,MEL,2026-11-26,2026-12-09,15531,LATAM,2,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,CNF,YYZ,2027-01-28,2027-02-10,5171,"Azul, Avianca, Gol e United",2,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,CNF,YVR,2027-03-11,2027-03-26,5466,"Air Canada, Gol, LATAM e United",2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CPH,2026-11-26,2026-12-09,6639,"Air France, Gol e KLM",2,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,CNF,MSY,2026-11-26,2026-12-09,9560,"Azul, COPA e United",2,explorar,,,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,CNF,MRU,2026-11-26,2026-12-09,12727,Air France e Gol,2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,CNF,YUL,2027-02-26,2027-03-11,5124,"Air Canada, Azul, Avianca, Gol e United",2,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,CNF,BOM,2026-11-26,2026-12-09,12381,"IndiGo, LATAM e Qatar Airways",2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,CNF,GIG,2027-02-22,2027-03-09,599,Gol,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,CNF,EZE,2027-02-13,2027-02-27,2635,Gol,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,CNF,PER,2026-11-26,2026-12-09,22738,LATAM e Qantas,3,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,CNF,KIX,2026-11-26,2026-12-09,12278,Air France e Gol,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,CNF,YQB,2026-11-26,2026-12-09,9020,"Air Canada, Azul e Gol",2,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,CNF,ZQN,2026-11-26,2026-12-09,19517,"LATAM, Air New Zealand e Qantas",3,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,CNF,HNL,2026-11-26,2026-12-09,11678,"COPA, Gol e United",2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,CNF,JNB,2026-12-12,2026-12-25,4477,LATAM,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,CNF,LIH,2026-11-26,2026-12-09,19280,American e Gol,3,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,CNF,LIM,2026-12-05,2026-12-20,3426,LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,CNF,ANC,2026-11-26,2026-12-09,11736,"Azul, Gol e United",2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,CNF,CGK,2026-11-26,2026-12-09,11582,LATAM e Qatar Airways,2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,CNF,IPC,2026-11-26,2026-12-09,15644,LATAM,3,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,CNF,FAI,2026-11-26,2026-12-09,39924,"Azul, Alaska e COPA",3,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,CNF,DUD,2026-11-26,2026-12-09,24506,"LATAM, Air New Zealand e Qantas",4,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,CNF,SSA,2026-12-11,2026-12-25,1258,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-12-09,10216,"Azul, Ethiopian e Gol",2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,CNF,UBN,2026-11-26,2026-12-09,66717,"Gol, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,CNF,HRB,2026-11-26,2026-12-09,46988,"British Airways, China Southern e LATAM",3,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-12-09,14362,"Azul, LATAM e Turkish Airlines",2,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,CNF,KZN,2026-11-26,2026-12-09,15105,"Azul, LATAM e Turkish Airlines",2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,CNF,GPS,2026-11-26,2026-12-09,5547,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,CNF,WKJ,2026-11-26,2026-12-09,41058,"Air Canada, LATAM, Lufthansa e ANA",3,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GRU,GIG,2027-02-18,2027-02-21,558,Gol,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,GRU,EZE,2027-01-14,2027-01-17,1697,Turkish Airlines,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GRU,LIS,2027-02-18,2027-02-21,4268,Royal Air Maroc,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GRU,LAX,2027-02-18,2027-02-21,4047,Delta e LATAM,1,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MIA,2027-03-11,2027-03-15,2900,Arajet,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GRU,EWR,2027-02-18,2027-02-21,3489,Arajet,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GRU,CDG,2027-02-25,2027-02-28,4638,Avianca,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GRU,BOS,2027-02-19,2027-02-21,4444,Air Canada,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GRU,AMS,2027-03-05,2027-03-07,5121,Tap Air Portugal,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GRU,LGW,2027-03-04,2027-03-08,4621,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GRU,MAD,2027-02-25,2027-02-28,3755,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GRU,CPT,2027-02-27,2027-03-01,5331,South African,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GRU,FCO,2027-02-18,2027-02-21,4605,Tap Air Portugal,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GRU,SIN,2026-12-03,2026-12-07,8699,ANA e United,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GRU,BCN,2027-02-18,2027-02-21,4391,Tap Air Portugal,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GRU,SFO,2027-02-19,2027-02-21,4751,Air Canada,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DXB,2027-03-18,2027-03-22,5060,Qatar Airways,1,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GRU,VCE,2027-03-11,2027-03-15,4996,Air Europa,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GRU,ORD,2027-04-22,2027-04-26,3798,Arajet,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GRU,IAD,2026-12-03,2026-12-06,3602,COPA,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GRU,HKG,2027-03-25,2027-03-28,7322,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GRU,SYD,2027-02-18,2027-02-22,9060,Qatar Airways e Virgin Australia,1,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GRU,HND,2027-04-23,2027-04-26,7490,"British Airways, JAL e LATAM",1,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GRU,BKK,2027-03-12,2027-03-15,8252,"Etihad, LATAM e Qatar Airways",2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GRU,BER,2026-11-27,2026-11-29,5619,Tap Air Portugal,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GRU,LAS,2027-03-19,2027-03-22,4480,Delta e LATAM,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GRU,FLR,2027-02-04,2027-02-07,5920,Tap Air Portugal,1,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GRU,EDI,2026-12-03,2026-12-07,7206,KLM,1,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GRU,PRG,2026-11-27,2026-11-29,6678,Tap Air Portugal,1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GRU,ATH,2026-11-27,2026-11-29,5776,Tap Air Portugal,1,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GRU,IST,2027-04-01,2027-04-04,6694,Air Europa,1,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GRU,VIE,2027-03-05,2027-03-07,5716,Tap Air Portugal,1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GRU,BUD,2027-03-04,2027-03-08,7414,"Lufthansa, SWISS e Tap Air Portugal",2,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GRU,SAN,2026-12-05,2026-12-07,4356,COPA,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SEA,2026-12-04,2026-12-06,4963,Delta e LATAM,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SFB,2027-04-09,2027-04-11,3135,Arajet,1,explorar,,,Orlando,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MLA,2026-12-03,2026-12-06,5378,"Air France, Gol, KLM e KM Malta Airlines",2,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GRU,JTR,2027-02-11,2027-02-15,7660,Aegean e KLM,2,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GRU,DUB,2027-02-19,2027-02-21,5487,Tap Air Portugal,1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GRU,MEL,2027-02-11,2027-02-15,9954,LATAM,1,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GRU,YYZ,2027-02-18,2027-02-22,3389,Arajet,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GRU,YVR,2027-01-21,2027-01-25,3786,Delta,2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MRU,2027-03-04,2027-03-08,9049,South African,2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GRU,YUL,2027-02-26,2027-03-01,3237,Arajet,1,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOM,2027-02-11,2027-02-15,7622,"American, Etihad e Akasa Air",2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GRU,PER,2027-04-15,2027-04-18,13032,LATAM e Qantas,2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GRU,ITM,2027-01-21,2027-01-25,7703,JAL e LATAM,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GRU,YQB,2027-03-18,2027-03-22,4068,United,1,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GRU,ZQN,2027-02-11,2027-02-15,13064,"Qantas, Qatar Airways e Virgin Australia",2,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GRU,HNL,2027-02-25,2027-03-01,5801,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GRU,JNB,2027-02-25,2027-03-01,4365,South African,0,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GRU,LIH,2026-11-26,2026-11-30,10048,American,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GRU,LIM,2027-04-01,2027-04-05,2800,LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GRU,ANC,2027-01-28,2027-02-01,7130,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOB,2027-02-25,2027-03-01,34986,"COPA, Air Tahiti Nui, United e Air Tahiti",4,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GRU,CGK,2027-02-18,2027-02-22,9020,Qatar Airways,1,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GRU,PPT,2027-04-01,2027-04-05,27102,Air France e Delta,2,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GRU,IPC,2027-04-30,2027-05-02,4863,LATAM,1,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FAI,2026-12-03,2026-12-07,10605,Delta,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DUD,2026-11-26,2026-11-29,26772,"Jetstar, LATAM e Air New Zealand",2,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GRU,SSA,2027-02-25,2027-03-01,801,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GRU,USH,2027-03-04,2027-03-07,2599,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FTE,2027-03-26,2027-03-28,2599,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GRU,SEZ,2027-02-18,2027-02-22,8767,Ethiopian,1,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GRU,UBN,2026-12-24,2026-12-28,16068,MIAT e Turkish Airlines,2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GRU,HRB,2026-11-26,2026-11-29,15668,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GRU,NQZ,2026-12-03,2026-12-07,9534,Air Astana e Lufthansa,1,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GRU,KZN,2027-01-14,2027-01-18,13607,Emirates e flydubai,1,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GRU,WKJ,2026-11-26,2026-11-29,40987,"Air Canada, Lufthansa e ANA",2,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GRU,MIA,2026-12-03,2026-12-10,3150,Arajet,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MIA,2026-12-03,2026-12-10,3150,Arajet,1,explorar,,,Fort Lauderdale,América do Norte,economica,iv
+2026-11-21 17:54,GRU,EWR,2027-02-11,2027-02-17,3412,Arajet,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GRU,EZE,2026-12-06,2026-12-12,1697,Turkish Airlines,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GRU,CPT,2027-02-01,2027-02-08,4414,Airlink e LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GRU,LIS,2027-02-18,2027-02-24,4268,Royal Air Maroc,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GRU,MAD,2027-02-25,2027-03-03,3755,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GRU,CDG,2027-02-18,2027-02-25,4638,Avianca,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GRU,HND,2026-12-03,2026-12-11,9032,ITA,1,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GRU,LAX,2027-02-11,2027-02-19,3868,Delta e LATAM,1,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOS,2027-03-01,2027-03-08,3939,Delta e LATAM,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GRU,AMS,2026-11-27,2026-12-05,4709,ITA,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GRU,LGW,2027-02-27,2027-03-08,4621,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GRU,FCO,2027-03-12,2027-03-19,4500,LATAM,0,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GRU,SIN,2027-02-11,2027-02-20,8038,SWISS e Oman Air,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GRU,BCN,2027-02-07,2027-02-16,4391,Tap Air Portugal,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GRU,SFO,2027-02-12,2027-02-20,4751,Air Canada,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DXB,2027-03-25,2027-04-01,5060,Qatar Airways,1,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GRU,VCE,2026-11-27,2026-12-04,4255,ITA,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GRU,ORD,2027-02-18,2027-02-24,3917,Avianca,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GRU,IAD,2026-12-03,2026-12-09,3602,COPA,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GRU,HKG,2026-11-30,2026-12-07,7472,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GRU,SYD,2027-02-14,2027-02-22,8865,Qatar Airways e Virgin Australia,1,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GRU,BKK,2027-04-26,2027-05-03,8621,Malaysia Airlines e Qatar Airways,2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GRU,BER,2027-03-08,2027-03-15,5547,British Airways,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GRU,LAS,2027-03-13,2027-03-22,4692,Delta e LATAM,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GRU,FLR,2026-11-27,2026-12-04,4659,ITA,1,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GRU,EDI,2027-02-07,2027-02-16,6217,KLM,1,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GRU,PRG,2026-11-30,2026-12-08,5810,"LATAM, Brussels Airlines e Vueling",1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GRU,ATH,2026-11-27,2026-12-03,5274,ITA e Tap Air Portugal,1,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GRU,IST,2027-02-04,2027-02-11,5863,British Airways,1,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GRU,VIE,2027-03-08,2027-03-15,5096,"Iberia, LATAM e Austrian",1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GRU,BUD,2027-03-04,2027-03-12,6614,Lufthansa,1,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GRU,SAN,2027-01-22,2027-01-31,4356,COPA,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SEA,2027-02-08,2027-02-15,5509,Air Canada,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SFB,2027-03-07,2027-03-14,3159,Arajet,1,explorar,,,Orlando,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MLA,2027-02-15,2027-02-24,4835,"Air France, KLM e KM Malta Airlines",1,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GRU,JTR,2027-04-23,2027-05-01,6194,British Airways,1,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GRU,DUB,2027-04-19,2027-04-27,5457,"British Airways, Iberia e LATAM",1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GRU,MEL,2027-02-14,2027-02-22,9371,Qatar Airways e Virgin Australia,1,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GRU,YYZ,2027-02-25,2027-03-06,3389,Arajet,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GRU,YVR,2027-02-07,2027-02-15,3786,Delta,2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MRU,2027-02-25,2027-03-05,8961,South African,2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GRU,YUL,2027-02-26,2027-03-05,3237,Arajet,1,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOM,2027-03-05,2027-03-11,6485,British Airways e Iberia,2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GRU,SDU,2027-02-27,2027-03-05,507,LATAM,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,GRU,JNB,2027-01-31,2027-02-06,4140,Airlink e LATAM,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GRU,PER,2027-03-08,2027-03-14,12519,South African,1,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GRU,KIX,2027-04-29,2027-05-05,7568,JAL e LATAM,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GRU,YQB,2026-11-27,2026-12-03,4068,United,1,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GRU,ZQN,2027-02-19,2027-02-25,10869,"LATAM, Air New Zealand e Qantas",2,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GRU,HNL,2027-02-21,2027-03-01,6837,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GRU,LIH,2026-12-24,2026-12-30,9710,Delta e LATAM,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GRU,LIM,2027-03-25,2027-04-01,2800,LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GRU,ANC,2027-01-28,2027-02-05,7130,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOB,2027-04-29,2027-05-08,34986,"COPA, Air Tahiti Nui, United e Air Tahiti",3,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GRU,CGK,2027-02-08,2027-02-17,8437,Qatar Airways,1,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GRU,PPT,2027-04-24,2027-04-30,12869,Air New Zealand e Qatar Airways,3,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GRU,IPC,2027-03-29,2027-04-07,4863,LATAM,1,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FAI,2026-12-25,2026-12-31,10464,Delta e LATAM,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DUD,2026-11-26,2026-12-02,21553,"LATAM, Air New Zealand e Qantas",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GRU,SSA,2027-02-20,2027-02-26,802,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GRU,USH,2026-12-06,2026-12-13,4254,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FTE,2027-03-29,2027-04-06,2493,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GRU,SEZ,2026-11-30,2026-12-07,8767,Ethiopian,1,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GRU,UBN,2026-11-29,2026-12-06,17841,MIAT e Turkish Airlines,2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GRU,HRB,2026-11-26,2026-12-02,12583,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GRU,NQZ,2026-11-30,2026-12-07,9534,Air Astana e Lufthansa,1,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GRU,KZN,2026-12-06,2026-12-13,11330,Turkish Airlines,1,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GRU,GPS,2027-03-07,2027-03-14,5828,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,GRU,WKJ,2026-11-26,2026-12-02,40987,"Air Canada, Lufthansa e ANA",2,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GRU,FCO,2026-12-10,2026-12-24,4481,KLM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GRU,MIA,2027-01-31,2027-02-16,3745,Arajet,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MIA,2027-01-31,2027-02-16,3745,Arajet,1,explorar,,,Fort Lauderdale,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MAD,2027-02-25,2027-03-10,3755,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GRU,LIS,2027-02-11,2027-02-24,4268,Royal Air Maroc,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GRU,CPT,2027-02-01,2027-02-15,4414,Airlink e LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GRU,LAX,2027-02-04,2027-02-19,3956,Delta e LATAM,1,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GRU,EWR,2027-02-11,2027-02-24,3864,Arajet,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GRU,CDG,2027-02-18,2027-03-03,4638,Avianca,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GRU,BOS,2027-02-06,2027-02-21,4068,Delta e LATAM,1,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GRU,AMS,2027-02-22,2027-03-07,4901,ITA,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GRU,LGW,2027-02-20,2027-03-08,4621,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GRU,SIN,2027-02-11,2027-02-27,8038,SWISS e Oman Air,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GRU,BCN,2027-02-07,2027-02-20,4391,Tap Air Portugal,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GRU,SFO,2027-02-19,2027-03-06,4751,Air Canada,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DXB,2027-03-08,2027-03-22,5060,Qatar Airways,1,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GRU,VCE,2026-11-27,2026-12-10,4844,ITA,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GRU,ORD,2027-02-18,2027-03-03,3917,Avianca,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GRU,IAD,2027-02-13,2027-03-01,4059,Avianca,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GRU,HKG,2027-01-22,2027-02-06,7472,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GRU,SYD,2027-02-08,2027-02-22,8865,Qatar Airways e Virgin Australia,1,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GRU,NRT,2027-04-24,2027-05-10,7493,"Iberia, JAL e LATAM",1,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GRU,BKK,2027-04-25,2027-05-10,7771,American e Etihad,2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GRU,BER,2027-04-26,2027-05-10,5323,British Airways,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GRU,LAS,2027-03-06,2027-03-22,4692,Delta e LATAM,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GRU,FLR,2026-11-27,2026-12-10,4954,ITA,1,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GRU,EDI,2027-02-06,2027-02-19,6217,KLM,1,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GRU,PRG,2027-03-11,2027-03-25,5517,British Airways,1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GRU,ATH,2026-12-10,2026-12-24,5428,Air France e KLM,2,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GRU,IST,2027-02-04,2027-02-17,5863,British Airways,1,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GRU,VIE,2027-03-08,2027-03-22,5096,"Iberia, LATAM e Austrian",1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GRU,BUD,2026-12-14,2026-12-30,6645,Lufthansa,1,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GRU,SAN,2026-12-12,2026-12-26,4374,Delta,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SEA,2027-02-08,2027-02-21,5509,Air Canada,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GRU,SFB,2027-05-21,2027-06-06,3010,Arajet,1,explorar,,,Orlando,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MLA,2027-02-11,2027-02-24,4829,KLM e KM Malta Airlines,1,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GRU,JTR,2027-02-07,2027-02-22,6612,Aegean e KLM,2,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GRU,DUB,2027-02-19,2027-03-05,5236,"LATAM, Lufthansa e Tap Air Portugal",1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GRU,MEL,2027-02-14,2027-03-01,9371,Qatar Airways e Virgin Australia,1,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GRU,YYZ,2027-02-18,2027-03-06,3389,Arajet,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GRU,YVR,2027-01-30,2027-02-15,3786,Delta,2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GRU,MRU,2027-03-01,2027-03-15,9214,South African,2,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GRU,YUL,2027-02-19,2027-03-05,3237,Arajet,1,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOM,2027-01-24,2027-02-08,7475,"American, Etihad e Akasa Air",2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GRU,SDU,2027-02-27,2027-03-12,507,LATAM,0,explorar,,,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,GRU,EZE,2026-12-06,2026-12-19,1697,Turkish Airlines,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GRU,PER,2027-03-01,2027-03-14,11747,"KLM, Malaysia Airlines e Qantas",2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GRU,KIX,2027-04-22,2027-05-05,7568,JAL e LATAM,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GRU,YQB,2027-02-25,2027-03-10,4068,United,1,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GRU,ZQN,2026-11-26,2026-12-09,20783,"LATAM, Air New Zealand e Qantas",2,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GRU,JNB,2026-12-07,2026-12-22,4158,LATAM,0,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GRU,HNL,2027-02-21,2027-03-06,5854,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GRU,LIH,2026-11-26,2026-12-09,10310,American,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GRU,LIM,2027-03-21,2027-04-03,2794,COPA,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GRU,ANC,2027-01-21,2027-02-05,7130,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GRU,BOB,2027-04-23,2027-05-08,34986,"COPA, Air Tahiti Nui, United e Air Tahiti",3,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GRU,CGK,2027-03-25,2027-04-08,7924,American e Etihad,2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GRU,PPT,2027-04-29,2027-05-14,11337,LATAM e Air Tahiti Nui,2,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GRU,IPC,2026-11-26,2026-12-09,10711,LATAM,1,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FAI,2026-11-26,2026-12-09,10605,Delta,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GRU,DUD,2026-11-26,2026-12-09,23019,"LATAM, Air New Zealand e Qantas",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GRU,SSA,2027-02-20,2027-03-05,801,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GRU,USH,2027-03-04,2027-03-17,2599,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GRU,FTE,2027-03-29,2027-04-12,2493,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GRU,SEZ,2026-11-30,2026-12-14,8767,Ethiopian,1,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GRU,UBN,2026-11-26,2026-12-09,19499,"ITA, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GRU,HRB,2026-11-26,2026-12-09,10692,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GRU,NQZ,2027-03-28,2027-04-11,8015,Air Astana e Lufthansa,1,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GRU,KZN,2026-11-26,2026-12-09,13857,Turkish Airlines,1,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GRU,GPS,2026-11-26,2026-12-09,4174,Avianca,2,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,GRU,WKJ,2026-11-26,2026-12-09,40987,"Air Canada, Lufthansa e ANA",2,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GIG,JFK,2027-03-04,2027-03-07,2864,Delta,0,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIS,2026-11-27,2026-11-30,4475,Gol e LATAM,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GIG,CDG,2026-12-03,2026-12-06,5579,Iberia e LATAM,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GIG,LHR,2027-02-25,2027-03-01,5119,Avianca,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GIG,SIN,2027-03-18,2027-03-22,8216,American e Qatar Airways,2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GIG,FCO,2026-12-03,2026-12-07,5042,Iberia e LATAM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GIG,BCN,2027-02-19,2027-02-22,4761,Iberia e LATAM,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GIG,SFO,2027-03-05,2027-03-08,4486,Air Canada e United,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LAX,2027-01-29,2027-01-31,2864,Delta e LATAM,1,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GIG,AMS,2026-12-03,2026-12-06,5253,LATAM,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GIG,DXB,2027-02-12,2027-02-15,6749,Emirates,0,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GIG,VCE,2026-12-03,2026-12-07,5851,Iberia,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GIG,ORD,2027-02-18,2027-02-21,2897,Delta,1,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DCA,2027-03-19,2027-03-21,4060,Air Canada e Gol,2,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GIG,HKG,2026-12-03,2026-12-07,7467,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GIG,NRT,2027-01-21,2027-01-25,7807,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GIG,BKK,2027-03-04,2027-03-08,9282,"American, ITA e Etihad",2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GIG,BER,2026-11-27,2026-11-29,6315,Tap Air Portugal,2,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GIG,LAS,2027-02-19,2027-02-22,4735,Air Canada,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLR,2027-02-18,2027-02-22,6635,Tap Air Portugal,2,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GIG,EDI,2026-12-03,2026-12-06,8002,KLM,1,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GIG,SYD,2027-02-25,2027-03-01,9700,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GIG,BOS,2027-01-21,2027-01-24,3227,American,2,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLL,2027-03-04,2027-03-08,4183,Avianca,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GIG,PRG,2027-02-18,2027-02-22,6984,Tap Air Portugal,1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GIG,MAD,2027-02-25,2027-03-01,4804,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GIG,ATH,2027-03-12,2027-03-14,6372,Tap Air Portugal,1,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GIG,IST,2027-02-25,2027-02-28,7825,Air France e Gol,2,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GIG,VIE,2027-02-18,2027-02-21,6667,Tap Air Portugal,1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GIG,BUD,2027-03-04,2027-03-08,7886,"Gol, LATAM e Turkish Airlines",2,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GIG,SAN,2026-12-05,2026-12-07,4057,COPA,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GIG,SEA,2027-03-18,2027-03-22,5037,Air Canada e Gol,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPT,2027-02-27,2027-03-01,6388,"Gol, LATAM e South African",2,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GIG,MLA,2026-12-03,2026-12-07,5937,Air France e KM Malta Airlines,1,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GIG,JTR,2026-12-03,2026-12-07,8656,Aegean e KLM,2,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GIG,MEL,2027-02-11,2027-02-15,10726,LATAM,1,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GIG,YYZ,2027-04-01,2027-04-04,3336,Avianca,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUB,2026-12-04,2026-12-06,5792,Iberia e Tap Air Portugal,2,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GIG,YVR,2027-01-21,2027-01-24,4229,Delta,2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPH,2026-12-04,2026-12-07,6843,Tap Air Portugal,2,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,GIG,MSY,2026-12-31,2027-01-04,7579,Delta,1,explorar,,,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,GIG,MRU,2026-12-10,2026-12-14,13340,ITA,1,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GIG,YUL,2027-02-18,2027-02-21,3945,Delta,1,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOM,2027-03-18,2027-03-22,8052,LATAM e Lufthansa,2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GIG,EZE,2027-03-04,2027-03-07,1933,JetSMART,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GIG,PER,2027-03-25,2027-03-29,12908,"Iberia, Qatar Airways e Virgin Australia",2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GIG,ITM,2027-01-28,2027-02-01,10080,American e JAL,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GIG,YQB,2026-12-10,2026-12-14,8309,"Air Canada, COPA, Gol e United",3,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GIG,ZQN,2026-12-03,2026-12-07,15683,"Jetstar, LATAM e Air New Zealand",3,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GIG,HNL,2027-02-26,2027-03-01,5232,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GIG,JNB,2027-03-04,2027-03-08,5508,Gol e South African,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GIG,LIH,2026-11-26,2026-11-29,8515,American,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIM,2027-01-14,2027-01-17,3510,LATAM,0,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GIG,ANC,2026-12-03,2026-12-07,6613,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOB,2027-02-25,2027-03-01,33638,"COPA, Air Tahiti Nui, United e Air Tahiti",4,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GIG,CGK,2027-03-18,2027-03-22,9183,"American, LATAM e Qatar Airways",2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GIG,PPT,2027-02-18,2027-02-22,9858,LATAM e Air New Zealand,3,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GIG,IPC,2027-01-23,2027-01-25,8621,LATAM,1,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FAI,2026-11-26,2026-11-29,13444,Delta,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUD,2026-11-26,2026-11-29,26967,"Jetstar, LATAM e Air New Zealand",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GIG,SSA,2027-03-05,2027-03-07,678,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GIG,USH,2027-03-04,2027-03-08,2982,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FTE,2027-04-09,2027-04-12,2770,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GIG,SEZ,2026-12-03,2026-12-07,9981,Ethiopian e Gol,2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GIG,UBN,2026-11-26,2026-11-29,25859,"ITA, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GIG,HRB,2026-11-26,2026-11-29,16034,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GIG,NQZ,2026-11-26,2026-11-29,10854,Air Astana e Lufthansa,1,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GIG,FEN,2027-02-26,2027-03-01,2090,Gol,1,explorar,,,Fernando de Noronha,Brasil,economica,iv
+2026-11-21 17:54,GIG,KZN,2026-11-26,2026-11-29,19988,"Gol, LATAM e Turkish Airlines",2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GIG,WKJ,2026-11-26,2026-11-29,42890,"Lufthansa, ANA e United",3,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GIG,JFK,2027-02-25,2027-03-04,2858,Avianca,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIS,2026-11-27,2026-12-03,4475,Gol e LATAM,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GIG,CDG,2026-11-27,2026-12-03,5635,LATAM,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GIG,LGW,2027-02-22,2027-02-28,4731,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GIG,SIN,2027-02-11,2027-02-18,8288,"American, Iberia e Qatar Airways",2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GIG,FCO,2026-11-27,2026-12-03,5268,LATAM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GIG,BCN,2027-03-01,2027-03-07,4714,LATAM,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GIG,SFO,2027-02-26,2027-03-04,4275,Air Canada,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LAX,2026-12-05,2026-12-11,3762,COPA,1,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GIG,AMS,2027-03-25,2027-03-31,5374,LATAM,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GIG,DXB,2027-02-12,2027-02-18,6749,Emirates,0,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GIG,VCE,2026-11-27,2026-12-05,5399,ITA,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GIG,MDW,2026-12-24,2026-12-30,2897,Delta,2,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DCA,2027-02-21,2027-03-02,4009,Air Canada,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GIG,HKG,2026-11-30,2026-12-06,7467,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GIG,NRT,2027-01-21,2027-01-28,7807,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GIG,BKK,2027-03-22,2027-03-30,9692,LATAM e Qatar Airways,2,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GIG,BER,2026-11-29,2026-12-07,6371,KLM,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GIG,LAS,2027-02-19,2027-02-25,4735,Air Canada,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLR,2026-11-30,2026-12-08,5532,ITA,1,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GIG,EDI,2027-04-26,2027-05-04,6383,British Airways,1,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GIG,SYD,2027-03-28,2027-04-06,9538,"Gol, LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GIG,BOS,2027-01-21,2027-01-27,3227,American,2,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLL,2027-02-18,2027-02-24,4183,Avianca,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GIG,PRG,2027-04-22,2027-04-29,6914,Lufthansa,1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GIG,MAD,2027-02-18,2027-02-24,4804,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GIG,ATH,2026-11-29,2026-12-06,6896,Lufthansa,1,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GIG,IST,2027-04-26,2027-05-04,6011,British Airways,1,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GIG,VIE,2027-04-22,2027-04-29,5907,Lufthansa e Austrian,1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GIG,BUD,2026-11-29,2026-12-07,7108,Air France e KLM,1,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GIG,SAN,2026-12-17,2026-12-24,4075,American,2,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GIG,SEA,2027-02-07,2027-02-15,4967,Air Canada,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPT,2027-02-07,2027-02-15,5049,LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GIG,MLA,2026-11-29,2026-12-07,5937,Air France e KM Malta Airlines,1,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GIG,JTR,2027-04-24,2027-05-03,7120,British Airways e LATAM,2,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GIG,MEL,2027-03-01,2027-03-08,10921,LATAM,1,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GIG,YYZ,2027-02-25,2027-03-03,3336,Avianca,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUB,2027-04-22,2027-04-28,5252,Air Transat,1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GIG,YVR,2027-02-18,2027-02-24,4229,American,1,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPH,2026-11-30,2026-12-07,6843,Tap Air Portugal,2,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,GIG,MSY,2027-02-22,2027-03-02,6107,Air Canada e Gol,2,explorar,,,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,GIG,MRU,2026-11-28,2026-12-05,12031,ITA,1,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GIG,YUL,2027-03-01,2027-03-09,3650,American,2,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOM,2027-02-22,2027-03-01,6865,British Airways e LATAM,2,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GIG,AEP,2027-02-19,2027-02-26,1933,JetSMART,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GIG,PER,2027-02-11,2027-02-18,12548,"Gol, Iberia, Qatar Airways e Virgin Australia",2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GIG,ITM,2027-03-08,2027-03-17,10080,American e JAL,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GIG,YQB,2026-12-24,2026-12-30,5424,Air Canada e United,2,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GIG,ZQN,2026-11-29,2026-12-05,19002,LATAM e Air New Zealand,2,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GIG,HNL,2027-02-07,2027-02-16,5232,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GIG,JNB,2027-02-01,2027-02-09,4371,LATAM,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GIG,LIH,2026-11-26,2026-12-02,8515,American,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIM,2026-12-05,2026-12-13,3575,LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GIG,ANC,2026-12-24,2026-12-30,8121,"Alaska, COPA e United",2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOB,2027-02-20,2027-03-01,33638,"COPA, Air Tahiti Nui, United e Air Tahiti",3,explorar,,,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GIG,CGK,2027-03-15,2027-03-24,9130,"American, Iberia e Qatar Airways",2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GIG,PPT,2027-01-30,2027-02-06,15291,United,2,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GIG,IPC,2027-01-18,2027-01-25,7798,LATAM,3,explorar,,,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FAI,2026-11-26,2026-12-02,9092,Delta,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUD,2026-11-26,2026-12-02,22902,"LATAM, Air New Zealand e Qantas",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GIG,SSA,2027-02-26,2027-03-05,678,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GIG,USH,2027-03-04,2027-03-13,2982,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FTE,2027-03-20,2027-03-27,2770,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GIG,SEZ,2026-12-03,2026-12-09,9981,Ethiopian e Gol,2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GIG,UBN,2026-11-26,2026-12-02,15070,"ITA, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GIG,HRB,2026-11-26,2026-12-02,13803,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GIG,NQZ,2026-11-26,2026-12-02,14352,Emirates e flydubai,1,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GIG,FEN,2027-01-24,2027-02-02,2092,Gol,2,explorar,,,Fernando de Noronha,Brasil,economica,iv
+2026-11-21 17:54,GIG,KZN,2026-11-26,2026-12-02,18516,"Gol, LATAM e Turkish Airlines",2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GIG,WKJ,2026-11-26,2026-12-02,31407,Lufthansa e ANA,2,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GIG,JFK,2027-02-25,2027-03-10,2858,Avianca,1,explorar,,,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIS,2026-11-27,2026-12-10,5659,LATAM,1,explorar,,,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GIG,CDG,2027-01-31,2027-02-13,6624,Avianca,1,explorar,,,Paris,Europa,economica,iv
+2026-11-21 17:54,GIG,LGW,2027-02-08,2027-02-21,4731,Tap Air Portugal,1,explorar,,,Londres,Europa,economica,iv
+2026-11-21 17:54,GIG,SIN,2027-03-08,2027-03-22,8288,"American, Iberia e Qatar Airways",2,explorar,,,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GIG,FCO,2027-02-07,2027-02-20,5067,LATAM,1,explorar,,,Roma,Europa,economica,iv
+2026-11-21 17:54,GIG,BCN,2027-03-01,2027-03-14,4714,LATAM,1,explorar,,,Barcelona,Europa,economica,iv
+2026-11-21 17:54,GIG,SFO,2027-02-05,2027-02-18,4275,Air Canada,1,explorar,,,São Francisco,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LAX,2026-12-14,2026-12-30,3780,American,2,explorar,,,Los Angeles,América do Norte,economica,iv
+2026-11-21 17:54,GIG,AMS,2027-03-25,2027-04-10,5449,LATAM,1,explorar,,,Amsterdã,Europa,economica,iv
+2026-11-21 17:54,GIG,DXB,2026-12-07,2026-12-23,6749,Emirates,0,explorar,,,Dubai,Oriente Médio,economica,iv
+2026-11-21 17:54,GIG,VCE,2027-02-25,2027-03-10,5581,ITA,1,explorar,,,Veneza,Europa,economica,iv
+2026-11-21 17:54,GIG,ORD,2027-02-21,2027-03-07,3271,Avianca e Gol,2,explorar,,,Chicago,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DCA,2027-02-05,2027-02-18,4009,Air Canada,1,explorar,,,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GIG,HKG,2027-02-04,2027-02-19,7467,United,2,explorar,,,Hong Kong,Ásia,economica,iv
+2026-11-21 17:54,GIG,NRT,2027-02-01,2027-02-17,7807,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GIG,BKK,2027-02-21,2027-03-09,8265,ITA,1,explorar,,,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GIG,BER,2027-03-22,2027-04-04,6553,KLM,1,explorar,,,Berlim,Europa,economica,iv
+2026-11-21 17:54,GIG,LAS,2027-02-05,2027-02-18,4735,Air Canada,1,explorar,,,Las Vegas,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLR,2027-02-01,2027-02-16,6133,KLM,1,explorar,,,Florença,Europa,economica,iv
+2026-11-21 17:54,GIG,EDI,2027-03-26,2027-04-08,6109,British Airways e Iberia,2,explorar,,,Edimburgo,Europa,economica,iv
+2026-11-21 17:54,GIG,SYD,2027-03-15,2027-03-30,9571,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,iv
+2026-11-21 17:54,GIG,BOS,2027-02-15,2027-02-28,3227,American,2,explorar,,,Boston,América do Norte,economica,iv
+2026-11-21 17:54,GIG,FLL,2027-02-18,2027-03-03,4183,Avianca,1,explorar,,,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GIG,PRG,2026-12-10,2026-12-24,7492,Lufthansa,1,explorar,,,Praga,Europa,economica,iv
+2026-11-21 17:54,GIG,MAD,2027-02-18,2027-03-03,4804,Avianca,1,explorar,,,Madrid,Europa,economica,iv
+2026-11-21 17:54,GIG,ATH,2027-03-12,2027-03-25,6372,Tap Air Portugal,2,explorar,,,Atenas,Europa,economica,iv
+2026-11-21 17:54,GIG,IST,2027-04-26,2027-05-09,6011,British Airways,1,explorar,,,Istambul,Europa,economica,iv
+2026-11-21 17:54,GIG,VIE,2027-04-22,2027-05-05,5907,Lufthansa e Austrian,1,explorar,,,Viena,Europa,economica,iv
+2026-11-21 17:54,GIG,BUD,2027-02-22,2027-03-07,7108,KLM,1,explorar,,,Budapeste,Europa,economica,iv
+2026-11-21 17:54,GIG,SAN,2026-12-17,2026-12-31,4075,American,1,explorar,,,San Diego,América do Norte,economica,iv
+2026-11-21 17:54,GIG,SEA,2027-01-31,2027-02-15,4967,Air Canada,2,explorar,,,Seattle,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPT,2027-02-07,2027-02-22,5049,LATAM,1,explorar,,,Cidade do Cabo,África,economica,iv
+2026-11-21 17:54,GIG,MLA,2027-04-22,2027-05-05,5996,Lufthansa,1,explorar,,,Malta,Europa,economica,iv
+2026-11-21 17:54,GIG,JTR,2026-11-26,2026-12-09,9974,Aegean e Lufthansa,2,explorar,,,Santorini,Europa,economica,iv
+2026-11-21 17:54,GIG,MEL,2027-03-21,2027-04-06,10102,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Melbourne,Oceania,economica,iv
+2026-11-21 17:54,GIG,YYZ,2027-02-01,2027-02-17,3336,Avianca,1,explorar,,,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUB,2027-04-15,2027-04-28,5252,Air Transat,1,explorar,,,Dublin,Europa,economica,iv
+2026-11-21 17:54,GIG,YVR,2027-02-04,2027-02-18,4229,Delta,2,explorar,,,Vancouver,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CPH,2027-04-22,2027-05-05,6996,Lufthansa,1,explorar,,,Copenhague,Europa,economica,iv
+2026-11-21 17:54,GIG,MSY,2027-02-22,2027-03-09,6206,"Air Canada, Gol e LATAM",2,explorar,,,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,GIG,MRU,2026-11-26,2026-12-09,12361,Air France,1,explorar,,,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GIG,YUL,2027-03-01,2027-03-16,3650,American,2,explorar,,,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOM,2027-01-25,2027-02-08,10910,British Airways,1,explorar,,,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GIG,AEP,2027-02-19,2027-03-04,1933,JetSMART,0,explorar,,,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GIG,PER,2026-11-26,2026-12-09,17744,KLM e Qantas,2,explorar,,,Perth,Oceania,economica,iv
+2026-11-21 17:54,GIG,KIX,2027-02-19,2027-03-07,10042,American e JAL,2,explorar,,,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GIG,YQB,2026-11-26,2026-12-09,8079,American,2,explorar,,,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GIG,ZQN,2026-11-26,2026-12-09,16862,"LATAM, Air New Zealand e Qantas",3,explorar,,,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GIG,HNL,2027-01-31,2027-02-16,5232,Air Canada,2,explorar,,,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GIG,JNB,2027-02-01,2027-02-16,4371,LATAM,1,explorar,,,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GIG,LIH,2026-11-26,2026-12-09,8515,Delta,2,explorar,,,Kauai,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIM,2026-12-18,2026-12-31,3757,JetSMART e LATAM,1,explorar,,,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GIG,ANC,2026-11-26,2026-12-09,8974,Delta,2,explorar,,,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GIG,CGK,2027-03-08,2027-03-24,9033,"Iberia, LATAM e Qatar Airways",2,explorar,,,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GIG,PPT,2026-11-26,2026-12-09,47163,"COPA, Delta e Air Tahiti Nui",2,explorar,,,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GIG,FAI,2026-11-26,2026-12-09,9092,Delta,2,explorar,,,Fairbanks,América do Norte,economica,iv
+2026-11-21 17:54,GIG,DUD,2026-11-26,2026-12-09,22242,"LATAM, Air New Zealand e Qantas",3,explorar,,,Dunedin,Oceania,economica,iv
+2026-11-21 17:54,GIG,SSA,2027-02-19,2027-03-05,678,Gol,0,explorar,,,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GIG,USH,2027-03-12,2027-03-26,2982,Aerolineas Argentinas,1,explorar,,,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FTE,2026-11-26,2026-12-09,7747,Aerolineas Argentinas,1,explorar,,,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GIG,SEZ,2026-11-26,2026-12-09,15881,Emirates e Gol,2,explorar,,,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GIG,UBN,2026-11-26,2026-12-09,17261,"ITA, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,economica,iv
+2026-11-21 17:54,GIG,HRB,2026-11-26,2026-12-09,12018,Air France e China Eastern,2,explorar,,,Harbin,Ásia,economica,iv
+2026-11-21 17:54,GIG,NQZ,2026-11-26,2026-12-09,13491,"Gol, LATAM e Turkish Airlines",2,explorar,,,Astana,Ásia,economica,iv
+2026-11-21 17:54,GIG,FEN,2027-02-26,2027-03-11,2090,Gol,1,explorar,,,Fernando de Noronha,Brasil,economica,iv
+2026-11-21 17:54,GIG,KZN,2026-11-26,2026-12-09,14988,"Gol, LATAM e Turkish Airlines",2,explorar,,,Cazã,Ásia,economica,iv
+2026-11-21 17:54,GIG,GPS,2026-11-26,2026-12-09,4964,Avianca,2,explorar,,,Ilha de Baltra,América do Sul,economica,iv
+2026-11-21 17:54,GIG,WKJ,2026-11-26,2026-12-09,31407,Lufthansa e ANA,2,explorar,,,Wakkanai,Ásia,economica,iv
+2026-11-21 17:54,GRU,YYZ,2027-02-18,2027-03-06,3389,American,1,google,3050,3700,Toronto,América do Norte,economica,iv
+2026-11-21 17:54,GRU,PPT,2027-04-29,2027-05-14,11337,LATAM + Air Tahiti Nui,2,google,12000,18000,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GIG,PPT,2027-02-18,2027-02-22,9858,Delta + Air France,2,google,16000,23500,Taiti,Oceania,economica,iv
+2026-11-21 17:54,CNF,ITM,2027-01-18,2027-01-25,11243,Azul + United + ANA,3,google,9500,16000,Osaka,Ásia,economica,iv
+2026-11-21 17:54,CNF,DMK,2027-01-24,2027-02-07,10814,LATAM + Emirates + flydubai,2,google,16500,28500,Bangkok,Ásia,economica,iv
+2026-11-21 17:54,GRU,HND,2027-04-23,2027-04-26,7490,American,1,google,7500,18500,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GRU,IAD,2027-02-13,2027-03-01,4059,COPA,1,google,2750,3750,"Washington, D.C.",América do Norte,economica,iv
+2026-11-21 17:54,GRU,NRT,2027-04-24,2027-05-10,7493,Qatar Airways,1,google,6500,9600,Tóquio,Ásia,economica,iv
+2026-11-21 17:54,GRU,SDU,2027-02-27,2027-03-12,507,LATAM,0,google,590,2250,Rio de Janeiro,Brasil,economica,iv
+2026-11-21 17:54,GIG,FLL,2027-03-04,2027-03-08,4183,Avianca,1,google,3100,4700,Miami,América do Norte,economica,iv
+2026-11-21 17:54,GIG,EZE,2027-03-04,2027-03-07,1933,LATAM,1,google,1450,1900,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GIG,ITM,2027-01-28,2027-02-01,10080,ITA + ANA,2,google,8900,19000,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GIG,CPH,2026-11-30,2026-12-07,6843,Tap Air Portugal,2,google,4800,6700,Copenhague,Europa,economica,iv
+2026-11-21 17:54,GIG,MSY,2027-02-22,2027-03-02,6107,Gol + Air Canada,2,google,4500,7100,Nova Orleans,América do Norte,economica,iv
+2026-11-21 17:54,GIG,MRU,2026-11-28,2026-12-05,12031,Lufthansa + Discover Airlines,2,google,9900,12500,Ilha Maurícia,África,economica,iv
+2026-11-21 17:54,GIG,YUL,2027-03-01,2027-03-09,3650,Avianca,1,google,3300,4800,Montreal,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOM,2027-02-22,2027-03-01,6865,American + Qatar Airways,2,google,6800,9000,Mumbai,Ásia,economica,iv
+2026-11-21 17:54,GIG,AEP,2027-02-19,2027-02-26,1933,JetSMART,0,google,1700,2350,Buenos Aires,América do Sul,economica,iv
+2026-11-21 17:54,GIG,PER,2027-02-11,2027-02-18,12548,LATAM + Qantas,2,google,11000,13000,Perth,Oceania,economica,iv
+2026-11-21 17:54,GIG,ITM,2027-03-08,2027-03-17,10080,American + JAL,2,google,9800,16000,Osaka,Ásia,economica,iv
+2026-11-21 17:54,GIG,YQB,2026-12-24,2026-12-30,5424,American,2,google,5700,9300,Quebec,América do Norte,economica,iv
+2026-11-21 17:54,GIG,ZQN,2026-11-29,2026-12-05,19002,LATAM + Qantas,3,google,10000,17000,Queenstown,Oceania,economica,iv
+2026-11-21 17:54,GIG,HNL,2027-02-07,2027-02-16,5232,Air Canada,2,google,5100,7600,Honolulu,América do Norte,economica,iv
+2026-11-21 17:54,GIG,JNB,2027-02-01,2027-02-09,4371,LATAM,1,google,5300,8400,Johanesburgo,África,economica,iv
+2026-11-21 17:54,GIG,LIM,2026-12-05,2026-12-13,3575,LATAM,1,google,2450,3750,Lima,América do Sul,economica,iv
+2026-11-21 17:54,GIG,ANC,2026-12-24,2026-12-30,8121,United,2,google,8000,11000,Anchorage,América do Norte,economica,iv
+2026-11-21 17:54,GIG,BOB,2027-02-20,2027-03-01,33638,COPA + Air Tahiti Nui + Air Tahiti,3,google,16000,45000,Bora Bora,Oceania,economica,iv
+2026-11-21 17:54,GIG,CGK,2027-03-15,2027-03-24,9130,Gol + Qatar Airways,2,google,7600,9400,Jacarta,Ásia,economica,iv
+2026-11-21 17:54,GIG,PPT,2027-01-30,2027-02-06,15291,Delta + Air France,2,google,14000,27000,Taiti,Oceania,economica,iv
+2026-11-21 17:54,GIG,IPC,2027-01-18,2027-01-25,7798,LATAM,3,google,10000,26500,Ilha de Páscoa,América do Sul,economica,iv
+2026-11-21 17:54,GIG,SSA,2027-02-26,2027-03-05,678,LATAM,0,google,920,1800,Salvador,Brasil,economica,iv
+2026-11-21 17:54,GIG,USH,2027-03-04,2027-03-13,2982,JetSMART,1,google,2500,3650,Ushuaia,América do Sul,economica,iv
+2026-11-21 17:54,GIG,FTE,2027-03-20,2027-03-27,2770,Aerolineas Argentinas,1,google,2650,4200,El Calafate,América do Sul,economica,iv
+2026-11-21 17:54,GIG,SEZ,2026-12-03,2026-12-09,9981,LATAM + Ethiopian,2,google,8500,13000,Ilha de Mahé,África,economica,iv
+2026-11-21 17:54,GIG,FEN,2027-01-24,2027-02-02,2092,Azul,1,google,2500,5500,Fernando de Noronha,Brasil,economica,iv
+2026-11-21 17:54,GIG,JFK,2027-02-25,2027-03-10,2858,American,1,google,2700,3800,Nova Iorque,América do Norte,economica,iv
+2026-11-21 17:54,GIG,LIS,2026-11-27,2026-12-10,5659,LATAM,1,google,4050,5300,Lisboa,Europa,economica,iv
+2026-11-21 17:54,GIG,CDG,2027-01-31,2027-02-13,6624,Air Canada,1,google,5900,9900,Paris,Europa,economica,iv
+2026-11-21 17:54,GIG,LGW,2027-02-08,2027-02-21,4731,Gol + Air France,2,google,4950,6500,Londres,Europa,economica,iv
+2026-11-21 17:54,GIG,SIN,2027-03-08,2027-03-22,8288,Gol + Qatar Airways,2,google,7100,9400,Singapura,Ásia,economica,iv
+2026-11-21 17:54,GIG,FCO,2027-02-07,2027-02-20,5067,Tap Air Portugal,1,google,4300,5500,Roma,Europa,economica,iv
+2026-11-21 17:54,GIG,BCN,2027-03-01,2027-03-14,4714,LATAM,1,google,3950,5200,Barcelona,Europa,economica,iv
+2026-11-21 17:54,CNF,LIS,2027-03-11,2027-03-20,15294,Gol e Air Europa,2,explorar,,,Lisboa,Europa,executiva,iv
+2026-11-21 17:54,CNF,BOS,2027-02-01,2027-02-07,13227,COPA,1,explorar,,,Boston,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,LAX,2027-03-04,2027-03-12,17773,COPA,1,explorar,,,Los Angeles,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,ORY,2027-03-11,2027-03-17,17020,"Azul, Gol e Air Europa",2,explorar,,,Paris,Europa,executiva,iv
+2026-11-21 17:54,CNF,LGW,2026-12-20,2026-12-29,17682,Air France e Gol,2,explorar,,,Londres,Europa,executiva,iv
+2026-11-21 17:54,CNF,JFK,2027-04-15,2027-04-21,15158,COPA,1,explorar,,,Nova Iorque,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,SIN,2027-02-22,2027-02-28,36798,British Airways e LATAM,2,explorar,,,Singapura,Ásia,executiva,iv
+2026-11-21 17:54,CNF,FCO,2027-03-13,2027-03-22,16466,Gol e Air Europa,2,explorar,,,Roma,Europa,executiva,iv
+2026-11-21 17:54,CNF,BCN,2027-02-26,2027-03-04,15530,Azul e ITA,2,explorar,,,Barcelona,Europa,executiva,iv
+2026-11-21 17:54,CNF,SFO,2027-04-23,2027-05-02,24692,COPA,1,explorar,,,São Francisco,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,AMS,2026-12-17,2026-12-25,15028,Air France e Gol,2,explorar,,,Amsterdã,Europa,executiva,iv
+2026-11-21 17:54,CNF,DXB,2027-03-04,2027-03-11,26708,LATAM e Qatar Airways,2,explorar,,,Dubai,Oriente Médio,executiva,iv
+2026-11-21 17:54,CNF,VCE,2027-03-11,2027-03-17,16190,"Azul, Gol e Air Europa",2,explorar,,,Veneza,Europa,executiva,iv
+2026-11-21 17:54,CNF,ORD,2026-11-27,2026-12-04,9364,COPA,1,explorar,,,Chicago,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,IAD,2027-02-26,2027-03-07,9663,COPA,1,explorar,,,"Washington, D.C.",América do Norte,executiva,iv
+2026-11-21 17:54,CNF,HKG,2027-02-12,2027-02-20,38235,LATAM e Qatar Airways,2,explorar,,,Hong Kong,Ásia,executiva,iv
+2026-11-21 17:54,CNF,NRT,2027-02-15,2027-02-22,35779,LATAM e Qatar Airways,2,explorar,,,Tóquio,Ásia,executiva,iv
+2026-11-21 17:54,CNF,BKK,2027-04-16,2027-04-25,35250,Ethiopian e LATAM,2,explorar,,,Bangkok,Ásia,executiva,iv
+2026-11-21 17:54,CNF,BER,2027-03-25,2027-03-31,18023,Tap Air Portugal,1,explorar,,,Berlim,Europa,executiva,iv
+2026-11-21 17:54,CNF,LAS,2027-04-03,2027-04-12,13545,COPA,1,explorar,,,Las Vegas,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,FLR,2026-12-17,2026-12-24,14491,Air France e Gol,2,explorar,,,Florença,Europa,executiva,iv
+2026-11-21 17:54,CNF,EDI,2026-12-20,2026-12-27,19894,"Gol, KLM e LATAM",2,explorar,,,Edimburgo,Europa,executiva,iv
+2026-11-21 17:54,CNF,SYD,2027-05-20,2027-05-28,35889,LATAM e Qantas,2,explorar,,,Sydney,Oceania,executiva,iv
+2026-11-21 17:54,CNF,FLL,2027-05-14,2027-05-23,11099,COPA,1,explorar,,,Miami,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,PRG,2026-12-17,2026-12-24,17805,"Air France, Gol, KLM e LATAM",2,explorar,,,Praga,Europa,executiva,iv
+2026-11-21 17:54,CNF,MAD,2027-02-15,2027-02-24,15335,Azul e ITA,2,explorar,,,Madrid,Europa,executiva,iv
+2026-11-21 17:54,CNF,ATH,2027-03-11,2027-03-18,18094,Tap Air Portugal,1,explorar,,,Atenas,Europa,executiva,iv
+2026-11-21 17:54,CNF,IST,2027-02-21,2027-03-02,18873,"Azul, ITA, LATAM e Turkish Airlines",2,explorar,,,Istambul,Europa,executiva,iv
+2026-11-21 17:54,CNF,VIE,2027-03-12,2027-03-20,18707,Tap Air Portugal,1,explorar,,,Viena,Europa,executiva,iv
+2026-11-21 17:54,CNF,BUD,2026-12-21,2026-12-28,21559,"Air France, Gol, KLM e LATAM",2,explorar,,,Budapeste,Europa,executiva,iv
+2026-11-21 17:54,CNF,SAN,2026-11-30,2026-12-06,19057,COPA,1,explorar,,,San Diego,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,SEA,2027-03-08,2027-03-17,28823,Alaska e COPA,2,explorar,,,Seattle,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,CPT,2027-04-08,2027-04-15,19798,Gol e South African,2,explorar,,,Cidade do Cabo,África,executiva,iv
+2026-11-21 17:54,CNF,MLA,2027-02-19,2027-02-27,17164,"Azul, ITA e KM Malta Airlines",2,explorar,,,Malta,Europa,executiva,iv
+2026-11-21 17:54,CNF,DUB,2026-12-20,2026-12-29,16189,"Air France, Gol, KLM e LATAM",2,explorar,,,Dublin,Europa,executiva,iv
+2026-11-21 17:54,CNF,JTR,2026-12-06,2026-12-13,26584,"Aegean, Gol, LATAM, Lufthansa e SWISS",3,explorar,,,Santorini,Europa,executiva,iv
+2026-11-21 17:54,CNF,MEL,2027-02-18,2027-02-26,38646,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Melbourne,Oceania,executiva,iv
+2026-11-21 17:54,CNF,YYZ,2027-05-20,2027-05-26,18570,COPA,1,explorar,,,Toronto,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,YVR,2027-05-02,2027-05-11,26644,"Air Canada, COPA, LATAM e United",2,explorar,,,Vancouver,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,CPH,2026-12-20,2026-12-27,19129,"Air France, KLM e LATAM",2,explorar,,,Copenhague,Europa,executiva,iv
+2026-11-21 17:54,CNF,MSY,2026-12-07,2026-12-13,29819,COPA e United,2,explorar,,,Nova Orleans,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,MRU,2026-11-26,2026-12-02,37321,"Gol, Air Mauritius e South African",2,explorar,,,Ilha Maurícia,África,executiva,iv
+2026-11-21 17:54,CNF,YUL,2026-11-28,2026-12-04,15963,COPA,1,explorar,,,Montreal,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,BOM,2026-11-26,2026-12-02,66792,LATAM e Qatar Airways,2,explorar,,,Mumbai,Ásia,executiva,iv
+2026-11-21 17:54,CNF,EZE,2026-12-03,2026-12-09,8122,LATAM e Turkish Airlines,1,explorar,,,Buenos Aires,América do Sul,executiva,iv
+2026-11-21 17:54,CNF,PER,2027-02-19,2027-02-26,41776,"Gol, LATAM e South African",3,explorar,,,Perth,Oceania,executiva,iv
+2026-11-21 17:54,CNF,KIX,2027-01-30,2027-02-06,39033,"Gol, JAL e LATAM",3,explorar,,,Osaka,Ásia,executiva,iv
+2026-11-21 17:54,CNF,YQB,2026-11-26,2026-12-02,51304,American e Gol,3,explorar,,,Quebec,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,ZQN,2026-11-26,2026-12-02,96023,"LATAM, Air New Zealand e Qantas",3,explorar,,,Queenstown,Oceania,executiva,iv
+2026-11-21 17:54,CNF,HNL,2027-04-01,2027-04-10,27385,COPA e United,3,explorar,,,Honolulu,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,JNB,2027-03-14,2027-03-22,18480,LATAM e South African,1,explorar,,,Johanesburgo,África,executiva,iv
+2026-11-21 17:54,CNF,LIH,2026-11-26,2026-12-02,67815,"Azul, Alaska e United",3,explorar,,,Kauai,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,LIM,2027-02-11,2027-02-17,6854,COPA,1,explorar,,,Lima,América do Sul,executiva,iv
+2026-11-21 17:54,CNF,ANC,2027-01-18,2027-01-25,32974,Azul e United,3,explorar,,,Anchorage,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,BOB,2026-11-23,2026-11-30,66504,"COPA, Air Tahiti Nui e Air Tahiti",4,explorar,,,Bora Bora,Oceania,executiva,iv
+2026-11-21 17:54,CNF,CGK,2026-12-20,2026-12-26,44421,Ethiopian e Gol,3,explorar,,,Jacarta,Ásia,executiva,iv
+2026-11-21 17:54,CNF,IPC,2027-01-16,2027-01-23,15795,LATAM,3,explorar,,,Ilha de Páscoa,América do Sul,executiva,iv
+2026-11-21 17:54,CNF,FAI,2026-11-26,2026-12-02,47377,Alaska e COPA,3,explorar,,,Fairbanks,América do Norte,executiva,iv
+2026-11-21 17:54,CNF,DUD,2026-11-26,2026-12-02,176132,"Azul, LATAM, Air New Zealand e United",3,explorar,,,Dunedin,Oceania,executiva,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-12-02,84505,Emirates e Gol,2,explorar,,,Ilha de Mahé,África,executiva,iv
+2026-11-21 17:54,CNF,UBN,2026-11-26,2026-12-02,115929,"Gol, Lufthansa e MIAT",2,explorar,,,Ulan Bator,Ásia,executiva,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-12-02,65054,LATAM e Turkish Airlines,2,explorar,,,Astana,Ásia,executiva,iv
+2026-11-21 17:54,CNF,KZN,2026-11-26,2026-12-02,68423,"Azul, Emirates, flydubai e Gol",2,explorar,,,Cazã,Ásia,executiva,iv
+2026-11-21 17:54,CNF,WKJ,2026-11-26,2026-12-02,115955,"Gol, Lufthansa, ANA e United",3,explorar,,,Wakkanai,Ásia,executiva,iv
+2026-11-21 17:54,CNF,LIS,2026-11-25,,2131,Gol,1,explorar,,,Lisboa,Europa,economica,ida
+2026-11-21 17:54,CNF,BOS,2027-03-17,,3101,Air Canada e Gol,2,explorar,,,Boston,América do Norte,economica,ida
+2026-11-21 17:54,CNF,LAX,2027-03-03,,2823,COPA,1,explorar,,,Los Angeles,América do Norte,economica,ida
+2026-11-21 17:54,CNF,CDG,2026-12-08,,2454,LATAM,1,explorar,,,Paris,Europa,economica,ida
+2026-11-21 17:54,CNF,LHR,2026-11-25,,2236,LATAM,1,explorar,,,Londres,Europa,economica,ida
+2026-11-21 17:54,CNF,JFK,2027-02-24,,2322,COPA,1,explorar,,,Nova Iorque,América do Norte,economica,ida
+2026-11-21 17:54,CNF,SIN,2027-03-09,,4748,Etihad e LATAM,3,explorar,,,Singapura,Ásia,economica,ida
+2026-11-21 17:54,CNF,FCO,2026-12-06,,2248,LATAM,1,explorar,,,Roma,Europa,economica,ida
+2026-11-21 17:54,CNF,BCN,2026-11-27,,2660,LATAM,1,explorar,,,Barcelona,Europa,economica,ida
+2026-11-21 17:54,CNF,SFO,2026-12-02,,3288,COPA,1,explorar,,,São Francisco,América do Norte,economica,ida
+2026-11-21 17:54,CNF,AMS,2026-12-07,,2301,LATAM,1,explorar,,,Amsterdã,Europa,economica,ida
+2026-11-21 17:54,CNF,DXB,2027-04-14,,3199,LATAM e Qatar Airways,2,explorar,,,Dubai,Oriente Médio,economica,ida
+2026-11-21 17:54,CNF,VCE,2026-11-26,,2692,Tap Air Portugal,1,explorar,,,Veneza,Europa,economica,ida
+2026-11-21 17:54,CNF,ORD,2026-12-02,,2257,COPA,1,explorar,,,Chicago,América do Norte,economica,ida
+2026-11-21 17:54,CNF,IAD,2027-02-17,,2855,Avianca e Gol,2,explorar,,,"Washington, D.C.",América do Norte,economica,ida
+2026-11-21 17:54,CNF,HKG,2026-11-26,,6097,Azul e Turkish Airlines,2,explorar,,,Hong Kong,Ásia,economica,ida
+2026-11-21 17:54,CNF,HND,2027-01-27,,5393,JAL e LATAM,2,explorar,,,Tóquio,Ásia,economica,ida
+2026-11-21 17:54,CNF,BKK,2027-02-21,,4694,Etihad e LATAM,3,explorar,,,Bangkok,Ásia,economica,ida
+2026-11-21 17:54,CNF,BER,2026-11-25,,2635,Tap Air Portugal,1,explorar,,,Berlim,Europa,economica,ida
+2026-11-21 17:54,CNF,LAS,2027-05-19,,3494,COPA,1,explorar,,,Las Vegas,América do Norte,economica,ida
+2026-11-21 17:54,CNF,FLR,2026-11-26,,2692,Tap Air Portugal,1,explorar,,,Florença,Europa,economica,ida
+2026-11-21 17:54,CNF,EDI,2027-01-27,,4478,Azul e United,2,explorar,,,Edimburgo,Europa,economica,ida
+2026-11-21 17:54,CNF,SYD,2027-02-18,,5513,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Sydney,Oceania,economica,ida
+2026-11-21 17:54,CNF,MIA,2027-02-12,,2672,LATAM,1,explorar,,,Miami,América do Norte,economica,ida
+2026-11-21 17:54,CNF,PRG,2026-12-02,,2934,Tap Air Portugal,1,explorar,,,Praga,Europa,economica,ida
+2026-11-21 17:54,CNF,MAD,2026-11-25,,2660,LATAM,1,explorar,,,Madrid,Europa,economica,ida
+2026-11-21 17:54,CNF,ATH,2026-11-26,,2934,Tap Air Portugal,1,explorar,,,Atenas,Europa,economica,ida
+2026-11-21 17:54,CNF,IST,2027-02-18,,5423,LATAM e Qatar Airways,2,explorar,,,Istambul,Europa,economica,ida
+2026-11-21 17:54,CNF,VIE,2026-12-05,,3116,Tap Air Portugal,1,explorar,,,Viena,Europa,economica,ida
+2026-11-21 17:54,CNF,BUD,2026-11-23,,5349,Azul e Turkish Airlines,2,explorar,,,Budapeste,Europa,economica,ida
+2026-11-21 17:54,CNF,SAN,2027-01-27,,3005,COPA,1,explorar,,,San Diego,América do Norte,economica,ida
+2026-11-21 17:54,CNF,SEA,2027-02-03,,3878,Air Canada e Azul,3,explorar,,,Seattle,América do Norte,economica,ida
+2026-11-21 17:54,CNF,CPT,2027-04-28,,4586,LATAM,1,explorar,,,Cidade do Cabo,África,economica,ida
+2026-11-21 17:54,CNF,MLA,2026-11-25,,3631,"Azul, ITA e KM Malta Airlines",2,explorar,,,Malta,Europa,economica,ida
+2026-11-21 17:54,CNF,DUB,2026-11-26,,3001,Tap Air Portugal,1,explorar,,,Dublin,Europa,economica,ida
+2026-11-21 17:54,CNF,JTR,2027-01-28,,8814,"Aegean, Emirates e Gol",3,explorar,,,Santorini,Europa,economica,ida
+2026-11-21 17:54,CNF,MEL,2027-02-24,,5806,"LATAM, Qatar Airways e Virgin Australia",2,explorar,,,Melbourne,Oceania,economica,ida
+2026-11-21 17:54,CNF,YYZ,2027-02-24,,2653,Gol e United,2,explorar,,,Toronto,América do Norte,economica,ida
+2026-11-21 17:54,CNF,YVR,2027-02-10,,2893,Air Canada e Azul,2,explorar,,,Vancouver,América do Norte,economica,ida
+2026-11-21 17:54,CNF,CPH,2026-11-25,,2813,Tap Air Portugal,1,explorar,,,Copenhague,Europa,economica,ida
+2026-11-21 17:54,CNF,MSY,2027-01-20,,3501,Air Canada e Gol,2,explorar,,,Nova Orleans,América do Norte,economica,ida
+2026-11-21 17:54,CNF,MRU,2026-12-10,,6358,Ethiopian e LATAM,3,explorar,,,Ilha Maurícia,África,economica,ida
+2026-11-21 17:54,CNF,YUL,2027-02-24,,2653,"Air Canada, Azul e United",2,explorar,,,Montreal,América do Norte,economica,ida
+2026-11-21 17:54,CNF,BOM,2026-12-07,,7684,"IndiGo, Gol e Qatar Airways",2,explorar,,,Mumbai,Ásia,economica,ida
+2026-11-21 17:54,CNF,GIG,2027-03-31,,316,Gol,0,explorar,,,Rio de Janeiro,Brasil,economica,ida
+2026-11-21 17:54,CNF,EZE,2027-02-20,,1060,Gol,0,explorar,,,Buenos Aires,América do Sul,economica,ida
+2026-11-21 17:54,CNF,PER,2027-02-17,,8008,LATAM e Qatar Airways,2,explorar,,,Perth,Oceania,economica,ida
+2026-11-21 17:54,CNF,ITM,2027-01-28,,5427,JAL e LATAM,3,explorar,,,Osaka,Ásia,economica,ida
+2026-11-21 17:54,CNF,YQB,2026-12-11,,2705,"Air Canada, Azul e United",3,explorar,,,Quebec,América do Norte,economica,ida
+2026-11-21 17:54,CNF,ZQN,2026-12-07,,9769,"LATAM, Qatar Airways e Virgin Australia",3,explorar,,,Queenstown,Oceania,economica,ida
+2026-11-21 17:54,CNF,HNL,2027-01-20,,3936,COPA e United,2,explorar,,,Honolulu,América do Norte,economica,ida
+2026-11-21 17:54,CNF,JNB,2027-03-25,,4297,LATAM,1,explorar,,,Johanesburgo,África,economica,ida
+2026-11-21 17:54,CNF,LIH,2026-12-12,,5950,Alaska e COPA,2,explorar,,,Kauai,América do Norte,economica,ida
+2026-11-21 17:54,CNF,LIM,2027-01-21,,1624,LATAM,1,explorar,,,Lima,América do Sul,economica,ida
+2026-11-21 17:54,CNF,ANC,2027-01-20,,4484,COPA e United,2,explorar,,,Anchorage,América do Norte,economica,ida
+2026-11-21 17:54,CNF,BOB,2026-12-02,,22550,"COPA, Air Tahiti Nui e Air Tahiti",3,explorar,,,Bora Bora,Oceania,economica,ida
+2026-11-21 17:54,CNF,CGK,2026-11-25,,5411,LATAM e Qatar Airways,2,explorar,,,Jacarta,Ásia,economica,ida
+2026-11-21 17:54,CNF,PPT,2026-12-07,,10745,"LATAM, Air New Zealand e Qatar Airways",4,explorar,,,Taiti,Oceania,economica,ida
+2026-11-21 17:54,CNF,FAI,2026-12-07,,21444,"Alaska, COPA e United",3,explorar,,,Fairbanks,América do Norte,economica,ida
+2026-11-21 17:54,CNF,DUD,2026-12-11,,14684,"Jetstar, LATAM e Qantas",4,explorar,,,Dunedin,Oceania,economica,ida
+2026-11-21 17:54,CNF,SSA,2027-02-24,,460,Gol,1,explorar,,,Salvador,Brasil,economica,ida
+2026-11-21 17:54,CNF,USH,2027-05-16,,1724,Aerolineas Argentinas e Gol,2,explorar,,,Ushuaia,América do Sul,economica,ida
+2026-11-21 17:54,CNF,FTE,2026-12-02,,1900,Gol,2,explorar,,,El Calafate,América do Sul,economica,ida
+2026-11-21 17:54,CNF,SEZ,2026-12-07,,6017,Azul e Ethiopian,2,explorar,,,Ilha de Mahé,África,economica,ida
+2026-11-21 17:54,CNF,UBN,2026-12-09,,10644,Azul e Turkish Airlines,2,explorar,,,Ulan Bator,Ásia,economica,ida
+2026-11-21 17:54,CNF,HRB,2026-12-08,,7225,"Etihad, LATAM e China Eastern",4,explorar,,,Harbin,Ásia,economica,ida
+2026-11-21 17:54,CNF,NQZ,2026-12-09,,7711,Azul e Turkish Airlines,2,explorar,,,Astana,Ásia,economica,ida
+2026-11-21 17:54,CNF,KZN,2026-12-09,,7834,Azul e Turkish Airlines,2,explorar,,,Cazã,Ásia,economica,ida
+2026-11-21 17:54,CNF,GPS,2027-01-14,,2415,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,economica,ida
+2026-11-21 17:54,CNF,WKJ,2026-12-09,,9110,"Azul, ANA e United",3,explorar,,,Wakkanai,Ásia,economica,ida
+2026-11-21 17:54,CNF,LIS,2027-02-18,2027-02-25,7974,"Air France, Gol e KLM",2,explorar,,,Lisboa,Europa,premium,iv
+2026-11-21 17:54,CNF,BOS,2027-02-12,2027-02-19,10127,"Air Canada, Azul e Gol",2,explorar,,,Boston,América do Norte,premium,iv
+2026-11-21 17:54,CNF,LAX,2027-02-18,2027-02-26,10401,"Air Canada, Azul e Gol",2,explorar,,,Los Angeles,América do Norte,premium,iv
+2026-11-21 17:54,CNF,ORY,2027-03-04,2027-03-11,9666,"British Airways, Gol, Iberia, LATAM e Vueling",2,explorar,,,Paris,Europa,premium,iv
+2026-11-21 17:54,CNF,LHR,2027-02-18,2027-02-24,9849,Tap Air Portugal,1,explorar,,,Londres,Europa,premium,iv
+2026-11-21 17:54,CNF,LGA,2027-02-22,2027-02-28,10174,Air Canada e Gol,2,explorar,,,Nova Iorque,América do Norte,premium,iv
+2026-11-21 17:54,CNF,SIN,2027-02-01,2027-02-08,17462,"Azul, LATAM, ANA e United",3,explorar,,,Singapura,Ásia,premium,iv
+2026-11-21 17:54,CNF,FCO,2026-11-23,2026-11-30,8858,"Air France, Gol e KLM",2,explorar,,,Roma,Europa,premium,iv
+2026-11-21 17:54,CNF,BCN,2027-02-22,2027-03-01,7996,Iberia e LATAM,2,explorar,,,Barcelona,Europa,premium,iv
+2026-11-21 17:54,CNF,SFO,2027-02-07,2027-02-16,10523,"Air Canada, Azul e Gol",2,explorar,,,São Francisco,América do Norte,premium,iv
+2026-11-21 17:54,CNF,AMS,2027-02-25,2027-03-05,9570,"British Airways, Iberia e LATAM",2,explorar,,,Amsterdã,Europa,premium,iv
+2026-11-21 17:54,CNF,DXB,2027-02-25,2027-03-04,12969,Air France e Gol,2,explorar,,,Dubai,Oriente Médio,premium,iv
+2026-11-21 17:54,CNF,VCE,2027-02-22,2027-03-03,8622,Iberia e LATAM,2,explorar,,,Veneza,Europa,premium,iv
+2026-11-21 17:54,CNF,ORD,2027-02-12,2027-02-19,10127,"Air Canada, Azul e Gol",2,explorar,,,Chicago,América do Norte,premium,iv
+2026-11-21 17:54,CNF,DCA,2027-02-20,2027-02-28,10174,Air Canada e Azul,2,explorar,,,"Washington, D.C.",América do Norte,premium,iv
+2026-11-21 17:54,CNF,HKG,2027-01-31,2027-02-08,16498,LATAM e Lufthansa,3,explorar,,,Hong Kong,Ásia,premium,iv
+2026-11-21 17:54,CNF,HND,2027-02-14,2027-02-22,15064,JAL e LATAM,2,explorar,,,Tóquio,Ásia,premium,iv
+2026-11-21 17:54,CNF,BKK,2027-03-08,2027-03-17,16512,"Air France, Gol, KLM e LATAM",2,explorar,,,Bangkok,Ásia,premium,iv
+2026-11-21 17:54,CNF,BER,2027-04-22,2027-04-30,9518,British Airways e LATAM,2,explorar,,,Berlim,Europa,premium,iv
+2026-11-21 17:54,CNF,LAS,2027-02-22,2027-03-02,10875,"Air Canada, Azul e Gol",2,explorar,,,Las Vegas,América do Norte,premium,iv
+2026-11-21 17:54,CNF,FLR,2026-11-23,2026-11-30,9267,Air France e Gol,2,explorar,,,Florença,Europa,premium,iv
+2026-11-21 17:54,CNF,EDI,2026-11-23,2026-11-30,10919,"Air France, Gol e KLM",2,explorar,,,Edimburgo,Europa,premium,iv
+2026-11-21 17:54,CNF,SYD,2027-05-06,2027-05-13,18620,"Gol, LATAM e Qantas",2,explorar,,,Sydney,Oceania,premium,iv
+2026-11-21 17:54,CNF,FLL,2027-03-22,2027-03-31,10109,"Air Canada, Azul e Gol",2,explorar,,,Miami,América do Norte,premium,iv
+2026-11-21 17:54,CNF,PRG,2026-11-30,2026-12-07,10981,Air France e Gol,2,explorar,,,Praga,Europa,premium,iv
+2026-11-21 17:54,CNF,MAD,2027-02-18,2027-02-25,8448,Air France e Gol,2,explorar,,,Madrid,Europa,premium,iv
+2026-11-21 17:54,CNF,ATH,2027-02-11,2027-02-18,8875,Gol e KLM,2,explorar,,,Atenas,Europa,premium,iv
+2026-11-21 17:54,CNF,IST,2027-03-04,2027-03-11,10219,British Airways e LATAM,2,explorar,,,Istambul,Europa,premium,iv
+2026-11-21 17:54,CNF,VIE,2027-02-18,2027-02-26,9171,Gol e KLM,2,explorar,,,Viena,Europa,premium,iv
+2026-11-21 17:54,CNF,BUD,2026-11-26,2026-12-02,11095,"LOT, SWISS e Tap Air Portugal",2,explorar,,,Budapeste,Europa,premium,iv
+2026-11-21 17:54,CNF,SAN,2026-11-22,2026-11-28,12513,"Azul, Gol e United",2,explorar,,,San Diego,América do Norte,premium,iv
+2026-11-21 17:54,CNF,SEA,2027-02-12,2027-02-19,11382,"Air Canada, Azul e Gol",3,explorar,,,Seattle,América do Norte,premium,iv
+2026-11-21 17:54,CNF,MLA,2027-04-03,2027-04-12,10211,"Air France, Gol, KLM, KM Malta Airlines e LATAM",2,explorar,,,Malta,Europa,premium,iv
+2026-11-21 17:54,CNF,DUB,2027-02-19,2027-02-28,9272,British Airways e LATAM,2,explorar,,,Dublin,Europa,premium,iv
+2026-11-21 17:54,CNF,JTR,2026-12-03,2026-12-10,13149,"Aegean, Gol, LATAM e Lufthansa",3,explorar,,,Santorini,Europa,premium,iv
+2026-11-21 17:54,CNF,AVV,2026-11-23,2026-12-01,23099,"Jetstar, LATAM e Qantas",3,explorar,,,Melbourne,Oceania,premium,iv
+2026-11-21 17:54,CNF,YYZ,2027-03-21,2027-03-30,10163,"Air Canada, Gol e LATAM",2,explorar,,,Toronto,América do Norte,premium,iv
+2026-11-21 17:54,CNF,YVR,2027-02-15,2027-02-22,10303,Air Canada e Azul,3,explorar,,,Vancouver,América do Norte,premium,iv
+2026-11-21 17:54,CNF,CPH,2026-11-23,2026-12-02,9890,"Air France, Gol e KLM",2,explorar,,,Copenhague,Europa,premium,iv
+2026-11-21 17:54,CNF,MSY,2026-12-19,2026-12-25,14875,American e Gol,2,explorar,,,Nova Orleans,América do Norte,premium,iv
+2026-11-21 17:54,CNF,YUL,2027-03-19,2027-03-26,10148,"Air Canada, Azul e Gol",1,explorar,,,Montreal,América do Norte,premium,iv
+2026-11-21 17:54,CNF,SDU,2027-02-18,2027-02-24,1070,LATAM,1,explorar,,,Rio de Janeiro,Brasil,premium,iv
+2026-11-21 17:54,CNF,EZE,2027-02-20,2027-02-27,3459,Gol,0,explorar,,,Buenos Aires,América do Sul,premium,iv
+2026-11-21 17:54,CNF,PER,2026-11-26,2026-12-02,25135,LATAM e Qantas,3,explorar,,,Perth,Oceania,premium,iv
+2026-11-21 17:54,CNF,KIX,2027-02-01,2027-02-08,20538,"LATAM, Lufthansa e ANA",3,explorar,,,Osaka,Ásia,premium,iv
+2026-11-21 17:54,CNF,YQB,2026-11-26,2026-12-02,20693,American e Gol,3,explorar,,,Quebec,América do Norte,premium,iv
+2026-11-21 17:54,CNF,ZQN,2026-11-26,2026-12-02,93929,"Azul, Air New Zealand e United",3,explorar,,,Queenstown,Oceania,premium,iv
+2026-11-21 17:54,CNF,HNL,2027-02-18,2027-02-25,12397,"Air Canada, Gol e LATAM",3,explorar,,,Honolulu,América do Norte,premium,iv
+2026-11-21 17:54,CNF,LIH,2026-11-26,2026-12-02,19045,American e Gol,3,explorar,,,Kauai,América do Norte,premium,iv
+2026-11-21 17:54,CNF,LIM,2027-03-25,2027-03-31,5120,LATAM,1,explorar,,,Lima,América do Sul,premium,iv
+2026-11-21 17:54,CNF,ANC,2026-12-24,2026-12-30,16989,"Azul, Gol e United",3,explorar,,,Anchorage,América do Norte,premium,iv
+2026-11-21 17:54,CNF,BOB,2026-11-23,2026-11-30,22968,"COPA, Air Tahiti Nui e Air Tahiti",4,explorar,,,Bora Bora,Oceania,premium,iv
+2026-11-21 17:54,CNF,CGK,2026-11-30,2026-12-07,17744,"Azul, Gol, ANA e United",3,explorar,,,Jacarta,Ásia,premium,iv
+2026-11-21 17:54,CNF,IPC,2027-01-03,2027-01-10,15826,LATAM,3,explorar,,,Ilha de Páscoa,América do Sul,premium,iv
+2026-11-21 17:54,CNF,DUD,2026-11-26,2026-12-02,86680,"Azul, LATAM, Air New Zealand e United",3,explorar,,,Dunedin,Oceania,premium,iv
+2026-11-21 17:54,CNF,SSA,2027-02-11,2027-02-20,1503,LATAM,1,explorar,,,Salvador,Brasil,premium,iv
+2026-11-21 17:54,CNF,USH,2027-02-12,2027-02-18,5224,Gol,2,explorar,,,Ushuaia,América do Sul,premium,iv
+2026-11-21 17:54,CNF,FTE,2026-11-23,2026-11-29,12074,Aerolineas Argentinas e Gol,3,explorar,,,El Calafate,América do Sul,premium,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-12-02,30043,Emirates e Gol,2,explorar,,,Ilha de Mahé,África,premium,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-12-02,34585,"Azul, Emirates, flydubai e Gol",2,explorar,,,Astana,Ásia,premium,iv
+2026-11-21 17:54,CNF,GPS,2026-11-26,2026-12-02,7536,LATAM,3,explorar,,,Ilha de Baltra,América do Sul,premium,iv
+2026-11-21 17:54,CNF,WKJ,2026-11-26,2026-12-02,48016,"Gol, LATAM, Lufthansa e ANA",4,explorar,,,Wakkanai,Ásia,premium,iv
+2026-11-21 17:54,CNF,LIS,2026-11-30,2026-12-06,56786,LATAM e SWISS,2,explorar,,,Lisboa,Europa,primeira,iv
+2026-11-21 17:54,CNF,CDG,2026-11-29,2026-12-05,58431,LATAM e Lufthansa,2,explorar,,,Paris,Europa,primeira,iv
+2026-11-21 17:54,CNF,LHR,2026-11-29,2026-12-05,61426,LATAM e Lufthansa,2,explorar,,,Londres,Europa,primeira,iv
+2026-11-21 17:54,CNF,SIN,2027-04-18,2027-04-25,81241,"British Airways, Gol e LATAM",2,explorar,,,Singapura,Ásia,primeira,iv
+2026-11-21 17:54,CNF,FCO,2026-11-29,2026-12-06,58427,LATAM e Lufthansa,2,explorar,,,Roma,Europa,primeira,iv
+2026-11-21 17:54,CNF,BCN,2026-11-29,2026-12-06,56668,LATAM e Lufthansa,2,explorar,,,Barcelona,Europa,primeira,iv
+2026-11-21 17:54,CNF,AMS,2027-04-16,2027-04-23,61143,LATAM e SWISS,2,explorar,,,Amsterdã,Europa,primeira,iv
+2026-11-21 17:54,CNF,DXB,2027-04-17,2027-04-23,69471,"Emirates, Gol e South African",3,explorar,,,Dubai,Oriente Médio,primeira,iv
+2026-11-21 17:54,CNF,VCE,2026-11-29,2026-12-06,58431,"Air Dolomiti, LATAM e Lufthansa",2,explorar,,,Veneza,Europa,primeira,iv
+2026-11-21 17:54,CNF,HKG,2027-02-13,2027-02-22,86395,"Cathay Pacific, LATAM e Lufthansa",2,explorar,,,Hong Kong,Ásia,primeira,iv
+2026-11-21 17:54,CNF,HND,2027-01-16,2027-01-25,66624,JAL e LATAM,2,explorar,,,Tóquio,Ásia,primeira,iv
+2026-11-21 17:54,CNF,BKK,2027-04-03,2027-04-12,86823,LATAM e Lufthansa,3,explorar,,,Bangkok,Ásia,primeira,iv
+2026-11-21 17:54,CNF,BER,2027-03-18,2027-03-26,60550,LATAM e SWISS,2,explorar,,,Berlim,Europa,primeira,iv
+2026-11-21 17:54,CNF,FLR,2026-11-22,2026-11-29,58417,"Air Dolomiti, LATAM e Lufthansa",2,explorar,,,Florença,Europa,primeira,iv
+2026-11-21 17:54,CNF,EDI,2027-03-06,2027-03-14,59476,LATAM e Lufthansa,2,explorar,,,Edimburgo,Europa,primeira,iv
+2026-11-21 17:54,CNF,SYD,2027-03-21,2027-03-28,94293,"British Airways, Gol e LATAM",3,explorar,,,Sydney,Oceania,primeira,iv
+2026-11-21 17:54,CNF,PRG,2026-12-24,2026-12-30,65239,LATAM e SWISS,2,explorar,,,Praga,Europa,primeira,iv
+2026-11-21 17:54,CNF,MAD,2026-11-30,2026-12-06,56766,LATAM e SWISS,2,explorar,,,Madrid,Europa,primeira,iv
+2026-11-21 17:54,CNF,ATH,2026-11-22,2026-11-29,59697,LATAM e Lufthansa,2,explorar,,,Atenas,Europa,primeira,iv
+2026-11-21 17:54,CNF,IST,2027-05-01,2027-05-10,64907,LATAM e Lufthansa,2,explorar,,,Istambul,Europa,primeira,iv
+2026-11-21 17:54,CNF,VIE,2026-11-29,2026-12-06,59601,"LATAM, Lufthansa e Austrian",2,explorar,,,Viena,Europa,primeira,iv
+2026-11-21 17:54,CNF,BUD,2026-12-27,2027-01-02,64418,LATAM e SWISS,2,explorar,,,Budapeste,Europa,primeira,iv
+2026-11-21 17:54,CNF,MLA,2026-11-29,2026-12-05,58450,"KM Malta Airlines, LATAM e Lufthansa",2,explorar,,,Malta,Europa,primeira,iv
+2026-11-21 17:54,CNF,DUB,2027-05-16,2027-05-25,63899,LATAM e SWISS,2,explorar,,,Dublin,Europa,primeira,iv
+2026-11-21 17:54,CNF,JTR,2027-01-25,2027-01-31,52950,"Aegean, LATAM, Lufthansa e SWISS",3,explorar,,,Santorini,Europa,primeira,iv
+2026-11-21 17:54,CNF,MEL,2027-01-25,2027-02-02,86481,"British Airways, Gol e LATAM",3,explorar,,,Melbourne,Oceania,primeira,iv
+2026-11-21 17:54,CNF,CPH,2027-04-22,2027-04-30,64299,LATAM e SWISS,2,explorar,,,Copenhague,Europa,primeira,iv
+2026-11-21 17:54,CNF,MRU,2026-11-26,2026-12-02,155859,Emirates e Gol,2,explorar,,,Ilha Maurícia,África,primeira,iv
+2026-11-21 17:54,CNF,BOM,2026-11-26,2026-12-02,128865,Emirates e Gol,2,explorar,,,Mumbai,Ásia,primeira,iv
+2026-11-21 17:54,CNF,EZE,2027-02-25,2027-03-03,34311,Emirates e LATAM,2,explorar,,,Buenos Aires,América do Sul,primeira,iv
+2026-11-21 17:54,CNF,PER,2027-01-23,2027-01-30,99117,"British Airways, Gol, Iberia, LATAM e Qantas",4,explorar,,,Perth,Oceania,primeira,iv
+2026-11-21 17:54,CNF,ITM,2027-01-31,2027-02-07,97338,"LATAM, Lufthansa e ANA",3,explorar,,,Osaka,Ásia,primeira,iv
+2026-11-21 17:54,CNF,HNL,2027-01-25,2027-02-03,35985,COPA e United,2,explorar,,,Honolulu,América do Norte,primeira,iv
+2026-11-21 17:54,CNF,CGK,2027-01-14,2027-01-20,122111,"Azul, Emirates e Gol",2,explorar,,,Jacarta,Ásia,primeira,iv
+2026-11-21 17:54,CNF,SEZ,2026-11-26,2026-12-02,129171,Emirates e Gol,2,explorar,,,Ilha de Mahé,África,primeira,iv
+2026-11-21 17:54,CNF,NQZ,2026-11-26,2026-12-02,132954,"Azul, Emirates, flydubai e Gol",2,explorar,,,Astana,Ásia,primeira,iv
+2026-11-21 17:54,CNF,KZN,2026-11-26,2026-12-02,115339,"Azul, Emirates, flydubai e Gol",2,explorar,,,Cazã,Ásia,primeira,iv

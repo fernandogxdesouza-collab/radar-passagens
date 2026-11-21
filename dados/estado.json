@@ -1,5 +1,5 @@
 {
- "cursor": 190,
+ "cursor": 220,
  "ciclo": 1,
  "alertados": {
   "CNF-BSB": [
@@ -155,7 +155,7 @@
    "2026-11-21"
   ],
   "GIG-IPC": [
-   8621,
+   7798,
    "2026-11-21"
   ],
   "GIG-JTR": [
@@ -163,7 +163,7 @@
    "2026-11-21"
   ],
   "GIG-PPT": [
-   11767,
+   9858,
    "2026-11-21"
   ],
   "GIG-SSA": [
@@ -192,6 +192,30 @@
   ],
   "GIG-IST": [
    6011,
+   "2026-11-21"
+  ],
+  "CNF-GRU": [
+   455,
+   "2026-11-21"
+  ],
+  "GIG-JNB": [
+   4371,
+   "2026-11-21"
+  ],
+  "GIG-LGW": [
+   4731,
+   "2026-11-21"
+  ],
+  "GIG-YQB": [
+   5424,
+   "2026-11-21"
+  ],
+  "GRU-HND": [
+   7490,
+   "2026-11-21"
+  ],
+  "CNF-DMK": [
+   10814,
    "2026-11-21"
   ]
  },
@@ -513,9 +537,27 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-seoul-e493/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-phuket-e31-6/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-the-philippines-e543/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-thailand-e489/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-thailand-e489/",
+  "https://passageirodeprimeira.com/copa-airlines-oferece-wi-fi-com-internet-starlink-em-21-aeronaves-e-preve-cobertura-total-em-2027/",
+  "https://passageirodeprimeira.com/american-airlines-vai-ampliar-e-reformar-tres-salas-vip-admirals-club-em-phoenix/",
+  "https://passageirodeprimeira.com/receba-ate-us-55-de-cashback-na-primeira-conversao-ao-abrir-sua-conta-nomad/",
+  "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
+  "https://passageirodeprimeira.com/planejando-a-proxima-viagem-veja-sugestoes-de-resgate-para-toquio-buenos-aires-e-muito-mais/",
+  "https://www.fly4free.com/flight-deals/europe/open-jaw-flights-from-brussels-to-asia-e362/",
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-the-uk-to-bangkok-p416/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-warsaw-to-penang-e476/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-baja-california-from-prague-vienna-e770/",
+  "https://www.fly4free.com/flight-deals/europe/a-czech-ryanair-smartwings-plans-more-scheduled-flights-under-pegasus-ownership/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-resort-in-the-tuscany-e58-5/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-vienna-to-kenya-e459-3/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Último dia! Hilton Honors oferece 120% de bônus na compra de pontos",
+   "link": "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
+   "visto_em": "2026-11-21"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Confira passagens nacionais a partir de 7.500 mil milhas Smiles + taxas",
@@ -748,12 +790,6 @@
    "fonte": "Passageiro de Primeira",
    "titulo": "LATAM tem passagens internacionais na América do Sul a partir de R$ 380 ou 15 mil milhas + taxas",
    "link": "https://passageirodeprimeira.com/latam-tem-passagens-internacionais-na-america-do-sul-a-partir-de-r-380-ou-15-mil-milhas-taxas/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Nubank Croma oferece 10% de bônus em transferências para a Livelo",
-   "link": "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
    "visto_em": "2026-11-16"
   }
  ],
@@ -2608,8 +2644,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-YYZ-3": [
-   3969,
-   "2026-11-20 23:59"
+   3389,
+   "2026-11-21 17:54"
   ],
   "GRU-YVR-3": [
    3783,
@@ -2684,8 +2720,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-PPT-3": [
-   13612,
-   "2026-11-20 23:59"
+   11337,
+   "2026-11-21 17:54"
   ],
   "GRU-IPC-3": [
    10711,
@@ -2884,8 +2920,8 @@
    "2026-11-21 05:59"
   ],
   "GIG-PPT-1": [
-   11767,
-   "2026-11-21 05:59"
+   9858,
+   "2026-11-21 17:54"
   ],
   "GIG-IPC-1": [
    8621,
@@ -3010,9 +3046,204 @@
   "GIG-YVR-2": [
    4229,
    "2026-11-21 12:00"
+  ],
+  "CNF-ITM-2": [
+   11243,
+   "2026-11-21 17:54"
+  ],
+  "CNF-DMK-3": [
+   10814,
+   "2026-11-21 17:54"
+  ],
+  "GRU-HND-1": [
+   7490,
+   "2026-11-21 17:54"
+  ],
+  "GRU-IAD-3": [
+   4059,
+   "2026-11-21 17:54"
+  ],
+  "GRU-NRT-3": [
+   7493,
+   "2026-11-21 17:54"
+  ],
+  "GRU-SDU-3": [
+   507,
+   "2026-11-21 17:54"
+  ],
+  "GIG-FLL-1": [
+   4183,
+   "2026-11-21 17:54"
+  ],
+  "GIG-EZE-1": [
+   1933,
+   "2026-11-21 17:54"
+  ],
+  "GIG-ITM-1": [
+   10080,
+   "2026-11-21 17:54"
+  ],
+  "GIG-CPH-2": [
+   6843,
+   "2026-11-21 17:54"
+  ],
+  "GIG-MSY-2": [
+   6107,
+   "2026-11-21 17:54"
+  ],
+  "GIG-MRU-2": [
+   12031,
+   "2026-11-21 17:54"
+  ],
+  "GIG-YUL-2": [
+   3650,
+   "2026-11-21 17:54"
+  ],
+  "GIG-BOM-2": [
+   6865,
+   "2026-11-21 17:54"
+  ],
+  "GIG-AEP-2": [
+   1933,
+   "2026-11-21 17:54"
+  ],
+  "GIG-PER-2": [
+   12548,
+   "2026-11-21 17:54"
+  ],
+  "GIG-ITM-2": [
+   10080,
+   "2026-11-21 17:54"
+  ],
+  "GIG-YQB-2": [
+   5424,
+   "2026-11-21 17:54"
+  ],
+  "GIG-ZQN-2": [
+   19002,
+   "2026-11-21 17:54"
+  ],
+  "GIG-HNL-2": [
+   5232,
+   "2026-11-21 17:54"
+  ],
+  "GIG-JNB-2": [
+   4371,
+   "2026-11-21 17:54"
+  ],
+  "GIG-LIH-2": [
+   8515,
+   "2026-11-21 17:54"
+  ],
+  "GIG-LIM-2": [
+   3575,
+   "2026-11-21 17:54"
+  ],
+  "GIG-ANC-2": [
+   8121,
+   "2026-11-21 17:54"
+  ],
+  "GIG-BOB-2": [
+   33638,
+   "2026-11-21 17:54"
+  ],
+  "GIG-CGK-2": [
+   9130,
+   "2026-11-21 17:54"
+  ],
+  "GIG-PPT-2": [
+   15291,
+   "2026-11-21 17:54"
+  ],
+  "GIG-IPC-2": [
+   7798,
+   "2026-11-21 17:54"
+  ],
+  "GIG-FAI-2": [
+   9092,
+   "2026-11-21 17:54"
+  ],
+  "GIG-DUD-2": [
+   22902,
+   "2026-11-21 17:54"
+  ],
+  "GIG-SSA-2": [
+   678,
+   "2026-11-21 17:54"
+  ],
+  "GIG-USH-2": [
+   2982,
+   "2026-11-21 17:54"
+  ],
+  "GIG-FTE-2": [
+   2770,
+   "2026-11-21 17:54"
+  ],
+  "GIG-SEZ-2": [
+   9981,
+   "2026-11-21 17:54"
+  ],
+  "GIG-UBN-2": [
+   15070,
+   "2026-11-21 17:54"
+  ],
+  "GIG-HRB-2": [
+   13803,
+   "2026-11-21 17:54"
+  ],
+  "GIG-NQZ-2": [
+   14352,
+   "2026-11-21 17:54"
+  ],
+  "GIG-FEN-2": [
+   2092,
+   "2026-11-21 17:54"
+  ],
+  "GIG-KZN-2": [
+   18516,
+   "2026-11-21 17:54"
+  ],
+  "GIG-WKJ-2": [
+   31407,
+   "2026-11-21 17:54"
+  ],
+  "GIG-JFK-3": [
+   2858,
+   "2026-11-21 17:54"
+  ],
+  "GIG-LIS-3": [
+   5659,
+   "2026-11-21 17:54"
+  ],
+  "GIG-CDG-3": [
+   6624,
+   "2026-11-21 17:54"
+  ],
+  "GIG-LGW-3": [
+   4731,
+   "2026-11-21 17:54"
+  ],
+  "GIG-SIN-3": [
+   8288,
+   "2026-11-21 17:54"
+  ],
+  "GIG-FCO-3": [
+   5067,
+   "2026-11-21 17:54"
+  ],
+  "GIG-BCN-3": [
+   4714,
+   "2026-11-21 17:54"
   ]
  },
- "promos_fila": [],
- "rodadas": 24,
+ "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Último dia! Hilton Honors oferece 120% de bônus na compra de pontos",
+   "link": "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
+   "visto_em": "2026-11-21"
+  }
+ ],
+ "rodadas": 25,
  "vigilia_resumo": "2026-11-21"
 }
