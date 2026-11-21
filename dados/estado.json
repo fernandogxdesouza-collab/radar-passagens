@@ -1,5 +1,5 @@
 {
- "cursor": 160,
+ "cursor": 190,
  "ciclo": 1,
  "alertados": {
   "CNF-BSB": [
@@ -139,7 +139,7 @@
    "2026-11-21"
   ],
   "GIG-CPT": [
-   6388,
+   5049,
    "2026-11-21"
   ],
   "GIG-ANC": [
@@ -159,11 +159,39 @@
    "2026-11-21"
   ],
   "GIG-JTR": [
-   8656,
+   7120,
    "2026-11-21"
   ],
   "GIG-PPT": [
    11767,
+   "2026-11-21"
+  ],
+  "GIG-SSA": [
+   678,
+   "2026-11-21"
+  ],
+  "GIG-FEN": [
+   2090,
+   "2026-11-21"
+  ],
+  "GIG-FTE": [
+   2770,
+   "2026-11-21"
+  ],
+  "GIG-MDW": [
+   2897,
+   "2026-11-21"
+  ],
+  "GIG-SAN": [
+   4057,
+   "2026-11-21"
+  ],
+  "GIG-DUB": [
+   5252,
+   "2026-11-21"
+  ],
+  "GIG-IST": [
+   6011,
    "2026-11-21"
   ]
  },
@@ -475,9 +503,31 @@
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-berlin-e52/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-milan-madrid-to-thailand-e422/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-london-to-singapore-p575/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-vietnam-e488/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-vietnam-e488/",
+  "https://passageirodeprimeira.com/salas-vip-aeroporto-de-congonhas/",
+  "https://passageirodeprimeira.com/confira-passagens-nacionais-a-partir-7-500-mil-milhas-smiles-taxas/",
+  "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+  "https://passageirodeprimeira.com/gere-o-milheiro-smiles-a-partir-de-r-1307-assinando-o-clube-smiles-1-000/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-budapest-e57-2-2/",
+  "https://www.fly4free.com/flight-deals/europe/etihad-flights-from-europe-to-the-maldives-e548/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-seoul-e493/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-phuket-e31-6/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-the-philippines-e543/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-thailand-e489/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Confira passagens nacionais a partir de 7.500 mil milhas Smiles + taxas",
+   "link": "https://passageirodeprimeira.com/confira-passagens-nacionais-a-partir-7-500-mil-milhas-smiles-taxas/",
+   "visto_em": "2026-11-21"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
+   "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
+   "visto_em": "2026-11-21"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm  passagens nacionais a partir de R$ 276 ida e volta!",
@@ -704,18 +754,6 @@
    "fonte": "Passageiro de Primeira",
    "titulo": "Nubank Croma oferece 10% de bônus em transferências para a Livelo",
    "link": "https://passageirodeprimeira.com/nubank-croma-oferece-10-de-bonus-em-transferencias-para-a-livelo/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM tem passagens nacionais a partir de R$ 92 ou 3.887 milhas + taxas",
-   "link": "https://passageirodeprimeira.com/latam-tem-passagens-nacionais-a-partir-de-r-100-ou-3-887-milhas-taxas/",
-   "visto_em": "2026-11-16"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos do C6 Bank",
-   "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-do-c6-bank-4/",
    "visto_em": "2026-11-16"
   }
  ],
@@ -2742,8 +2780,8 @@
    "2026-11-21 05:59"
   ],
   "GIG-SAN-1": [
-   4664,
-   "2026-11-21 05:59"
+   4057,
+   "2026-11-21 12:00"
   ],
   "GIG-SEA-1": [
    5037,
@@ -2852,22 +2890,129 @@
   "GIG-IPC-1": [
    8621,
    "2026-11-21 05:59"
+  ],
+  "GRU-LHR-2": [
+   4659,
+   "2026-11-21 12:00"
+  ],
+  "GRU-GPS-2": [
+   5210,
+   "2026-11-21 12:00"
+  ],
+  "GIG-FAI-1": [
+   13444,
+   "2026-11-21 12:00"
+  ],
+  "GIG-DUD-1": [
+   26967,
+   "2026-11-21 12:00"
+  ],
+  "GIG-SSA-1": [
+   678,
+   "2026-11-21 12:00"
+  ],
+  "GIG-USH-1": [
+   2982,
+   "2026-11-21 12:00"
+  ],
+  "GIG-FTE-1": [
+   2770,
+   "2026-11-21 12:00"
+  ],
+  "GIG-SEZ-1": [
+   9981,
+   "2026-11-21 12:00"
+  ],
+  "GIG-UBN-1": [
+   25859,
+   "2026-11-21 12:00"
+  ],
+  "GIG-HRB-1": [
+   16034,
+   "2026-11-21 12:00"
+  ],
+  "GIG-NQZ-1": [
+   10854,
+   "2026-11-21 12:00"
+  ],
+  "GIG-FEN-1": [
+   2090,
+   "2026-11-21 12:00"
+  ],
+  "GIG-KZN-1": [
+   19988,
+   "2026-11-21 12:00"
+  ],
+  "GIG-WKJ-1": [
+   42890,
+   "2026-11-21 12:00"
+  ],
+  "GIG-MDW-2": [
+   2897,
+   "2026-11-21 12:00"
+  ],
+  "GIG-NRT-2": [
+   7807,
+   "2026-11-21 12:00"
+  ],
+  "GIG-FLL-2": [
+   4183,
+   "2026-11-21 12:00"
+  ],
+  "GIG-ATH-2": [
+   6601,
+   "2026-11-21 12:00"
+  ],
+  "GIG-IST-2": [
+   6011,
+   "2026-11-21 12:00"
+  ],
+  "GIG-VIE-2": [
+   5907,
+   "2026-11-21 12:00"
+  ],
+  "GIG-BUD-2": [
+   7108,
+   "2026-11-21 12:00"
+  ],
+  "GIG-SAN-2": [
+   4075,
+   "2026-11-21 12:00"
+  ],
+  "GIG-SEA-2": [
+   4967,
+   "2026-11-21 12:00"
+  ],
+  "GIG-CPT-2": [
+   5049,
+   "2026-11-21 12:00"
+  ],
+  "GIG-MLA-2": [
+   6514,
+   "2026-11-21 12:00"
+  ],
+  "GIG-JTR-2": [
+   7120,
+   "2026-11-21 12:00"
+  ],
+  "GIG-MEL-2": [
+   10726,
+   "2026-11-21 12:00"
+  ],
+  "GIG-YYZ-2": [
+   3336,
+   "2026-11-21 12:00"
+  ],
+  "GIG-DUB-2": [
+   5252,
+   "2026-11-21 12:00"
+  ],
+  "GIG-YVR-2": [
+   4229,
+   "2026-11-21 12:00"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Feriadão de ofertas ✈️ Gol, Latam e Azul têm  passagens nacionais a partir de R$ 276 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-19-11-26",
-   "visto_em": "2026-11-20"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Lufthansa anuncia nova Classe Executiva para rotas de curta e média distância",
-   "link": "https://passageirodeprimeira.com/lufthansa-anuncia-nova-classe-executiva-para-rotas-de-curta-e-media-distancia/",
-   "visto_em": "2026-11-20"
-  }
- ],
- "rodadas": 23,
+ "promos_fila": [],
+ "rodadas": 24,
  "vigilia_resumo": "2026-11-21"
 }
