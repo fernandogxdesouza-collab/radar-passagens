@@ -1,5 +1,5 @@
 {
- "cursor": 280,
+ "cursor": 310,
  "ciclo": 1,
  "alertados": {
   "GRU-IPC": [
@@ -180,6 +180,30 @@
   ],
   "GIG-FLR": [
    6133,
+   "2026-11-22"
+  ],
+  "CNF-BSB": [
+   400,
+   "2026-11-22"
+  ],
+  "CNF-FOR": [
+   987,
+   "2026-11-22"
+  ],
+  "CNF-MCZ": [
+   1214,
+   "2026-11-22"
+  ],
+  "CNF-FCO": [
+   5184,
+   "2026-11-22"
+  ],
+  "CNF-CDG": [
+   5775,
+   "2026-11-22"
+  ],
+  "GIG-BOB": [
+   14198,
    "2026-11-22"
   ]
  },
@@ -514,7 +538,18 @@
   "https://www.fly4free.com/flight-deals/europe/a-czech-ryanair-smartwings-plans-more-scheduled-flights-under-pegasus-ownership/",
   "https://www.fly4free.com/flight-deals/europe/4-star-resort-in-the-tuscany-e58-5/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-vienna-to-kenya-e459-3/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-prague-to-toronto-e357/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-prague-to-toronto-e357/",
+  "https://passageirodeprimeira.com/menor-taxa-de-conversao-e-cartao-fisico-gratis-compre-dolares-digitais-no-arq/",
+  "https://passageirodeprimeira.com/compre-panetone-ganhe-outro-de-graca-mastercard-surpreenda/",
+  "https://passageirodeprimeira.com/ultimo-dia-receba-ate-104-mil-pontos-ao-assinar-o-clube-livelo-especial-com-nosso-cupom-exclusivo/",
+  "https://passageirodeprimeira.com/5-sugestoes-de-trechos-para-destinos-de-praia-a-partir-de-4-200-pontos-azul-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/oman-air-flights-from-europe-to-malaysia-e497/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-tenerife-from-bucharest-e469/",
+  "https://www.fly4free.com/flight-deals/europe/kazakhstan-to-introduce-new-entry-authorisation-for-visa-free-travellers/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-venice-e75/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-paris-to-seoul-e496/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-vietnam-e486/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-poland-to-sri-lanka-e457/"
  ],
  "promos": [
   {
@@ -761,92 +796,92 @@
  "falhas_seguidas": 0,
  "explorar": {
   "CNF-GIG-1": [
-   586,
-   "2026-11-16 00:12"
+   599,
+   "2026-11-22 11:59"
   ],
   "CNF-GRU-1": [
    359,
    "2026-11-16 13:15"
   ],
   "CNF-LIS-1": [
-   5019,
-   "2026-11-16 00:12"
+   4659,
+   "2026-11-22 11:59"
   ],
   "CNF-BOS-1": [
    4393,
    "2026-11-20 18:02"
   ],
   "CNF-LAX-1": [
-   4185,
-   "2026-11-16 00:12"
+   4412,
+   "2026-11-22 11:59"
   ],
   "CNF-CDG-1": [
-   5188,
-   "2026-11-16 00:12"
+   5775,
+   "2026-11-22 11:59"
   ],
   "CNF-LHR-1": [
    5272,
    "2026-11-16 00:12"
   ],
   "CNF-JFK-1": [
-   4072,
-   "2026-11-16 00:12"
+   4058,
+   "2026-11-22 11:59"
   ],
   "CNF-SIN-1": [
-   9399,
-   "2026-11-16 00:12"
+   9788,
+   "2026-11-22 11:59"
   ],
   "CNF-FCO-1": [
-   4896,
-   "2026-11-16 00:12"
+   5184,
+   "2026-11-22 11:59"
   ],
   "CNF-BCN-1": [
-   5299,
-   "2026-11-16 00:12"
+   5638,
+   "2026-11-22 11:59"
   ],
   "CNF-SFO-1": [
    5006,
    "2026-11-20 18:02"
   ],
   "CNF-AMS-1": [
-   5098,
-   "2026-11-16 00:12"
+   5547,
+   "2026-11-22 11:59"
   ],
   "CNF-DXB-1": [
-   5434,
-   "2026-11-16 00:12"
+   6780,
+   "2026-11-22 11:59"
   ],
   "CNF-VCE-1": [
-   5835,
-   "2026-11-16 00:12"
+   6538,
+   "2026-11-22 11:59"
   ],
   "CNF-ORD-1": [
    4361,
    "2026-11-16 13:15"
   ],
   "CNF-IAD-1": [
-   4558,
-   "2026-11-16 00:12"
+   4240,
+   "2026-11-22 11:59"
   ],
   "CNF-HKG-1": [
-   9295,
-   "2026-11-16 00:12"
+   10977,
+   "2026-11-22 11:59"
   ],
   "CNF-NRT-1": [
    7964,
    "2026-11-20 18:02"
   ],
   "CNF-BKK-1": [
-   9173,
-   "2026-11-16 00:12"
+   9600,
+   "2026-11-22 11:59"
   ],
   "CNF-BER-1": [
-   6511,
-   "2026-11-16 00:12"
+   6653,
+   "2026-11-22 11:59"
   ],
   "CNF-LAS-1": [
-   5655,
-   "2026-11-16 00:12"
+   5889,
+   "2026-11-22 11:59"
   ],
   "CNF-FLR-1": [
    6656,
@@ -1153,8 +1188,8 @@
    "2026-11-16 07:02"
   ],
   "CNF-YQB-2": [
-   9162,
-   "2026-11-19 12:12"
+   7584,
+   "2026-11-22 11:59"
   ],
   "CNF-ZQN-2": [
    14277,
@@ -2877,8 +2912,8 @@
    "2026-11-21 05:59"
   ],
   "GIG-BOB-1": [
-   33638,
-   "2026-11-21 05:59"
+   14198,
+   "2026-11-22 11:59"
   ],
   "GIG-CGK-1": [
    9125,
@@ -3053,8 +3088,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-MSY-2": [
-   6107,
-   "2026-11-21 17:54"
+   5083,
+   "2026-11-22 11:59"
   ],
   "GIG-MRU-2": [
    12031,
@@ -3085,8 +3120,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-ZQN-2": [
-   19002,
-   "2026-11-21 17:54"
+   14371,
+   "2026-11-22 11:59"
   ],
   "GIG-HNL-2": [
    5232,
@@ -3109,8 +3144,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-BOB-2": [
-   33638,
-   "2026-11-21 17:54"
+   15953,
+   "2026-11-22 11:59"
   ],
   "GIG-CGK-2": [
    9130,
@@ -3145,8 +3180,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-SEZ-2": [
-   9981,
-   "2026-11-21 17:54"
+   8693,
+   "2026-11-22 11:59"
   ],
   "GIG-UBN-2": [
    15070,
@@ -3265,8 +3300,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-BOS-3": [
-   4579,
-   "2026-11-22 05:59"
+   3227,
+   "2026-11-22 11:59"
   ],
   "GIG-FLL-3": [
    4183,
@@ -3337,8 +3372,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-MSY-3": [
-   5869,
-   "2026-11-22 05:59"
+   5195,
+   "2026-11-22 11:59"
   ],
   "GIG-MRU-3": [
    12361,
@@ -3387,16 +3422,77 @@
   "GIG-LIM-3": [
    3510,
    "2026-11-22 05:59"
+  ],
+  "GIG-KIX-3": [
+   9707,
+   "2026-11-22 11:59"
+  ],
+  "GIG-ANC-3": [
+   8974,
+   "2026-11-22 11:59"
+  ],
+  "GIG-CGK-3": [
+   8468,
+   "2026-11-22 11:59"
+  ],
+  "GIG-PPT-3": [
+   46898,
+   "2026-11-22 11:59"
+  ],
+  "GIG-FAI-3": [
+   9092,
+   "2026-11-22 11:59"
+  ],
+  "GIG-DUD-3": [
+   22242,
+   "2026-11-22 11:59"
+  ],
+  "GIG-SSA-3": [
+   678,
+   "2026-11-22 11:59"
+  ],
+  "GIG-USH-3": [
+   2982,
+   "2026-11-22 11:59"
+  ],
+  "GIG-FTE-3": [
+   7219,
+   "2026-11-22 11:59"
+  ],
+  "GIG-SEZ-3": [
+   15881,
+   "2026-11-22 11:59"
+  ],
+  "GIG-UBN-3": [
+   17261,
+   "2026-11-22 11:59"
+  ],
+  "GIG-HRB-3": [
+   12018,
+   "2026-11-22 11:59"
+  ],
+  "GIG-NQZ-3": [
+   14693,
+   "2026-11-22 11:59"
+  ],
+  "GIG-FEN-3": [
+   2090,
+   "2026-11-22 11:59"
+  ],
+  "GIG-KZN-3": [
+   15872,
+   "2026-11-22 11:59"
+  ],
+  "GIG-GPS-3": [
+   4788,
+   "2026-11-22 11:59"
+  ],
+  "GIG-WKJ-3": [
+   31407,
+   "2026-11-22 11:59"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Último dia! Hilton Honors oferece 120% de bônus na compra de pontos",
-   "link": "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
-   "visto_em": "2026-11-21"
-  }
- ],
- "rodadas": 27,
+ "promos_fila": [],
+ "rodadas": 28,
  "vigilia_resumo": "2026-11-22"
 }
