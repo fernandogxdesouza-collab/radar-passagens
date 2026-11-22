@@ -1,5 +1,5 @@
 {
- "cursor": 310,
+ "cursor": 340,
  "ciclo": 1,
  "alertados": {
   "GRU-IPC": [
@@ -549,7 +549,18 @@
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-venice-e75/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-paris-to-seoul-e496/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-to-vietnam-e486/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-poland-to-sri-lanka-e457/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-poland-to-sri-lanka-e457/",
+  "https://passageirodeprimeira.com/emirates-inaugura-lounge-temporario-primeira-classe-dubai/",
+  "https://passageirodeprimeira.com/planejando-sua-proxima-viagem-aproveite-a-blackissima-para-acumular-pontos-esfera/",
+  "https://passageirodeprimeira.com/black-signature-latam-pass/",
+  "https://passageirodeprimeira.com/singapore-airlines-oferece-30-de-desconto-em-trechos-selecionados-no-krisflyer-5/",
+  "https://passageirodeprimeira.com/onde-ficar-joao-pessoa-5-sugestoes-hoteis-ate-39-desconto/",
+  "https://www.fly4free.com/flight-deals/europe/trip-from-vienna-prague-to-thailand-e627/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-amsterdam-to-cambodia-e514/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-italy-belgium-to-south-korea-e455/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-e451/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-new-york-e290/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-sri-lanka-e26/"
  ],
  "promos": [
   {
@@ -2924,8 +2935,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-IPC-1": [
-   8621,
-   "2026-11-21 05:59"
+   7614,
+   "2026-11-22 17:57"
   ],
   "GRU-LHR-2": [
    4659,
@@ -3260,8 +3271,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-ORD-3": [
-   3271,
-   "2026-11-22 05:59"
+   2897,
+   "2026-11-22 17:57"
   ],
   "GIG-DCA-3": [
    4009,
@@ -3456,8 +3467,8 @@
    "2026-11-22 11:59"
   ],
   "GIG-FTE-3": [
-   7219,
-   "2026-11-22 11:59"
+   6127,
+   "2026-11-22 17:57"
   ],
   "GIG-SEZ-3": [
    15881,
@@ -3493,6 +3504,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 28,
+ "rodadas": 29,
  "vigilia_resumo": "2026-11-22"
 }
