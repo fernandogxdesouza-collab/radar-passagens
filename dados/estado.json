@@ -1,11 +1,7 @@
 {
- "cursor": 340,
+ "cursor": 350,
  "ciclo": 1,
  "alertados": {
-  "GRU-IPC": [
-   4343,
-   "2026-11-19"
-  ],
   "CNF-AMS": [
    5324,
    "2026-11-20"
@@ -13,26 +9,6 @@
   "GRU-EWR": [
    2745,
    "2026-11-21"
-  ],
-  "GIG-BOG": [
-   2137,
-   "2026-11-19"
-  ],
-  "GIG-CUN": [
-   2883,
-   "2026-11-19"
-  ],
-  "GIG-JFK": [
-   3318,
-   "2026-11-19"
-  ],
-  "CNF-FLN": [
-   666,
-   "2026-11-19"
-  ],
-  "GRU-CPT": [
-   4361,
-   "2026-11-19"
   ],
   "CNF-SSA": [
    968,
@@ -560,7 +536,8 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-italy-belgium-to-south-korea-e455/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-e451/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-new-york-e290/",
-  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-sri-lanka-e26/"
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-sri-lanka-e26/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-berlin-to-new-york-e441/"
  ],
  "promos": [
   {
@@ -804,7 +781,7 @@
    "visto_em": "2026-11-16"
   }
  ],
- "falhas_seguidas": 0,
+ "falhas_seguidas": 1,
  "explorar": {
   "CNF-GIG-1": [
    599,
@@ -3504,6 +3481,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 29,
+ "rodadas": 30,
  "vigilia_resumo": "2026-11-22"
 }
