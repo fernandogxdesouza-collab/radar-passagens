@@ -1,5 +1,5 @@
 {
- "cursor": 350,
+ "cursor": 360,
  "ciclo": 1,
  "alertados": {
   "CNF-AMS": [
@@ -537,7 +537,10 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-baja-california-e451/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-new-york-e290/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-sri-lanka-e26/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-berlin-to-new-york-e441/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-berlin-to-new-york-e441/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-prague-or-berlin-to-abu-dhabi-and-sri-lanka-e463/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysian-borneo-p486/",
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-stockholm-to-bangkok/"
  ],
  "promos": [
   {
@@ -781,7 +784,7 @@
    "visto_em": "2026-11-16"
   }
  ],
- "falhas_seguidas": 1,
+ "falhas_seguidas": 0,
  "explorar": {
   "CNF-GIG-1": [
    599,
@@ -996,56 +999,56 @@
    "2026-11-19 00:04"
   ],
   "CNF-CDG-2": [
-   5188,
-   "2026-11-16 07:02"
+   5640,
+   "2026-11-23 06:38"
   ],
   "CNF-LHR-2": [
-   5272,
-   "2026-11-16 07:02"
+   5489,
+   "2026-11-23 06:38"
   ],
   "CNF-JFK-2": [
    3661,
    "2026-11-17 06:17"
   ],
   "CNF-SIN-2": [
-   9399,
-   "2026-11-16 07:02"
+   9788,
+   "2026-11-23 06:38"
   ],
   "CNF-FCO-2": [
-   4754,
-   "2026-11-16 07:02"
+   5182,
+   "2026-11-23 06:38"
   ],
   "CNF-BCN-2": [
-   5084,
-   "2026-11-16 07:02"
+   5061,
+   "2026-11-23 06:38"
   ],
   "CNF-SFO-2": [
    5006,
    "2026-11-20 06:17"
   ],
   "CNF-AMS-2": [
-   5098,
-   "2026-11-16 07:02"
+   5547,
+   "2026-11-23 06:38"
   ],
   "CNF-DXB-2": [
-   5434,
-   "2026-11-16 07:02"
+   5661,
+   "2026-11-23 06:38"
   ],
   "CNF-VCE-2": [
-   5353,
-   "2026-11-16 07:02"
+   6212,
+   "2026-11-23 06:38"
   ],
   "CNF-ORD-2": [
-   4219,
-   "2026-11-16 07:02"
+   4393,
+   "2026-11-23 06:38"
   ],
   "CNF-IAD-2": [
-   4558,
-   "2026-11-16 07:02"
+   4240,
+   "2026-11-23 06:38"
   ],
   "CNF-HKG-2": [
-   9154,
-   "2026-11-16 07:02"
+   9239,
+   "2026-11-23 06:38"
   ],
   "CNF-NRT-2": [
    8137,
@@ -1832,8 +1835,8 @@
    "2026-11-17 06:17"
   ],
   "GRU-BOB-1": [
-   15962,
-   "2026-11-17 06:17"
+   14231,
+   "2026-11-23 06:38"
   ],
   "CNF-MSY-1": [
    6682,
@@ -2700,8 +2703,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-BOB-3": [
-   34940,
-   "2026-11-20 23:59"
+   22018,
+   "2026-11-23 06:38"
   ],
   "GRU-CGK-3": [
    7921,
@@ -3481,6 +3484,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 30,
+ "rodadas": 31,
  "vigilia_resumo": "2026-11-22"
 }
