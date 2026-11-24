@@ -1,5 +1,5 @@
 {
- "cursor": 450,
+ "cursor": 480,
  "ciclo": 1,
  "alertados": {
   "GRU-EWR": [
@@ -200,6 +200,26 @@
   ],
   "CNF-CPH": [
    6157,
+   "2026-11-24"
+  ],
+  "GRU-ORD": [
+   2762,
+   "2026-11-24"
+  ],
+  "GIG-YYZ": [
+   2923,
+   "2026-11-24"
+  ],
+  "GIG-JFK": [
+   3875,
+   "2026-11-24"
+  ],
+  "CNF-IAD": [
+   4298,
+   "2026-11-24"
+  ],
+  "CNF-BER": [
+   6247,
    "2026-11-24"
   ]
  },
@@ -614,9 +634,36 @@
   "https://passageirodeprimeira.com/salas-vip-bradesco-lounge-conheca-lounges-proprios-parceiros/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-barbados-e437/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-budapest-paris-to-bali-e553/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-germany-to-new-york-los-angeles-e373/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-germany-to-new-york-los-angeles-e373/",
+  "https://www.melhoresdestinos.com.br/maior-parque-aquatico-minas-gerais-inauguracao-data.html",
+  "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
+  "https://passageirodeprimeira.com/e-black-50-off-o-maior-desconto-da-historia-dos-alertas-do-pp/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
+  "https://passageirodeprimeira.com/barato-voe-de-recife-para-madri-a-partir-16-mil-avios-iberia-club-taxas/",
+  "https://passageirodeprimeira.com/muito-bom-ganhe-ate-100-000-milhas-bonus-ao-pedir-o-cartao-latam-pass-itau-mastercard-black-ou-platinum/",
+  "https://passageirodeprimeira.com/prepare-se-para-a-black-friday-receba-de-graca-as-melhores-ofertas-e-oportunidades-no-seu-whatsapp/",
+  "https://passageirodeprimeira.com/all-signature-libera-experiencias-especiais-para-assinantes-absolute-na-black-friday/",
+  "https://passageirodeprimeira.com/gol-vai-sortear-viagens-nacionais-internacionais-e-300-mil-milhas-smiles/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-baltics-to-seoul-e531/",
+  "https://www.fly4free.com/flight-deals/europe/central-4-star-hotel-london/",
+  "https://www.fly4free.com/news/european-alternatives-to-vice-city-7-destinations-with-a-gta-6-atmosphere/",
+  "https://www.fly4free.com/flight-deals/europe/3-in-1-trip-bucharest-istanbul-bali-e656/",
+  "https://www.fly4free.com/flight-deals/europe/mediterranian-cruise-from-rome-e229/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-phuket-from-vienna-e673-2/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop",
+   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
+   "visto_em": "2026-11-24"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Muito bom! Ganhe até 100.000 milhas bônus ao pedir o cartão LATAM Pass Itaú Mastercard Black ou Platinum",
+   "link": "https://passageirodeprimeira.com/muito-bom-ganhe-ate-100-000-milhas-bonus-ao-pedir-o-cartao-latam-pass-itau-mastercard-black-ou-platinum/",
+   "visto_em": "2026-11-24"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "18 excelentes promoções de passagens, pacotes, hotéis, ingressos e muito mais para você aproveitar hoje!",
@@ -844,18 +891,6 @@
    "titulo": "Novidade! Gol fecha parceria para vender voos de companhia aérea do Alasca",
    "link": "https://www.melhoresdestinos.com.br/parceria-gol-alaska-airlines.html",
    "visto_em": "2026-11-18"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Peru 🇵🇪 Passagens aéreas para Lima ou Cusco a partir de R$ 2.297 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-peru-lima-cusco-17-11-26",
-   "visto_em": "2026-11-18"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Portugal 🇵🇹 Voos para Lisboa ou Porto a partir de R$ 3.797 ida e volta, saindo de 42 cidades brasileiras!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-portugal-porto-lisboa-17-11-26",
-   "visto_em": "2026-11-18"
   }
  ],
  "falhas_seguidas": 0,
@@ -1025,8 +1060,8 @@
    "2026-11-23 18:03"
   ],
   "CNF-MRU-1": [
-   14096,
-   "2026-11-23 18:03"
+   12219,
+   "2026-11-24 12:18"
   ],
   "CNF-YUL-1": [
    5129,
@@ -1181,12 +1216,12 @@
    "2026-11-24 00:05"
   ],
   "CNF-SAN-2": [
-   6968,
-   "2026-11-24 06:23"
+   5740,
+   "2026-11-24 12:18"
   ],
   "CNF-SEA-2": [
-   5494,
-   "2026-11-16 18:00"
+   5796,
+   "2026-11-24 12:18"
   ],
   "CNF-CPT-2": [
    5362,
@@ -1249,8 +1284,8 @@
    "2026-11-20 06:17"
   ],
   "CNF-KIX-2": [
-   11533,
-   "2026-11-16 07:02"
+   15460,
+   "2026-11-24 12:18"
   ],
   "CNF-YQB-2": [
    7584,
@@ -1281,8 +1316,8 @@
    "2026-11-17 12:05"
   ],
   "CNF-BOB-1": [
-   15432,
-   "2026-11-16 18:00"
+   38379,
+   "2026-11-24 12:18"
   ],
   "CNF-CGK-1": [
    10802,
@@ -1441,8 +1476,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-BCN-3": [
-   5417,
-   "2026-11-16 13:15"
+   5123,
+   "2026-11-24 12:18"
   ],
   "CNF-CGH-1": [
    414,
@@ -1453,24 +1488,24 @@
    "2026-11-20 06:17"
   ],
   "CNF-AMS-3": [
-   5279,
-   "2026-11-16 18:00"
+   5612,
+   "2026-11-24 12:18"
   ],
   "CNF-DXB-3": [
-   5434,
-   "2026-11-16 18:00"
+   5729,
+   "2026-11-24 12:18"
   ],
   "CNF-VCE-3": [
-   6847,
-   "2026-11-16 18:00"
+   7453,
+   "2026-11-24 12:18"
   ],
   "CNF-ORD-3": [
-   4219,
-   "2026-11-16 18:00"
+   4453,
+   "2026-11-24 12:18"
   ],
   "CNF-IAD-3": [
-   4558,
-   "2026-11-16 18:00"
+   4298,
+   "2026-11-24 12:18"
   ],
   "CNF-HKG-3": [
    10214,
@@ -1481,28 +1516,28 @@
    "2026-11-16 18:00"
   ],
   "CNF-BKK-3": [
-   8576,
-   "2026-11-16 18:00"
+   9046,
+   "2026-11-24 12:18"
   ],
   "CNF-BER-3": [
-   5931,
-   "2026-11-16 18:00"
+   6247,
+   "2026-11-24 12:18"
   ],
   "CNF-LAS-3": [
-   5402,
-   "2026-11-16 18:00"
+   5694,
+   "2026-11-24 12:18"
   ],
   "CNF-FLR-3": [
-   6311,
-   "2026-11-16 18:00"
+   6765,
+   "2026-11-24 12:18"
   ],
   "CNF-EDI-3": [
-   6372,
-   "2026-11-16 18:00"
+   6650,
+   "2026-11-24 12:18"
   ],
   "CNF-SYD-3": [
-   9345,
-   "2026-11-16 18:00"
+   9707,
+   "2026-11-24 12:18"
   ],
   "CNF-MIA-3": [
    3745,
@@ -1761,8 +1796,8 @@
    "2026-11-17 06:17"
   ],
   "GRU-ORD-1": [
-   3533,
-   "2026-11-17 06:17"
+   2762,
+   "2026-11-24 12:18"
   ],
   "GRU-IAD-1": [
    3508,
@@ -2145,8 +2180,8 @@
    "2026-11-18 00:03"
   ],
   "GIG-DCA-1": [
-   4488,
-   "2026-11-18 00:03"
+   3994,
+   "2026-11-24 12:18"
   ],
   "GIG-HKG-1": [
    7466,
@@ -2905,8 +2940,8 @@
    "2026-11-21 05:59"
   ],
   "GIG-YYZ-1": [
-   3336,
-   "2026-11-21 05:59"
+   2923,
+   "2026-11-24 12:18"
   ],
   "GIG-DUB-1": [
    5792,
@@ -3313,8 +3348,8 @@
    "2026-11-22 00:01"
   ],
   "GIG-DXB-3": [
-   6749,
-   "2026-11-22 00:01"
+   5729,
+   "2026-11-24 12:18"
   ],
   "GIG-KIX-2": [
    10059,
@@ -3465,8 +3500,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-YQB-3": [
-   8079,
-   "2026-11-22 05:59"
+   6442,
+   "2026-11-24 12:18"
   ],
   "GIG-ZQN-3": [
    16862,
@@ -3581,86 +3616,7 @@
    "2026-11-24 06:23"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "18 excelentes promoções de passagens, pacotes, hotéis, ingressos e muito mais para você aproveitar hoje!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/18-excelentes-promocoes-hoje-22nov26",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Ganhe 60 mil pontos bônus na assinatura ou atualização do Clube Esfera",
-   "link": "https://passageirodeprimeira.com/ganhe-60-mil-pontos-bonus-na-assinatura-ou-atualizacao-do-clube-esfera/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul oferece até 120% de bônus nas transferências da Premmia – CPM a partir de R$ 15,32",
-   "link": "https://passageirodeprimeira.com/azul-oferece-ate-120-de-bonus-nas-transferencias-da-premmia-cpm-a-partir-de-r-1532/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Viagens oferece cupom de 20% de desconto em reservas de passagens e hotéis",
-   "link": "https://passageirodeprimeira.com/azul-viagens-oferece-cupom-20-desconto-reservas-passagens-hoteis/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
-   "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Valendo! LATAM Pass reajusta tabela fixa de resgate com companhias parceiras",
-   "link": "https://passageirodeprimeira.com/valendo-latam-pass-reajusta-tabela-fixa-de-resgate-com-companhias-parceiras/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Livelo oferece até 30% off em passagens para Itália + 30% de pointsback",
-   "link": "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-em-passagens-para-italia-30-de-pointsback/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Iberia oferece passagens a partir de € 18 por trecho",
-   "link": "https://passageirodeprimeira.com/iberia-oferece-passagens-a-partir-de-e-18-por-trecho/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
-   "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Aer Lingus anuncia suítes com portas na Classe Executiva e nova Premium Economy",
-   "link": "https://passageirodeprimeira.com/aer-lingus-anuncia-suites-com-portas-na-classe-executiva-e-nova-premium-economy/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Fly4free",
-   "titulo": "Exotic combination of flights 😎 🌴 Cape Verde + Recife, Brazil in one tropical trip from Amsterdam for €526",
-   "link": "https://www.fly4free.com/flight-deals/europe/trip-from-amsterdam-to-cape-verde-and-recife-e526/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Fly4free",
-   "titulo": "BRAZILIAN SUMMER 😎 🍹 Non-stop flights from Madrid to Sao Paulo for €587",
-   "link": "https://www.fly4free.com/flight-deals/europe/flights-from-madrid-to-sao-paulo-e587/",
-   "visto_em": "2026-11-23"
-  }
- ],
- "rodadas": 34,
+ "promos_fila": [],
+ "rodadas": 35,
  "vigilia_resumo": "2026-11-24"
 }
