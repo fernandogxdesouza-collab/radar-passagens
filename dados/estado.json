@@ -1,6 +1,6 @@
 {
- "cursor": 570,
- "ciclo": 1,
+ "cursor": 12,
+ "ciclo": 2,
  "alertados": {
   "CNF-GRU": [
    385,
@@ -91,8 +91,8 @@
    "2026-11-25"
   ],
   "CNF-AMS": [
-   6018,
-   "2026-11-24"
+   4861,
+   "2026-11-25"
   ],
   "CNF-CPH": [
    6157,
@@ -211,7 +211,7 @@
    "2026-11-25"
   ],
   "GRU-PRG": [
-   5162,
+   4612,
    "2026-11-25"
   ],
   "GIG-ATH": [
@@ -232,6 +232,34 @@
   ],
   "GRU-KZN": [
    11980,
+   "2026-11-25"
+  ],
+  "GIG-PUJ": [
+   3484,
+   "2026-11-25"
+  ],
+  "GIG-LHR": [
+   4644,
+   "2026-11-25"
+  ],
+  "GIG-FRA": [
+   4973,
+   "2026-11-25"
+  ],
+  "GIG-AMS": [
+   5087,
+   "2026-11-25"
+  ],
+  "GIG-LIS": [
+   5090,
+   "2026-11-25"
+  ],
+  "GIG-CDG": [
+   5222,
+   "2026-11-25"
+  ],
+  "CNF-ATH": [
+   5638,
    "2026-11-25"
   ]
  },
@@ -685,9 +713,36 @@
   "https://passageirodeprimeira.com/shopping-latam-pass-oferece-ate-12-milhas-real-gasto-magalu/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-manchester-to-bali-p583/",
   "https://www.fly4free.com/flight-deals/europe/3-in-1-trip-from-prague-to-istanbul-and-malaysia-e493/",
-  "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-bucharest-to-bali-indonesia-e585/"
+  "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-bucharest-to-bali-indonesia-e585/",
+  "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-25-pontos-real-insider-netshoes/",
+  "https://passageirodeprimeira.com/receba-ate-390-000-pontos-ao-assinar-o-clube-livelo-premium-cpm-a-partir-de-r-2404/",
+  "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+  "https://passageirodeprimeira.com/so-hoje-ganhe-22-off-utilizando-cupom-pp-reservas-hoteis-carros-pacotes-azul-viagens/",
+  "https://passageirodeprimeira.com/porto-e-estapar-inauguram-novo-espaco-de-valet-no-aeroporto-de-congonhas-com-descontos-e-beneficios-exclusivos/",
+  "https://passageirodeprimeira.com/assine-o-all-signature-com-ate-r-2-462-de-desconto-e-gere-euros-a-partir-de-r-383-para-gastar-em-hoteis-accor-no-mundo/",
+  "https://passageirodeprimeira.com/aeromexico-anuncia-renovacao-frota-787-dreamliner-novos-assentos-premium/",
+  "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-resort-in-the-tuscany-e61-3/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-trinidad-and-tobago-e376/",
+  "https://www.fly4free.com/flight-deals/europe/%e2%9a%a1%e2%9a%a1booked-with-norse-atlantic-the-airline-says-its-financial-situation-is-critical/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-poznan-to-bangkok-e495/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-lombok-indonesia-e37-2/",
+  "https://www.fly4free.com/flight-deals/europe/tap-flights-from-europe-to-usa-e355/",
+  "https://www.fly4free.com/flight-deals/europe/black-friday-on-cruises/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
+   "link": "https://passageirodeprimeira.com/latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-4/",
+   "visto_em": "2026-11-25"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Black Friday! ALL Accor oferece até 25% de bônus nas transferências de milhas do LATAM Pass",
+   "link": "https://passageirodeprimeira.com/black-friday-all-accor-oferece-ate-25-de-bonus-nas-transferencias-de-milhas-do-latam-pass/",
+   "visto_em": "2026-11-25"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",
@@ -915,18 +970,6 @@
    "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos bancos, inclusive Livelo",
    "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
    "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Só hoje! Ganhe até 30% de bônus ao transferir pontos Azul para ALL Accor",
-   "link": "https://passageirodeprimeira.com/so-hoje-ganhe-ate-30-de-bonus-ao-transferir-pontos-azul-para-all-accor/",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Madrugada de ofertas 🌙 Azul, Latam e Gol têm promoções de voos nacionais a partir de R$ 276 ida e volta!",
-   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-18-11-26",
-   "visto_em": "2026-11-19"
   }
  ],
  "falhas_seguidas": 0,
@@ -980,16 +1023,16 @@
    "2026-11-20 18:02"
   ],
   "CNF-AMS-1": [
-   5547,
-   "2026-11-22 11:59"
+   4897,
+   "2026-11-25 12:22"
   ],
   "CNF-DXB-1": [
    5896,
    "2026-11-23 18:03"
   ],
   "CNF-VCE-1": [
-   6538,
-   "2026-11-22 11:59"
+   5520,
+   "2026-11-25 12:22"
   ],
   "CNF-ORD-1": [
    4603,
@@ -1044,8 +1087,8 @@
    "2026-11-24 18:07"
   ],
   "CNF-ATH-1": [
-   6579,
-   "2026-11-23 18:03"
+   5638,
+   "2026-11-25 12:22"
   ],
   "CNF-IST-1": [
    8194,
@@ -1164,24 +1207,24 @@
    "2026-11-23 06:38"
   ],
   "CNF-BCN-2": [
-   5061,
-   "2026-11-23 06:38"
+   4545,
+   "2026-11-25 12:22"
   ],
   "CNF-SFO-2": [
    5006,
    "2026-11-20 06:17"
   ],
   "CNF-AMS-2": [
-   5547,
-   "2026-11-23 06:38"
+   4866,
+   "2026-11-25 12:22"
   ],
   "CNF-DXB-2": [
    5661,
    "2026-11-23 06:38"
   ],
   "CNF-VCE-2": [
-   6212,
-   "2026-11-23 06:38"
+   5520,
+   "2026-11-25 12:22"
   ],
   "CNF-ORD-2": [
    4393,
@@ -1324,8 +1367,8 @@
    "2026-11-24 12:18"
   ],
   "CNF-YQB-2": [
-   7584,
-   "2026-11-22 11:59"
+   6759,
+   "2026-11-25 12:22"
   ],
   "CNF-ZQN-2": [
    14277,
@@ -2368,8 +2411,8 @@
    "2026-11-18 18:06"
   ],
   "GRU-BER-2": [
-   5582,
-   "2026-11-18 18:06"
+   4865,
+   "2026-11-25 12:22"
   ],
   "GRU-LAS-2": [
    4839,
@@ -2384,8 +2427,8 @@
    "2026-11-18 18:06"
   ],
   "GRU-PRG-2": [
-   5706,
-   "2026-11-18 18:06"
+   4612,
+   "2026-11-25 12:22"
   ],
   "GRU-ATH-2": [
    5190,
@@ -3680,50 +3723,7 @@
    "2026-11-25 00:13"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM tem passagens para destinos de Carnaval a partir de R$ 117 ou 4 mil milhas + taxas",
-   "link": "https://passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas/",
-   "visto_em": "2026-11-25"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Últimas horas para receber até 320% de bônus na compra de pontos do Azul Fidelidade",
-   "link": "https://passageirodeprimeira.com/ultimas-horas-receber-ate-320-bonus-compra-pontos-azul-fidelidade/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Último dia! Livelo oferece até 30% off em passagens para Itália + 30% de pointsback",
-   "link": "https://passageirodeprimeira.com/ultimo-dia-livelo-oferece-ate-30-off-em-passagens-para-italia-30-de-pointsback/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
-   "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul oferece até 20% de desconto em passagens no Azul Pelo Mundo",
-   "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-de-desconto-em-passagens-no-azul-pelo-mundo/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
-   "link": "https://passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo – confira o passo a passo",
-   "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
-   "visto_em": "2026-11-24"
-  }
- ],
- "rodadas": 38,
+ "promos_fila": [],
+ "rodadas": 39,
  "vigilia_resumo": "2026-11-25"
 }
