@@ -1,5 +1,5 @@
 {
- "cursor": 12,
+ "cursor": 42,
  "ciclo": 2,
  "alertados": {
   "CNF-GRU": [
@@ -143,8 +143,8 @@
    "2026-11-24"
   ],
   "CNF-VIE": [
-   6842,
-   "2026-11-24"
+   5394,
+   "2026-11-25"
   ],
   "GRU-SIN": [
    8815,
@@ -163,7 +163,7 @@
    "2026-11-25"
   ],
   "GIG-CPH": [
-   6212,
+   5129,
    "2026-11-25"
   ],
   "CNF-FRA": [
@@ -260,6 +260,50 @@
   ],
   "CNF-ATH": [
    5638,
+   "2026-11-25"
+  ],
+  "GIG-FTE": [
+   2405,
+   "2026-11-25"
+  ],
+  "GIG-ORD": [
+   2662,
+   "2026-11-25"
+  ],
+  "GRU-LGW": [
+   4210,
+   "2026-11-25"
+  ],
+  "GRU-ORY": [
+   4574,
+   "2026-11-25"
+  ],
+  "GRU-VIE": [
+   4873,
+   "2026-11-25"
+  ],
+  "GRU-FLR": [
+   4906,
+   "2026-11-25"
+  ],
+  "CNF-ORY": [
+   5062,
+   "2026-11-25"
+  ],
+  "GRU-MLA": [
+   5852,
+   "2026-11-25"
+  ],
+  "GRU-GMP": [
+   6691,
+   "2026-11-25"
+  ],
+  "GRU-NRT": [
+   7213,
+   "2026-11-25"
+  ],
+  "GIG-HKG": [
+   7433,
    "2026-11-25"
   ]
  },
@@ -728,9 +772,39 @@
   "https://www.fly4free.com/flight-deals/europe/flights-from-poznan-to-bangkok-e495/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-lombok-indonesia-e37-2/",
   "https://www.fly4free.com/flight-deals/europe/tap-flights-from-europe-to-usa-e355/",
-  "https://www.fly4free.com/flight-deals/europe/black-friday-on-cruises/"
+  "https://www.fly4free.com/flight-deals/europe/black-friday-on-cruises/",
+  "https://passageirodeprimeira.com/como-aproveitar-pontos-esfera-durante-blackissima/",
+  "https://passageirodeprimeira.com/voe-para-buenos-aires-a-partir-18-500-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/smiles-tem-voos-nacionais-a-partir-de-6-mil-milhas-2/",
+  "https://passageirodeprimeira.com/ultimo-dia-ganhe-5-000-pontos-ao-abrir-a-conta-global-revolut/",
+  "https://passageirodeprimeira.com/falta-pouco-nao-perca-a-ultima-semana-de-ofertas-da-pink-friday-da-livelo/",
+  "https://passageirodeprimeira.com/meu-resgate-favorito-mala-de-bordo-vale-outback-soundbar-e-mais-a-partir-de-11-mil-pontos-azul/",
+  "https://passageirodeprimeira.com/ganhe-ate-10-000-pontos-livelo-adquirindo-dolares-digitais-no-arq/",
+  "https://passageirodeprimeira.com/ate-23h59-multipliquepontos-ate-25x-turbo-livelo-milheiro-a-partir-r-29/",
+  "https://passageirodeprimeira.com/otimo-preco-viaje-para-curacao-a-partir-61-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
+  "https://passageirodeprimeira.com/5-sugestoes-de-resorts-para-aproveitar-o-cupom-de-22-off-na-azul-viagens/",
+  "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-em-passagens-para-o-japao-30-de-pointsback/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-london-to-malaysia-p385/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-madrid-amsterdam-to-nova-scotia-e423/",
+  "https://www.fly4free.com/flight-deals/europe/direct-flights-from-frankfurt-to-the-maldives-e658/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-south-korea-e468/",
+  "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-berlin-e68-3/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-italy-to-tokyo-e579/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia – CPM a partir de R$ 24,06",
+   "link": "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
+   "visto_em": "2026-11-25"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Livelo oferece até 30% off em passagens para o Japão + 30% de pointsback",
+   "link": "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-em-passagens-para-o-japao-30-de-pointsback/",
+   "visto_em": "2026-11-25"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "LATAM Pass oferece 25% de bônus nas transferências de pontos dos cartões de crédito",
@@ -958,18 +1032,6 @@
    "titulo": "Nova parceria: LATAM Pass oferece 25% de bônus nas transferências de pontos Inter Loop",
    "link": "https://passageirodeprimeira.com/nova-parceria-latam-pass-oferece-25-de-bonus-nas-transferencias-de-pontos-inter-loop/",
    "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Outra chance! Smiles oferece até 80% de bônus nas transferências de pontos dos bancos",
-   "link": "https://passageirodeprimeira.com/outra-chance-smiles-oferece-ate-80-de-bonus-nas-transferencias-de-pontos-dos-bancos/",
-   "visto_em": "2026-11-19"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Último dia! Azul Fidelidade oferece até 120% de bônus nas transferências de pontos dos bancos, inclusive Livelo",
-   "link": "https://passageirodeprimeira.com/ultimo-dia-azul-fidelidade-oferece-ate-120-de-bonus-nas-transferencias-de-pontos-dos-cartoes-de-credito-inclusive-livelo/",
-   "visto_em": "2026-11-19"
   }
  ],
  "falhas_seguidas": 0,
@@ -1095,8 +1157,8 @@
    "2026-11-23 18:03"
   ],
   "CNF-VIE-1": [
-   6607,
-   "2026-11-23 18:03"
+   5396,
+   "2026-11-25 18:11"
   ],
   "CNF-BUD-1": [
    8305,
@@ -1275,8 +1337,8 @@
    "2026-11-24 00:05"
   ],
   "CNF-MAD-2": [
-   5633,
-   "2026-11-24 00:05"
+   4988,
+   "2026-11-25 18:11"
   ],
   "CNF-ATH-2": [
    5931,
@@ -1287,8 +1349,8 @@
    "2026-11-16 07:02"
   ],
   "CNF-VIE-2": [
-   6352,
-   "2026-11-24 00:05"
+   5394,
+   "2026-11-25 18:11"
   ],
   "CNF-BUD-2": [
    7898,
@@ -1363,8 +1425,8 @@
    "2026-11-20 06:17"
   ],
   "CNF-KIX-2": [
-   15460,
-   "2026-11-24 12:18"
+   12623,
+   "2026-11-25 18:11"
   ],
   "CNF-YQB-2": [
    6759,
@@ -1383,8 +1445,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-JNB-1": [
-   7204,
-   "2026-11-24 06:23"
+   5754,
+   "2026-11-25 18:11"
   ],
   "CNF-LIH-1": [
    11596,
@@ -1567,8 +1629,8 @@
    "2026-11-20 06:17"
   ],
   "CNF-AMS-3": [
-   5612,
-   "2026-11-24 12:18"
+   4891,
+   "2026-11-25 18:11"
   ],
   "CNF-DXB-3": [
    5729,
@@ -1831,8 +1893,8 @@
    "2026-11-24 18:07"
   ],
   "GRU-LGW-1": [
-   4720,
-   "2026-11-24 18:07"
+   4210,
+   "2026-11-25 18:11"
   ],
   "GRU-MAD-1": [
    4007,
@@ -1879,8 +1941,8 @@
    "2026-11-24 12:18"
   ],
   "GRU-IAD-1": [
-   4052,
-   "2026-11-25 00:13"
+   3498,
+   "2026-11-25 18:11"
   ],
   "GRU-HKG-1": [
    7286,
@@ -1891,8 +1953,8 @@
    "2026-11-25 00:13"
   ],
   "GRU-NRT-1": [
-   7516,
-   "2026-11-17 06:17"
+   7213,
+   "2026-11-25 18:11"
   ],
   "GRU-BKK-1": [
    8244,
@@ -1907,8 +1969,8 @@
    "2026-11-20 06:17"
   ],
   "GRU-FLR-1": [
-   5686,
-   "2026-11-25 00:13"
+   4906,
+   "2026-11-25 18:11"
   ],
   "GRU-EDI-1": [
    7369,
@@ -1927,8 +1989,8 @@
    "2026-11-17 06:17"
   ],
   "GRU-VIE-1": [
-   5538,
-   "2026-11-25 06:28"
+   4873,
+   "2026-11-25 18:11"
   ],
   "GRU-BUD-1": [
    6730,
@@ -1947,8 +2009,8 @@
    "2026-11-23 18:03"
   ],
   "GRU-MLA-1": [
-   7624,
-   "2026-11-25 06:28"
+   5852,
+   "2026-11-25 18:11"
   ],
   "GRU-JTR-1": [
    7634,
@@ -2015,8 +2077,8 @@
    "2026-11-25 06:28"
   ],
   "GRU-LIM-1": [
-   2794,
-   "2026-11-25 06:28"
+   2490,
+   "2026-11-25 18:11"
   ],
   "GRU-ANC-1": [
    7092,
@@ -2055,16 +2117,16 @@
    "2026-11-25 06:28"
   ],
   "GRU-DUD-1": [
-   32492,
-   "2026-11-25 06:28"
+   23970,
+   "2026-11-25 18:11"
   ],
   "GRU-SSA-1": [
    802,
    "2026-11-25 06:28"
   ],
   "GRU-USH-1": [
-   3218,
-   "2026-11-25 06:28"
+   2585,
+   "2026-11-25 18:11"
   ],
   "GRU-FTE-1": [
    2785,
@@ -2115,48 +2177,48 @@
    "2026-11-25 06:28"
   ],
   "GIG-SIN-2": [
-   7990,
-   "2026-11-17 12:05"
+   8541,
+   "2026-11-25 18:11"
   ],
   "GIG-FCO-2": [
-   4894,
-   "2026-11-17 12:05"
+   4912,
+   "2026-11-25 18:11"
   ],
   "GIG-BCN-2": [
-   4819,
-   "2026-11-17 12:05"
+   6139,
+   "2026-11-25 18:11"
   ],
   "GIG-SFO-2": [
-   4449,
-   "2026-11-17 12:05"
+   4230,
+   "2026-11-25 18:11"
   ],
   "GIG-LAX-2": [
-   3650,
-   "2026-11-17 12:05"
+   4211,
+   "2026-11-25 18:11"
   ],
   "GIG-AMS-2": [
-   4918,
-   "2026-11-17 12:05"
+   5005,
+   "2026-11-25 18:11"
   ],
   "GIG-DXB-2": [
    5715,
    "2026-11-18 12:10"
   ],
   "GIG-VCE-2": [
-   5253,
-   "2026-11-17 12:05"
+   6465,
+   "2026-11-25 18:11"
   ],
   "GIG-ORD-2": [
-   3011,
-   "2026-11-17 12:05"
+   2662,
+   "2026-11-25 18:11"
   ],
   "GIG-DCA-2": [
-   4210,
-   "2026-11-17 12:05"
+   3964,
+   "2026-11-25 18:11"
   ],
   "GIG-HKG-2": [
-   7443,
-   "2026-11-17 12:05"
+   7433,
+   "2026-11-25 18:11"
   ],
   "GIG-HND-2": [
    7656,
@@ -2167,16 +2229,16 @@
    "2026-11-22 05:59"
   ],
   "GIG-BER-2": [
-   5493,
-   "2026-11-17 12:05"
+   5259,
+   "2026-11-25 18:11"
   ],
   "GIG-LAS-2": [
-   5042,
-   "2026-11-17 12:05"
+   4681,
+   "2026-11-25 18:11"
   ],
   "GIG-FLR-2": [
-   4982,
-   "2026-11-17 12:05"
+   5242,
+   "2026-11-25 18:11"
   ],
   "GIG-EDI-2": [
    6205,
@@ -2743,20 +2805,20 @@
    "2026-11-20 06:17"
   ],
   "GRU-FLR-3": [
-   5479,
-   "2026-11-20 06:17"
+   4906,
+   "2026-11-25 18:11"
   ],
   "GRU-EDI-3": [
    6443,
    "2026-11-20 06:17"
   ],
   "GRU-PRG-3": [
-   5511,
-   "2026-11-20 06:17"
+   4612,
+   "2026-11-25 18:11"
   ],
   "GRU-ATH-3": [
-   5911,
-   "2026-11-20 06:17"
+   4970,
+   "2026-11-25 18:11"
   ],
   "GRU-IST-3": [
    5855,
@@ -2883,8 +2945,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-LIM-3": [
-   2800,
-   "2026-11-20 23:59"
+   2490,
+   "2026-11-25 18:11"
   ],
   "GRU-ANC-3": [
    7130,
@@ -2931,8 +2993,8 @@
    "2026-11-21 05:59"
   ],
   "GRU-UBN-3": [
-   19499,
-   "2026-11-21 05:59"
+   16225,
+   "2026-11-25 18:11"
   ],
   "GRU-HRB-3": [
    10692,
@@ -2947,8 +3009,8 @@
    "2026-11-21 05:59"
   ],
   "GRU-GPS-3": [
-   4174,
-   "2026-11-21 05:59"
+   3741,
+   "2026-11-25 18:11"
   ],
   "GRU-WKJ-3": [
    42283,
@@ -3023,8 +3085,8 @@
    "2026-11-24 12:18"
   ],
   "GIG-DUB-1": [
-   5792,
-   "2026-11-21 05:59"
+   5183,
+   "2026-11-25 18:11"
   ],
   "GIG-YVR-1": [
    4590,
@@ -3127,8 +3189,8 @@
    "2026-11-21 12:00"
   ],
   "GIG-USH-1": [
-   2982,
-   "2026-11-21 12:00"
+   2668,
+   "2026-11-25 18:11"
   ],
   "GIG-FTE-1": [
    2770,
@@ -3239,8 +3301,8 @@
    "2026-11-21 17:54"
   ],
   "GRU-IAD-3": [
-   4059,
-   "2026-11-21 17:54"
+   3498,
+   "2026-11-25 18:11"
   ],
   "GRU-NRT-3": [
    7493,
@@ -3263,8 +3325,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-CPH-2": [
-   6843,
-   "2026-11-21 17:54"
+   5129,
+   "2026-11-25 18:11"
   ],
   "GIG-MSY-2": [
    5083,
@@ -3355,8 +3417,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-FTE-2": [
-   2770,
-   "2026-11-21 17:54"
+   2405,
+   "2026-11-25 18:11"
   ],
   "GIG-SEZ-2": [
    8693,
@@ -3459,8 +3521,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-BER-3": [
-   6553,
-   "2026-11-22 05:59"
+   5259,
+   "2026-11-25 18:11"
   ],
   "GIG-LAS-3": [
    4735,
@@ -3643,8 +3705,8 @@
    "2026-11-22 11:59"
   ],
   "GIG-UBN-3": [
-   17261,
-   "2026-11-22 11:59"
+   15043,
+   "2026-11-25 18:11"
   ],
   "GIG-HRB-3": [
    12018,
@@ -3691,16 +3753,16 @@
    "2026-11-24 00:05"
   ],
   "GIG-ORY-1": [
-   5684,
-   "2026-11-24 06:23"
+   4978,
+   "2026-11-25 18:11"
   ],
   "GRU-LHR-3": [
-   5418,
-   "2026-11-24 18:07"
+   4345,
+   "2026-11-25 18:11"
   ],
   "GRU-ORY-1": [
-   5106,
-   "2026-11-25 00:13"
+   4574,
+   "2026-11-25 18:11"
   ],
   "GRU-FLL-3": [
    3311,
@@ -3715,15 +3777,48 @@
    "2026-11-25 00:13"
   ],
   "GIG-ORY-2": [
-   6582,
-   "2026-11-25 00:13"
+   5012,
+   "2026-11-25 18:11"
   ],
   "GIG-EZE-3": [
    2040,
    "2026-11-25 00:13"
+  ],
+  "CNF-ORY-1": [
+   5062,
+   "2026-11-25 18:11"
+  ],
+  "CNF-ORY-2": [
+   5062,
+   "2026-11-25 18:11"
+  ],
+  "GRU-GMP-3": [
+   6691,
+   "2026-11-25 18:11"
+  ],
+  "GIG-GPS-2": [
+   26067,
+   "2026-11-25 18:11"
+  ],
+  "GIG-ORY-3": [
+   5039,
+   "2026-11-25 18:11"
   ]
  },
- "promos_fila": [],
- "rodadas": 39,
+ "promos_fila": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM Pass oferece 60% de bônus na transferência de pontos do Premmia – CPM a partir de R$ 24,06",
+   "link": "https://passageirodeprimeira.com/latam-pass-oferece-60-de-bonus-na-transferencia-de-pontos-do-premmia-cpm-a-partir-de-r-2406/",
+   "visto_em": "2026-11-25"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Livelo oferece até 30% off em passagens para o Japão + 30% de pointsback",
+   "link": "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-em-passagens-para-o-japao-30-de-pointsback/",
+   "visto_em": "2026-11-25"
+  }
+ ],
+ "rodadas": 40,
  "vigilia_resumo": "2026-11-25"
 }
