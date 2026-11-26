@@ -22683,3 +22683,18 @@ coletado_em,origem,destino,ida,volta,preco,cia,paradas,fonte,faixa_baixa,faixa_a
 2026-11-26 06:26,GIG,KZN,2026-12-12,,7709,Gol e Turkish Airlines,2,explorar,,,Cazã,Ásia,economica,ida
 2026-11-26 06:26,GIG,GPS,2027-04-08,,2261,LATAM,2,explorar,,,Ilha de Baltra,América do Sul,economica,ida
 2026-11-26 06:26,GIG,WKJ,2026-12-16,,10737,ANA e United,3,explorar,,,Wakkanai,Ásia,economica,ida
+2026-11-26 12:18,CNF,NAT,2027-01-13,2027-01-16,1568,Gol,2,google,1300,2100,,,economica,iv
+2026-11-26 12:18,CNF,POA,2027-01-16,2027-01-26,660,Azul,1,google,460,1100,,,economica,iv
+2026-11-26 12:18,CNF,CWB,2027-01-17,2027-01-20,936,LATAM,1,google,620,1250,,,economica,iv
+2026-11-26 12:18,CNF,MAO,2027-01-20,2027-01-30,1533,Azul,1,google,1500,2550,,,economica,iv
+2026-11-26 12:18,CNF,BEL,2027-01-21,2027-01-24,1932,LATAM,1,google,1200,2400,,,economica,iv
+2026-11-26 12:18,CNF,EZE,2027-01-22,2027-01-26,2784,LATAM,1,google,1950,2950,,,economica,iv
+2026-11-26 12:18,CNF,SCL,2027-01-23,2027-01-28,2006,LATAM,1,google,1550,2450,,,economica,iv
+2026-11-26 12:18,CNF,LIM,2027-01-25,2027-01-28,3030,LATAM,1,google,2850,4000,,,economica,iv
+2026-11-26 12:18,CNF,MIA,2027-01-28,2027-02-07,4990,COPA,1,google,3350,6600,,,economica,iv
+2026-11-26 12:18,CNF,MCO,2027-01-29,2027-02-01,5715,COPA,1,google,4000,8000,,,economica,iv
+2026-11-26 12:18,CNF,JFK,2027-01-30,2027-02-03,5171,COPA,1,google,4000,8200,,,economica,iv
+2026-11-26 12:18,CNF,YYZ,2027-01-02,2027-01-12,13426,Gol + American,2,google,4000,8100,,,economica,iv
+2026-11-26 12:18,CNF,PUJ,2027-01-05,2027-01-10,4838,LATAM,1,google,4150,6500,,,economica,iv
+2026-11-26 12:18,CNF,BCN,2027-01-09,2027-01-14,11480,Azul + Tap Air Portugal,2,google,6000,10500,,,economica,iv
+2026-11-26 12:18,CNF,FCO,2027-01-11,2027-01-14,8291,Gol + Air Europa,2,google,6300,10500,,,economica,iv
