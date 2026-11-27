@@ -1,5 +1,5 @@
 {
- "cursor": 162,
+ "cursor": 192,
  "ciclo": 2,
  "alertados": {
   "CNF-GRU": [
@@ -862,9 +862,20 @@
   "https://www.fly4free.com/news/10-scenic-bus-routes-across-europe-mountain-passes-winding-roads-and-coastal-views/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-seychelles-e535/",
   "https://www.fly4free.com/flight-deals/europe/4-star-hotel-in-lisbon-e57-2/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-mauritius-e425/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-to-mauritius-e425/",
+  "https://passageirodeprimeira.com/azul-tem-passagens-a-partir-de-r-176-por-trecho/",
+  "https://passageirodeprimeira.com/aproveite-mercado-livre-oferece-cupom-ate-25-desconto-compras/",
+  "https://passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392/",
+  "https://passageirodeprimeira.com/ja-e-cliente-nomad-aproveite-ate-35-de-cashback-na-proxima-conversao-somente-hoje/",
+  "https://passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Azul tem passagens a partir de R$ 176 por trecho",
+   "link": "https://passageirodeprimeira.com/azul-tem-passagens-a-partir-de-r-176-por-trecho/",
+   "visto_em": "2026-11-27"
+  },
   {
    "fonte": "Melhores Destinos",
    "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
@@ -1097,12 +1108,6 @@
    "fonte": "Passageiro de Primeira",
    "titulo": "Confira passagens nacionais a partir de 7.500 mil milhas Smiles + taxas",
    "link": "https://passageirodeprimeira.com/confira-passagens-nacionais-a-partir-7-500-mil-milhas-smiles-taxas/",
-   "visto_em": "2026-11-21"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Segue valendo! Ganhe até 80.000 pontos bônus ao pedir o seu cartão Azul Itaú",
-   "link": "https://passageirodeprimeira.com/segue-valendo-ganhe-ate-80-000-pontos-bonus-ao-pedir-o-seu-cartao-azul-itau/",
    "visto_em": "2026-11-21"
   }
  ],
@@ -2501,8 +2506,8 @@
    "2026-11-20 06:17"
   ],
   "GRU-SFO-2": [
-   5094,
-   "2026-11-18 12:10"
+   4525,
+   "2026-11-27 00:14"
   ],
   "GRU-DXB-2": [
    4966,
@@ -3893,68 +3898,7 @@
    "2026-11-26 06:26"
   ]
  },
- "promos_fila": [
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday Chile! Passagens Latam para Santiago desde R$ 1.597 ida e volta, em 10x sem juros – incluindo inverno 2027",
-   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-chile-latam-voos-santiao-1597",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday Latam no ar! Passagens aéreas nacionais a partir de R$ 267 ida e volta – opções para 55 destinos",
-   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-passagens-nacionais-267",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday Latam Europa! Voos para Lisboa, Roma, Amsterdã e mais destinos a partir de R$ 3.895 ida e volta, em 10x sem juros",
-   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-europa-voos-lisboa-roma-3895",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Mega Promo Latam tem passagens aéreas com até 40% OFF nesta Black Friday",
-   "link": "https://www.melhoresdestinos.com.br/promocao/mega-mega-promo-latam-black-friday-2026",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday Latam EUA! Voos para Nova York, Orlando e Miami a partir de R$ 2.828 ida e volta, em 10x sem juros",
-   "link": "https://www.melhoresdestinos.com.br/promocao/black-friday-latam-eua-passagens-nova-york-orlando-miami-2868",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Melhores Destinos",
-   "titulo": "Black Friday! Confira 17 itens essenciais de viagem em promoção na Amazon",
-   "link": "https://www.melhoresdestinos.com.br/black-friday-produtos-viagem.html",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Últimos dias para ganhar até 55 mil milhas bônus solicitando o cartão GOL Smiles",
-   "link": "https://passageirodeprimeira.com/ultimos-dias-para-ganhar-ate-55-mil-milhas-bonus-solicitando-o-cartao-gol-smiles/",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM Friday oferece passagens promocionais a partir de R$ 119",
-   "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-partir-r-119/",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade oferece até 35% de desconto no resgate de passagens nacionais e internacionais",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-35-de-desconto-no-resgate-de-passagens-nacionais-e-internacionais/",
-   "visto_em": "2026-11-26"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Madri a partir de 14 mil Avios! Iberia Club oferece até 20% de desconto no resgate de passagens",
-   "link": "https://passageirodeprimeira.com/madri-a-partir-de-14-mil-avios-iberia-club-oferece-ate-20-de-desconto-no-resgate-de-passagens/",
-   "visto_em": "2026-11-26"
-  }
- ],
- "rodadas": 44,
+ "promos_fila": [],
+ "rodadas": 45,
  "vigilia_resumo": "2026-11-26"
 }
