@@ -16,7 +16,7 @@ import radar
 CFG = radar.CFG["vigilia"]
 MEDIDAS = radar.DADOS / "vigilia.csv"
 QUEDAS = radar.DADOS / "quedas.csv"
-CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "faixa_baixa"]
+CAMPOS = ["coletado_em", "origem", "destino", "ida", "volta", "preco", "cia", "faixa_baixa", "faixa_alta", "paradas"]
 CAMPOS_QUEDA = ["noite", "dia_semana", "hora_minimo", "origem", "destino", "ida", "volta", "cia",
                 "referencia", "minimo", "queda", "manha", "persistiu", "faixa_verde"]
 DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
@@ -66,7 +66,8 @@ def medir(agora):
             print(f"  falha {origem}-{destino} {ida}: {type(erro).__name__}: {str(erro)[:100]}")
         if achado:
             linhas.append({"coletado_em": agora, "origem": origem, "destino": destino, "ida": ida, "volta": volta,
-                           "preco": achado["preco"], "cia": achado["cia"], "faixa_baixa": achado["faixa_baixa"]})
+                           "preco": achado["preco"], "cia": achado["cia"], "faixa_baixa": achado["faixa_baixa"],
+                           "faixa_alta": achado["faixa_alta"], "paradas": achado["paradas"]})
         time.sleep(random.uniform(*radar.CFG["pausa_entre_consultas_seg"]))
     return linhas, falhas
 
@@ -99,6 +100,22 @@ def quedas_da_noite(medidas, agora_dt):
     return sorted(achadas, key=lambda q: -q["queda"])
 
 
+def avisar_imperdiveis(novas, estado, meds):
+    """Avisa na hora, inclusive de madrugada: promoção relâmpago costuma sumir antes de amanhecer."""
+    enviados = 0
+    for m in sorted(novas, key=lambda m: m["preco"]):
+        if not m.get("faixa_baixa"):
+            continue
+        o = radar.avaliar({**m, "fonte": "google", "classe": "economica", "tipo": "iv"}, meds)
+        if not o["imperdivel"] or not radar.registrar_aviso(estado, o):
+            continue
+        texto = radar.texto_oportunidade(o) + f"\n🌙 Flagrado pela vigília às {m['coletado_em'][11:16]}: pode durar pouco."
+        radar.telegram(texto, prioridade=4)
+        enviados += 1
+        time.sleep(1)
+    return enviados
+
+
 def texto_resumo(quedas, medidos):
     if not quedas:
         return (f"<b>🌙 Madrugada sem promoção</b>\nNenhum dos {medidos} voos vigiados caiu "
@@ -125,6 +142,11 @@ def main():
     medidas = [m for m in ler(MEDIDAS) if m["coletado_em"][:10] >= corte] + novas
     gravar(MEDIDAS, CAMPOS, medidas)
 
+    historico = radar.ler_historico()
+    meds = radar.medianas(historico)
+    estado.setdefault("alertados", {})
+    avisos = avisar_imperdiveis(novas, estado, meds)
+
     resumo_feito = False
     inicio_noite = (agora_dt - timedelta(days=1)).replace(hour=CFG["noite_comeca_hora"], minute=0).strftime("%Y-%m-%d %H:%M")
     rodadas_da_noite = len({m["coletado_em"] for m in medidas if m["coletado_em"] >= inicio_noite})
@@ -133,15 +155,15 @@ def main():
         quedas = quedas_da_noite(medidas, agora_dt)
         gravar(QUEDAS, CAMPOS_QUEDA, ler(QUEDAS) + quedas)
         voos = len({(m["origem"], m["destino"], m["ida"]) for m in novas})
-        radar.telegram(texto_resumo(quedas, voos), prioridade=3 if quedas else 2)
+        if CFG.get("resumo_manha", True):  # as quedas sempre vão para o registro e o painel
+            radar.telegram(texto_resumo(quedas, voos), prioridade=3 if quedas else 2)
         estado["vigilia_resumo"] = agora[:10]
         resumo_feito = True
 
-    historico = radar.ler_historico()
-    radar.gerar_painel(historico, radar.medianas(historico), {"promos": [], **estado}, agora)
+    radar.gerar_painel(historico, meds, {"promos": [], **estado}, agora)
     radar.ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{agora}: vigília mediu {len(novas)} voos, {falhas} falhas"
-          + (", resumo da madrugada enviado." if resumo_feito else "."))
+    print(f"{agora}: vigília mediu {len(novas)} voos, {falhas} falhas, {avisos} imperdível(is) avisada(s)"
+          + (", quedas da noite registradas." if resumo_feito else "."))
 
 
 if __name__ == "__main__":

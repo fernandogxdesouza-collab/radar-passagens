@@ -625,22 +625,32 @@ def texto_oportunidade(o):
     return "\n".join(partes)
 
 
-def detectar(novas, meds, estado):
-    # Uma rota já avisada fica 3 dias em silêncio, salvo se o preço cair mais 5%.
+def merece_aviso(o):
+    """Com notificar_so_imperdiveis, só o "imperdível" (20% ou mais abaixo do piso verde) vai para o celular."""
+    return o["imperdivel"] if CFG.get("notificar_so_imperdiveis") else o["oportunidade"]
+
+
+def registrar_aviso(estado, o):
+    """Uma rota já avisada fica 3 dias em silêncio, salvo se o preço cair mais 5%. Devolve se pode avisar."""
     hoje = date.today().isoformat()
     corte = (date.today() - timedelta(days=3)).isoformat()
-    estado["alertados"] = {k: v for k, v in estado["alertados"].items() if v[1] >= corte}
+    estado["alertados"] = {k: v for k, v in estado.get("alertados", {}).items() if v[1] >= corte}
+    chave = f"{o['origem']}-{o['destino']}"
+    anterior = estado["alertados"].get(chave)
+    if anterior and o["preco"] > anterior[0] * 0.95:
+        return False
+    estado["alertados"][chave] = [o["preco"], hoje]
+    return True
+
+
+def detectar(novas, meds, estado):
     achadas = []
     for linha in sorted(novas, key=lambda l: l["preco"]):
         o = avaliar(linha, meds)
-        if not o["oportunidade"] or linha["fonte"] == "explorar":  # "explorar" só vale depois de conferido
+        if linha["fonte"] == "explorar" or not merece_aviso(o):  # "explorar" só vale depois de conferido
             continue
-        chave = f"{o['origem']}-{o['destino']}"
-        anterior = estado["alertados"].get(chave)
-        if anterior and o["preco"] > anterior[0] * 0.95:
-            continue
-        estado["alertados"][chave] = [o["preco"], hoje]
-        achadas.append(o)
+        if registrar_aviso(estado, o):
+            achadas.append(o)
     achadas.sort(key=lambda o: -o["folga"])
     return achadas[: CFG["max_alertas_por_execucao"]]
 
@@ -746,9 +756,9 @@ def main():
             telegram(texto_oportunidade(o), prioridade=4 if o["imperdivel"] else 3)
             time.sleep(1)
 
-    # Promoções dos blogs: acumulam e saem uma vez por dia, em silêncio.
+    # Promoções dos blogs: vão para o painel; no celular só se notificar_so_imperdiveis estiver desligado.
     promos = ler_feeds(estado)
-    estado["promos_fila"] = promos + estado.get("promos_fila", [])
+    estado["promos_fila"] = [] if CFG.get("notificar_so_imperdiveis") else promos + estado.get("promos_fila", [])
     inicio, fim = CFG["promos_janela_horas"]
     if estado["promos_fila"] and inicio <= int(agora[11:13]) < fim:
         linhas = [f'• <a href="{p["link"]}">{html.escape(p["titulo"])}</a> ({p["fonte"]})'

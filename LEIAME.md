@@ -49,6 +49,17 @@ Robô à parte ([vigilia.py](vigilia.py), workflow `vigilia.yml`) para flagrar p
 - **Padrão:** cada queda fica em `dados/quedas.csv` (noite, dia da semana, hora, rota, companhia, tamanho da queda, se persistiu). O painel mostra a tabela e as contagens por hora, dia e companhia. Só dá para falar em padrão depois de 2 a 4 semanas de noites medidas.
 - **Ajuste:** a cesta e os limites ficam em `config.json`, bloco `vigilia`.
 
+## O que chega no celular
+
+Desde 26/11/2026 (`notificar_so_imperdiveis: true` no `config.json`), o ntfy recebe **apenas passagens imperdíveis**: preço 20% ou mais abaixo do piso da faixa verde do Google (`folga_imperdivel`).
+
+- **Radar (4 vezes ao dia):** só o imperdível é avisado. Faixa verde comum continua no painel, com o selo "faixa verde".
+- **Vigília da madrugada:** se um dos voos vigiados ficar imperdível, o aviso sai na hora, mesmo de madrugada, porque promoção relâmpago costuma sumir antes de amanhecer. O resumo da manhã está desligado (`vigilia.resumo_manha: false`); as quedas continuam registradas no painel, seção Madrugada.
+- **Promoções dos blogs:** só no painel.
+- **Exceção:** o aviso de defeito ("4 execuções seguidas sem conseguir ler preços") continua, porque sem ele o robô pode parar em silêncio.
+
+Para voltar a receber tudo, troque `notificar_so_imperdiveis` para `false` e `resumo_manha` para `true`. Para silenciar a madrugada, use o "não perturbe" do app ntfy por horário.
+
 ## Instalação (uns 20 minutos, uma vez só)
 
 ### 1. Bot do Telegram
