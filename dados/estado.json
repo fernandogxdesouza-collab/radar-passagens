@@ -1,5 +1,5 @@
 {
- "cursor": 192,
+ "cursor": 222,
  "ciclo": 2,
  "alertados": {
   "CNF-GRU": [
@@ -9,18 +9,6 @@
   "GIG-FLR": [
    5272,
    "2026-11-25"
-  ],
-  "GRU-SFB": [
-   2198,
-   "2026-11-23"
-  ],
-  "CNF-LHR": [
-   5489,
-   "2026-11-23"
-  ],
-  "CNF-DXB": [
-   5896,
-   "2026-11-23"
   ],
   "CNF-MIA": [
    3952,
@@ -35,8 +23,8 @@
    "2026-11-24"
   ],
   "CNF-JNB": [
-   4532,
-   "2026-11-24"
+   3953,
+   "2026-11-27"
   ],
   "CNF-BCN": [
    4545,
@@ -91,8 +79,8 @@
    "2026-11-24"
   ],
   "CNF-CPT": [
-   5362,
-   "2026-11-24"
+   4642,
+   "2026-11-27"
   ],
   "CNF-VIE": [
    5394,
@@ -279,8 +267,8 @@
    "2026-11-26"
   ],
   "GRU-CPT": [
-   4406,
-   "2026-11-26"
+   3764,
+   "2026-11-27"
   ],
   "CNF-HND": [
    7435,
@@ -321,6 +309,22 @@
   "GIG-MEL": [
    8162,
    "2026-11-26"
+  ],
+  "GRU-SDU": [
+   357,
+   "2026-11-27"
+  ],
+  "CNF-BSB": [
+   398,
+   "2026-11-27"
+  ],
+  "GIG-JNB": [
+   3643,
+   "2026-11-27"
+  ],
+  "GRU-MEL": [
+   6620,
+   "2026-11-27"
   ]
  },
  "feeds_vistos": [
@@ -867,9 +871,95 @@
   "https://passageirodeprimeira.com/aproveite-mercado-livre-oferece-cupom-ate-25-desconto-compras/",
   "https://passageirodeprimeira.com/receba-ate-392-000-pontos-ao-assinar-o-clube-livelo-premium-milheiro-a-partir-de-r-2392/",
   "https://passageirodeprimeira.com/ja-e-cliente-nomad-aproveite-ate-35-de-cashback-na-proxima-conversao-somente-hoje/",
-  "https://passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404/"
+  "https://passageirodeprimeira.com/ultimas-horas-para-assinar-assinar-o-clube-livelo-premium-e-receber-ate-390-000-pontos-cpm-a-partir-de-r-2404/",
+  "https://www.melhoresdestinos.com.br/promocao/ultimo-dia-aluguel-de-carro-black-27nov26",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-executiva-europa-26-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-caribe-mexico-26-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/cupom-decolar-500-off-black-friday",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-america-do-sul-26-11-26",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-oceania-26-11-26",
+  "https://www.melhoresdestinos.com.br/live-mega-promo-latam-black-friday-2026-yt.html",
+  "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
+  "https://www.melhoresdestinos.com.br/black-friday-2026-cruzeiros-caribe.html",
+  "https://passageirodeprimeira.com/pink-hour-livelo-acumule-ate-21-pontos-por-real-gasto-na-insider-olympikus-e-mais-parceiros/",
+  "https://passageirodeprimeira.com/receba-10-000-pontos-livelo-ao-assinar-o-clube-mini-por-apenas-r-2490-por-mes/",
+  "https://passageirodeprimeira.com/partiu-toquio-viaje-para-capital-japao-a-partir-207-mil-pontos-azul-taxas/",
+  "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-passagens-portugal-40-pointsback-cvc/",
+  "https://passageirodeprimeira.com/recife-para-barcelona-executiva-a-partir-194-milhas-latam-pass-taxas/",
+  "https://passageirodeprimeira.com/livelo-oferece-ate-571-de-desconto-na-compra-de-pontos-para-assinantes-do-clube-milheiro-a-partir-de-r-2913/",
+  "https://passageirodeprimeira.com/executiva-para-orlando-a-partir-176-mil-milhas-smiles-taxas/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-the-baltic-countries-to-bangkok-e561/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-frankfurt-london-to-bali-e505/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-lisbon-to-sao-tome-2/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-katowice-to-vietnam-e485/"
  ],
  "promos": [
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Europa de Executiva! Mega Promo Latam tem voos para Lisboa, Madri e outras cidades a partir de R$ 10.070 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-executiva-europa-26-11-26",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "México e Caribe! Mega Promo Latam tem voos para Costa Rica, Cancún e mais a partir de R$ 2.348 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-caribe-mexico-26-11-26",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "[Esgotado] 20 cupons exclusivos com R$ 500 OFF na Decolar para passagem, pacote, hotel ou passeio",
+   "link": "https://www.melhoresdestinos.com.br/promocao/cupom-decolar-500-off-black-friday",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "América do Sul! Latam, Jetsmart e Sky têm voos para Argentina, Chile, Uruguai e mais destinos a partir de R$ 940 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-america-do-sul-26-11-26",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Oceania! Mega Promo Latam tem voos para Austrália ou Nova Zelândia a partir de R$ 6.044 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-oceania-26-11-26",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "🔴 [LIVE] MEGA PROMO LATAM: até 40% OFF! Brasil, Chile, EUA e Europa | Nacionais desde R$ 267 ida e volta",
+   "link": "https://www.melhoresdestinos.com.br/live-mega-promo-latam-black-friday-2026-yt.html",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "África do Sul 🇿🇦 Mega Promo Latam tem voos para Joanesburgo ou Cidade do Cabo a partir de R$ 3.564 ida e volta!",
+   "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-mega-promo-latam-africa-do-sul-26-11-26",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Melhores Destinos",
+   "titulo": "Black Friday! Promoção de cruzeiros no Caribe a partir de R$ 959 por pessoa",
+   "link": "https://www.melhoresdestinos.com.br/black-friday-2026-cruzeiros-caribe.html",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Livelo oferece até 30% off em passagens para Portugal + 40% de pointsback na CVC",
+   "link": "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-passagens-portugal-40-pointsback-cvc/",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Trecho de Recife para Barcelona em Executiva a partir de 194 milhas LATAM Pass + taxas",
+   "link": "https://passageirodeprimeira.com/recife-para-barcelona-executiva-a-partir-194-milhas-latam-pass-taxas/",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Executiva para Orlando a partir de 176 mil milhas Smiles + taxas",
+   "link": "https://passageirodeprimeira.com/executiva-para-orlando-a-partir-176-mil-milhas-smiles-taxas/",
+   "visto_em": "2026-11-27"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Azul tem passagens a partir de R$ 176 por trecho",
@@ -1043,79 +1133,13 @@
    "titulo": "Azul Viagens oferece cupom de 20% de desconto em reservas de passagens e hotéis",
    "link": "https://passageirodeprimeira.com/azul-viagens-oferece-cupom-20-desconto-reservas-passagens-hoteis/",
    "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Classe Executiva da TAP para Roma por R$ 3.401 + taxas o trecho pela Livelo",
-   "link": "https://passageirodeprimeira.com/classe-executiva-da-tap-para-roma-por-r-3-401-taxas-o-trecho-pela-livelo/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Valendo! LATAM Pass reajusta tabela fixa de resgate com companhias parceiras",
-   "link": "https://passageirodeprimeira.com/valendo-latam-pass-reajusta-tabela-fixa-de-resgate-com-companhias-parceiras/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Livelo oferece até 30% off em passagens para Itália + 30% de pointsback",
-   "link": "https://passageirodeprimeira.com/livelo-oferece-ate-30-off-em-passagens-para-italia-30-de-pointsback/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade oferece até 320% de bônus na compra de pontos",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-320-de-bonus-na-compra-de-pontos-2/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Iberia oferece passagens a partir de € 18 por trecho",
-   "link": "https://passageirodeprimeira.com/iberia-oferece-passagens-a-partir-de-e-18-por-trecho/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "LATAM Pass oferece 27% de bônus na transferência de pontos Livelo",
-   "link": "https://passageirodeprimeira.com/latam-pass-oferece-27-de-bonus-na-transferencia-de-pontos-livelo/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Aer Lingus anuncia suítes com portas na Classe Executiva e nova Premium Economy",
-   "link": "https://passageirodeprimeira.com/aer-lingus-anuncia-suites-com-portas-na-classe-executiva-e-nova-premium-economy/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Fly4free",
-   "titulo": "Exotic combination of flights 😎 🌴 Cape Verde + Recife, Brazil in one tropical trip from Amsterdam for €526",
-   "link": "https://www.fly4free.com/flight-deals/europe/trip-from-amsterdam-to-cape-verde-and-recife-e526/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Fly4free",
-   "titulo": "BRAZILIAN SUMMER 😎 🍹 Non-stop flights from Madrid to Sao Paulo for €587",
-   "link": "https://www.fly4free.com/flight-deals/europe/flights-from-madrid-to-sao-paulo-e587/",
-   "visto_em": "2026-11-23"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Último dia! Hilton Honors oferece 120% de bônus na compra de pontos",
-   "link": "https://passageirodeprimeira.com/ultimo-dia-hilton-honors-oferece-120-de-bonus-na-compra-de-pontos/",
-   "visto_em": "2026-11-21"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Confira passagens nacionais a partir de 7.500 mil milhas Smiles + taxas",
-   "link": "https://passageirodeprimeira.com/confira-passagens-nacionais-a-partir-7-500-mil-milhas-smiles-taxas/",
-   "visto_em": "2026-11-21"
   }
  ],
  "falhas_seguidas": 0,
  "explorar": {
   "CNF-GIG-1": [
-   599,
-   "2026-11-22 11:59"
+   353,
+   "2026-11-27 06:25"
   ],
   "CNF-GRU-1": [
    385,
@@ -1210,8 +1234,8 @@
    "2026-11-23 18:03"
   ],
   "CNF-SYD-1": [
-   10921,
-   "2026-11-23 18:03"
+   9800,
+   "2026-11-27 06:25"
   ],
   "CNF-MIA-1": [
    3953,
@@ -1290,8 +1314,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-AEP-1": [
-   2786,
-   "2026-11-23 18:03"
+   2441,
+   "2026-11-27 06:25"
   ],
   "CNF-PER-1": [
    15345,
@@ -1306,8 +1330,8 @@
    "2026-11-25 06:28"
   ],
   "CNF-ZQN-1": [
-   19508,
-   "2026-11-23 18:03"
+   17341,
+   "2026-11-27 06:25"
   ],
   "CNF-HNL-1": [
    6941,
@@ -1442,8 +1466,8 @@
    "2026-11-24 12:18"
   ],
   "CNF-CPT-2": [
-   5362,
-   "2026-11-24 00:05"
+   4642,
+   "2026-11-27 06:25"
   ],
   "CNF-MLA-2": [
    5200,
@@ -1470,8 +1494,8 @@
    "2026-11-24 00:05"
   ],
   "CNF-CPH-2": [
-   6086,
-   "2026-11-24 00:05"
+   5407,
+   "2026-11-27 06:25"
   ],
   "CNF-MSY-2": [
    6866,
@@ -1578,8 +1602,8 @@
    "2026-11-26 06:26"
   ],
   "CNF-GPS-1": [
-   5979,
-   "2026-11-19 12:12"
+   5225,
+   "2026-11-27 06:25"
   ],
   "CNF-WKJ-1": [
    12338,
@@ -1594,8 +1618,8 @@
    "2026-11-25 00:13"
   ],
   "CNF-JNB-2": [
-   4532,
-   "2026-11-24 06:23"
+   3953,
+   "2026-11-27 06:25"
   ],
   "CNF-LIH-2": [
    11734,
@@ -1622,8 +1646,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-SSA-2": [
-   916,
-   "2026-11-19 00:04"
+   592,
+   "2026-11-27 06:25"
   ],
   "CNF-USH-2": [
    4125,
@@ -1670,8 +1694,8 @@
    "2026-11-20 06:17"
   ],
   "CNF-LAX-3": [
-   5206,
-   "2026-11-24 06:23"
+   4308,
+   "2026-11-27 06:25"
   ],
   "CNF-CDG-3": [
    6274,
@@ -1690,16 +1714,16 @@
    "2026-11-19 12:12"
   ],
   "CNF-FCO-3": [
-   5250,
-   "2026-11-24 06:23"
+   4687,
+   "2026-11-27 06:25"
   ],
   "CNF-BCN-3": [
    4545,
    "2026-11-25 00:13"
   ],
   "CNF-CGH-1": [
-   414,
-   "2026-11-16 18:00"
+   361,
+   "2026-11-27 06:25"
   ],
   "CNF-SFO-3": [
    5006,
@@ -1794,8 +1818,8 @@
    "2026-11-24 18:07"
   ],
   "CNF-CPT-3": [
-   5362,
-   "2026-11-24 18:07"
+   4642,
+   "2026-11-27 06:25"
   ],
   "CNF-MLA-3": [
    5257,
@@ -1842,12 +1866,12 @@
    "2026-11-22 05:59"
   ],
   "CNF-GIG-3": [
-   633,
-   "2026-11-24 18:07"
+   353,
+   "2026-11-27 06:25"
   ],
   "CNF-EZE-3": [
-   2802,
-   "2026-11-24 18:07"
+   2262,
+   "2026-11-27 06:25"
   ],
   "CNF-PER-3": [
    21254,
@@ -1870,16 +1894,16 @@
    "2026-11-19 12:12"
   ],
   "CNF-JNB-3": [
-   4532,
-   "2026-11-24 18:07"
+   3953,
+   "2026-11-27 06:25"
   ],
   "CNF-LIH-3": [
    10963,
    "2026-11-20 23:59"
   ],
   "CNF-LIM-3": [
-   3311,
-   "2026-11-24 18:07"
+   2962,
+   "2026-11-27 06:25"
   ],
   "CNF-ANC-3": [
    11581,
@@ -1902,8 +1926,8 @@
    "2026-11-19 00:04"
   ],
   "CNF-SSA-3": [
-   959,
-   "2026-11-24 18:07"
+   777,
+   "2026-11-27 06:25"
   ],
   "CNF-USH-3": [
    6515,
@@ -1962,8 +1986,8 @@
    "2026-11-24 18:07"
   ],
   "GRU-BOS-1": [
-   4438,
-   "2026-11-20 06:17"
+   3929,
+   "2026-11-27 06:25"
   ],
   "GRU-AMS-1": [
    5183,
@@ -1974,16 +1998,16 @@
    "2026-11-25 18:11"
   ],
   "GRU-MAD-1": [
-   4007,
-   "2026-11-24 18:07"
+   3295,
+   "2026-11-27 06:25"
   ],
   "GRU-CPT-1": [
    5394,
    "2026-11-24 18:07"
   ],
   "GRU-FCO-1": [
-   4660,
-   "2026-11-24 18:07"
+   4179,
+   "2026-11-27 06:25"
   ],
   "GRU-SIN-1": [
    8815,
@@ -2530,8 +2554,8 @@
    "2026-11-18 12:10"
   ],
   "GRU-SYD-2": [
-   8898,
-   "2026-11-18 12:10"
+   7354,
+   "2026-11-27 06:25"
   ],
   "GRU-HND-2": [
    7341,
@@ -2610,16 +2634,16 @@
    "2026-11-18 18:06"
   ],
   "GRU-MEL-2": [
-   9294,
-   "2026-11-18 18:06"
+   6620,
+   "2026-11-27 06:25"
   ],
   "GRU-YYZ-2": [
    3435,
    "2026-11-18 18:06"
   ],
   "GRU-YVR-2": [
-   4147,
-   "2026-11-18 18:06"
+   3702,
+   "2026-11-27 06:25"
   ],
   "GRU-MRU-2": [
    8901,
@@ -2638,8 +2662,8 @@
    "2026-11-18 18:06"
   ],
   "GRU-JNB-2": [
-   4072,
-   "2026-11-18 18:06"
+   3382,
+   "2026-11-27 06:25"
   ],
   "GRU-PER-2": [
    11539,
@@ -2686,8 +2710,8 @@
    "2026-11-19 12:12"
   ],
   "GRU-HNL-2": [
-   6057,
-   "2026-11-19 12:12"
+   5431,
+   "2026-11-27 06:25"
   ],
   "GRU-LIH-2": [
    9581,
@@ -2778,12 +2802,12 @@
    "2026-11-19 18:03"
   ],
   "GRU-CPT-3": [
-   4361,
-   "2026-11-19 18:03"
+   3764,
+   "2026-11-27 06:25"
   ],
   "GRU-MAD-3": [
-   3705,
-   "2026-11-19 18:03"
+   3295,
+   "2026-11-27 06:25"
   ],
   "GRU-LAX-3": [
    3730,
@@ -2810,8 +2834,8 @@
    "2026-11-19 18:03"
   ],
   "GRU-LGW-3": [
-   4619,
-   "2026-11-19 18:03"
+   4137,
+   "2026-11-27 06:25"
   ],
   "GRU-FCO-3": [
    4441,
@@ -2866,16 +2890,16 @@
    "2026-11-20 18:02"
   ],
   "GRU-SYD-3": [
-   9049,
-   "2026-11-20 06:17"
+   7354,
+   "2026-11-27 06:25"
   ],
   "GRU-BKK-3": [
    7766,
    "2026-11-20 06:17"
   ],
   "GRU-BER-3": [
-   5312,
-   "2026-11-20 06:17"
+   4723,
+   "2026-11-27 06:25"
   ],
   "GRU-LAS-3": [
    4839,
@@ -2910,8 +2934,8 @@
    "2026-11-20 18:02"
   ],
   "GRU-SDU-2": [
-   507,
-   "2026-11-20 18:02"
+   357,
+   "2026-11-27 06:25"
   ],
   "GRU-BUD-3": [
    6641,
@@ -2958,8 +2982,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-MEL-3": [
-   9434,
-   "2026-11-20 23:59"
+   6620,
+   "2026-11-27 06:25"
   ],
   "GRU-YYZ-3": [
    3389,
@@ -3010,8 +3034,8 @@
    "2026-11-20 23:59"
   ],
   "GRU-JNB-3": [
-   4158,
-   "2026-11-20 23:59"
+   3382,
+   "2026-11-27 06:25"
   ],
   "GRU-HNL-3": [
    5779,
@@ -3350,8 +3374,8 @@
    "2026-11-21 12:00"
   ],
   "GIG-MEL-2": [
-   10726,
-   "2026-11-21 12:00"
+   7983,
+   "2026-11-27 06:25"
   ],
   "GIG-YYZ-2": [
    2879,
@@ -3386,8 +3410,8 @@
    "2026-11-21 17:54"
   ],
   "GRU-SDU-3": [
-   507,
-   "2026-11-21 17:54"
+   357,
+   "2026-11-27 06:25"
   ],
   "GIG-FLL-1": [
    4183,
@@ -3426,8 +3450,8 @@
    "2026-11-26 00:10"
   ],
   "GIG-PER-2": [
-   12548,
-   "2026-11-21 17:54"
+   10807,
+   "2026-11-27 06:25"
   ],
   "GIG-ITM-2": [
    8891,
@@ -3446,16 +3470,16 @@
    "2026-11-21 17:54"
   ],
   "GIG-JNB-2": [
-   4371,
-   "2026-11-21 17:54"
+   3643,
+   "2026-11-27 06:25"
   ],
   "GIG-LIH-2": [
    8515,
    "2026-11-21 17:54"
   ],
   "GIG-LIM-2": [
-   3010,
-   "2026-11-25 00:13"
+   2514,
+   "2026-11-27 06:25"
   ],
   "GIG-ANC-2": [
    8121,
@@ -3562,16 +3586,16 @@
    "2026-11-22 00:01"
   ],
   "GIG-AMS-3": [
-   5449,
-   "2026-11-22 00:01"
+   4855,
+   "2026-11-27 06:25"
   ],
   "GIG-DXB-3": [
    5729,
    "2026-11-24 12:18"
   ],
   "GIG-KIX-2": [
-   10059,
-   "2026-11-22 05:59"
+   8716,
+   "2026-11-27 06:25"
   ],
   "GIG-VCE-3": [
    5581,
@@ -3630,8 +3654,8 @@
    "2026-11-25 00:13"
   ],
   "GIG-MAD-3": [
-   4504,
-   "2026-11-22 05:59"
+   3968,
+   "2026-11-27 06:25"
   ],
   "GIG-ATH-3": [
    5270,
@@ -3690,8 +3714,8 @@
    "2026-11-25 00:13"
   ],
   "GIG-MSY-3": [
-   5195,
-   "2026-11-22 11:59"
+   4619,
+   "2026-11-27 06:25"
   ],
   "GIG-MRU-3": [
    12361,
@@ -3730,8 +3754,8 @@
    "2026-11-22 05:59"
   ],
   "GIG-JNB-3": [
-   4371,
-   "2026-11-22 05:59"
+   3643,
+   "2026-11-27 06:25"
   ],
   "GIG-LIH-3": [
    8515,
@@ -3810,8 +3834,8 @@
    "2026-11-22 11:59"
   ],
   "GRU-SDU-1": [
-   643,
-   "2026-11-23 18:03"
+   384,
+   "2026-11-27 06:25"
   ],
   "GRU-SCL-2": [
    1689,
@@ -3899,6 +3923,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 45,
+ "rodadas": 46,
  "vigilia_resumo": "2026-11-26"
 }
