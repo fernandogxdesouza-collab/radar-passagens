@@ -1,5 +1,5 @@
 {
- "cursor": 252,
+ "cursor": 282,
  "ciclo": 2,
  "alertados": {
   "CNF-GRU": [
@@ -328,6 +328,18 @@
   ],
   "GIG-SEA": [
    4596,
+   "2026-11-27"
+  ],
+  "GRU-YQB": [
+   3979,
+   "2026-11-27"
+  ],
+  "GRU-IPC": [
+   4679,
+   "2026-11-27"
+  ],
+  "GRU-PPT": [
+   9534,
    "2026-11-27"
   ]
  },
@@ -910,9 +922,49 @@
   "https://www.fly4free.com/flight-deals/europe/klm-flights-from-madrid-to-lima/",
   "https://www.fly4free.com/flight-deals/europe/8-day-cruise-costa-toscana/",
   "https://www.fly4free.com/flight-deals/europe/5-star-hotel-in-warsaw-e83/",
-  "https://www.fly4free.com/flight-deals/europe/holiday-in-mauritius-from-prague-vienna-e846/"
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-mauritius-from-prague-vienna-e846/",
+  "https://passageirodeprimeira.com/confira-as-melhores-ofertas-da-black-friday-que-seguem-valendo/",
+  "https://passageirodeprimeira.com/transamerica-resort-comandatuba-all-inclusive-com-mais-de-25-de-desconto-na-azul-viagens/",
+  "https://passageirodeprimeira.com/somente-hoje-azul-fidelidade-oferece-ate-14-pontos-por-real-na-renner/",
+  "https://passageirodeprimeira.com/ida-e-volta-entre-sao-paulo-e-buenos-aires-em-executiva-por-r-3-595-taxas-com-a-livelo/",
+  "https://passageirodeprimeira.com/alerta-de-disponibilidade-trecho-para-orlando-a-partir-de-42-mil-milhas-latam-taxas/",
+  "https://passageirodeprimeira.com/diarias-com-cafe-da-manha-no-sheraton-grand-rio-hotel-resort-com-desconto-na-black-friday-marriott/",
+  "https://passageirodeprimeira.com/dolar-em-queda-compre-dolar-r-040-mais-barato-na-primeira-conversao-com-acesso-ao-nomad-lounge/",
+  "https://passageirodeprimeira.com/livelo-oferece-ida-e-volta-para-lisboa-em-executiva-por-r-6-273-taxas/",
+  "https://passageirodeprimeira.com/resgate-produtos-shopping-azul-com-ate-80-desconto/",
+  "https://passageirodeprimeira.com/livelo-oferece-30-de-desconto-no-resgate-de-passagens-em-classe-executiva-4/",
+  "https://passageirodeprimeira.com/transfira-pontos-esfera-dinheiro-para-azul-milheiro-a-partir-de-r-1167/",
+  "https://passageirodeprimeira.com/voe-para-amsterdam-a-partir-de-52-393-milhas-latam-pass-taxas-o-trecho/",
+  "https://passageirodeprimeira.com/ultimos-dias-entre-no-grupo-paranaues-do-pp-pagando-apenas-r-1393-mes/",
+  "https://passageirodeprimeira.com/festival-pontos-livelo-ganhe-ate-16-pontos-por-real-gasto-centauro-mais-parceiros/",
+  "https://passageirodeprimeira.com/azul-oferece-ate-12-de-desconto-em-ingressos-disney-a-partir-de-4-dias/",
+  "https://passageirodeprimeira.com/dolar-em-queda-abra-sua-conta-revolut-e-ganhe-ate-r-300-de-cashback/",
+  "https://www.fly4free.com/flight-deals/europe/cheap-flights-from-greece-to-egypt-10-2/",
+  "https://www.fly4free.com/flight-deals/europe/bahamas-toronto-florida-trip/",
+  "https://www.fly4free.com/flight-deals/europe/eurowings-launches-four-new-routes-from-germany-to-damascus-syria/",
+  "https://www.fly4free.com/flight-deals/europe/etihad-flights-from-europe-to-the-maldives-e508/",
+  "https://www.fly4free.com/news/klm-launches-flights-from-amsterdam-to-sofia-and-shannon-and-adds-milan-malpensa/",
+  "https://www.fly4free.com/flight-deals/europe/cheap-flights-from-europe-to-the-seychelles-christmas-2/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Ida e volta entre São Paulo e Buenos Aires em Executiva por R$ 3.595 + taxas com a Livelo",
+   "link": "https://passageirodeprimeira.com/ida-e-volta-entre-sao-paulo-e-buenos-aires-em-executiva-por-r-3-595-taxas-com-a-livelo/",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Livelo oferece ida e volta para Lisboa em Executiva por R$ 6.273 + taxas",
+   "link": "https://passageirodeprimeira.com/livelo-oferece-ida-e-volta-para-lisboa-em-executiva-por-r-6-273-taxas/",
+   "visto_em": "2026-11-27"
+  },
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "Livelo oferece 30% de desconto no resgate de passagens em Classe Executiva",
+   "link": "https://passageirodeprimeira.com/livelo-oferece-30-de-desconto-no-resgate-de-passagens-em-classe-executiva-4/",
+   "visto_em": "2026-11-27"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Orange Friday Smiles: confira as principais ofertas de milhas, passagens e bônus",
@@ -1134,24 +1186,6 @@
    "titulo": "Azul oferece até 20% de desconto em passagens no Azul Pelo Mundo",
    "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-de-desconto-em-passagens-no-azul-pelo-mundo/",
    "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Vem aí a Black Friday Marriott! Peça seu cartão com até 35 mil pontos bônus e até 4× mais pontos em hospedagens",
-   "link": "https://passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Especial Bradesco! Executiva da TAP para Milão por R$ 3.468 + taxas o trecho pela Livelo – confira o passo a passo",
-   "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
-   "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul Fidelidade oferece até 120% de bônus nas transferências de pontos do Inter Loop",
-   "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
-   "visto_em": "2026-11-24"
   }
  ],
  "falhas_seguidas": 0,
@@ -1353,20 +1387,20 @@
    "2026-11-27 06:25"
   ],
   "CNF-HNL-1": [
-   6941,
-   "2026-11-23 18:03"
+   6178,
+   "2026-11-27 18:10"
   ],
   "CNF-LIS-2": [
-   4732,
-   "2026-11-19 00:04"
+   4435,
+   "2026-11-27 18:10"
   ],
   "CNF-BOS-2": [
    4393,
    "2026-11-20 06:17"
   ],
   "CNF-LAX-2": [
-   4355,
-   "2026-11-19 00:04"
+   4253,
+   "2026-11-27 18:10"
   ],
   "CNF-CDG-2": [
    5640,
@@ -1501,8 +1535,8 @@
    "2026-11-24 00:05"
   ],
   "CNF-MEL-2": [
-   10037,
-   "2026-11-24 00:05"
+   8349,
+   "2026-11-27 18:10"
   ],
   "CNF-YYZ-2": [
    5198,
@@ -1533,8 +1567,8 @@
    "2026-11-20 06:17"
   ],
   "CNF-GIG-2": [
-   360,
-   "2026-11-26 18:06"
+   321,
+   "2026-11-27 18:10"
   ],
   "CNF-EZE-2": [
    2315,
@@ -1553,8 +1587,8 @@
    "2026-11-25 12:22"
   ],
   "CNF-ZQN-2": [
-   14277,
-   "2026-11-19 12:12"
+   19280,
+   "2026-11-27 18:10"
   ],
   "CNF-YTZ-1": [
    5701,
@@ -1677,8 +1711,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-SEZ-2": [
-   10081,
-   "2026-11-19 12:12"
+   10543,
+   "2026-11-27 18:10"
   ],
   "CNF-UBN-2": [
    67947,
@@ -1693,12 +1727,12 @@
    "2026-11-20 23:59"
   ],
   "CNF-KZN-2": [
-   19007,
-   "2026-11-19 12:12"
+   18181,
+   "2026-11-27 18:10"
   ],
   "CNF-GPS-2": [
-   5177,
-   "2026-11-19 12:12"
+   5230,
+   "2026-11-27 18:10"
   ],
   "CNF-WKJ-2": [
    42935,
@@ -1729,8 +1763,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-SIN-3": [
-   10139,
-   "2026-11-19 12:12"
+   13827,
+   "2026-11-27 18:10"
   ],
   "CNF-FCO-3": [
    4687,
@@ -1773,8 +1807,8 @@
    "2026-11-24 18:07"
   ],
   "CNF-NRT-3": [
-   10110,
-   "2026-11-27 12:12"
+   8427,
+   "2026-11-27 18:10"
   ],
   "CNF-BKK-3": [
    9046,
@@ -1869,8 +1903,8 @@
    "2026-11-24 18:07"
   ],
   "CNF-MSY-3": [
-   8734,
-   "2026-11-19 12:12"
+   10854,
+   "2026-11-27 18:10"
   ],
   "CNF-MRU-3": [
    12890,
@@ -1901,16 +1935,16 @@
    "2026-11-26 06:26"
   ],
   "CNF-YQB-3": [
-   9801,
-   "2026-11-19 12:12"
+   14582,
+   "2026-11-27 18:10"
   ],
   "CNF-ZQN-3": [
    15468,
    "2026-11-19 18:03"
   ],
   "CNF-HNL-3": [
-   11523,
-   "2026-11-19 12:12"
+   12693,
+   "2026-11-27 18:10"
   ],
   "CNF-JNB-3": [
    3953,
@@ -1925,12 +1959,12 @@
    "2026-11-27 06:25"
   ],
   "CNF-ANC-3": [
-   11581,
-   "2026-11-19 12:12"
+   22384,
+   "2026-11-27 18:10"
   ],
   "CNF-CGK-3": [
-   9626,
-   "2026-11-19 12:12"
+   13037,
+   "2026-11-27 18:10"
   ],
   "CNF-IPC-3": [
    10804,
@@ -1941,40 +1975,40 @@
    "2026-11-26 06:26"
   ],
   "CNF-DUD-3": [
-   22075,
-   "2026-11-19 00:04"
+   28621,
+   "2026-11-27 18:10"
   ],
   "CNF-SSA-3": [
    684,
    "2026-11-27 12:12"
   ],
   "CNF-USH-3": [
-   6515,
-   "2026-11-26 06:26"
+   5383,
+   "2026-11-27 18:10"
   ],
   "CNF-SEZ-3": [
-   10081,
-   "2026-11-19 12:12"
+   9969,
+   "2026-11-27 18:10"
   ],
   "CNF-UBN-3": [
    67780,
    "2026-11-24 18:07"
   ],
   "CNF-HRB-3": [
-   40702,
-   "2026-11-19 12:12"
+   49777,
+   "2026-11-27 18:10"
   ],
   "CNF-NQZ-3": [
    10635,
    "2026-11-20 23:59"
   ],
   "CNF-KZN-3": [
-   14190,
-   "2026-11-19 12:12"
+   14740,
+   "2026-11-27 18:10"
   ],
   "CNF-GPS-3": [
-   5178,
-   "2026-11-19 12:12"
+   5230,
+   "2026-11-27 18:10"
   ],
   "CNF-WKJ-3": [
    42935,
@@ -2225,8 +2259,8 @@
    "2026-11-25 06:28"
   ],
   "GRU-PPT-1": [
-   19567,
-   "2026-11-27 12:12"
+   9534,
+   "2026-11-27 18:10"
   ],
   "GRU-IPC-1": [
    4863,
@@ -2237,12 +2271,12 @@
    "2026-11-25 06:28"
   ],
   "GRU-DUD-1": [
-   20738,
-   "2026-11-26 06:26"
+   13357,
+   "2026-11-27 18:10"
   ],
   "GRU-SSA-1": [
-   802,
-   "2026-11-25 06:28"
+   650,
+   "2026-11-27 18:10"
   ],
   "GRU-USH-1": [
    2278,
@@ -2281,12 +2315,12 @@
    "2026-11-25 06:28"
   ],
   "GIG-JFK-2": [
-   2843,
-   "2026-11-25 06:28"
+   2549,
+   "2026-11-27 18:10"
   ],
   "GIG-LIS-2": [
-   5253,
-   "2026-11-25 06:28"
+   4651,
+   "2026-11-27 18:10"
   ],
   "GIG-CDG-2": [
    6833,
@@ -2341,8 +2375,8 @@
    "2026-11-25 18:11"
   ],
   "GIG-HND-2": [
-   7656,
-   "2026-11-17 12:05"
+   7315,
+   "2026-11-27 18:10"
   ],
   "GIG-BKK-2": [
    8336,
@@ -2625,16 +2659,16 @@
    "2026-11-27 12:12"
   ],
   "GRU-BUD-2": [
-   6519,
-   "2026-11-18 18:06"
+   6467,
+   "2026-11-27 18:10"
   ],
   "GRU-SAN-2": [
-   4317,
-   "2026-11-19 12:12"
+   4142,
+   "2026-11-27 18:10"
   ],
   "GRU-SEA-2": [
-   5698,
-   "2026-11-18 18:06"
+   5115,
+   "2026-11-27 18:10"
   ],
   "GRU-SFB-2": [
    2565,
@@ -2645,8 +2679,8 @@
    "2026-11-20 18:02"
   ],
   "GRU-JTR-2": [
-   6060,
-   "2026-11-18 18:06"
+   6457,
+   "2026-11-27 18:10"
   ],
   "GRU-DUB-2": [
    5200,
@@ -2657,8 +2691,8 @@
    "2026-11-27 06:25"
   ],
   "GRU-YYZ-2": [
-   3435,
-   "2026-11-18 18:06"
+   3150,
+   "2026-11-27 18:10"
   ],
   "GRU-YVR-2": [
    3702,
@@ -2685,8 +2719,8 @@
    "2026-11-27 06:25"
   ],
   "GRU-PER-2": [
-   11539,
-   "2026-11-18 18:06"
+   10348,
+   "2026-11-27 18:10"
   ],
   "GRU-KIX-2": [
    7465,
@@ -2705,60 +2739,60 @@
    "2026-11-19 12:12"
   ],
   "CNF-DUD-2": [
-   22075,
-   "2026-11-19 12:12"
+   84895,
+   "2026-11-27 18:10"
   ],
   "CNF-SDU-3": [
    577,
    "2026-11-19 12:12"
   ],
   "GRU-EZE-1": [
-   1675,
-   "2026-11-19 12:12"
+   1657,
+   "2026-11-27 18:10"
   ],
   "GRU-EWR-1": [
    2899,
    "2026-11-23 18:03"
   ],
   "GRU-YQB-2": [
-   4013,
-   "2026-11-19 12:12"
+   3979,
+   "2026-11-27 18:10"
   ],
   "GRU-ZQN-2": [
-   11171,
-   "2026-11-19 12:12"
+   9916,
+   "2026-11-27 18:10"
   ],
   "GRU-HNL-2": [
    5431,
    "2026-11-27 06:25"
   ],
   "GRU-LIH-2": [
-   9581,
-   "2026-11-19 12:12"
+   9437,
+   "2026-11-27 18:10"
   ],
   "GRU-LIM-2": [
    2763,
    "2026-11-19 12:12"
   ],
   "GRU-ANC-2": [
-   7443,
-   "2026-11-19 12:12"
+   6785,
+   "2026-11-27 18:10"
   ],
   "GRU-BOB-2": [
    14957,
    "2026-11-23 18:03"
   ],
   "GRU-CGK-2": [
-   8436,
-   "2026-11-19 12:12"
+   8040,
+   "2026-11-27 18:10"
   ],
   "GRU-PPT-2": [
-   12143,
-   "2026-11-19 12:12"
+   13468,
+   "2026-11-27 18:10"
   ],
   "GRU-IPC-2": [
-   4343,
-   "2026-11-19 12:12"
+   4679,
+   "2026-11-27 18:10"
   ],
   "GRU-FAI-2": [
    9895,
@@ -2889,8 +2923,8 @@
    "2026-11-20 06:17"
   ],
   "GRU-NRT-2": [
-   7731,
-   "2026-11-20 18:02"
+   6948,
+   "2026-11-27 18:10"
   ],
   "GRU-VCE-3": [
    4235,
@@ -2977,16 +3011,16 @@
    "2026-11-20 23:59"
   ],
   "CNF-FTE-3": [
-   7743,
-   "2026-11-26 06:26"
+   5940,
+   "2026-11-27 18:10"
   ],
   "GRU-IST-1": [
    5799,
    "2026-11-27 12:12"
   ],
   "GRU-ORY-2": [
-   5006,
-   "2026-11-20 23:59"
+   4404,
+   "2026-11-27 18:10"
   ],
   "GRU-MLA-3": [
    4835,
@@ -3385,8 +3419,8 @@
    "2026-11-26 18:06"
   ],
   "GIG-MLA-2": [
-   6514,
-   "2026-11-21 12:00"
+   5674,
+   "2026-11-27 18:10"
   ],
   "GIG-JTR-2": [
    7120,
@@ -3569,8 +3603,8 @@
    "2026-11-21 17:54"
   ],
   "GIG-JFK-3": [
-   2858,
-   "2026-11-21 17:54"
+   2465,
+   "2026-11-27 18:10"
   ],
   "GIG-LIS-3": [
    4471,
@@ -3861,8 +3895,8 @@
    "2026-11-23 18:03"
   ],
   "GRU-ORY-3": [
-   5006,
-   "2026-11-23 18:03"
+   4489,
+   "2026-11-27 18:10"
   ],
   "GIG-EWR-1": [
    2897,
@@ -3951,9 +3985,13 @@
   "GIG-IAD-3": [
    3709,
    "2026-11-27 12:12"
+  ],
+  "GIG-LHR-2": [
+   4075,
+   "2026-11-27 18:10"
   ]
  },
  "promos_fila": [],
- "rodadas": 47,
+ "rodadas": 48,
  "vigilia_resumo": "2026-11-27"
 }
