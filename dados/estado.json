@@ -1,5 +1,5 @@
 {
- "cursor": 342,
+ "cursor": 352,
  "ciclo": 2,
  "alertados": {
   "GIG-FLR": [
@@ -11,8 +11,8 @@
    "2026-11-27"
   ],
   "CNF-BCN": [
-   4545,
-   "2026-11-25"
+   4311,
+   "2026-11-28"
   ],
   "CNF-AMS": [
    4861,
@@ -912,9 +912,28 @@
   "https://passageirodeprimeira.com/chega-de-varios-apps-centralize-sua-vida-financeira-global-no-ecossistema-arq/",
   "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/",
   "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-los-angeles-e393/",
-  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-hanoi-e487/"
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-hanoi-e487/",
+  "https://passageirodeprimeira.com/azul-viagens-oferece-cupons-de-ate-25-de-desconto-em-reservas-de-pacotes-hoteis-e-carros/",
+  "https://passageirodeprimeira.com/diarias-com-cafe-da-manha-no-curacao-marriott-beach-resort-com-desconto-na-black-friday-marriott/",
+  "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas/",
+  "https://passageirodeprimeira.com/mercado-livre-oferece-cupom-de-ate-r500-de-desconto-em-compras/",
+  "https://passageirodeprimeira.com/disney-wish-garanta-10-de-desconto-em-cruzeiro-de-3-noites-com-varanda/",
+  "https://passageirodeprimeira.com/assine-o-clube-livelo-e-turbine-seu-acumulo-no-festival-de-pontos-2/",
+  "https://www.fly4free.com/flight-deals/europe/holiday-in-madeira-from-prague-e431/",
+  "https://www.fly4free.com/flight-deals/europe/wizz-air-to-launch-four-new-routes-from-belgrade-and-expand-its-base/",
+  "https://www.fly4free.com/flight-deals/europe/cheap-hotel-in-paris-e64/",
+  "https://www.fly4free.com/flight-deals/europe/sas-flights-from-europe-to-usa-e299/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-brussels-to-boa-vista-e283/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-south-east-asia-e438/",
+  "https://www.fly4free.com/flight-deals/europe/cheap-msc-cruise-e270/"
  ],
  "promos": [
+  {
+   "fonte": "Passageiro de Primeira",
+   "titulo": "LATAM Friday oferece passagens promocionais a partir de 2 mil milhas + taxas",
+   "link": "https://passageirodeprimeira.com/latam-friday-oferece-passagens-promocionais-a-partir-de-2-mil-milhas-taxas/",
+   "visto_em": "2026-11-28"
+  },
   {
    "fonte": "Passageiro de Primeira",
    "titulo": "Ida e volta entre São Paulo e Buenos Aires em Executiva por R$ 3.595 + taxas com a Livelo",
@@ -1148,12 +1167,6 @@
    "titulo": "Últimas horas para ganhar 27% de bônus nas transferências de pontos Livelo",
    "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
    "visto_em": "2026-11-24"
-  },
-  {
-   "fonte": "Passageiro de Primeira",
-   "titulo": "Azul oferece até 20% de desconto em passagens no Azul Pelo Mundo",
-   "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-de-desconto-em-passagens-no-azul-pelo-mundo/",
-   "visto_em": "2026-11-24"
   }
  ],
  "falhas_seguidas": 0,
@@ -1199,8 +1212,8 @@
    "2026-11-28 00:07"
   ],
   "CNF-BCN-1": [
-   4898,
-   "2026-11-24 06:23"
+   4311,
+   "2026-11-28 12:00"
   ],
   "CNF-SFO-1": [
    5006,
@@ -1371,8 +1384,8 @@
    "2026-11-27 18:10"
   ],
   "CNF-CDG-2": [
-   5640,
-   "2026-11-23 06:38"
+   4717,
+   "2026-11-28 12:00"
   ],
   "CNF-LHR-2": [
    4929,
@@ -1387,8 +1400,8 @@
    "2026-11-23 06:38"
   ],
   "CNF-FCO-2": [
-   5182,
-   "2026-11-23 06:38"
+   4436,
+   "2026-11-28 12:00"
   ],
   "CNF-BCN-2": [
    4545,
@@ -1455,8 +1468,8 @@
    "2026-11-28 00:07"
   ],
   "CNF-PRG-2": [
-   7287,
-   "2026-11-24 00:05"
+   6558,
+   "2026-11-28 12:00"
   ],
   "CNF-MAD-2": [
    4988,
@@ -1583,8 +1596,8 @@
    "2026-11-28 00:07"
   ],
   "CNF-CGK-1": [
-   12695,
-   "2026-11-25 06:28"
+   11093,
+   "2026-11-28 12:00"
   ],
   "CNF-PPT-1": [
    24076,
@@ -1631,8 +1644,8 @@
    "2026-11-24 06:23"
   ],
   "CNF-HND-2": [
-   8885,
-   "2026-11-26 06:26"
+   7765,
+   "2026-11-28 12:00"
   ],
   "CNF-HNL-2": [
    6141,
@@ -1651,8 +1664,8 @@
    "2026-11-26 18:06"
   ],
   "CNF-ANC-2": [
-   8317,
-   "2026-11-24 06:23"
+   7227,
+   "2026-11-28 12:00"
   ],
   "CNF-BOB-2": [
    16739,
@@ -2371,8 +2384,8 @@
    "2026-11-27 12:12"
   ],
   "GIG-BOS-2": [
-   3132,
-   "2026-11-26 00:10"
+   2731,
+   "2026-11-28 12:00"
   ],
   "GIG-MIA-2": [
    4852,
@@ -2399,8 +2412,8 @@
    "2026-11-27 12:12"
   ],
   "GIG-CDG-1": [
-   5334,
-   "2026-11-18 00:03"
+   4756,
+   "2026-11-28 12:00"
   ],
   "GIG-LHR-1": [
    3791,
@@ -2431,8 +2444,8 @@
    "2026-11-26 00:10"
   ],
   "GIG-DXB-1": [
-   6740,
-   "2026-11-26 00:10"
+   6032,
+   "2026-11-28 12:00"
   ],
   "GIG-VCE-1": [
    5055,
@@ -3335,8 +3348,8 @@
    "2026-11-21 12:00"
   ],
   "GIG-FEN-1": [
-   2090,
-   "2026-11-21 12:00"
+   1792,
+   "2026-11-28 12:00"
   ],
   "GIG-KZN-1": [
    13125,
@@ -3511,8 +3524,8 @@
    "2026-11-22 11:59"
   ],
   "GIG-CGK-2": [
-   9130,
-   "2026-11-21 17:54"
+   7997,
+   "2026-11-28 12:00"
   ],
   "GIG-PPT-2": [
    10621,
@@ -3559,12 +3572,12 @@
    "2026-11-28 00:07"
   ],
   "GIG-FEN-2": [
-   2092,
-   "2026-11-21 17:54"
+   1792,
+   "2026-11-28 12:00"
   ],
   "GIG-KZN-2": [
-   18516,
-   "2026-11-21 17:54"
+   15246,
+   "2026-11-28 12:00"
   ],
   "GIG-WKJ-2": [
    31407,
@@ -3976,6 +3989,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 50,
+ "rodadas": 51,
  "vigilia_resumo": "2026-11-28"
 }
