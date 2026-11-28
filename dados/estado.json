@@ -1,5 +1,5 @@
 {
- "cursor": 312,
+ "cursor": 342,
  "ciclo": 2,
  "alertados": {
   "GIG-FLR": [
@@ -910,7 +910,9 @@
   "https://www.fly4free.com/news/klm-launches-flights-from-amsterdam-to-sofia-and-shannon-and-adds-milan-malpensa/",
   "https://www.fly4free.com/flight-deals/europe/cheap-flights-from-europe-to-the-seychelles-christmas-2/",
   "https://passageirodeprimeira.com/chega-de-varios-apps-centralize-sua-vida-financeira-global-no-ecossistema-arq/",
-  "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/"
+  "https://passageirodeprimeira.com/receba-24-mil-pontos-assinar-clube-livelo-essencial-milheiro-a-partir-r-2245/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-los-angeles-e393/",
+  "https://www.fly4free.com/flight-deals/europe/flights-from-europe-to-hanoi-e487/"
  ],
  "promos": [
   {
@@ -3974,6 +3976,6 @@
   ]
  },
  "promos_fila": [],
- "rodadas": 49,
+ "rodadas": 50,
  "vigilia_resumo": "2026-11-27"
 }
